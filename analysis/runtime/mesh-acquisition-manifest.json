@@ -1,0 +1,1301 @@
+{
+  "assets": [
+    {
+      "name": "ak109",
+      "source_url": "https://kourstrike.io/StreamingAssets/ak109?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/ak109",
+      "bytes": 89020,
+      "sha256": "c391fe1188a116e575f61aeef665337237f618aae7b898552f3ac59767d2a70e",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 89020,
+      "serialized": [
+        {
+          "file": "CAB-a47647b3198816592aaf56f4853011a1",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-a47647b3198816592aaf56f4853011a1",
+          "path_id": -848751164310037127,
+          "name": "ak109",
+          "object_bytes": 142024
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-8",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "awp",
+      "source_url": "https://kourstrike.io/StreamingAssets/awp?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/awp",
+      "bytes": 292120,
+      "sha256": "69c24241d95fd63221a317ea2b2a554918ec3bf26d48399ccc3208dd9c7c19aa",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 292120,
+      "serialized": [
+        {
+          "file": "CAB-96e60de7c7b6809a013ffa4970e3b0af",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-96e60de7c7b6809a013ffa4970e3b0af",
+          "path_id": 5884575878001125098,
+          "name": "awp",
+          "object_bytes": 454772
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-7",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "axe",
+      "source_url": "https://kourstrike.io/StreamingAssets/axe?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/axe",
+      "bytes": 39149,
+      "sha256": "bfcd84a7e38d04ae0d9b9c2f50826f6d49f1b71ce99e0281126ce104da9da732",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 39149,
+      "serialized": [
+        {
+          "file": "CAB-3a02ee0d9ab7dc1f0d826d32916f9169",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-3a02ee0d9ab7dc1f0d826d32916f9169",
+          "path_id": -4084905498879500351,
+          "name": "axe",
+          "object_bytes": 46160
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-15",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "beretta",
+      "source_url": "https://kourstrike.io/StreamingAssets/beretta?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/beretta",
+      "bytes": 74032,
+      "sha256": "a127a1eeb25fbb9617f8dbbdd8844b7664eca9d5b7279c49509981eb93f3f778",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 74032,
+      "serialized": [
+        {
+          "file": "CAB-78e6c544d002db24467ff2b1969db12c",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-78e6c544d002db24467ff2b1969db12c",
+          "path_id": 6128185321935646355,
+          "name": "beretta",
+          "object_bytes": 224856
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-11",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "bomb",
+      "source_url": "https://kourstrike.io/StreamingAssets/bomb?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/bomb",
+      "bytes": 186667,
+      "sha256": "0d44ef16b7d3000014efb1da00ec84f30acd3eda2a16a40e78b6191ab66084ac",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 186667,
+      "serialized": [
+        {
+          "file": "CAB-847d15cd41712316d1445325e0e593fd",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-847d15cd41712316d1445325e0e593fd",
+          "path_id": -8721133950222547763,
+          "name": "bomb",
+          "object_bytes": 272432
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-2",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "cz",
+      "source_url": "https://kourstrike.io/StreamingAssets/cz?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/cz",
+      "bytes": 52196,
+      "sha256": "bc644e1d47f0b5a84d9dd8f3ffe6c511ec4b561f63e7b6efc9e299f31636287f",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 52196,
+      "serialized": [
+        {
+          "file": "CAB-a7ae31fcf1eec51a82eb5e88e469a397",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-a7ae31fcf1eec51a82eb5e88e469a397",
+          "path_id": -6956023250896307586,
+          "name": "cz",
+          "object_bytes": 73644
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-17",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "deagle",
+      "source_url": "https://kourstrike.io/StreamingAssets/deagle?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/deagle",
+      "bytes": 61209,
+      "sha256": "e39231de893e545b0308b77694de5b1dc850017e36f5e2deede10394d82410cd",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 61209,
+      "serialized": [
+        {
+          "file": "CAB-9094a7836fc973c1a3f577ee1073c278",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-9094a7836fc973c1a3f577ee1073c278",
+          "path_id": 3302978050652025967,
+          "name": "deagle",
+          "object_bytes": 87348
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-28",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "famas",
+      "source_url": "https://kourstrike.io/StreamingAssets/famas?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/famas",
+      "bytes": 66142,
+      "sha256": "c83c4b96eae0225d69f4dbd08011b0eea596e571bb44c358f75cafc5373726f5",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 66142,
+      "serialized": [
+        {
+          "file": "CAB-2729590552eb5033ad65f881ab60e550",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-2729590552eb5033ad65f881ab60e550",
+          "path_id": 6097841816583141043,
+          "name": "famas",
+          "object_bytes": 97564
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-24",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "flamethrower",
+      "source_url": "https://kourstrike.io/StreamingAssets/flamethrower?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/flamethrower",
+      "bytes": 92998,
+      "sha256": "e79ef4e55f624473ff0c7161adc0b1f2d3c7d4c78c8533bdd13a2df0cc754e53",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 92998,
+      "serialized": [
+        {
+          "file": "CAB-b6383623d4e1963d9fd32ee488d716ca",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-b6383623d4e1963d9fd32ee488d716ca",
+          "path_id": 6129316909555884154,
+          "name": "flamethrower",
+          "object_bytes": 338728
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-32",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "grenades/mesh/flash",
+      "source_url": "https://kourstrike.io/StreamingAssets/grenades/mesh/flash?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/grenades/mesh/flash",
+      "bytes": 85376,
+      "sha256": "ee9250004221b4a1fd861163b0fbdd142984e810c56d32153652cb80b0d75c94",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 85376,
+      "serialized": [
+        {
+          "file": "CAB-65a29bb633b2c10087358bce336f1d66",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-65a29bb633b2c10087358bce336f1d66",
+          "path_id": -4841891085074786523,
+          "name": "flash",
+          "object_bytes": 112872
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-19",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "grenades/mesh/grenade",
+      "source_url": "https://kourstrike.io/StreamingAssets/grenades/mesh/grenade?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/grenades/mesh/grenade",
+      "bytes": 74341,
+      "sha256": "66a77a64cf842b0a42d582a3bcf47254d9f99fb479d6191dbd3b07d1fc2147b7",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 74341,
+      "serialized": [
+        {
+          "file": "CAB-42b256f5934dc4124368f640f2d70af7",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-42b256f5934dc4124368f640f2d70af7",
+          "path_id": -7345050409996916713,
+          "name": "grenade",
+          "object_bytes": 99924
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-18",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "grenades/mesh/molotov",
+      "source_url": "https://kourstrike.io/StreamingAssets/grenades/mesh/molotov?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/grenades/mesh/molotov",
+      "bytes": 24797,
+      "sha256": "cfc4f3be03445932bc07c6fd7f7dbea4bae0d933ff4a531c5722f979913468cb",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 24797,
+      "serialized": [
+        {
+          "file": "CAB-865e2c21092c7e1e405460bbee42a57c",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-865e2c21092c7e1e405460bbee42a57c",
+          "path_id": 3766809639995646776,
+          "name": "molotov",
+          "object_bytes": 25112
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-20",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "grenades/mesh/smoke",
+      "source_url": "https://kourstrike.io/StreamingAssets/grenades/mesh/smoke?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/grenades/mesh/smoke",
+      "bytes": 61727,
+      "sha256": "7c4f0f2d27c5be5abffa82094262efe1cd2398ce33b30eced3fdc594d904a498",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 61727,
+      "serialized": [
+        {
+          "file": "CAB-f1edaeb66cc2dea914df6da9f3e0e949",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-f1edaeb66cc2dea914df6da9f3e0e949",
+          "path_id": -6703643355364610840,
+          "name": "smoke",
+          "object_bytes": 83940
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-12",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "kar98",
+      "source_url": "https://kourstrike.io/StreamingAssets/kar98?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/kar98",
+      "bytes": 73845,
+      "sha256": "edca7b156ddcafb9bbe2ada9943ed2b093ec5cce8d9de37550884bc4c808d8d5",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 73845,
+      "serialized": [
+        {
+          "file": "CAB-c5e8311f8b17c1136b453be048dd1d17",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-c5e8311f8b17c1136b453be048dd1d17",
+          "path_id": 8321317333031675276,
+          "name": "kar98",
+          "object_bytes": 232944
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-5",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "knife",
+      "source_url": "https://kourstrike.io/StreamingAssets/knife?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/knife",
+      "bytes": 6219,
+      "sha256": "97418382c57fd8ec348853fa4c3ad3a70025a48c58ceee261239fd3b24add848",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 6219,
+      "serialized": [
+        {
+          "file": "CAB-775b6e3dec3912ecfd9696bf43374a07",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-775b6e3dec3912ecfd9696bf43374a07",
+          "path_id": -2977347585250737194,
+          "name": "knife",
+          "object_bytes": 3840
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-10",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "lasergun1",
+      "source_url": "https://kourstrike.io/StreamingAssets/lasergun1?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/lasergun1",
+      "bytes": 72791,
+      "sha256": "b4e7845b8c71a831ec17823b0e247dd257c9c44264bb9236f78206b9d7cdedc4",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 72791,
+      "serialized": [
+        {
+          "file": "CAB-2f8828e5e5b6fce9b56437b2b7fd55ef",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-2f8828e5e5b6fce9b56437b2b7fd55ef",
+          "path_id": -4593203125047480210,
+          "name": "lasergun1",
+          "object_bytes": 155260
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-26",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "lasergun2",
+      "source_url": "https://kourstrike.io/StreamingAssets/lasergun2?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/lasergun2",
+      "bytes": 12898,
+      "sha256": "0611a8ce7de2c277927496e9144186c65fbba9209bd6c030861da0a8007388b7",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 12898,
+      "serialized": [
+        {
+          "file": "CAB-0dc2fbaae9dc5063ef1026f2892e1561",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-0dc2fbaae9dc5063ef1026f2892e1561",
+          "path_id": 4252549894571999688,
+          "name": "lasergun2",
+          "object_bytes": 25192
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-9",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "m4a4",
+      "source_url": "https://kourstrike.io/StreamingAssets/m4a4?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/m4a4",
+      "bytes": 147325,
+      "sha256": "c4cb0a1e45642a692759a7019c72b86e18fe1aa2bab54240edc368cfb6f3dd35",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 147325,
+      "serialized": [
+        {
+          "file": "CAB-58a4e0d04467e3cb3f434da489dfc4df",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-58a4e0d04467e3cb3f434da489dfc4df",
+          "path_id": 3342335560820302028,
+          "name": "m4a4",
+          "object_bytes": 241640
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-4",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "minigun",
+      "source_url": "https://kourstrike.io/StreamingAssets/minigun?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/minigun",
+      "bytes": 206135,
+      "sha256": "db9aec725e3bed2c94f4edd527558b18682fb0a42243aed7b53f9c32d634b545",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 206135,
+      "serialized": [
+        {
+          "file": "CAB-623d5f766562cd0da04c9573b53c5a46",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-623d5f766562cd0da04c9573b53c5a46",
+          "path_id": -1107643348734239900,
+          "name": "minigun",
+          "object_bytes": 314412
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-30",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "mp5",
+      "source_url": "https://kourstrike.io/StreamingAssets/mp5?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/mp5",
+      "bytes": 364841,
+      "sha256": "266efd57a0bceb0f3b204c2c93eab3f0bca9480e781c017dac14aba42b76526d",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 364841,
+      "serialized": [
+        {
+          "file": "CAB-2bc786b6df03c528630c0694dae8b22d",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-2bc786b6df03c528630c0694dae8b22d",
+          "path_id": 511079883672385232,
+          "name": "mp5",
+          "object_bytes": 544216
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-22",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "p90",
+      "source_url": "https://kourstrike.io/StreamingAssets/p90?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/p90",
+      "bytes": 78842,
+      "sha256": "a6d73c1e07e1f30593d1eca60b5359df5e926db7c678ff79ac803c99a463a4fd",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 78842,
+      "serialized": [
+        {
+          "file": "CAB-cb0438fb8ec4813795bccff36be89ca5",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-cb0438fb8ec4813795bccff36be89ca5",
+          "path_id": -8129193141731274382,
+          "name": "p90",
+          "object_bytes": 118876
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-34",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "pkm",
+      "source_url": "https://kourstrike.io/StreamingAssets/pkm?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/pkm",
+      "bytes": 284380,
+      "sha256": "8da4a1594a214e2da9bcd28dfedf2da07b97c3c7cf672ba804d9eab7f03c03e4",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 284380,
+      "serialized": [
+        {
+          "file": "CAB-20b2d11189692a544404405526b3e583",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-20b2d11189692a544404405526b3e583",
+          "path_id": -8604759815622195162,
+          "name": "pkm",
+          "object_bytes": 915836
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-14",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "revolver",
+      "source_url": "https://kourstrike.io/StreamingAssets/revolver?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/revolver",
+      "bytes": 178468,
+      "sha256": "47732adfc635abf521773c8efc79700c4c2061e4560b0e36c2603566968446ab",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 178468,
+      "serialized": [
+        {
+          "file": "CAB-08eb17459f2842100f3b7155c48663f2",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-08eb17459f2842100f3b7155c48663f2",
+          "path_id": 9121050962139956888,
+          "name": "revolver",
+          "object_bytes": 260924
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-31",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "scar",
+      "source_url": "https://kourstrike.io/StreamingAssets/scar?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/scar",
+      "bytes": 107490,
+      "sha256": "bb7e85c665dce67ff500e590fd906852ae41c6648610e2efae17d3fb55412d26",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 107490,
+      "serialized": [
+        {
+          "file": "CAB-9ff82132dab609f72170308256881e31",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-9ff82132dab609f72170308256881e31",
+          "path_id": 8479893070273793759,
+          "name": "scar",
+          "object_bytes": 180552
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-23",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "tec9",
+      "source_url": "https://kourstrike.io/StreamingAssets/tec9?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/tec9",
+      "bytes": 46307,
+      "sha256": "886479264413e1373ab384d2099e0bfb8a6194fe23ba57401e929eb92c1c1f51",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 46307,
+      "serialized": [
+        {
+          "file": "CAB-6e02bc4230c650ac4c19c39be27454a2",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-6e02bc4230c650ac4c19c39be27454a2",
+          "path_id": 839782190529025547,
+          "name": "tec9",
+          "object_bytes": 63228
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-29",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "thompson",
+      "source_url": "https://kourstrike.io/StreamingAssets/thompson?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/thompson",
+      "bytes": 66955,
+      "sha256": "e1ca4655b661a31c570a0ad0983ec1b2e5f849e6ed8a291199b058517f023839",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 66955,
+      "serialized": [
+        {
+          "file": "CAB-61e19f6d8868178ac04fce55777f7609",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-61e19f6d8868178ac04fce55777f7609",
+          "path_id": -5255574379475701181,
+          "name": "thompson",
+          "object_bytes": 92052
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-25",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "umbrella",
+      "source_url": "https://kourstrike.io/StreamingAssets/umbrella?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/umbrella",
+      "bytes": 26124,
+      "sha256": "b93366108941518ba521d292f9a6b848706d8a16902bc48e57ca9c07e9b5e972",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 26124,
+      "serialized": [
+        {
+          "file": "CAB-c4c02759bc440af2f8194f5e14888460",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-c4c02759bc440af2f8194f5e14888460",
+          "path_id": 8777959961806136396,
+          "name": "umbrella",
+          "object_bytes": 33300
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-3",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "ump45",
+      "source_url": "https://kourstrike.io/StreamingAssets/ump45?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/ump45",
+      "bytes": 77365,
+      "sha256": "d2ccd17024823a94a451d891a56be5d232f074d7734ab8845aea797632b0f4f8",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 77365,
+      "serialized": [
+        {
+          "file": "CAB-1bcee1b68b63a4c0c7a1b741f83c5770",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-1bcee1b68b63a4c0c7a1b741f83c5770",
+          "path_id": -290733427707481341,
+          "name": "ump45",
+          "object_bytes": 111684
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-33",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "usps",
+      "source_url": "https://kourstrike.io/StreamingAssets/usps?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/usps",
+      "bytes": 61038,
+      "sha256": "fc47b933ac0c7cec811f5e913641c4b00b5a74a9e245e805c86a85aa0fd346d3",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 61038,
+      "serialized": [
+        {
+          "file": "CAB-ba1222c55a4e93cba0cbfecf89f6bfee",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-ba1222c55a4e93cba0cbfecf89f6bfee",
+          "path_id": 3933439339521606150,
+          "name": "usps",
+          "object_bytes": 83224
+        }
+      ],
+      "evidence_id": "ev_4c2bd68613a72e36ac1b4fb3529aef3253cf5294f037613d339ef2eabfe9630d",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-2",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "uzi",
+      "source_url": "https://kourstrike.io/StreamingAssets/uzi?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/uzi",
+      "bytes": 75419,
+      "sha256": "217d3297046eeedcf66b6f6e8b5520e6d9a71f20c999d82ada1facd3026e0cf7",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 75419,
+      "serialized": [
+        {
+          "file": "CAB-9bd469c820e8e532341ede7a85dcc8e8",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-9bd469c820e8e532341ede7a85dcc8e8",
+          "path_id": -6571641498578514977,
+          "name": "uzi",
+          "object_bytes": 107248
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-21",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "vector1",
+      "source_url": "https://kourstrike.io/StreamingAssets/vector1?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/vector1",
+      "bytes": 107269,
+      "sha256": "32fe5a68e239ea2279ecf49793da6feab250f626d7e96cf5dbd5f82af23fe465",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 107269,
+      "serialized": [
+        {
+          "file": "CAB-9c2d80122a075640c1d84ea03f3f1b3d",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-9c2d80122a075640c1d84ea03f3f1b3d",
+          "path_id": -1221236697842430341,
+          "name": "vector1",
+          "object_bytes": 142872
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-6",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "vector2",
+      "source_url": "https://kourstrike.io/StreamingAssets/vector2?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/vector2",
+      "bytes": 10324,
+      "sha256": "b0c8f890232a97bc2a359a6558fc3143d9108b3d6385f5755a40a234097eb83e",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 10324,
+      "serialized": [
+        {
+          "file": "CAB-11783692bfd3c175ef245e3cc1e4312e",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-11783692bfd3c175ef245e3cc1e4312e",
+          "path_id": -19725092637027045,
+          "name": "vector2",
+          "object_bytes": 9092
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-13",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "vector3",
+      "source_url": "https://kourstrike.io/StreamingAssets/vector3?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/vector3",
+      "bytes": 7639,
+      "sha256": "099acd00bd417b5bf8ce8346a2406c6a9b173eafe7481ec6ede1b087f2a73cc6",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 7639,
+      "serialized": [
+        {
+          "file": "CAB-dc0a4c94ac56b762161f5fc0857f8b77",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-dc0a4c94ac56b762161f5fc0857f8b77",
+          "path_id": -6055778995238924103,
+          "name": "vector3",
+          "object_bytes": 5684
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-27",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    },
+    {
+      "name": "xm1014",
+      "source_url": "https://kourstrike.io/StreamingAssets/xm1014?v=4.24",
+      "status": 200,
+      "method": "GET",
+      "local_path": "original-preview/StreamingAssets/xm1014",
+      "bytes": 90465,
+      "sha256": "72fcd69776a23463c145d492558560c9303d13d9e842782349d2de774348c79a",
+      "unityfs_version": 8,
+      "unity_revision": "6000.0.10f1",
+      "declared_bytes": 90465,
+      "serialized": [
+        {
+          "file": "CAB-645e190a6a8b39b7bef94c12d3ad94af",
+          "unity": "6000.0.10f1",
+          "version": 22,
+          "type_tree_enabled": true,
+          "objects": 2
+        }
+      ],
+      "mesh_objects": [
+        {
+          "file": "CAB-645e190a6a8b39b7bef94c12d3ad94af",
+          "path_id": 2612590667775350602,
+          "name": "xm1014",
+          "object_bytes": 132452
+        }
+      ],
+      "evidence_id": "ev_247f43590619ffe806b2bfb757b5badfed326116165442489d6820539ecff163",
+      "evidence_bundle": "analysis/runtime/mesh-acquisition-evidence.json",
+      "transaction_id": "request-16",
+      "body_representation": "playwright-response-body-bytes",
+      "body_redacted": false,
+      "cleanup": "terminated-owned-process",
+      "purpose": "Restore exact missing native firearm/equipment mesh assets; original network service access remains disabled."
+    }
+  ],
+  "acquired_names": [
+    "usps",
+    "bomb",
+    "umbrella",
+    "m4a4",
+    "kar98",
+    "vector1",
+    "awp",
+    "ak109",
+    "lasergun2",
+    "knife",
+    "beretta",
+    "grenades/mesh/smoke",
+    "vector2",
+    "pkm",
+    "axe",
+    "xm1014",
+    "cz",
+    "grenades/mesh/grenade",
+    "grenades/mesh/flash",
+    "grenades/mesh/molotov",
+    "uzi",
+    "mp5",
+    "scar",
+    "famas",
+    "thompson",
+    "lasergun1",
+    "vector3",
+    "deagle",
+    "tec9",
+    "minigun",
+    "revolver",
+    "flamethrower",
+    "ump45",
+    "p90"
+  ],
+  "allowed_names": [
+    "ak109",
+    "awp",
+    "axe",
+    "beretta",
+    "bomb",
+    "cz",
+    "deagle",
+    "famas",
+    "flamethrower",
+    "grenades/mesh/flash",
+    "grenades/mesh/grenade",
+    "grenades/mesh/molotov",
+    "grenades/mesh/smoke",
+    "kar98",
+    "knife",
+    "lasergun1",
+    "lasergun2",
+    "m4a4",
+    "minigun",
+    "mp5",
+    "p90",
+    "pkm",
+    "revolver",
+    "scar",
+    "tec9",
+    "thompson",
+    "umbrella",
+    "ump45",
+    "usps",
+    "uzi",
+    "vector1",
+    "vector2",
+    "vector3",
+    "xm1014"
+  ],
+  "missing_names": []
+}

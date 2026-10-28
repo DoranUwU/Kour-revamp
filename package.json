@@ -1,0 +1,17 @@
+{
+  "name": "rooftop-rush",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "inspect": "node tools/serve-analysis.mjs",
+    "preview:original": "node tools/serve-original.mjs",
+    "check": "node --check game/game.js && node --check tools/serve.mjs && node --check tools/serve-analysis.mjs && node --check analysis/explorer/explorer.js && node --check tools/recover-metadata.mjs && node --check original-preview/loader.js && node --check original-preview/offline-policy.js && node --check tools/original-wasm.mjs && node --check tools/serve-original.mjs",
+    "verify:recovery": "node tools/audit-recovery.mjs && node tools/inspect-wasm-verify.mjs",
+    "catalog": "node tools/build-explorer.mjs",
+    "test:preview": "node tools/check-local-wasm.mjs && node tools/check-original-loader.mjs && node tools/check-offline-policy.mjs",
+    "preview:kourstrike": "node tools/serve-original.mjs --kourstrike",
+    "test:kourstrike": "node tools/check-kourstrike.mjs && node tools/check-mesh-assets.mjs && node tools/check-original-loader.mjs && node tools/check-offline-policy.mjs"
+  }
+}

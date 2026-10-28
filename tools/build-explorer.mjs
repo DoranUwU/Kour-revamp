@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import path from 'node:path';
+const base='analysis/assets';
+const readRows=folder=>fs.existsSync(path.join(base,folder))?fs.readdirSync(path.join(base,folder)).filter(n=>n.endsWith('.json')).flatMap(n=>{const a=JSON.parse(fs.readFileSync(path.join(base,folder,n)));return Array.isArray(a)?a.map(r=>({...r,file:n.replace(/\.json$/,'')})):[]}):[];
+const textures=readRows('textures'),audio=readRows('audio'),meshes=readRows('meshes');
+const gameplay=JSON.parse(fs.readFileSync('analysis/metadata/gameplay.json'));
+const types=gameplay.filter(t=>!t.name.startsWith('<')).map(t=>({name:t.name,parent:t.parent,index:t.index,fields:t.fields,methods:t.methods}));
+const data={generated:new Date().toISOString(),textures:textures.map(t=>({name:t.name,file:t.file,id:t.path_id,width:t.width,height:t.height,format:t.format,url:t.png_export?'../assets/'+t.png_export:null,raw:t.raw_export?'../assets/'+t.raw_export:null})),audio:audio.map(t=>({name:t.name,file:t.file,id:t.path_id,length:t.length,url:t.export?'../assets/'+t.export:null})),meshes:meshes.map(t=>({name:t.name,file:t.file,id:t.path_id,vertices:t.decompressed_vertex_count||t.vertex_count,url:t.obj_export?'../assets/'+t.obj_export:t.export?.endsWith('.obj')?'../assets/'+t.export:null})),types};
+const selected=new Set(['PlayerController','Weapon','AimableWeapon','BurstWeapon','Shotgun','Sniper','Minigun','RocketLauncher','Knife','Grenade','Bomb','Flamethrower','WeaponClass','GameMode','Shooter','Health','NetworkManager','PlayerInputHandler','Recoil']);
+const settingsFile='analysis/assets/gameplay-settings.json';
+data.settings=fs.existsSync(settingsFile)?JSON.parse(fs.readFileSync(settingsFile)).filter(r=>selected.has(r.script)).map(r=>({...r,name:(r.name||r.game_object||r.script)+' · '+r.script})):[];
+fs.mkdirSync('analysis/explorer',{recursive:true});fs.writeFileSync('analysis/explorer/catalog.json',JSON.stringify(data));
+console.log(JSON.stringify({textures:textures.length,png:textures.filter(t=>t.png_export).length,audio:audio.length,meshes:meshes.length,obj:data.meshes.filter(m=>m.url).length,types:types.length}));

@@ -1,0 +1,599 @@
+{
+  "signature": "UnityFS",
+  "format": 8,
+  "unity": "5.x.x",
+  "revision": "6000.2.7f2",
+  "size": 5197026,
+  "flags": 579,
+  "blocks": [
+    {
+      "raw": 131072,
+      "compressed": 69551,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 31665,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 31590,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 28856,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 26585,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 36150,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 28644,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 49471,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 38547,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 4397,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 48027,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 116558,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 100010,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 56058,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 35201,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 96380,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 48674,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 19308,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 10862,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 100486,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 36124,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 27893,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 89727,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 85020,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 84122,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 118224,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 130062,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 51476,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 98116,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 89148,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 88471,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 44481,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 83232,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 68826,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 55460,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 60369,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 62620,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 90986,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 37407,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 63860,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 83757,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 80541,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 44958,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 37600,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 42244,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 45847,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 62895,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 36170,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 72203,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 95016,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 113549,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 115042,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 115476,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 116112,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 120498,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 114495,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 86027,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 27856,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 29507,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 36340,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 33959,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 36597,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 35415,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 35697,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 22958,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 37331,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 34272,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 49687,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 22296,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 73883,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 34569,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 23387,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 28275,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 24273,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 12579,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 8514,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 8282,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 33045,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 35348,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 33644,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 13399,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 13998,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 39479,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 40073,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 12076,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 9269,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 7620,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 1642,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 1037,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 10668,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 3972,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 852,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 1152,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 16798,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 15469,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 16982,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 58085,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 55775,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 65749,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 51550,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 69968,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 43295,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 31465,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 7669,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 18217,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 17606,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 10959,
+      "flags": 3
+    },
+    {
+      "raw": 131072,
+      "compressed": 10938,
+      "flags": 3
+    },
+    {
+      "raw": 80200,
+      "compressed": 7692,
+      "flags": 3
+    }
+  ],
+  "nodes": [
+    {
+      "offset": 0,
+      "size": 487636,
+      "flags": 4,
+      "name": "globalgamemanagers",
+      "sha256": "b5298e7091e108916e9e8aab132c8e69d8085a9e2c9996d305db29de36fbdd21"
+    },
+    {
+      "offset": 487636,
+      "size": 173648,
+      "flags": 4,
+      "name": "Resources/unity_builtin_extra",
+      "sha256": "a27dc3988e4232fb3677b832cfd00cbbd9b8be36e53ecba01637daded762da40"
+    },
+    {
+      "offset": 661284,
+      "size": 288660,
+      "flags": 4,
+      "name": "globalgamemanagers.assets",
+      "sha256": "8c3571cbba08cb10079ff56818c3fffab25548d6d6c1ac1f5a945613b4a547f2"
+    },
+    {
+      "offset": 949944,
+      "size": 9342280,
+      "flags": 4,
+      "name": "sharedassets0.assets",
+      "sha256": "bd9b053298e5d7db7cee952f4a6471f8566cb3d43aa831b6f805101499d6ac8f"
+    },
+    {
+      "offset": 10292224,
+      "size": 484708,
+      "flags": 4,
+      "name": "level0",
+      "sha256": "206cd64ac0b60f1bcf68801f55a343dae1cb3f473b0b48179f3ea493c6acefa6"
+    },
+    {
+      "offset": 10776932,
+      "size": 3459044,
+      "flags": 4,
+      "name": "resources.assets",
+      "sha256": "e87ef7dbc3772b8eb7c651fca2dc5ef59d35c5ad9e6f8cf26a1f46424e371146"
+    }
+  ]
+}

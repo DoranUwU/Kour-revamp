@@ -1,0 +1,6 @@
+import http from 'node:http';
+import {readFile} from 'node:fs/promises';
+import path from 'node:path';
+const root=path.resolve('analysis'),port=Number(process.env.ANALYSIS_PORT||8081);
+const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript','.css':'text/css','.json':'application/json','.png':'image/png','.m4a':'audio/mp4','.md':'text/plain; charset=utf-8','.cs':'text/plain; charset=utf-8','.obj':'text/plain; charset=utf-8'};
+http.createServer(async(req,res)=>{try{const url=new URL(req.url,'http://localhost');if(url.pathname==='/'){res.writeHead(302,{Location:'/explorer/'}).end();return}const file=path.resolve(root,'.'+decodeURIComponent(url.pathname==='/explorer/'?'/explorer/index.html':url.pathname));if(!file.startsWith(root+path.sep)){res.writeHead(403).end();return}const data=await readFile(file);res.writeHead(200,{'Content-Type':mime[path.extname(file)]||'application/octet-stream','Cache-Control':'no-cache','X-Content-Type-Options':'nosniff','Content-Security-Policy':"default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'"});res.end(data)}catch{res.writeHead(404).end('Not found')}}).listen(port,'127.0.0.1',()=>console.log(`Recovered build explorer: http://localhost:${port}/explorer/`));

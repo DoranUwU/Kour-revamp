@@ -1,0 +1,530 @@
+{
+  "sdk": {
+    "file": "level0",
+    "path_id": 3235,
+    "name": "",
+    "game_object": "MainManager",
+    "hierarchy_path": "MainManager",
+    "script": "SdkManager",
+    "assembly": "Assembly-CSharp",
+    "fields_offset": 32,
+    "object_bytes": 44,
+    "values": {
+      "htmlFocused": true,
+      "sdkType": 0,
+      "gameType": 0
+    },
+    "schema_type": 4441,
+    "coverage": "complete-object",
+    "remaining_bytes": 0,
+    "field_offsets": [
+      {
+        "field": "htmlFocused",
+        "type": "bool",
+        "start": 32,
+        "end": 36
+      },
+      {
+        "field": "sdkType",
+        "type": "SdkType",
+        "start": 36,
+        "end": 40
+      },
+      {
+        "field": "gameType",
+        "type": "GameType",
+        "start": 40,
+        "end": 44
+      }
+    ]
+  },
+  "game_type_enum": {
+    "Kour": 0,
+    "KourStrike": 1,
+    "KourZone": 2
+  },
+  "game_type_serialized_file_offset": 458856,
+  "network": {
+    "file": "level0",
+    "path_id": 2449,
+    "coverage": "complete-object",
+    "game_modes": [
+      {
+        "slot": 0,
+        "reference": {
+          "file_id": 2,
+          "path_id": 7885
+        },
+        "file": "sharedassets0.assets",
+        "path_id": 7885,
+        "name": "FFA",
+        "values": {
+          "chanceWeight": 1.5,
+          "mobileChanceWeight": 1.0,
+          "kourstrikeChanceWeight": 0.0,
+          "kourzoneChanceWeight": 0.0,
+          "id": 1,
+          "canChangeTimerOnPrivateMatches": true,
+          "canChangeMaxPlayersOnPrivateMatches": true,
+          "forcesMap": [],
+          "_maxPlayers": 6,
+          "_teamSize": -1,
+          "matchTimeInSeconds": 540,
+          "sprite": {
+            "file_id": 0,
+            "path_id": 1012
+          },
+          "weaponList": [],
+          "forcePrivate": false,
+          "excludeFromPubs": false,
+          "excludeFromPubsKourstrike": true,
+          "excludeFromPubsKourZone": true
+        }
+      },
+      {
+        "slot": 1,
+        "reference": {
+          "file_id": 2,
+          "path_id": 7894
+        },
+        "file": "sharedassets0.assets",
+        "path_id": 7894,
+        "name": "TDM",
+        "values": {
+          "chanceWeight": 1.0,
+          "mobileChanceWeight": 1.0,
+          "kourstrikeChanceWeight": 0.0,
+          "kourzoneChanceWeight": 0.0,
+          "id": 2,
+          "canChangeTimerOnPrivateMatches": true,
+          "canChangeMaxPlayersOnPrivateMatches": true,
+          "forcesMap": [],
+          "_maxPlayers": 6,
+          "_teamSize": 5,
+          "matchTimeInSeconds": 540,
+          "sprite": {
+            "file_id": 0,
+            "path_id": 973
+          },
+          "weaponList": [],
+          "forcePrivate": false,
+          "excludeFromPubs": false,
+          "excludeFromPubsKourstrike": true,
+          "excludeFromPubsKourZone": true
+        }
+      },
+      {
+        "slot": 2,
+        "reference": {
+          "file_id": 2,
+          "path_id": 7887
+        },
+        "file": "sharedassets0.assets",
+        "path_id": 7887,
+        "name": "Gun Game",
+        "values": {
+          "chanceWeight": 1.0,
+          "mobileChanceWeight": 1.0,
+          "kourstrikeChanceWeight": 0.0,
+          "kourzoneChanceWeight": 0.0,
+          "id": 3,
+          "canChangeTimerOnPrivateMatches": false,
+          "canChangeMaxPlayersOnPrivateMatches": true,
+          "forcesMap": [],
+          "_maxPlayers": 6,
+          "_teamSize": -1,
+          "matchTimeInSeconds": 4200,
+          "sprite": {
+            "file_id": 0,
+            "path_id": 1013
+          },
+          "weaponList": [
+            {
+              "file_id": 0,
+              "path_id": 8314
+            },
+            {
+              "file_id": 0,
+              "path_id": 8324
+            },
+            {
+              "file_id": 0,
+              "path_id": 8449
+            },
+            {
+              "file_id": 0,
+              "path_id": 8306
+            },
+            {
+              "file_id": 0,
+              "path_id": 8317
+            },
+            {
+              "file_id": 0,
+              "path_id": 8308
+            },
+            {
+              "file_id": 0,
+              "path_id": 8423
+            },
+            {
+              "file_id": 0,
+              "path_id": 8316
+            },
+            {
+              "file_id": 0,
+              "path_id": 8327
+            },
+            {
+              "file_id": 0,
+              "path_id": 8448
+            },
+            {
+              "file_id": 0,
+              "path_id": 8424
+            },
+            {
+              "file_id": 0,
+              "path_id": 8323
+            },
+            {
+              "file_id": 0,
+              "path_id": 8325
+            },
+            {
+              "file_id": 0,
+              "path_id": 8309
+            },
+            {
+              "file_id": 0,
+              "path_id": 8329
+            },
+            {
+              "file_id": 0,
+              "path_id": 8312
+            },
+            {
+              "file_id": 0,
+              "path_id": 8311
+            },
+            {
+              "file_id": 0,
+              "path_id": 8315
+            },
+            {
+              "file_id": 0,
+              "path_id": 8321
+            },
+            {
+              "file_id": 0,
+              "path_id": 8331
+            },
+            {
+              "file_id": 0,
+              "path_id": 8310
+            },
+            {
+              "file_id": 0,
+              "path_id": 8326
+            },
+            {
+              "file_id": 0,
+              "path_id": 8320
+            },
+            {
+              "file_id": 0,
+              "path_id": 8328
+            },
+            {
+              "file_id": 0,
+              "path_id": 8319
+            },
+            {
+              "file_id": 0,
+              "path_id": 8330
+            },
+            {
+              "file_id": 0,
+              "path_id": 8380
+            }
+          ],
+          "forcePrivate": false,
+          "excludeFromPubs": false,
+          "excludeFromPubsKourstrike": true,
+          "excludeFromPubsKourZone": true
+        }
+      },
+      {
+        "slot": 3,
+        "reference": {
+          "file_id": 2,
+          "path_id": 7886
+        },
+        "file": "sharedassets0.assets",
+        "path_id": 7886,
+        "name": "FFA35",
+        "values": {
+          "chanceWeight": 0.38999998569488525,
+          "mobileChanceWeight": 20.0,
+          "kourstrikeChanceWeight": 0.0,
+          "kourzoneChanceWeight": 0.0,
+          "id": 4,
+          "canChangeTimerOnPrivateMatches": false,
+          "canChangeMaxPlayersOnPrivateMatches": true,
+          "forcesMap": [],
+          "_maxPlayers": 6,
+          "_teamSize": -1,
+          "matchTimeInSeconds": 2100,
+          "sprite": {
+            "file_id": 0,
+            "path_id": 1020
+          },
+          "weaponList": [],
+          "forcePrivate": false,
+          "excludeFromPubs": false,
+          "excludeFromPubsKourstrike": true,
+          "excludeFromPubsKourZone": true
+        }
+      },
+      {
+        "slot": 4,
+        "reference": {
+          "file_id": 2,
+          "path_id": 7888
+        },
+        "file": "sharedassets0.assets",
+        "path_id": 7888,
+        "name": "Hardpoint",
+        "values": {
+          "chanceWeight": 1.0,
+          "mobileChanceWeight": 1.0,
+          "kourstrikeChanceWeight": 0.0,
+          "kourzoneChanceWeight": 0.0,
+          "id": 6,
+          "canChangeTimerOnPrivateMatches": true,
+          "canChangeMaxPlayersOnPrivateMatches": true,
+          "forcesMap": [],
+          "_maxPlayers": 6,
+          "_teamSize": 5,
+          "matchTimeInSeconds": 540,
+          "sprite": {
+            "file_id": 0,
+            "path_id": 1028
+          },
+          "weaponList": [],
+          "forcePrivate": false,
+          "excludeFromPubs": false,
+          "excludeFromPubsKourstrike": true,
+          "excludeFromPubsKourZone": true
+        }
+      },
+      {
+        "slot": 5,
+        "reference": {
+          "file_id": 2,
+          "path_id": 7890
+        },
+        "file": "sharedassets0.assets",
+        "path_id": 7890,
+        "name": "KourSurf",
+        "values": {
+          "chanceWeight": 0.0,
+          "mobileChanceWeight": 0.0,
+          "kourstrikeChanceWeight": 0.0,
+          "kourzoneChanceWeight": 0.0,
+          "id": 7,
+          "canChangeTimerOnPrivateMatches": false,
+          "canChangeMaxPlayersOnPrivateMatches": true,
+          "forcesMap": [
+            7
+          ],
+          "_maxPlayers": 12,
+          "_teamSize": -1,
+          "matchTimeInSeconds": 999999,
+          "sprite": {
+            "file_id": 0,
+            "path_id": 1022
+          },
+          "weaponList": [],
+          "forcePrivate": false,
+          "excludeFromPubs": true,
+          "excludeFromPubsKourstrike": true,
+          "excludeFromPubsKourZone": true
+        }
+      },
+      {
+        "slot": 6,
+        "reference": {
+          "file_id": 2,
+          "path_id": 7893
+        },
+        "file": "sharedassets0.assets",
+        "path_id": 7893,
+        "name": "Search And Destroy",
+        "values": {
+          "chanceWeight": 0.0,
+          "mobileChanceWeight": 0.0,
+          "kourstrikeChanceWeight": 1.0,
+          "kourzoneChanceWeight": 0.0,
+          "id": 8,
+          "canChangeTimerOnPrivateMatches": false,
+          "canChangeMaxPlayersOnPrivateMatches": false,
+          "forcesMap": [
+            8,
+            9,
+            11
+          ],
+          "_maxPlayers": 8,
+          "_teamSize": 4,
+          "matchTimeInSeconds": 600,
+          "sprite": {
+            "file_id": 0,
+            "path_id": 1012
+          },
+          "weaponList": [],
+          "forcePrivate": false,
+          "excludeFromPubs": true,
+          "excludeFromPubsKourstrike": false,
+          "excludeFromPubsKourZone": true
+        }
+      },
+      {
+        "slot": 7,
+        "reference": {
+          "file_id": 2,
+          "path_id": 7884
+        },
+        "file": "sharedassets0.assets",
+        "path_id": 7884,
+        "name": "Battle Royale",
+        "values": {
+          "chanceWeight": 0.0,
+          "mobileChanceWeight": 0.0,
+          "kourstrikeChanceWeight": 0.0,
+          "kourzoneChanceWeight": 1.0,
+          "id": 9,
+          "canChangeTimerOnPrivateMatches": false,
+          "canChangeMaxPlayersOnPrivateMatches": false,
+          "forcesMap": [
+            10
+          ],
+          "_maxPlayers": 15,
+          "_teamSize": -1,
+          "matchTimeInSeconds": 1200,
+          "sprite": {
+            "file_id": 0,
+            "path_id": 1012
+          },
+          "weaponList": [],
+          "forcePrivate": false,
+          "excludeFromPubs": true,
+          "excludeFromPubsKourstrike": true,
+          "excludeFromPubsKourZone": false
+        }
+      },
+      {
+        "slot": 8,
+        "reference": {
+          "file_id": 2,
+          "path_id": 7891
+        },
+        "file": "sharedassets0.assets",
+        "path_id": 7891,
+        "name": "MoonSnipe",
+        "values": {
+          "chanceWeight": 0.0,
+          "mobileChanceWeight": 0.0,
+          "kourstrikeChanceWeight": 0.0,
+          "kourzoneChanceWeight": 0.0,
+          "id": 10,
+          "canChangeTimerOnPrivateMatches": true,
+          "canChangeMaxPlayersOnPrivateMatches": true,
+          "forcesMap": [
+            13
+          ],
+          "_maxPlayers": 7,
+          "_teamSize": -1,
+          "matchTimeInSeconds": 600,
+          "sprite": {
+            "file_id": 0,
+            "path_id": 996
+          },
+          "weaponList": [],
+          "forcePrivate": false,
+          "excludeFromPubs": true,
+          "excludeFromPubsKourstrike": true,
+          "excludeFromPubsKourZone": true
+        }
+      },
+      {
+        "slot": 9,
+        "reference": {
+          "file_id": 2,
+          "path_id": 7889
+        },
+        "file": "sharedassets0.assets",
+        "path_id": 7889,
+        "name": "KourCraft",
+        "values": {
+          "chanceWeight": 0.0,
+          "mobileChanceWeight": 0.0,
+          "kourstrikeChanceWeight": 0.0,
+          "kourzoneChanceWeight": 0.0,
+          "id": 11,
+          "canChangeTimerOnPrivateMatches": true,
+          "canChangeMaxPlayersOnPrivateMatches": true,
+          "forcesMap": [
+            14
+          ],
+          "_maxPlayers": 8,
+          "_teamSize": -1,
+          "matchTimeInSeconds": 600,
+          "sprite": {
+            "file_id": 0,
+            "path_id": 996
+          },
+          "weaponList": [],
+          "forcePrivate": false,
+          "excludeFromPubs": true,
+          "excludeFromPubsKourstrike": true,
+          "excludeFromPubsKourZone": true
+        }
+      },
+      {
+        "slot": 10,
+        "reference": {
+          "file_id": 2,
+          "path_id": 7892
+        },
+        "file": "sharedassets0.assets",
+        "path_id": 7892,
+        "name": "ParKour",
+        "values": {
+          "chanceWeight": 0.0,
+          "mobileChanceWeight": 0.0,
+          "kourstrikeChanceWeight": 0.0,
+          "kourzoneChanceWeight": 0.0,
+          "id": 12,
+          "canChangeTimerOnPrivateMatches": false,
+          "canChangeMaxPlayersOnPrivateMatches": true,
+          "forcesMap": [
+            15
+          ],
+          "_maxPlayers": 12,
+          "_teamSize": -1,
+          "matchTimeInSeconds": 999999,
+          "sprite": {
+            "file_id": 0,
+            "path_id": 1022
+          },
+          "weaponList": [],
+          "forcePrivate": false,
+          "excludeFromPubs": true,
+          "excludeFromPubsKourstrike": true,
+          "excludeFromPubsKourZone": true
+        }
+      }
+    ]
+  },
+  "interpretation": "SdkManager prefab default selects Kour=0. Host/bootstrap code can change gameType; asset default alone does not prove runtime mode. Search And Destroy is configured for KourStrike with forced map indices 8,9,11."
+}

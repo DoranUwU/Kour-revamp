@@ -1,0 +1,182 @@
+[
+  {
+    "file": "unity default resources",
+    "path_id": 11000,
+    "name": "GameSkin",
+    "game_object": null,
+    "hierarchy_path": null,
+    "script": "UnityEngine.GUISkin",
+    "assembly": "UnityEngine",
+    "fields_offset": 40,
+    "object_bytes": 8488,
+    "values": {
+      "m_Font": {
+        "file_id": 0,
+        "path_id": 10102
+      },
+      "m_box": {},
+      "m_button": {},
+      "m_toggle": {},
+      "m_label": {},
+      "m_textField": {},
+      "m_textArea": {},
+      "m_window": {},
+      "m_horizontalSlider": {},
+      "m_horizontalSliderThumb": {},
+      "m_verticalSlider": {},
+      "m_verticalSliderThumb": {},
+      "m_horizontalScrollbar": {},
+      "m_horizontalScrollbarThumb": {},
+      "m_horizontalScrollbarLeftButton": {},
+      "m_horizontalScrollbarRightButton": {},
+      "m_verticalScrollbar": {},
+      "m_verticalScrollbarThumb": {},
+      "m_verticalScrollbarUpButton": {},
+      "m_verticalScrollbarDownButton": {},
+      "m_ScrollView": {},
+      "m_CustomStyles": [
+        {},
+        {},
+        {}
+      ]
+    },
+    "schema_type": 9032,
+    "coverage": "partial-object",
+    "error": "Invalid serialized bool",
+    "remaining_bytes": 8428,
+    "field_offsets": [
+      {
+        "field": "m_Font",
+        "type": "UnityEngine.Font",
+        "start": 40,
+        "end": 52
+      },
+      {
+        "field": "m_box",
+        "type": "UnityEngine.GUIStyle",
+        "start": 52,
+        "end": 52
+      },
+      {
+        "field": "m_button",
+        "type": "UnityEngine.GUIStyle",
+        "start": 52,
+        "end": 52
+      },
+      {
+        "field": "m_toggle",
+        "type": "UnityEngine.GUIStyle",
+        "start": 52,
+        "end": 52
+      },
+      {
+        "field": "m_label",
+        "type": "UnityEngine.GUIStyle",
+        "start": 52,
+        "end": 52
+      },
+      {
+        "field": "m_textField",
+        "type": "UnityEngine.GUIStyle",
+        "start": 52,
+        "end": 52
+      },
+      {
+        "field": "m_textArea",
+        "type": "UnityEngine.GUIStyle",
+        "start": 52,
+        "end": 52
+      },
+      {
+        "field": "m_window",
+        "type": "UnityEngine.GUIStyle",
+        "start": 52,
+        "end": 52
+      },
+      {
+        "field": "m_horizontalSlider",
+        "type": "UnityEngine.GUIStyle",
+        "start": 52,
+        "end": 52
+      },
+      {
+        "field": "m_horizontalSliderThumb",
+        "type": "UnityEngine.GUIStyle",
+        "start": 52,
+        "end": 52
+      },
+      {
+        "field": "m_verticalSlider",
+        "type": "UnityEngine.GUIStyle",
+        "start": 52,
+        "end": 52
+      },
+      {
+        "field": "m_verticalSliderThumb",
+        "type": "UnityEngine.GUIStyle",
+        "start": 52,
+        "end": 52
+      },
+      {
+        "field": "m_horizontalScrollbar",
+        "type": "UnityEngine.GUIStyle",
+        "start": 52,
+        "end": 52
+      },
+      {
+        "field": "m_horizontalScrollbarThumb",
+        "type": "UnityEngine.GUIStyle",
+        "start": 52,
+        "end": 52
+      },
+      {
+        "field": "m_horizontalScrollbarLeftButton",
+        "type": "UnityEngine.GUIStyle",
+        "start": 52,
+        "end": 52
+      },
+      {
+        "field": "m_horizontalScrollbarRightButton",
+        "type": "UnityEngine.GUIStyle",
+        "start": 52,
+        "end": 52
+      },
+      {
+        "field": "m_verticalScrollbar",
+        "type": "UnityEngine.GUIStyle",
+        "start": 52,
+        "end": 52
+      },
+      {
+        "field": "m_verticalScrollbarThumb",
+        "type": "UnityEngine.GUIStyle",
+        "start": 52,
+        "end": 52
+      },
+      {
+        "field": "m_verticalScrollbarUpButton",
+        "type": "UnityEngine.GUIStyle",
+        "start": 52,
+        "end": 52
+      },
+      {
+        "field": "m_verticalScrollbarDownButton",
+        "type": "UnityEngine.GUIStyle",
+        "start": 52,
+        "end": 52
+      },
+      {
+        "field": "m_ScrollView",
+        "type": "UnityEngine.GUIStyle",
+        "start": 52,
+        "end": 52
+      },
+      {
+        "field": "m_CustomStyles",
+        "type": "UnityEngine.GUIStyle[]",
+        "start": 52,
+        "end": 56
+      }
+    ]
+  }
+]

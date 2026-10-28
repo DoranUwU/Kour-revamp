@@ -1,0 +1,384 @@
+{
+  "network_contacted": false,
+  "scope": "Literal URLs in IL2CPP string literals; no reachability established; queries removed.",
+  "urls": [
+    {
+      "url": "https://codestage.net/contacts",
+      "metadata_string_indices": [
+        58
+      ]
+    },
+    {
+      "url": "https://kour.io/",
+      "metadata_string_indices": [
+        808,
+        951,
+        1273,
+        12307,
+        12308
+      ]
+    },
+    {
+      "url": "http://www.microsoft.com/xml/security/algorithm/PKCS1-v1.5-KeyEx",
+      "metadata_string_indices": [
+        1847
+      ]
+    },
+    {
+      "url": "http://www.microsoft.com/xml/security/encryption/v1.0",
+      "metadata_string_indices": [
+        1847
+      ]
+    },
+    {
+      "url": "http://www.w3.org/XML/1998/namespace",
+      "metadata_string_indices": [
+        7077,
+        12297
+      ]
+    },
+    {
+      "url": "http://www.w3.org/2000/xmlns/",
+      "metadata_string_indices": [
+        8391,
+        12282
+      ]
+    },
+    {
+      "url": "https://kour.io./",
+      "metadata_string_indices": [
+        8892
+      ]
+    },
+    {
+      "url": "http://microsoft.com/wsdl/types/",
+      "metadata_string_indices": [
+        12268
+      ]
+    },
+    {
+      "url": "http://schemas.microsoft.com/clr/assem/",
+      "metadata_string_indices": [
+        12269
+      ]
+    },
+    {
+      "url": "http://schemas.microsoft.com/clr/ns/",
+      "metadata_string_indices": [
+        12270
+      ]
+    },
+    {
+      "url": "http://schemas.microsoft.com/clr/nsassem/",
+      "metadata_string_indices": [
+        12271
+      ]
+    },
+    {
+      "url": "http://schemas.microsoft.com/ws/2008/06/identity/claims/role",
+      "metadata_string_indices": [
+        12272
+      ]
+    },
+    {
+      "url": "http://schemas.xmlsoap.org/soap/encoding/",
+      "metadata_string_indices": [
+        12273
+      ]
+    },
+    {
+      "url": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
+      "metadata_string_indices": [
+        12274
+      ]
+    },
+    {
+      "url": "http://schemas.xmlsoap.org/wsdl/",
+      "metadata_string_indices": [
+        12275
+      ]
+    },
+    {
+      "url": "http://www.w3.org/1999/XMLSchema-instance",
+      "metadata_string_indices": [
+        12276
+      ]
+    },
+    {
+      "url": "http://www.w3.org/2000/09/xmldsig",
+      "metadata_string_indices": [
+        12277,
+        12278,
+        12279,
+        12280
+      ]
+    },
+    {
+      "url": "http://www.w3.org/2000/10/XMLSchema-instance",
+      "metadata_string_indices": [
+        12281
+      ]
+    },
+    {
+      "url": "http://www.w3.org/2001/04/xmldsig-more",
+      "metadata_string_indices": [
+        12283,
+        12284,
+        12285,
+        12286,
+        12287,
+        12288,
+        12289,
+        12290
+      ]
+    },
+    {
+      "url": "http://www.w3.org/2001/04/xmlenc",
+      "metadata_string_indices": [
+        12291,
+        12292
+      ]
+    },
+    {
+      "url": "http://www.w3.org/2001/XMLSchema",
+      "metadata_string_indices": [
+        12293,
+        12294
+      ]
+    },
+    {
+      "url": "http://www.w3.org/2001/XMLSchema-instance",
+      "metadata_string_indices": [
+        12295
+      ]
+    },
+    {
+      "url": "http://www.w3.org/2003/11/xpath-datatypes",
+      "metadata_string_indices": [
+        12296
+      ]
+    },
+    {
+      "url": "https://bit.ly/kourr",
+      "metadata_string_indices": [
+        12300
+      ]
+    },
+    {
+      "url": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
+      "metadata_string_indices": [
+        12301
+      ]
+    },
+    {
+      "url": "https://discord.gg/Mya33r2DWP",
+      "metadata_string_indices": [
+        12302
+      ]
+    },
+    {
+      "url": "https://docs.unity3d.com/Packages/%7B0%7D@%7B1%7D/manual/",
+      "metadata_string_indices": [
+        12303
+      ]
+    },
+    {
+      "url": "https://docs.unity3d.com/Packages/%7B0%7D@%7B1%7D/manual/%7B2%7D.html%7B3%7D",
+      "metadata_string_indices": [
+        12304
+      ]
+    },
+    {
+      "url": "https://google.com/",
+      "metadata_string_indices": [
+        12305
+      ]
+    },
+    {
+      "url": "https://kour/",
+      "metadata_string_indices": [
+        12306
+      ]
+    },
+    {
+      "url": "https://kour.io/api/addToBlacklist",
+      "metadata_string_indices": [
+        12309
+      ]
+    },
+    {
+      "url": "https://kour.io/api/approveMap",
+      "metadata_string_indices": [
+        12310
+      ]
+    },
+    {
+      "url": "https://kour.io/api/date",
+      "metadata_string_indices": [
+        12311
+      ]
+    },
+    {
+      "url": "https://kour.io/api/getMapConfig",
+      "metadata_string_indices": [
+        12312
+      ]
+    },
+    {
+      "url": "https://kour.io/api/getPopularMaps",
+      "metadata_string_indices": [
+        12313
+      ]
+    },
+    {
+      "url": "https://kour.io/api/getleaderboard",
+      "metadata_string_indices": [
+        12314
+      ]
+    },
+    {
+      "url": "https://kour.io/api/invitediscord",
+      "metadata_string_indices": [
+        12315
+      ]
+    },
+    {
+      "url": "https://kour.io/api/likeMap",
+      "metadata_string_indices": [
+        12316
+      ]
+    },
+    {
+      "url": "https://kour.io/api/message",
+      "metadata_string_indices": [
+        12317
+      ]
+    },
+    {
+      "url": "https://kour.io/api/playMap",
+      "metadata_string_indices": [
+        12318
+      ]
+    },
+    {
+      "url": "https://kour.io/api/reportbug",
+      "metadata_string_indices": [
+        12319
+      ]
+    },
+    {
+      "url": "https://kour.io/api/setMapConfig",
+      "metadata_string_indices": [
+        12320
+      ]
+    },
+    {
+      "url": "https://kour.io/api/setMapScore",
+      "metadata_string_indices": [
+        12321
+      ]
+    },
+    {
+      "url": "https://kour.io/api/track",
+      "metadata_string_indices": [
+        12322
+      ]
+    },
+    {
+      "url": "https://kour.io/api/uploadMap",
+      "metadata_string_indices": [
+        12323
+      ]
+    },
+    {
+      "url": "https://kour.io/content/stream/",
+      "metadata_string_indices": [
+        12324
+      ]
+    },
+    {
+      "url": "https://kour.io/privacy",
+      "metadata_string_indices": [
+        12325
+      ]
+    },
+    {
+      "url": "https://kour.io/terms",
+      "metadata_string_indices": [
+        12326
+      ]
+    },
+    {
+      "url": "https://kour.io/xsolla/purchase-item",
+      "metadata_string_indices": [
+        12327
+      ]
+    },
+    {
+      "url": "https://kourstrike.io/",
+      "metadata_string_indices": [
+        12328
+      ]
+    },
+    {
+      "url": "https://kourzone.io/",
+      "metadata_string_indices": [
+        12329
+      ]
+    },
+    {
+      "url": "https://localhost/",
+      "metadata_string_indices": [
+        12330
+      ]
+    },
+    {
+      "url": "https://now.gg/apps/legion-platforms/51869/kour-io.html",
+      "metadata_string_indices": [
+        12331
+      ]
+    },
+    {
+      "url": "https://play.google.com/store/apps/details",
+      "metadata_string_indices": [
+        12332
+      ]
+    },
+    {
+      "url": "https://sample.tiktok.thumbnail.url/",
+      "metadata_string_indices": [
+        12333
+      ]
+    },
+    {
+      "url": "https://storage.googleapis.com/kourio-2dc0d.appspot.com/maps/",
+      "metadata_string_indices": [
+        12334
+      ]
+    },
+    {
+      "url": "https://storage.googleapis.com/kourio-2dc0d.appspot.com/thumbnails/",
+      "metadata_string_indices": [
+        12335
+      ]
+    },
+    {
+      "url": "https://www.instagram.com/play_kour.io",
+      "metadata_string_indices": [
+        12336
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/@kour-io",
+      "metadata_string_indices": [
+        12337
+      ]
+    },
+    {
+      "url": "https://x.com/intent/user",
+      "metadata_string_indices": [
+        12338
+      ]
+    }
+  ]
+}

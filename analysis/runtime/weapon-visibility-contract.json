@@ -1,0 +1,67 @@
+{
+  "original_sha256": "dc4848ad11ac723b2a58f22118055ac9a91c1abbf3e851e415a08e7685f397c2",
+  "method": {
+    "metadata_index": 32903,
+    "name": "SetRenderWeapon",
+    "declaring_type_index": 4467,
+    "type": "SettingsPanel",
+    "namespace": "",
+    "image": "Assembly-CSharp.dll",
+    "token": "0x6000c90",
+    "token_rid": 3216,
+    "flags": 134,
+    "implementation_flags": 0,
+    "slot": 65535,
+    "parameter_count": 1,
+    "parameter_start": 31866,
+    "return_type_index": 23215,
+    "function_table_index": 20593,
+    "function_index": 74636
+  },
+  "body_start": 23737419,
+  "body_end": 23737722,
+  "signature": {
+    "params": [
+      "i32",
+      "i32",
+      "i32"
+    ],
+    "results": []
+  },
+  "first_receiver_local_access": {
+    "offset": 23737427,
+    "op": "local.tee",
+    "immediate": 0
+  },
+  "unconditional_prefix": [
+    {
+      "offset": 23737422,
+      "op": "global.get",
+      "immediate": 0
+    },
+    {
+      "offset": 23737424,
+      "op": "i32.const",
+      "immediate": 16
+    },
+    {
+      "offset": 23737426,
+      "op": "i32.sub"
+    },
+    {
+      "offset": 23737427,
+      "op": "local.tee",
+      "immediate": 0
+    },
+    {
+      "offset": 23737429,
+      "op": "global.set",
+      "immediate": 0
+    }
+  ],
+  "receiver_discarded_before_read": true,
+  "body_sha256": "16e1de78cd243a7599355b111073a7763c52919621927cf41f0b22f9d659e8ba",
+  "limitations": [
+    "Exact-build static proof only. No browser setters invoked by this check."
+  ]
+}

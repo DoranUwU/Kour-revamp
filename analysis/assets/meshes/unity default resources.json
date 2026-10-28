@@ -1,0 +1,2758 @@
+[
+  {
+    "path_id": 10200,
+    "offset": 1293216,
+    "size": 26068,
+    "type_index": 6,
+    "class_id": 43,
+    "class": "Mesh",
+    "name": "pSphere1",
+    "submeshes": [
+      {
+        "first_byte": 0,
+        "index_count": 2280,
+        "topology": 0,
+        "base_vertex": 0,
+        "first_vertex": 0,
+        "vertex_count": 439,
+        "aabb": [
+          1.1920928955078125e-07,
+          0.0,
+          -1.7881393432617188e-07,
+          1.0000001192092896,
+          1.0,
+          1.000000238418579
+        ]
+      }
+    ],
+    "blend_shape_vertices": 0,
+    "bind_poses": 0,
+    "compression": 0,
+    "readable": true,
+    "index_format": 0,
+    "vertex_count": 439,
+    "channels": [
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 12,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 24,
+        "format": 0,
+        "dimension": 4
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 40,
+        "format": 0,
+        "dimension": 2
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      }
+    ],
+    "vertex_bytes": 21072,
+    "packed": {
+      "vertices": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "uv": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "normals": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "tangents": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "weights": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "normal_signs": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "tangent_signs": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "float_colors": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "bone_indices": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "triangles": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "uv_info": 0
+    },
+    "aabb": [
+      1.1920928955078125e-07,
+      0.0,
+      -1.7881393432617188e-07,
+      1.0000001192092896,
+      1.0,
+      1.000000238418579
+    ],
+    "usage_flags": 0,
+    "metrics": [
+      0.0,
+      1.401298464324817e-45
+    ],
+    "stream_offset": 4294967297,
+    "stream_size": 0,
+    "stream_path": "",
+    "parsed_end": 26068,
+    "obj_export": "meshes/unity_default_resources_10200_pSphere1.obj",
+    "triangle_count": 760
+  },
+  {
+    "path_id": 10202,
+    "offset": 1319296,
+    "size": 1848,
+    "type_index": 6,
+    "class_id": 43,
+    "class": "Mesh",
+    "name": "Cube",
+    "submeshes": [
+      {
+        "first_byte": 0,
+        "index_count": 36,
+        "topology": 0,
+        "base_vertex": 0,
+        "first_vertex": 0,
+        "vertex_count": 24,
+        "aabb": [
+          0.0,
+          0.0,
+          0.0,
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    ],
+    "blend_shape_vertices": 0,
+    "bind_poses": 0,
+    "compression": 0,
+    "readable": true,
+    "index_format": 0,
+    "vertex_count": 24,
+    "channels": [
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 12,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 24,
+        "format": 0,
+        "dimension": 4
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 40,
+        "format": 0,
+        "dimension": 2
+      },
+      {
+        "stream": 0,
+        "offset": 48,
+        "format": 0,
+        "dimension": 2
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      }
+    ],
+    "vertex_bytes": 1344,
+    "packed": {
+      "vertices": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "uv": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "normals": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "tangents": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "weights": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "normal_signs": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "tangent_signs": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "float_colors": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "bone_indices": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "triangles": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "uv_info": 0
+    },
+    "aabb": [
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "usage_flags": 0,
+    "metrics": [
+      0.0,
+      1.401298464324817e-45
+    ],
+    "stream_offset": 4294967297,
+    "stream_size": 0,
+    "stream_path": "",
+    "parsed_end": 1848,
+    "obj_export": "meshes/unity_default_resources_10202_Cube.obj",
+    "triangle_count": 12
+  },
+  {
+    "path_id": 10203,
+    "offset": 1321152,
+    "size": 6872,
+    "type_index": 6,
+    "class_id": 43,
+    "class": "Mesh",
+    "name": "pCylinder1",
+    "submeshes": [
+      {
+        "first_byte": 0,
+        "index_count": 240,
+        "topology": 0,
+        "base_vertex": 0,
+        "first_vertex": 0,
+        "vertex_count": 124,
+        "aabb": [
+          1.1920928955078125e-07,
+          0.0,
+          -1.7881393432617188e-07,
+          1.0000001192092896,
+          1.0,
+          1.000000238418579
+        ]
+      }
+    ],
+    "blend_shape_vertices": 0,
+    "bind_poses": 0,
+    "compression": 0,
+    "readable": true,
+    "index_format": 0,
+    "vertex_count": 124,
+    "channels": [
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 12,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 24,
+        "format": 0,
+        "dimension": 4
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 40,
+        "format": 0,
+        "dimension": 2
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      }
+    ],
+    "vertex_bytes": 5952,
+    "packed": {
+      "vertices": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "uv": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "normals": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "tangents": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "weights": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "normal_signs": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "tangent_signs": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "float_colors": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "bone_indices": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "triangles": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "uv_info": 0
+    },
+    "aabb": [
+      1.1920928955078125e-07,
+      0.0,
+      -1.7881393432617188e-07,
+      1.0000001192092896,
+      1.0,
+      1.000000238418579
+    ],
+    "usage_flags": 0,
+    "metrics": [
+      0.0,
+      1.401298464324817e-45
+    ],
+    "stream_offset": 4294967297,
+    "stream_size": 0,
+    "stream_path": "",
+    "parsed_end": 6872,
+    "obj_export": "meshes/unity_default_resources_10203_pCylinder1.obj",
+    "triangle_count": 80
+  },
+  {
+    "path_id": 10204,
+    "offset": 1328032,
+    "size": 7444,
+    "type_index": 6,
+    "class_id": 43,
+    "class": "Mesh",
+    "name": "pPlane1",
+    "submeshes": [
+      {
+        "first_byte": 0,
+        "index_count": 600,
+        "topology": 0,
+        "base_vertex": 0,
+        "first_vertex": 0,
+        "vertex_count": 121,
+        "aabb": [
+          0.0,
+          0.0,
+          0.0,
+          0.5,
+          1.1102230246251565e-16,
+          0.5
+        ]
+      }
+    ],
+    "blend_shape_vertices": 0,
+    "bind_poses": 0,
+    "compression": 0,
+    "readable": true,
+    "index_format": 0,
+    "vertex_count": 121,
+    "channels": [
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 12,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 24,
+        "format": 0,
+        "dimension": 4
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 40,
+        "format": 0,
+        "dimension": 2
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      }
+    ],
+    "vertex_bytes": 5808,
+    "packed": {
+      "vertices": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "uv": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "normals": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "tangents": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "weights": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "normal_signs": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "tangent_signs": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "float_colors": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "bone_indices": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "triangles": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "uv_info": 0
+    },
+    "aabb": [
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      1.1102230246251565e-16,
+      0.5
+    ],
+    "usage_flags": 0,
+    "metrics": [
+      0.0,
+      1.401298464324817e-45
+    ],
+    "stream_offset": 4294967297,
+    "stream_size": 0,
+    "stream_path": "",
+    "parsed_end": 7444,
+    "obj_export": "meshes/unity_default_resources_10204_pPlane1.obj",
+    "triangle_count": 200
+  },
+  {
+    "path_id": 10205,
+    "offset": 1335488,
+    "size": 24140,
+    "type_index": 6,
+    "class_id": 43,
+    "class": "Mesh",
+    "name": "polySurface2",
+    "submeshes": [
+      {
+        "first_byte": 0,
+        "index_count": 2010,
+        "topology": 0,
+        "base_vertex": 0,
+        "first_vertex": 0,
+        "vertex_count": 410,
+        "aabb": [
+          1.1920928955078125e-07,
+          0.0,
+          -1.7881393432617188e-07,
+          1.0000001192092896,
+          2.0,
+          1.000000238418579
+        ]
+      }
+    ],
+    "blend_shape_vertices": 0,
+    "bind_poses": 0,
+    "compression": 0,
+    "readable": true,
+    "index_format": 0,
+    "vertex_count": 410,
+    "channels": [
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 12,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 24,
+        "format": 0,
+        "dimension": 4
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 40,
+        "format": 0,
+        "dimension": 2
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      }
+    ],
+    "vertex_bytes": 19680,
+    "packed": {
+      "vertices": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "uv": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "normals": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "tangents": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "weights": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "normal_signs": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "tangent_signs": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "float_colors": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "bone_indices": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "triangles": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "uv_info": 0
+    },
+    "aabb": [
+      1.1920928955078125e-07,
+      0.0,
+      -1.7881393432617188e-07,
+      1.0000001192092896,
+      2.0,
+      1.000000238418579
+    ],
+    "usage_flags": 0,
+    "metrics": [
+      0.0,
+      1.401298464324817e-45
+    ],
+    "stream_offset": 4294967297,
+    "stream_size": 0,
+    "stream_path": "",
+    "parsed_end": 24140,
+    "obj_export": "meshes/unity_default_resources_10205_polySurface2.obj",
+    "triangle_count": 670
+  },
+  {
+    "path_id": 10206,
+    "offset": 1359632,
+    "size": 5844,
+    "type_index": 6,
+    "class_id": 43,
+    "class": "Mesh",
+    "name": "Cylinder",
+    "submeshes": [
+      {
+        "first_byte": 0,
+        "index_count": 240,
+        "topology": 0,
+        "base_vertex": 0,
+        "first_vertex": 0,
+        "vertex_count": 88,
+        "aabb": [
+          5.960464477539063e-08,
+          0.0,
+          -8.940696716308594e-08,
+          0.5000000596046448,
+          1.0,
+          0.5000001192092896
+        ]
+      }
+    ],
+    "blend_shape_vertices": 0,
+    "bind_poses": 0,
+    "compression": 0,
+    "readable": true,
+    "index_format": 0,
+    "vertex_count": 88,
+    "channels": [
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 12,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 24,
+        "format": 0,
+        "dimension": 4
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 40,
+        "format": 0,
+        "dimension": 2
+      },
+      {
+        "stream": 0,
+        "offset": 48,
+        "format": 0,
+        "dimension": 2
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      }
+    ],
+    "vertex_bytes": 4928,
+    "packed": {
+      "vertices": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "uv": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "normals": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "tangents": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "weights": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "normal_signs": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "tangent_signs": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "float_colors": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "bone_indices": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "triangles": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "uv_info": 0
+    },
+    "aabb": [
+      5.960464477539063e-08,
+      0.0,
+      -8.940696716308594e-08,
+      0.5000000596046448,
+      1.0,
+      0.5000001192092896
+    ],
+    "usage_flags": 0,
+    "metrics": [
+      0.0,
+      1.401298464324817e-45
+    ],
+    "stream_offset": 4294967297,
+    "stream_size": 0,
+    "stream_path": "",
+    "parsed_end": 5844,
+    "obj_export": "meshes/unity_default_resources_10206_Cylinder.obj",
+    "triangle_count": 80
+  },
+  {
+    "path_id": 10207,
+    "offset": 1365488,
+    "size": 33884,
+    "type_index": 6,
+    "class_id": 43,
+    "class": "Mesh",
+    "name": "Sphere",
+    "submeshes": [
+      {
+        "first_byte": 0,
+        "index_count": 2304,
+        "topology": 0,
+        "base_vertex": 0,
+        "first_vertex": 0,
+        "vertex_count": 515,
+        "aabb": [
+          0.0,
+          0.0,
+          0.0,
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    ],
+    "blend_shape_vertices": 0,
+    "bind_poses": 0,
+    "compression": 0,
+    "readable": true,
+    "index_format": 0,
+    "vertex_count": 515,
+    "channels": [
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 12,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 24,
+        "format": 0,
+        "dimension": 4
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 40,
+        "format": 0,
+        "dimension": 2
+      },
+      {
+        "stream": 0,
+        "offset": 48,
+        "format": 0,
+        "dimension": 2
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      }
+    ],
+    "vertex_bytes": 28840,
+    "packed": {
+      "vertices": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "uv": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "normals": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "tangents": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "weights": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "normal_signs": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "tangent_signs": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "float_colors": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "bone_indices": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "triangles": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "uv_info": 0
+    },
+    "aabb": [
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "usage_flags": 0,
+    "metrics": [
+      0.0,
+      1.401298464324817e-45
+    ],
+    "stream_offset": 4294967297,
+    "stream_size": 0,
+    "stream_path": "",
+    "parsed_end": 33884,
+    "obj_export": "meshes/unity_default_resources_10207_Sphere.obj",
+    "triangle_count": 768
+  },
+  {
+    "path_id": 10208,
+    "offset": 1399376,
+    "size": 36228,
+    "type_index": 6,
+    "class_id": 43,
+    "class": "Mesh",
+    "name": "Capsule",
+    "submeshes": [
+      {
+        "first_byte": 0,
+        "index_count": 2496,
+        "topology": 0,
+        "base_vertex": 0,
+        "first_vertex": 0,
+        "vertex_count": 550,
+        "aabb": [
+          0.0,
+          0.0,
+          0.0,
+          0.5,
+          1.0,
+          0.5
+        ]
+      }
+    ],
+    "blend_shape_vertices": 0,
+    "bind_poses": 0,
+    "compression": 0,
+    "readable": true,
+    "index_format": 0,
+    "vertex_count": 550,
+    "channels": [
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 12,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 24,
+        "format": 0,
+        "dimension": 4
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 40,
+        "format": 0,
+        "dimension": 2
+      },
+      {
+        "stream": 0,
+        "offset": 48,
+        "format": 0,
+        "dimension": 2
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      }
+    ],
+    "vertex_bytes": 30800,
+    "packed": {
+      "vertices": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "uv": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "normals": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "tangents": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "weights": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "normal_signs": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "tangent_signs": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "float_colors": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "bone_indices": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "triangles": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "uv_info": 0
+    },
+    "aabb": [
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "usage_flags": 0,
+    "metrics": [
+      0.0,
+      1.401298464324817e-45
+    ],
+    "stream_offset": 4294967297,
+    "stream_size": 0,
+    "stream_path": "",
+    "parsed_end": 36228,
+    "obj_export": "meshes/unity_default_resources_10208_Capsule.obj",
+    "triangle_count": 832
+  },
+  {
+    "path_id": 10209,
+    "offset": 1435616,
+    "size": 7444,
+    "type_index": 6,
+    "class_id": 43,
+    "class": "Mesh",
+    "name": "Plane",
+    "submeshes": [
+      {
+        "first_byte": 0,
+        "index_count": 600,
+        "topology": 0,
+        "base_vertex": 0,
+        "first_vertex": 0,
+        "vertex_count": 121,
+        "aabb": [
+          0.0,
+          0.0,
+          0.0,
+          5.0,
+          1.1102230246251565e-16,
+          5.0
+        ]
+      }
+    ],
+    "blend_shape_vertices": 0,
+    "bind_poses": 0,
+    "compression": 0,
+    "readable": true,
+    "index_format": 0,
+    "vertex_count": 121,
+    "channels": [
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 12,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 24,
+        "format": 0,
+        "dimension": 4
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 40,
+        "format": 0,
+        "dimension": 2
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      }
+    ],
+    "vertex_bytes": 5808,
+    "packed": {
+      "vertices": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "uv": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "normals": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "tangents": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "weights": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "normal_signs": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "tangent_signs": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "float_colors": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "bone_indices": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "triangles": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "uv_info": 0
+    },
+    "aabb": [
+      0.0,
+      0.0,
+      0.0,
+      5.0,
+      1.1102230246251565e-16,
+      5.0
+    ],
+    "usage_flags": 0,
+    "metrics": [
+      0.0,
+      1.401298464324817e-45
+    ],
+    "stream_offset": 4294967297,
+    "stream_size": 0,
+    "stream_path": "",
+    "parsed_end": 7444,
+    "obj_export": "meshes/unity_default_resources_10209_Plane.obj",
+    "triangle_count": 200
+  },
+  {
+    "path_id": 10210,
+    "offset": 1443072,
+    "size": 636,
+    "type_index": 6,
+    "class_id": 43,
+    "class": "Mesh",
+    "name": "Quad",
+    "submeshes": [
+      {
+        "first_byte": 0,
+        "index_count": 6,
+        "topology": 0,
+        "base_vertex": 0,
+        "first_vertex": 0,
+        "vertex_count": 4,
+        "aabb": [
+          0.0,
+          0.0,
+          0.0,
+          0.5,
+          0.5,
+          3.0616168005906746e-17
+        ]
+      }
+    ],
+    "blend_shape_vertices": 0,
+    "bind_poses": 0,
+    "compression": 0,
+    "readable": true,
+    "index_format": 0,
+    "vertex_count": 4,
+    "channels": [
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 12,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 24,
+        "format": 0,
+        "dimension": 4
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 40,
+        "format": 0,
+        "dimension": 2
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      }
+    ],
+    "vertex_bytes": 192,
+    "packed": {
+      "vertices": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "uv": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "normals": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "tangents": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "weights": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "normal_signs": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "tangent_signs": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "float_colors": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "bone_indices": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "triangles": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "uv_info": 0
+    },
+    "aabb": [
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      0.5,
+      3.0616168005906746e-17
+    ],
+    "usage_flags": 0,
+    "metrics": [
+      0.0,
+      1.401298464324817e-45
+    ],
+    "stream_offset": 4294967297,
+    "stream_size": 0,
+    "stream_path": "",
+    "parsed_end": 636,
+    "obj_export": "meshes/unity_default_resources_10210_Quad.obj",
+    "triangle_count": 2
+  },
+  {
+    "path_id": 10211,
+    "offset": 1443712,
+    "size": 1928,
+    "type_index": 6,
+    "class_id": 43,
+    "class": "Mesh",
+    "name": "Icosphere",
+    "submeshes": [
+      {
+        "first_byte": 0,
+        "index_count": 240,
+        "topology": 0,
+        "base_vertex": 0,
+        "first_vertex": 0,
+        "vertex_count": 42,
+        "aabb": [
+          0.0,
+          0.0,
+          0.0,
+          1.0174009799957275,
+          1.0697569847106934,
+          1.0697580575942993
+        ]
+      }
+    ],
+    "blend_shape_vertices": 0,
+    "bind_poses": 0,
+    "compression": 0,
+    "readable": false,
+    "index_format": 0,
+    "vertex_count": 42,
+    "channels": [
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 12,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      }
+    ],
+    "vertex_bytes": 1008,
+    "packed": {
+      "vertices": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "uv": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "normals": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "tangents": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "weights": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "normal_signs": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "tangent_signs": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "float_colors": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "bone_indices": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "triangles": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "uv_info": 0
+    },
+    "aabb": [
+      0.0,
+      0.0,
+      0.0,
+      1.0174009799957275,
+      1.0697569847106934,
+      1.0697580575942993
+    ],
+    "usage_flags": 0,
+    "metrics": [
+      0.0,
+      1.401298464324817e-45
+    ],
+    "stream_offset": 4294967297,
+    "stream_size": 0,
+    "stream_path": "",
+    "parsed_end": 1928,
+    "obj_export": "meshes/unity_default_resources_10211_Icosphere.obj",
+    "triangle_count": 80
+  },
+  {
+    "path_id": 10212,
+    "offset": 1445648,
+    "size": 848,
+    "type_index": 6,
+    "class_id": 43,
+    "class": "Mesh",
+    "name": "icosahedron",
+    "submeshes": [
+      {
+        "first_byte": 0,
+        "index_count": 60,
+        "topology": 0,
+        "base_vertex": 0,
+        "first_vertex": 0,
+        "vertex_count": 12,
+        "aabb": [
+          0.0,
+          0.0,
+          0.0,
+          1.1246839761734009,
+          1.069627046585083,
+          1.2574379444122314
+        ]
+      }
+    ],
+    "blend_shape_vertices": 0,
+    "bind_poses": 0,
+    "compression": 0,
+    "readable": false,
+    "index_format": 0,
+    "vertex_count": 12,
+    "channels": [
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 12,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      }
+    ],
+    "vertex_bytes": 288,
+    "packed": {
+      "vertices": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "uv": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "normals": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "tangents": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "weights": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "normal_signs": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "tangent_signs": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "float_colors": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "bone_indices": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "triangles": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "uv_info": 0
+    },
+    "aabb": [
+      0.0,
+      0.0,
+      0.0,
+      1.1246839761734009,
+      1.069627046585083,
+      1.2574379444122314
+    ],
+    "usage_flags": 0,
+    "metrics": [
+      0.0,
+      1.401298464324817e-45
+    ],
+    "stream_offset": 4294967297,
+    "stream_size": 0,
+    "stream_path": "",
+    "parsed_end": 848,
+    "obj_export": "meshes/unity_default_resources_10212_icosahedron.obj",
+    "triangle_count": 20
+  },
+  {
+    "path_id": 10213,
+    "offset": 1446496,
+    "size": 592,
+    "type_index": 6,
+    "class_id": 43,
+    "class": "Mesh",
+    "name": "pyramid",
+    "submeshes": [
+      {
+        "first_byte": 0,
+        "index_count": 18,
+        "topology": 0,
+        "base_vertex": 0,
+        "first_vertex": 0,
+        "vertex_count": 5,
+        "aabb": [
+          0.0,
+          0.0,
+          0.5,
+          1.0,
+          1.0,
+          0.5
+        ]
+      }
+    ],
+    "blend_shape_vertices": 0,
+    "bind_poses": 0,
+    "compression": 0,
+    "readable": false,
+    "index_format": 0,
+    "vertex_count": 5,
+    "channels": [
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 12,
+        "format": 0,
+        "dimension": 3
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      },
+      {
+        "stream": 0,
+        "offset": 0,
+        "format": 0,
+        "dimension": 0
+      }
+    ],
+    "vertex_bytes": 120,
+    "packed": {
+      "vertices": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "uv": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "normals": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "tangents": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "weights": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "normal_signs": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "tangent_signs": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "float_colors": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "range": 0.0,
+        "start": 0.0,
+        "data_hex": ""
+      },
+      "bone_indices": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "triangles": {
+        "count": 0,
+        "bits": 0,
+        "bytes": 0,
+        "data_hex": ""
+      },
+      "uv_info": 0
+    },
+    "aabb": [
+      0.0,
+      0.0,
+      0.5,
+      1.0,
+      1.0,
+      0.5
+    ],
+    "usage_flags": 0,
+    "metrics": [
+      0.0,
+      1.401298464324817e-45
+    ],
+    "stream_offset": 4294967297,
+    "stream_size": 0,
+    "stream_path": "",
+    "parsed_end": 592,
+    "obj_export": "meshes/unity_default_resources_10213_pyramid.obj",
+    "triangle_count": 6
+  }
+]

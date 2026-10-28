@@ -1,0 +1,764 @@
+{
+  "source": {
+    "file": "globalgamemanagers",
+    "class_id": 147,
+    "path_id": 13,
+    "offset": 111104,
+    "size": 375712
+  },
+  "container_count": 75,
+  "container_bytes": 2456,
+  "entries": [
+    {
+      "resource_name": "base_case",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 1552
+      },
+      "target_class": "GameObject",
+      "target_name": "base_case"
+    },
+    {
+      "resource_name": "battlehub.runtimehandles.x",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 70
+      },
+      "target_class": "Texture2D",
+      "target_name": "Battlehub.RuntimeHandles.x"
+    },
+    {
+      "resource_name": "battlehub.runtimehandles.y",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 65
+      },
+      "target_class": "Texture2D",
+      "target_name": "Battlehub.RuntimeHandles.y"
+    },
+    {
+      "resource_name": "battlehub.runtimehandles.z",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 29
+      },
+      "target_class": "Texture2D",
+      "target_name": "Battlehub.RuntimeHandles.z"
+    },
+    {
+      "resource_name": "billboard",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 119
+      },
+      "target_class": "Shader",
+      "target_name": ""
+    },
+    {
+      "resource_name": "boxselectionshader",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 124
+      },
+      "target_class": "Shader",
+      "target_name": ""
+    },
+    {
+      "resource_name": "casepanel",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 913
+      },
+      "target_class": "GameObject",
+      "target_name": "CasePanel"
+    },
+    {
+      "resource_name": "debuguicanvas",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 234
+      },
+      "target_class": "GameObject",
+      "target_name": "DebugUICanvas"
+    },
+    {
+      "resource_name": "debuguipersistentcanvas",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 317
+      },
+      "target_class": "GameObject",
+      "target_name": "DebugUIPersistentCanvas"
+    },
+    {
+      "resource_name": "dotweensettings",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 5570
+      },
+      "target_class": "MonoBehaviour",
+      "target_name": "DOTweenSettings"
+    },
+    {
+      "resource_name": "egg",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 1800
+      },
+      "target_class": "GameObject",
+      "target_name": "Egg"
+    },
+    {
+      "resource_name": "grid",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 112
+      },
+      "target_class": "Shader",
+      "target_name": ""
+    },
+    {
+      "resource_name": "hardpointmanager",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 1924
+      },
+      "target_class": "GameObject",
+      "target_name": "HardpointManager"
+    },
+    {
+      "resource_name": "iteminspectpanel",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 484
+      },
+      "target_class": "GameObject",
+      "target_name": "ItemInspectPanel"
+    },
+    {
+      "resource_name": "kourstrikedeadcamera",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 468
+      },
+      "target_class": "GameObject",
+      "target_name": "KourstrikeDeadCamera"
+    },
+    {
+      "resource_name": "kp_case",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 1653
+      },
+      "target_class": "GameObject",
+      "target_name": "kp_case"
+    },
+    {
+      "resource_name": "linebillboard",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 116
+      },
+      "target_class": "Shader",
+      "target_name": ""
+    },
+    {
+      "resource_name": "linebillboard",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 120
+      },
+      "target_class": "Shader",
+      "target_name": ""
+    },
+    {
+      "resource_name": "linebillboardclip",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 109
+      },
+      "target_class": "Shader",
+      "target_name": ""
+    },
+    {
+      "resource_name": "linebreaking following characters",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 128
+      },
+      "target_class": "TextAsset",
+      "target_name": "LineBreaking Following Characters"
+    },
+    {
+      "resource_name": "linebreaking leading characters",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 127
+      },
+      "target_class": "TextAsset",
+      "target_name": "LineBreaking Leading Characters"
+    },
+    {
+      "resource_name": "materials/collider",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 18
+      },
+      "target_class": "Material",
+      "target_name": "Collider"
+    },
+    {
+      "resource_name": "materials/edgepicker",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 19
+      },
+      "target_class": "Material",
+      "target_name": "EdgePicker"
+    },
+    {
+      "resource_name": "materials/facepicker",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 20
+      },
+      "target_class": "Material",
+      "target_name": "FacePicker"
+    },
+    {
+      "resource_name": "materials/invisibleface",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 21
+      },
+      "target_class": "Material",
+      "target_name": "InvisibleFace"
+    },
+    {
+      "resource_name": "materials/nodraw",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 22
+      },
+      "target_class": "Material",
+      "target_name": "NoDraw"
+    },
+    {
+      "resource_name": "materials/probuilderdefault",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 23
+      },
+      "target_class": "Material",
+      "target_name": "ProBuilderDefault"
+    },
+    {
+      "resource_name": "materials/trigger",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 24
+      },
+      "target_class": "Material",
+      "target_name": "Trigger"
+    },
+    {
+      "resource_name": "materials/vertexpicker",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 25
+      },
+      "target_class": "Material",
+      "target_name": "VertexPicker"
+    },
+    {
+      "resource_name": "performancetestruninfo",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 125
+      },
+      "target_class": "TextAsset",
+      "target_name": "PerformanceTestRunInfo"
+    },
+    {
+      "resource_name": "performancetestrunsettings",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 126
+      },
+      "target_class": "TextAsset",
+      "target_name": "PerformanceTestRunSettings"
+    },
+    {
+      "resource_name": "photonserversettings",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 5569
+      },
+      "target_class": "MonoBehaviour",
+      "target_name": "PhotonServerSettings"
+    },
+    {
+      "resource_name": "player",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 1264
+      },
+      "target_class": "GameObject",
+      "target_name": "Player"
+    },
+    {
+      "resource_name": "point",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 115
+      },
+      "target_class": "Shader",
+      "target_name": ""
+    },
+    {
+      "resource_name": "pointbillboard",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 110
+      },
+      "target_class": "Shader",
+      "target_name": ""
+    },
+    {
+      "resource_name": "rawimage",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 123
+      },
+      "target_class": "Shader",
+      "target_name": ""
+    },
+    {
+      "resource_name": "rendertextureoverlay",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 101
+      },
+      "target_class": "Shader",
+      "target_name": ""
+    },
+    {
+      "resource_name": "rendertextureoverlay",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 2
+      },
+      "target_class": "Material",
+      "target_name": "RenderTextureOverlay"
+    },
+    {
+      "resource_name": "rth_box",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 46
+      },
+      "target_class": "Texture2D",
+      "target_name": "RTH_Box"
+    },
+    {
+      "resource_name": "rth_box",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 174
+      },
+      "target_class": "Sprite",
+      "target_name": "RTH_Box"
+    },
+    {
+      "resource_name": "rth_boxselection",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 55
+      },
+      "target_class": "Texture2D",
+      "target_name": "RTH_BoxSelection"
+    },
+    {
+      "resource_name": "rth_boxselection",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 180
+      },
+      "target_class": "Sprite",
+      "target_name": "RTH_BoxSelection"
+    },
+    {
+      "resource_name": "rth_camera",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 51
+      },
+      "target_class": "Texture2D",
+      "target_name": "RTH_Camera"
+    },
+    {
+      "resource_name": "rth_camera",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 177
+      },
+      "target_class": "Sprite",
+      "target_name": "RTH_Camera"
+    },
+    {
+      "resource_name": "rth_cancelbutton",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 80
+      },
+      "target_class": "Texture2D",
+      "target_name": "RTH_CancelButton"
+    },
+    {
+      "resource_name": "rth_cancelbutton",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 197
+      },
+      "target_class": "Sprite",
+      "target_name": "RTH_CancelButton"
+    },
+    {
+      "resource_name": "rth_eye",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 74
+      },
+      "target_class": "Texture2D",
+      "target_name": "RTH_Eye"
+    },
+    {
+      "resource_name": "rth_eyebutton",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 68
+      },
+      "target_class": "Texture2D",
+      "target_name": "RTH_EyeButton"
+    },
+    {
+      "resource_name": "rth_eyebutton",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 188
+      },
+      "target_class": "Sprite",
+      "target_name": "RTH_EyeButton"
+    },
+    {
+      "resource_name": "rth_focus",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 37
+      },
+      "target_class": "Texture2D",
+      "target_name": "RTH_Focus"
+    },
+    {
+      "resource_name": "rth_focus",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 169
+      },
+      "target_class": "Sprite",
+      "target_name": "RTH_Focus"
+    },
+    {
+      "resource_name": "rth_freemove",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 48
+      },
+      "target_class": "Texture2D",
+      "target_name": "RTH_FreeMove"
+    },
+    {
+      "resource_name": "rth_hand",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 40
+      },
+      "target_class": "Texture2D",
+      "target_name": "RTH_Hand"
+    },
+    {
+      "resource_name": "rth_handbutton",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 82
+      },
+      "target_class": "Texture2D",
+      "target_name": "RTH_HandButton"
+    },
+    {
+      "resource_name": "rth_handbutton",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 199
+      },
+      "target_class": "Sprite",
+      "target_name": "RTH_HandButton"
+    },
+    {
+      "resource_name": "rth_orbitmode",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 31
+      },
+      "target_class": "Texture2D",
+      "target_name": "RTH_OrbitMode"
+    },
+    {
+      "resource_name": "rth_orbitmode",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 165
+      },
+      "target_class": "Sprite",
+      "target_name": "RTH_OrbitMode"
+    },
+    {
+      "resource_name": "sceenspacedecal",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 104
+      },
+      "target_class": "Shader",
+      "target_name": ""
+    },
+    {
+      "resource_name": "screen space decal",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 3
+      },
+      "target_class": "Material",
+      "target_name": "Screen Space Decal"
+    },
+    {
+      "resource_name": "selectiongizmo",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 91
+      },
+      "target_class": "Mesh",
+      "target_name": "SelectionGizmo"
+    },
+    {
+      "resource_name": "shape",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 108
+      },
+      "target_class": "Shader",
+      "target_name": ""
+    },
+    {
+      "resource_name": "simpletooltip",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 1071
+      },
+      "target_class": "GameObject",
+      "target_name": "SimpleTooltip"
+    },
+    {
+      "resource_name": "spectatecamera",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 623
+      },
+      "target_class": "GameObject",
+      "target_name": "SpectateCamera"
+    },
+    {
+      "resource_name": "style sheets/default style sheet",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 5571
+      },
+      "target_class": "MonoBehaviour",
+      "target_name": "Default Style Sheet"
+    },
+    {
+      "resource_name": "summer_case",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 1551
+      },
+      "target_class": "GameObject",
+      "target_name": "summer_case"
+    },
+    {
+      "resource_name": "textures/gridbox_default",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 44
+      },
+      "target_class": "Texture2D",
+      "target_name": "GridBox_Default"
+    },
+    {
+      "resource_name": "tmp settings",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 5572
+      },
+      "target_class": "MonoBehaviour",
+      "target_name": "TMP Settings"
+    },
+    {
+      "resource_name": "unityoutline",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 102
+      },
+      "target_class": "Shader",
+      "target_name": ""
+    },
+    {
+      "resource_name": "unityoutline",
+      "target_file": "globalgamemanagers",
+      "reference": {
+        "file_id": 0,
+        "path_id": 0
+      },
+      "target_class": null,
+      "target_name": null
+    },
+    {
+      "resource_name": "unlitcolor",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 107
+      },
+      "target_class": "Shader",
+      "target_name": ""
+    },
+    {
+      "resource_name": "unlitcolorclip",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 111
+      },
+      "target_class": "Shader",
+      "target_name": ""
+    },
+    {
+      "resource_name": "vertexcolorclipusingclipplane",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 121
+      },
+      "target_class": "Shader",
+      "target_name": ""
+    },
+    {
+      "resource_name": "worldbomb",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 867
+      },
+      "target_class": "GameObject",
+      "target_name": "WorldBomb"
+    },
+    {
+      "resource_name": "worldgrenade",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 1548
+      },
+      "target_class": "GameObject",
+      "target_name": "WorldGrenade"
+    },
+    {
+      "resource_name": "xmas_case",
+      "target_file": "resources.assets",
+      "reference": {
+        "file_id": 5,
+        "path_id": 1553
+      },
+      "target_class": "GameObject",
+      "target_name": "xmas_case"
+    }
+  ],
+  "remaining_dependency_graph_bytes": 373256
+}

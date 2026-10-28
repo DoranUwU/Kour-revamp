@@ -1,0 +1,22 @@
+[
+  {
+    "file": "framework.js",
+    "bytes": 503416,
+    "sha256": "9f6bf8a2ddd926f34d10cf583ba502c2d36dd3405c55aa81b39c899229a2b6a9"
+  },
+  {
+    "file": "source.wasm",
+    "bytes": 54791483,
+    "sha256": "dc4848ad11ac723b2a58f22118055ac9a91c1abbf3e851e415a08e7685f397c2"
+  },
+  {
+    "file": "game.data.br",
+    "bytes": 11283033,
+    "sha256": "2e6249ecb6dbbdfb32b79dbc5d8b99f9111d64aa931e4f9abb3241bd1bdf5777"
+  },
+  {
+    "file": "game.data",
+    "bytes": 21587596,
+    "sha256": "77b76d5dfdee9e4a587fa69c22982bb72ef486f297a7dc2a9c252d4331e5a739"
+  }
+]

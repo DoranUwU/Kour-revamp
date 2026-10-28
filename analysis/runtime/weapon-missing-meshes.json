@@ -1,0 +1,1933 @@
+[
+  {
+    "file": "resources.assets",
+    "loader_path_id": 5810,
+    "game_object": "bomb",
+    "hierarchy_path": "WorldBomb/bomb",
+    "weapon_or_root": "WorldBomb",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "bomb",
+    "native_relative_bundle": "StreamingAssets/bomb",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 186667,
+    "components": [
+      {
+        "file": "resources.assets",
+        "path_id": 2311,
+        "class": "MeshFilter",
+        "size": 24,
+        "mesh": {
+          "file_id": 0,
+          "path_id": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      },
+      {
+        "file": "resources.assets",
+        "path_id": 2298,
+        "class": "MeshRenderer",
+        "size": 168,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 2,
+              "m_PathID": 34
+            }
+          ]
+        },
+        "mesh": null
+      }
+    ]
+  },
+  {
+    "file": "resources.assets",
+    "loader_path_id": 6826,
+    "game_object": "gfx",
+    "hierarchy_path": "ItemInspectPanel/anim/3DitemParent/PARENT/Character/Player-Varient_1/GFX/UmbrellaRotator/UmbrellaRotatorChildOffsetFixer/Character_Dummy_Male_01/Root/Hips/Spine_01/Spine_02/Spine_03/Clavicle_R/Shoulder_R/Elbow_R/Hand_R/Umbrella/GFX/gfx",
+    "weapon_or_root": "ItemInspectPanel",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "umbrella",
+    "native_relative_bundle": "StreamingAssets/umbrella",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 26124,
+    "components": [
+      {
+        "file": "resources.assets",
+        "path_id": 2306,
+        "class": "MeshFilter",
+        "size": 24,
+        "mesh": {
+          "file_id": 0,
+          "path_id": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      },
+      {
+        "file": "resources.assets",
+        "path_id": 2292,
+        "class": "MeshRenderer",
+        "size": 168,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 13
+            }
+          ]
+        },
+        "mesh": null
+      }
+    ]
+  },
+  {
+    "file": "resources.assets",
+    "loader_path_id": 7654,
+    "game_object": "gfx",
+    "hierarchy_path": "Player/GFX/UmbrellaRotator/UmbrellaRotatorChildOffsetFixer/Character_Dummy_Male_01/Root/Hips/Spine_01/Spine_02/Spine_03/Clavicle_R/Shoulder_R/Elbow_R/Hand_R/Umbrella/GFX/gfx",
+    "weapon_or_root": "Player",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "umbrella",
+    "native_relative_bundle": "StreamingAssets/umbrella",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 26124,
+    "components": [
+      {
+        "file": "resources.assets",
+        "path_id": 2318,
+        "class": "MeshFilter",
+        "size": 24,
+        "mesh": {
+          "file_id": 0,
+          "path_id": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      },
+      {
+        "file": "resources.assets",
+        "path_id": 2285,
+        "class": "MeshRenderer",
+        "size": 168,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 13
+            }
+          ]
+        },
+        "mesh": null
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8338,
+    "game_object": "Cube.001",
+    "hierarchy_path": "USPS/S&W Model 39/Cube.001",
+    "weapon_or_root": "USPS",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "usps",
+    "native_relative_bundle": "StreamingAssets/usps",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 61038,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7566,
+        "class": "SkinnedMeshRenderer",
+        "size": 464,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 156
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 159
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 155
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 158
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 160
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 166
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 161
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 157
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 162
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 165
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 164
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 163
+            }
+          ]
+        },
+        "mesh": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8348,
+    "game_object": "Cube.014",
+    "hierarchy_path": "M4A4/M4a4/Cube.014",
+    "weapon_or_root": "M4A4",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "m4a4",
+    "native_relative_bundle": "StreamingAssets/m4a4",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 147325,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7429,
+        "class": "SkinnedMeshRenderer",
+        "size": 452,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 170
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 177
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 171
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 173
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 176
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 169
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 168
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 167
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 174
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 175
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 172
+            }
+          ]
+        },
+        "mesh": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8369,
+    "game_object": "Cube",
+    "hierarchy_path": "Kar98k/Kar98K/Cube",
+    "weapon_or_root": "Kar98k",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "kar98",
+    "native_relative_bundle": "StreamingAssets/kar98",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 73845,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7391,
+        "class": "SkinnedMeshRenderer",
+        "size": 296,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 84
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 79
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 80
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 81
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 82
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 83
+            }
+          ]
+        },
+        "mesh": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8371,
+    "game_object": "Cube.005",
+    "hierarchy_path": "Vector/Kriss Vector/Cube.005",
+    "weapon_or_root": "Vector",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "vector1",
+    "native_relative_bundle": "StreamingAssets/vector1",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 107269,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7217,
+        "class": "MeshFilter",
+        "size": 24,
+        "mesh": {
+          "file_id": 0,
+          "path_id": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      },
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7084,
+        "class": "MeshRenderer",
+        "size": 312,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 121
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 137
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 123
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 122
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 124
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 125
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 126
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 127
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 128
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 119
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 118
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 120
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 129
+            }
+          ]
+        },
+        "mesh": null
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8384,
+    "game_object": "Cylinder.003",
+    "hierarchy_path": "Awp/L115A3/Cylinder.003",
+    "weapon_or_root": "Awp",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "awp",
+    "native_relative_bundle": "StreamingAssets/awp",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 292120,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7569,
+        "class": "SkinnedMeshRenderer",
+        "size": 416,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 191
+            }
+          ]
+        },
+        "mesh": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8385,
+    "game_object": "Cube.018",
+    "hierarchy_path": "AK-109/ak109/Cube.018",
+    "weapon_or_root": "AK-109",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "ak109",
+    "native_relative_bundle": "StreamingAssets/ak109",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 89020,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7567,
+        "class": "SkinnedMeshRenderer",
+        "size": 416,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 60
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 62
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 65
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 63
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 61
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 64
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 56
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 59
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 58
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 57
+            }
+          ]
+        },
+        "mesh": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8393,
+    "game_object": "SM_Wep_Heavy_01_Scope_01",
+    "hierarchy_path": "LaserGun/laser_gun (2)/SM_Wep_Heavy_01_Scope_01",
+    "weapon_or_root": "LaserGun",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "lasergun2",
+    "native_relative_bundle": "StreamingAssets/lasergun2",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 12898,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7218,
+        "class": "MeshFilter",
+        "size": 24,
+        "mesh": {
+          "file_id": 0,
+          "path_id": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      },
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7054,
+        "class": "MeshRenderer",
+        "size": 180,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 26
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 42
+            }
+          ]
+        },
+        "mesh": null
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8402,
+    "game_object": "SM_Prop_Knife_01",
+    "hierarchy_path": "Knife/SM_Prop_Knife_01",
+    "weapon_or_root": "Knife",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "knife",
+    "native_relative_bundle": "StreamingAssets/knife",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 6219,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7192,
+        "class": "MeshFilter",
+        "size": 24,
+        "mesh": {
+          "file_id": 0,
+          "path_id": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      },
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7024,
+        "class": "MeshRenderer",
+        "size": 168,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 187
+            }
+          ]
+        },
+        "mesh": null
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8405,
+    "game_object": "Cube",
+    "hierarchy_path": "Beretta92fs/Beretta M1951/Cube",
+    "weapon_or_root": "Beretta92fs",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "beretta",
+    "native_relative_bundle": "StreamingAssets/beretta",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 74032,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7119,
+        "class": "MeshFilter",
+        "size": 24,
+        "mesh": {
+          "file_id": 0,
+          "path_id": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      },
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 6988,
+        "class": "MeshRenderer",
+        "size": 192,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 66
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 67
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 68
+            }
+          ]
+        },
+        "mesh": null
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8407,
+    "game_object": "SMOKE",
+    "hierarchy_path": "Smoke/Hands/Character_FPS_Arms_Standard_03 1/Root/Hips/Spine_01/Spine_02/Spine_03/Clavicle_R/Shoulder_R/Elbow_R/Hand_R/SMOKE",
+    "weapon_or_root": "Smoke",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "grenades/mesh/smoke",
+    "native_relative_bundle": "StreamingAssets/grenades/mesh/smoke",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 61727,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7200,
+        "class": "MeshFilter",
+        "size": 24,
+        "mesh": {
+          "file_id": 0,
+          "path_id": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      },
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 6990,
+        "class": "MeshRenderer",
+        "size": 168,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 12
+            }
+          ]
+        },
+        "mesh": null
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8412,
+    "game_object": "Cylinder",
+    "hierarchy_path": "Vector/Kriss Vector/Cylinder",
+    "weapon_or_root": "Vector",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "vector2",
+    "native_relative_bundle": "StreamingAssets/vector2",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 10324,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7166,
+        "class": "MeshFilter",
+        "size": 24,
+        "mesh": {
+          "file_id": 0,
+          "path_id": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      },
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7083,
+        "class": "MeshRenderer",
+        "size": 204,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 136
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 135
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 134
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 133
+            }
+          ]
+        },
+        "mesh": null
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8414,
+    "game_object": "GFX",
+    "hierarchy_path": "Bomb/Hands/Character_FPS_Arms_Standard_03 1/Root/Hips/Spine_01/Spine_02/Spine_03/Clavicle_R/Shoulder_R/Elbow_R/Hand_R/GFX/GFX",
+    "weapon_or_root": "Bomb",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "bomb",
+    "native_relative_bundle": "StreamingAssets/bomb",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 186667,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7203,
+        "class": "MeshFilter",
+        "size": 24,
+        "mesh": {
+          "file_id": 0,
+          "path_id": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      },
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7067,
+        "class": "MeshRenderer",
+        "size": 168,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 34
+            }
+          ]
+        },
+        "mesh": null
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8416,
+    "game_object": "Cube.023",
+    "hierarchy_path": "PKM/PKM/Cube.023",
+    "weapon_or_root": "PKM",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "pkm",
+    "native_relative_bundle": "StreamingAssets/pkm",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 284380,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7432,
+        "class": "SkinnedMeshRenderer",
+        "size": 548,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 54
+            }
+          ]
+        },
+        "mesh": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8421,
+    "game_object": "axe",
+    "hierarchy_path": "Axe/Hands/Character_FPS_Arms_Standard_03 1/Root/Hips/Spine_01/Spine_02/Spine_03/Clavicle_R/Shoulder_R/Elbow_R/Hand_R/Knife-pivot/axe",
+    "weapon_or_root": "Axe",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "axe",
+    "native_relative_bundle": "StreamingAssets/axe",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 39149,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7193,
+        "class": "MeshFilter",
+        "size": 24,
+        "mesh": {
+          "file_id": 0,
+          "path_id": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      },
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7041,
+        "class": "MeshRenderer",
+        "size": 168,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 188
+            }
+          ]
+        },
+        "mesh": null
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8422,
+    "game_object": "Cube.012",
+    "hierarchy_path": "XM1014/Benelli M4/Cube.012",
+    "weapon_or_root": "XM1014",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "xm1014",
+    "native_relative_bundle": "StreamingAssets/xm1014",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 90465,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7522,
+        "class": "SkinnedMeshRenderer",
+        "size": 392,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 31
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 31
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 28
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 31
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 30
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 29
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 31
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 29
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 29
+            }
+          ]
+        },
+        "mesh": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8425,
+    "game_object": "Cube.006",
+    "hierarchy_path": "Cz/CZ-75 SP-01/Cube.006",
+    "weapon_or_root": "Cz",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "cz",
+    "native_relative_bundle": "StreamingAssets/cz",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 52196,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7453,
+        "class": "SkinnedMeshRenderer",
+        "size": 428,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 69
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 77
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 76
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 75
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 70
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 73
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 74
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 72
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 78
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 71
+            }
+          ]
+        },
+        "mesh": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8443,
+    "game_object": "gfx",
+    "hierarchy_path": "Grenade/Hands/Character_FPS_Arms_Standard_03 1/Root/Hips/Spine_01/Spine_02/Spine_03/Clavicle_R/Shoulder_R/Elbow_R/Hand_R/SMOKE/gfx",
+    "weapon_or_root": "Grenade",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "grenades/mesh/grenade",
+    "native_relative_bundle": "StreamingAssets/grenades/mesh/grenade",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 74341,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7168,
+        "class": "MeshFilter",
+        "size": 24,
+        "mesh": {
+          "file_id": 0,
+          "path_id": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      },
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7047,
+        "class": "MeshRenderer",
+        "size": 168,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 9
+            }
+          ]
+        },
+        "mesh": null
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8444,
+    "game_object": "gfx",
+    "hierarchy_path": "Flashbang/Hands/Character_FPS_Arms_Standard_03 1/Root/Hips/Spine_01/Spine_02/Spine_03/Clavicle_R/Shoulder_R/Elbow_R/Hand_R/SMOKE/gfx",
+    "weapon_or_root": "Flashbang",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "grenades/mesh/flash",
+    "native_relative_bundle": "StreamingAssets/grenades/mesh/flash",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 85376,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7169,
+        "class": "MeshFilter",
+        "size": 24,
+        "mesh": {
+          "file_id": 0,
+          "path_id": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      },
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7048,
+        "class": "MeshRenderer",
+        "size": 168,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 8
+            }
+          ]
+        },
+        "mesh": null
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8445,
+    "game_object": "gfx",
+    "hierarchy_path": "Molotov/Hands/Character_FPS_Arms_Standard_03 1/Root/Hips/Spine_01/Spine_02/Spine_03/Clavicle_R/Shoulder_R/Elbow_R/Hand_R/SMOKE/gfx",
+    "weapon_or_root": "Molotov",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "grenades/mesh/molotov",
+    "native_relative_bundle": "StreamingAssets/grenades/mesh/molotov",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 24797,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7170,
+        "class": "MeshFilter",
+        "size": 24,
+        "mesh": {
+          "file_id": 0,
+          "path_id": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      },
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7049,
+        "class": "MeshRenderer",
+        "size": 168,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 10
+            }
+          ]
+        },
+        "mesh": null
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8446,
+    "game_object": "Cube.007",
+    "hierarchy_path": "Uzi/Mini Uzi/Cube.007",
+    "weapon_or_root": "Uzi",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "uzi",
+    "native_relative_bundle": "StreamingAssets/uzi",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 75419,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7428,
+        "class": "SkinnedMeshRenderer",
+        "size": 440,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 146
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 154
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 147
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 149
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 145
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 148
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 153
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 144
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 152
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 151
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 150
+            }
+          ]
+        },
+        "mesh": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8447,
+    "game_object": "Cylinder.002",
+    "hierarchy_path": "MP5/HK MP5SD/Cylinder.002",
+    "weapon_or_root": "MP5",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "mp5",
+    "native_relative_bundle": "StreamingAssets/mp5",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 364841,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7392,
+        "class": "SkinnedMeshRenderer",
+        "size": 404,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 193
+            }
+          ]
+        },
+        "mesh": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8454,
+    "game_object": "Cylinder.001",
+    "hierarchy_path": "FN-Scar/FN Scar H/Cylinder.001",
+    "weapon_or_root": "FN-Scar",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "scar",
+    "native_relative_bundle": "StreamingAssets/scar",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 107490,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7454,
+        "class": "SkinnedMeshRenderer",
+        "size": 404,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 190
+            }
+          ]
+        },
+        "mesh": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8457,
+    "game_object": "Cylinder.015",
+    "hierarchy_path": "Famas/Famas f1/Cylinder.015",
+    "weapon_or_root": "Famas",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "famas",
+    "native_relative_bundle": "StreamingAssets/famas",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 66142,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7502,
+        "class": "SkinnedMeshRenderer",
+        "size": 356,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 192
+            }
+          ]
+        },
+        "mesh": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8462,
+    "game_object": "Cube.004",
+    "hierarchy_path": "Thompson/Thompson/Cube.004",
+    "weapon_or_root": "Thompson",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "thompson",
+    "native_relative_bundle": "StreamingAssets/thompson",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 66955,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7473,
+        "class": "SkinnedMeshRenderer",
+        "size": 416,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 117
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 113
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 109
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 111
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 108
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 112
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 110
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 116
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 115
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 114
+            }
+          ]
+        },
+        "mesh": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8466,
+    "game_object": "laser_gun (2)",
+    "hierarchy_path": "LaserGun/laser_gun (2)",
+    "weapon_or_root": "LaserGun",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "lasergun1",
+    "native_relative_bundle": "StreamingAssets/lasergun1",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 72791,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7198,
+        "class": "MeshFilter",
+        "size": 24,
+        "mesh": {
+          "file_id": 0,
+          "path_id": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      },
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7052,
+        "class": "MeshRenderer",
+        "size": 168,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 26
+            }
+          ]
+        },
+        "mesh": null
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8467,
+    "game_object": "Cylinder.001",
+    "hierarchy_path": "Vector/Kriss Vector/Cylinder.001",
+    "weapon_or_root": "Vector",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "vector3",
+    "native_relative_bundle": "StreamingAssets/vector3",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 7639,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7154,
+        "class": "MeshFilter",
+        "size": 24,
+        "mesh": {
+          "file_id": 0,
+          "path_id": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      },
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7080,
+        "class": "MeshRenderer",
+        "size": 192,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 132
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 131
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 130
+            }
+          ]
+        },
+        "mesh": null
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8470,
+    "game_object": "Cylinder.011",
+    "hierarchy_path": "Deagle/Cylinder.011",
+    "weapon_or_root": "Deagle",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "deagle",
+    "native_relative_bundle": "StreamingAssets/deagle",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 61209,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7497,
+        "class": "SkinnedMeshRenderer",
+        "size": 368,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 24
+            }
+          ]
+        },
+        "mesh": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8471,
+    "game_object": "Cube",
+    "hierarchy_path": "Tec9/Tec9/Cube",
+    "weapon_or_root": "Tec9",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "tec9",
+    "native_relative_bundle": "StreamingAssets/tec9",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 46307,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7430,
+        "class": "SkinnedMeshRenderer",
+        "size": 368,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 107
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 101
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 102
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 100
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 106
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 104
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 105
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 103
+            }
+          ]
+        },
+        "mesh": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8478,
+    "game_object": "Cube.003",
+    "hierarchy_path": "Minigun/M134 Minigun/Cube.003",
+    "weapon_or_root": "Minigun",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "minigun",
+    "native_relative_bundle": "StreamingAssets/minigun",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 206135,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7433,
+        "class": "SkinnedMeshRenderer",
+        "size": 656,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 88
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 91
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 87
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 96
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 93
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 89
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 97
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 98
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 90
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 95
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 92
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 99
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 86
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 85
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 94
+            }
+          ]
+        },
+        "mesh": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8480,
+    "game_object": "Cylinder.018",
+    "hierarchy_path": "Revolver/S&W Model 29/Cylinder.018",
+    "weapon_or_root": "Revolver",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "revolver",
+    "native_relative_bundle": "StreamingAssets/revolver",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 178468,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7520,
+        "class": "SkinnedMeshRenderer",
+        "size": 368,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 195
+            }
+          ]
+        },
+        "mesh": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8481,
+    "game_object": "SM_Wep_FlameThrower_01",
+    "hierarchy_path": "Flamethrower/SM_Wep_FlameThrower_01",
+    "weapon_or_root": "Flamethrower",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "flamethrower",
+    "native_relative_bundle": "StreamingAssets/flamethrower",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 92998,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7123,
+        "class": "MeshFilter",
+        "size": 24,
+        "mesh": {
+          "file_id": 0,
+          "path_id": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      },
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7025,
+        "class": "MeshRenderer",
+        "size": 168,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 138
+            }
+          ]
+        },
+        "mesh": null
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8482,
+    "game_object": "Cylinder.008",
+    "hierarchy_path": "UMP45/UMP 45/Cylinder.008",
+    "weapon_or_root": "UMP45",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "ump45",
+    "native_relative_bundle": "StreamingAssets/ump45",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 77365,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7544,
+        "class": "SkinnedMeshRenderer",
+        "size": 416,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 185
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 184
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 183
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 181
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 179
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 186
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 182
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 180
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 178
+            }
+          ]
+        },
+        "mesh": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      }
+    ]
+  },
+  {
+    "file": "sharedassets0.assets",
+    "loader_path_id": 8491,
+    "game_object": "Cylinder",
+    "hierarchy_path": "P90/FN P90/Cylinder",
+    "weapon_or_root": "P90",
+    "active": true,
+    "layer": 0,
+    "myMeshName": "p90",
+    "native_relative_bundle": "StreamingAssets/p90",
+    "local_bundle_exists": true,
+    "local_bundle_bytes": 78842,
+    "components": [
+      {
+        "file": "sharedassets0.assets",
+        "path_id": 7475,
+        "class": "SkinnedMeshRenderer",
+        "size": 380,
+        "complete": true,
+        "enabled": true,
+        "materials": {
+          "Array": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 194
+            }
+          ]
+        },
+        "mesh": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "mesh_name": null,
+        "mesh_is_null": true
+      }
+    ]
+  }
+]

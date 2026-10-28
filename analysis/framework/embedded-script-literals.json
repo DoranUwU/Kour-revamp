@@ -1,0 +1,93 @@
+{
+  "scope": "Candidates only; strings are not executed.",
+  "literals": [
+    {
+      "index": 2781,
+      "value": "Cannot create a node without an owner document."
+    },
+    {
+      "index": 2845,
+      "value": "Cannot insert the node in the specified location."
+    },
+    {
+      "index": 3453,
+      "value": "DTD is prohibited in this XML document."
+    },
+    {
+      "index": 4281,
+      "value": "For security reasons DTD is prohibited in this XML document. To enable DTD processing set the DtdProcessing property on XmlReaderSettings to Parse and pass the settings into XmlReader.Create method."
+    },
+    {
+      "index": 6740,
+      "value": "Opening Payment Window..."
+    },
+    {
+      "index": 7756,
+      "value": "SendMessage"
+    },
+    {
+      "index": 8846,
+      "value": "There is an error in XML document."
+    },
+    {
+      "index": 8850,
+      "value": "There is no reader from which to load the document."
+    },
+    {
+      "index": 8856,
+      "value": "There was an error generating the XML document."
+    },
+    {
+      "index": 8984,
+      "value": "Token {0} in state {1} would result in an invalid XML document."
+    },
+    {
+      "index": 9923,
+      "value": "[ACTk] ObscuredFile: Please make sure to call UnityApiResultsHolder.InitForAsyncUsage() before using ObscuredFile or ObscuredFilePrefs from async context with ObscuredFileLocation.PersistentData LocationKind!"
+    },
+    {
+      "index": 10929,
+      "value": "auto play for poki - implementation start!"
+    },
+    {
+      "index": 11412,
+      "value": "crazygames"
+    },
+    {
+      "index": 11413,
+      "value": "crazygames.com"
+    },
+    {
+      "index": 11625,
+      "value": "dev-crazygames.com"
+    },
+    {
+      "index": 11971,
+      "value": "firebase info: \n  -loggedin: {0}\n"
+    },
+    {
+      "index": 12915,
+      "value": "m_editorWindow.Index >= m_editorWindow.Editor.CameraLayerSettings.MaxGraphicsLayers"
+    },
+    {
+      "index": 13506,
+      "value": "poki-gdb.com"
+    },
+    {
+      "index": 13507,
+      "value": "poki-gdn.com"
+    },
+    {
+      "index": 13508,
+      "value": "poki.com"
+    },
+    {
+      "index": 13934,
+      "value": "showCrazyGamesAuthPrompt"
+    },
+    {
+      "index": 14780,
+      "value": "window.__additionalDataLoaded('extra',"
+    }
+  ]
+}

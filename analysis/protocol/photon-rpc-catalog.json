@@ -1,0 +1,483 @@
+[
+  {
+    "class": "PlayerController",
+    "method": "RPCBRLand",
+    "index": 29743,
+    "parameters": [],
+    "token": "0x6000038"
+  },
+  {
+    "class": "ATV",
+    "method": "RPCExit",
+    "index": 30040,
+    "parameters": [],
+    "token": "0x6000161"
+  },
+  {
+    "class": "Health",
+    "method": "RPCTakeHealth",
+    "index": 31412,
+    "parameters": [
+      {
+        "index": 31020,
+        "name": "amount",
+        "type_index": 16969,
+        "type": "int",
+        "byref": false,
+        "attributes": 0
+      }
+    ],
+    "token": "0x60006bd"
+  },
+  {
+    "class": "Health",
+    "method": "RpcOnMaxHealthChanged",
+    "index": 31419,
+    "parameters": [
+      {
+        "index": 31027,
+        "name": "newMaxHp",
+        "type_index": 16969,
+        "type": "int",
+        "byref": false,
+        "attributes": 0
+      }
+    ],
+    "token": "0x60006c4"
+  },
+  {
+    "class": "Shooter",
+    "method": "RPCTeleportTo",
+    "index": 32984,
+    "parameters": [
+      {
+        "index": 31888,
+        "name": "position",
+        "type_index": 23006,
+        "type": "UnityEngine.Vector3",
+        "byref": false,
+        "attributes": 0
+      },
+      {
+        "index": 31889,
+        "name": "rotation",
+        "type_index": 19552,
+        "type": "UnityEngine.Quaternion",
+        "byref": false,
+        "attributes": 0
+      }
+    ],
+    "token": "0x6000ce1"
+  },
+  {
+    "class": "Shooter",
+    "method": "RPCInitiateDance",
+    "index": 32998,
+    "parameters": [
+      {
+        "index": 31906,
+        "name": "danceName",
+        "type_index": 21250,
+        "type": "string",
+        "byref": false,
+        "attributes": 0
+      }
+    ],
+    "token": "0x6000cef"
+  },
+  {
+    "class": "Shooter",
+    "method": "RPCEndOfDance",
+    "index": 32999,
+    "parameters": [],
+    "token": "0x6000cf0"
+  },
+  {
+    "class": "Shooter",
+    "method": "RPCSetAirState",
+    "index": 33000,
+    "parameters": [
+      {
+        "index": 31907,
+        "name": "isGrounded",
+        "type_index": 12881,
+        "type": "bool",
+        "byref": false,
+        "attributes": 0
+      }
+    ],
+    "token": "0x6000cf1"
+  },
+  {
+    "class": "Shooter",
+    "method": "RPCSetAnimatorBoolForEveryone",
+    "index": 33001,
+    "parameters": [
+      {
+        "index": 31908,
+        "name": "boolName",
+        "type_index": 21250,
+        "type": "string",
+        "byref": false,
+        "attributes": 0
+      },
+      {
+        "index": 31909,
+        "name": "value",
+        "type_index": 12881,
+        "type": "bool",
+        "byref": false,
+        "attributes": 0
+      }
+    ],
+    "token": "0x6000cf2"
+  },
+  {
+    "class": "Shooter",
+    "method": "RPCSetAnimatorLayerWeightForEveryone",
+    "index": 33002,
+    "parameters": [
+      {
+        "index": 31910,
+        "name": "layerIndex",
+        "type_index": 16969,
+        "type": "int",
+        "byref": false,
+        "attributes": 0
+      },
+      {
+        "index": 31911,
+        "name": "weight",
+        "type_index": 20918,
+        "type": "float",
+        "byref": false,
+        "attributes": 0
+      }
+    ],
+    "token": "0x6000cf3"
+  },
+  {
+    "class": "Shooter",
+    "method": "RPCSetCrouch",
+    "index": 33005,
+    "parameters": [
+      {
+        "index": 31917,
+        "name": "crouch",
+        "type_index": 12881,
+        "type": "bool",
+        "byref": false,
+        "attributes": 0
+      }
+    ],
+    "token": "0x6000cf6"
+  },
+  {
+    "class": "Shooter",
+    "method": "RPCDefuseBomb",
+    "index": 33014,
+    "parameters": [],
+    "token": "0x6000cff"
+  },
+  {
+    "class": "Shooter",
+    "method": "RpcOnMouseUp",
+    "index": 33015,
+    "parameters": [],
+    "token": "0x6000d00"
+  },
+  {
+    "class": "Shooter",
+    "method": "RPCExplodeBarrel",
+    "index": 33018,
+    "parameters": [
+      {
+        "index": 31922,
+        "name": "barrelId",
+        "type_index": 21250,
+        "type": "string",
+        "byref": false,
+        "attributes": 0
+      },
+      {
+        "index": 31923,
+        "name": "atTime",
+        "type_index": 14544,
+        "type": "double",
+        "byref": false,
+        "attributes": 0
+      }
+    ],
+    "token": "0x6000d03"
+  },
+  {
+    "class": "Shooter",
+    "method": "RPCForceGameEndedForAll",
+    "index": 33029,
+    "parameters": [],
+    "token": "0x6000d0e"
+  },
+  {
+    "class": "Shooter",
+    "method": "RPCShoot",
+    "index": 33031,
+    "parameters": [
+      {
+        "index": 31944,
+        "name": "ats",
+        "type_index": 11633,
+        "type": "UnityEngine.Vector3[]",
+        "byref": false,
+        "attributes": 0
+      },
+      {
+        "index": 31945,
+        "name": "hitNormals",
+        "type_index": 11633,
+        "type": "UnityEngine.Vector3[]",
+        "byref": false,
+        "attributes": 0
+      },
+      {
+        "index": 31946,
+        "name": "targetId",
+        "type_index": 16969,
+        "type": "int",
+        "byref": false,
+        "attributes": 0
+      },
+      {
+        "index": 31947,
+        "name": "damage",
+        "type_index": 16969,
+        "type": "int",
+        "byref": false,
+        "attributes": 0
+      },
+      {
+        "index": 31948,
+        "name": "hitTagNameIndex",
+        "type_index": 16969,
+        "type": "int",
+        "byref": false,
+        "attributes": 0
+      }
+    ],
+    "token": "0x6000d10"
+  },
+  {
+    "class": "Shooter",
+    "method": "RPCOnClassChanged",
+    "index": 33033,
+    "parameters": [
+      {
+        "index": 31951,
+        "name": "newClass",
+        "type_index": 16969,
+        "type": "int",
+        "byref": false,
+        "attributes": 0
+      },
+      {
+        "index": 31952,
+        "name": "skinIndex",
+        "type_index": 16969,
+        "type": "int",
+        "byref": false,
+        "attributes": 0
+      },
+      {
+        "index": 31953,
+        "name": "hatIndex",
+        "type_index": 16969,
+        "type": "int",
+        "byref": false,
+        "attributes": 0
+      }
+    ],
+    "token": "0x6000d12"
+  },
+  {
+    "class": "Shooter",
+    "method": "RPCJumpPad",
+    "index": 33037,
+    "parameters": [
+      {
+        "index": 31957,
+        "name": "jumpPadId",
+        "type_index": 16969,
+        "type": "int",
+        "byref": false,
+        "attributes": 0
+      }
+    ],
+    "token": "0x6000d16"
+  },
+  {
+    "class": "Shooter",
+    "method": "RPCSetWeapon",
+    "index": 33038,
+    "parameters": [
+      {
+        "index": 31958,
+        "name": "weaponIndex",
+        "type_index": 16969,
+        "type": "int",
+        "byref": false,
+        "attributes": 0
+      },
+      {
+        "index": 31959,
+        "name": "skinIndex",
+        "type_index": 16969,
+        "type": "int",
+        "byref": false,
+        "attributes": 0
+      }
+    ],
+    "token": "0x6000d17"
+  },
+  {
+    "class": "Shooter",
+    "method": "RPCEnsureKill",
+    "index": 33040,
+    "parameters": [
+      {
+        "index": 31961,
+        "name": "whoId",
+        "type_index": 16969,
+        "type": "int",
+        "byref": false,
+        "attributes": 0
+      }
+    ],
+    "token": "0x6000d19"
+  },
+  {
+    "class": "Shooter",
+    "method": "RPCExplosiveDamage",
+    "index": 33043,
+    "parameters": [
+      {
+        "index": 31968,
+        "name": "damage",
+        "type_index": 16969,
+        "type": "int",
+        "byref": false,
+        "attributes": 0
+      },
+      {
+        "index": 31969,
+        "name": "showFeedback",
+        "type_index": 12881,
+        "type": "bool",
+        "byref": false,
+        "attributes": 0
+      },
+      {
+        "index": 31970,
+        "name": "targetViewIDs",
+        "type_index": 11272,
+        "type": "int[]",
+        "byref": false,
+        "attributes": 0
+      }
+    ],
+    "token": "0x6000d1c"
+  },
+  {
+    "class": "Shooter",
+    "method": "RPCBarrelExplosiveDamage",
+    "index": 33044,
+    "parameters": [
+      {
+        "index": 31971,
+        "name": "damages",
+        "type_index": 11272,
+        "type": "int[]",
+        "byref": false,
+        "attributes": 0
+      },
+      {
+        "index": 31972,
+        "name": "showFeedback",
+        "type_index": 12881,
+        "type": "bool",
+        "byref": false,
+        "attributes": 0
+      },
+      {
+        "index": 31973,
+        "name": "targetViewIDs",
+        "type_index": 11272,
+        "type": "int[]",
+        "byref": false,
+        "attributes": 0
+      }
+    ],
+    "token": "0x6000d1d"
+  },
+  {
+    "class": "Shooter",
+    "method": "RPCStopDefuseBomb",
+    "index": 33046,
+    "parameters": [],
+    "token": "0x6000d1f"
+  },
+  {
+    "class": "WorldGrenade",
+    "method": "RpcExploadAt",
+    "index": 33864,
+    "parameters": [
+      {
+        "index": 32414,
+        "name": "pos",
+        "type_index": 23006,
+        "type": "UnityEngine.Vector3",
+        "byref": false,
+        "attributes": 0
+      },
+      {
+        "index": 32415,
+        "name": "normal",
+        "type_index": 23006,
+        "type": "UnityEngine.Vector3",
+        "byref": false,
+        "attributes": 0
+      }
+    ],
+    "token": "0x6001051"
+  },
+  {
+    "class": "WorldGrenade",
+    "method": "RPCExplosiveDamage",
+    "index": 33871,
+    "parameters": [
+      {
+        "index": 32427,
+        "name": "damages",
+        "type_index": 11272,
+        "type": "int[]",
+        "byref": false,
+        "attributes": 0
+      },
+      {
+        "index": 32428,
+        "name": "showFeedback",
+        "type_index": 12881,
+        "type": "bool",
+        "byref": false,
+        "attributes": 0
+      },
+      {
+        "index": 32429,
+        "name": "targetViewIDs",
+        "type_index": 11272,
+        "type": "int[]",
+        "byref": false,
+        "attributes": 0
+      }
+    ],
+    "token": "0x6001058"
+  }
+]

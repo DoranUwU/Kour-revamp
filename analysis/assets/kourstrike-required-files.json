@@ -1,0 +1,28 @@
+{
+  "map_indices": [
+    8,
+    9,
+    11
+  ],
+  "embedded_scene_evidence": {
+    "file": "globalgamemanagers",
+    "path_id": 11,
+    "class_id": 141,
+    "offset": 110096,
+    "size": 164,
+    "scenes": [
+      "Assets/Lobby.unity"
+    ],
+    "parsed_scene_table_bytes": 28,
+    "remaining_engine_settings_bytes": 136
+  },
+  "embedded_assetbundle_objects": 0,
+  "embedded_addressables_catalogues": [],
+  "status": "No supplied map scene/bundle for indices 8,9,11 was found within the fully inventoried WebData members, UnityFS nodes, Resources container, TextAssets, or audio-resource files. Only Assets/Lobby.unity is registered as a built scene.",
+  "needed": [
+    "The external Unity AssetBundle selected for map index8,9 or11 by StreamingAssetsLoader/MapURLFinder, including its scene and dependent assets.",
+    "Any companion dependency bundles, map configuration JSON, catalogue/hash/version files referenced by the selected bundle-loading branch.",
+    "For genuine online play: the original server endpoints/room availability or a separately reconstructed compatible backend; client assets alone do not contain the server."
+  ],
+  "filename_limit": "Exact external filenames/URLs are not established by serialized assets alone. Derive them from matching WASM loading code before requesting/downloading any file. No external requests were performed."
+}

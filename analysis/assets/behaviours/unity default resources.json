@@ -1,0 +1,23 @@
+[
+  {
+    "path_id": 11000,
+    "offset": 1605456,
+    "size": 8488,
+    "type_index": 7,
+    "class_id": 114,
+    "class": "MonoBehaviour",
+    "game_object": {
+      "file_id": 0,
+      "path_id": 0
+    },
+    "enabled": true,
+    "script": {
+      "file_id": 0,
+      "path_id": 12001
+    },
+    "name": "GameSkin",
+    "fields_offset": 40,
+    "fields_bytes": 8448,
+    "script_type_index": 0
+  }
+]

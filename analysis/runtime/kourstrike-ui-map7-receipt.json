@@ -1,0 +1,117 @@
+{
+  "source_url": "https://kourstrike.io/StreamingAssets/map7?v=4.24",
+  "request_method": "GET",
+  "http_status": 200,
+  "evidence_id": "ev_eba811e12d3e015b4280236acf9424243cb4f31d128acbb3ca19d1de7a54d25b",
+  "transaction_id": "request-2",
+  "body_representation": "playwright-response-body-bytes",
+  "bytes": 5611470,
+  "sha256": "f86a722b8d0936beb3010ad0e9591c439b54c557d4289ab131368cfa3e945828",
+  "body_redacted": false,
+  "unityfs": {
+    "format_version": 8,
+    "minimum_player_version": "5.x.x",
+    "unity_version": "6000.0.10f1",
+    "declared_bundle_bytes": "5611470"
+  },
+  "response_headers": {
+    "items": [
+      {
+        "name": "accept-ranges",
+        "redacted": false,
+        "value": "bytes"
+      },
+      {
+        "name": "alt-svc",
+        "redacted": false,
+        "value": "h3=\":443\"; ma=86400"
+      },
+      {
+        "name": "cache-control",
+        "redacted": false,
+        "value": "public, max-age=43200, must-revalidate"
+      },
+      {
+        "name": "cf-cache-status",
+        "redacted": false,
+        "value": "HIT"
+      },
+      {
+        "name": "cf-ray",
+        "redacted": false,
+        "value": "a50a004d0a005b6a-SJC"
+      },
+      {
+        "name": "content-length",
+        "redacted": false,
+        "value": "5611470"
+      },
+      {
+        "name": "content-type",
+        "redacted": false,
+        "value": "application/octet-stream"
+      },
+      {
+        "name": "date",
+        "redacted": false,
+        "value": "Mon, 26 Oct 2026 14:02:52 GMT"
+      },
+      {
+        "name": "etag",
+        "redacted": false,
+        "value": "\"66ffc353-559fce\""
+      },
+      {
+        "name": "expires",
+        "redacted": false,
+        "value": "Tue, 27 Oct 2026 02:01:57 GMT"
+      },
+      {
+        "name": "last-modified",
+        "redacted": false,
+        "value": "Fri, 04 Oct 2024 10:28:35 GMT"
+      },
+      {
+        "name": "nel",
+        "redacted": false,
+        "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+      },
+      {
+        "name": "priority",
+        "redacted": false,
+        "value": "u=1,i"
+      },
+      {
+        "name": "report-to",
+        "redacted": false,
+        "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=17Pf7k3MVhP3zxTd%2F%2B1NicsQxvsrvtT0bprAfzWvakJyfYNlPSVsBS9u5ntlSrfK0512YQ7uqVLLaTKAcdElUKijYWWE3YQTIyrQ1twEwZOQdi29lPr2I%2F85mSnnc70juuXDdkcX43p7TgTi\"}]}"
+      },
+      {
+        "name": "server",
+        "redacted": false,
+        "value": "cloudflare"
+      },
+      {
+        "name": "server-timing",
+        "redacted": false,
+        "value": "cfExtPri"
+      }
+    ],
+    "state": "captured"
+  },
+  "local_path": "original-preview/StreamingAssets/map7",
+  "browser_cleanup": "terminated-owned-process",
+  "limitations": [
+    "Artifact identity is unavailable for this observation.",
+    "Event sequence records provider receipt order; simultaneous browser causality is not inferred.",
+    "Network content is retained only when selected; Playwright response-body bytes are API results and are not guaranteed to match wire bytes.",
+    "Request bytes are limited to what Playwright exposes; not_exposed does not establish body absence or multipart file coverage.",
+    "Network content reads settle within 5 seconds each and the observer does not request bodies from unfinished responses.",
+    "Captured response-body bytes are the result of Playwright's Response.body() API. Playwright may satisfy that API with a credentialed follow-up load of the request URL when CDP has no body, so transaction and event links do not verify that retained bytes came from the original network transaction.",
+    "Playwright scenario events do not expose request initiator stacks; receipt order does not prove causality.",
+    "Storage values are hashed only after declared-secret redaction.",
+    "Request steps sent their declared requests through the page's own fetch with its cookies and session, following no redirects; they are REA-initiated, not user-interface activity, and header values of at least 8 characters they read from page cookies or local storage are redacted like declared secrets from records made after they were read.",
+    "Browser host platform and architecture were not observed."
+  ],
+  "compatibility": "Public launcher productVersion4.15 differs from supplied client4.24; header and successful byte capture do not establish compatible gameplay."
+}

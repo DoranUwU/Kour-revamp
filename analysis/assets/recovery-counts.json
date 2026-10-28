@@ -1,0 +1,24 @@
+{
+  "all_serialized_files": 7,
+  "all_objects": 21626,
+  "game_bundle_objects": 21539,
+  "game_objects": 5562,
+  "textures": 320,
+  "png_textures": 190,
+  "crunch_textures": 127,
+  "zero_size_textures": 3,
+  "game_textures": 283,
+  "meshes": 124,
+  "obj_meshes": 124,
+  "triangles": 35100,
+  "game_meshes": 111,
+  "audio_clips": 114,
+  "weapon_prefabs": 39,
+  "classes": 13,
+  "modes": 11,
+  "behaviour_decode": {
+    "complete-object": 3943,
+    "objects": 4049,
+    "partial-object": 106
+  }
+}

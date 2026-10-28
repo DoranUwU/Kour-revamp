@@ -1,0 +1,4353 @@
+{
+  "type_schemas": [
+    {
+      "index": 4118,
+      "name": "MapURLFinder",
+      "namespace": "",
+      "full_name": "MapURLFinder",
+      "declaring_type": -1,
+      "parent_type_index": 18528,
+      "parent": "object",
+      "parent_definition": null,
+      "byval_type_index": 17767,
+      "flags": 1048961,
+      "bitfield": 3072,
+      "token": "0x20000c6",
+      "fields": [],
+      "custom_attributes": []
+    },
+    {
+      "index": 4119,
+      "name": "MapData",
+      "namespace": "",
+      "full_name": "MapData",
+      "declaring_type": -1,
+      "parent_type_index": 18528,
+      "parent": "object",
+      "parent_definition": null,
+      "byval_type_index": 17754,
+      "flags": 1056769,
+      "bitfield": 3072,
+      "token": "0x20000c7",
+      "fields": [
+        {
+          "index": 17012,
+          "name": "mapName",
+          "declaring_type": 4119,
+          "type_index": 21255,
+          "type": "string",
+          "type_kind": 14,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x400043d",
+          "runtime_offset": 8,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17013,
+          "name": "creatorId",
+          "declaring_type": 4119,
+          "type_index": 21255,
+          "type": "string",
+          "type_kind": 14,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x400043e",
+          "runtime_offset": 12,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17014,
+          "name": "isPublic",
+          "declaring_type": 4119,
+          "type_index": 12887,
+          "type": "bool",
+          "type_kind": 2,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x400043f",
+          "runtime_offset": 16,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17015,
+          "name": "mapJsonString",
+          "declaring_type": 4119,
+          "type_index": 21255,
+          "type": "string",
+          "type_kind": 14,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x4000440",
+          "runtime_offset": 20,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        }
+      ],
+      "custom_attributes": []
+    },
+    {
+      "index": 4124,
+      "name": "MapConfig",
+      "namespace": "",
+      "full_name": "MapConfig",
+      "declaring_type": -1,
+      "parent_type_index": 18528,
+      "parent": "object",
+      "parent_definition": null,
+      "byval_type_index": 17752,
+      "flags": 1056769,
+      "bitfield": 3072,
+      "token": "0x20000cc",
+      "fields": [
+        {
+          "index": 17043,
+          "name": "token",
+          "declaring_type": 4124,
+          "type_index": 21255,
+          "type": "string",
+          "type_kind": 14,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x400045c",
+          "runtime_offset": 8,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17044,
+          "name": "mapConfig",
+          "declaring_type": 4124,
+          "type_index": 21255,
+          "type": "string",
+          "type_kind": 14,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x400045d",
+          "runtime_offset": 12,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        }
+      ],
+      "custom_attributes": []
+    },
+    {
+      "index": 4299,
+      "name": "MapBuilder",
+      "namespace": "",
+      "full_name": "MapBuilder",
+      "declaring_type": -1,
+      "parent_type_index": 18101,
+      "parent": "Photon.Pun.MonoBehaviourPunCallbacks",
+      "parent_definition": 9567,
+      "byval_type_index": 17746,
+      "flags": 1048577,
+      "bitfield": 3072,
+      "token": "0x2000176",
+      "fields": [
+        {
+          "index": 17886,
+          "name": "spawnPoints",
+          "declaring_type": 4299,
+          "type_index": 11126,
+          "type": "EditorSpawnPoint[]",
+          "type_kind": 29,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007a7",
+          "runtime_offset": 20,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17887,
+          "name": "hierarchySearchCoroutine",
+          "declaring_type": 4299,
+          "type_index": 13864,
+          "type": "UnityEngine.Coroutine",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007a8",
+          "runtime_offset": 24,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 17888,
+          "name": "KOUR_EDITOR_VERSION",
+          "declaring_type": 4299,
+          "type_index": 21270,
+          "type": "string",
+          "type_kind": 14,
+          "attributes": 32849,
+          "static": true,
+          "literal": true,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007a9",
+          "default": "1.3",
+          "runtime_offset": 0,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 17889,
+          "name": "kourEditorVersionTxt",
+          "declaring_type": 4299,
+          "type_index": 21592,
+          "type": "TMPro.TMP_Text",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007aa",
+          "runtime_offset": 28,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17890,
+          "name": "gravityIF",
+          "declaring_type": 4299,
+          "type_index": 16874,
+          "type": "UnityEngine.UI.InputField",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007ab",
+          "runtime_offset": 32,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17891,
+          "name": "groundLimitIF",
+          "declaring_type": 4299,
+          "type_index": 16874,
+          "type": "UnityEngine.UI.InputField",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007ac",
+          "runtime_offset": 36,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17892,
+          "name": "airLimitIF",
+          "declaring_type": 4299,
+          "type_index": 16874,
+          "type": "UnityEngine.UI.InputField",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007ad",
+          "runtime_offset": 40,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17893,
+          "name": "dashToggle",
+          "declaring_type": 4299,
+          "type_index": 22167,
+          "type": "UnityEngine.UI.Toggle",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007ae",
+          "runtime_offset": 44,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17894,
+          "name": "loadingFullPanel",
+          "declaring_type": 4299,
+          "type_index": 15544,
+          "type": "UnityEngine.GameObject",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007af",
+          "runtime_offset": 48,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17895,
+          "name": "forceCharacterSkinTxt",
+          "declaring_type": 4299,
+          "type_index": 21592,
+          "type": "TMPro.TMP_Text",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007b0",
+          "runtime_offset": 52,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17896,
+          "name": "settingsGameModeTxt",
+          "declaring_type": 4299,
+          "type_index": 21592,
+          "type": "TMPro.TMP_Text",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007b1",
+          "runtime_offset": 56,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17897,
+          "name": "settingsGameNameTxt",
+          "declaring_type": 4299,
+          "type_index": 16874,
+          "type": "UnityEngine.UI.InputField",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007b2",
+          "runtime_offset": 60,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17898,
+          "name": "overrideAllowedWeaponsTxt",
+          "declaring_type": 4299,
+          "type_index": 21592,
+          "type": "TMPro.TMP_Text",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007b3",
+          "runtime_offset": 64,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17899,
+          "name": "currentCopy",
+          "declaring_type": 4299,
+          "type_index": 17759,
+          "type": "MapObject",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007b4",
+          "runtime_offset": 68,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 17900,
+          "name": "isPlaytestingRn",
+          "declaring_type": 4299,
+          "type_index": 12890,
+          "type": "bool",
+          "type_kind": 2,
+          "attributes": 22,
+          "static": true,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x40007b5",
+          "runtime_offset": 0,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 17901,
+          "name": "notificationSequence",
+          "declaring_type": 4299,
+          "type_index": 20705,
+          "type": "DG.Tweening.Sequence",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007b6",
+          "runtime_offset": 72,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 17902,
+          "name": "notificationTxt",
+          "declaring_type": 4299,
+          "type_index": 21592,
+          "type": "TMPro.TMP_Text",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007b7",
+          "runtime_offset": 76,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17903,
+          "name": "notificationRectTransform",
+          "declaring_type": 4299,
+          "type_index": 19817,
+          "type": "UnityEngine.RectTransform",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007b8",
+          "runtime_offset": 80,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17904,
+          "name": "canvas",
+          "declaring_type": 4299,
+          "type_index": 19817,
+          "type": "UnityEngine.RectTransform",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007b9",
+          "runtime_offset": 84,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17905,
+          "name": "publishGamePanel",
+          "declaring_type": 4299,
+          "type_index": 19526,
+          "type": "PublishGamePanel",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007ba",
+          "runtime_offset": 88,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 17906,
+          "name": "currentMapSettings",
+          "declaring_type": 4299,
+          "type_index": 17766,
+          "type": "MapSettings",
+          "type_kind": 18,
+          "attributes": 22,
+          "static": true,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x40007bb",
+          "runtime_offset": 4,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 17907,
+          "name": "splashScreen",
+          "declaring_type": 4299,
+          "type_index": 13179,
+          "type": "UnityEngine.CanvasGroup",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007bc",
+          "runtime_offset": 92,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17908,
+          "name": "newObjectPanelTitle",
+          "declaring_type": 4299,
+          "type_index": 21592,
+          "type": "TMPro.TMP_Text",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007bd",
+          "runtime_offset": 96,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17909,
+          "name": "previewCamera",
+          "declaring_type": 4299,
+          "type_index": 13113,
+          "type": "UnityEngine.Camera",
+          "type_kind": 18,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x40007be",
+          "runtime_offset": 100,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17910,
+          "name": "previewMeshFilter",
+          "declaring_type": 4299,
+          "type_index": 17934,
+          "type": "UnityEngine.MeshFilter",
+          "type_kind": 18,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x40007bf",
+          "runtime_offset": 104,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17911,
+          "name": "renderTexture",
+          "declaring_type": 4299,
+          "type_index": 20062,
+          "type": "UnityEngine.RenderTexture",
+          "type_kind": 18,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x40007c0",
+          "runtime_offset": 108,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17912,
+          "name": "instance",
+          "declaring_type": 4299,
+          "type_index": 17748,
+          "type": "MapBuilder",
+          "type_kind": 18,
+          "attributes": 22,
+          "static": true,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x40007c1",
+          "runtime_offset": 8,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 17913,
+          "name": "inspectObjectPanel",
+          "declaring_type": 4299,
+          "type_index": 16940,
+          "type": "InspectObjectPanel",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007c2",
+          "runtime_offset": 112,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17914,
+          "name": "hierarchyButtonPrefab",
+          "declaring_type": 4299,
+          "type_index": 15863,
+          "type": "HierarchyButton",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007c3",
+          "runtime_offset": 116,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17915,
+          "name": "newObjectPanel",
+          "declaring_type": 4299,
+          "type_index": 15544,
+          "type": "UnityEngine.GameObject",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007c4",
+          "runtime_offset": 120,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17916,
+          "name": "newMapObjectButtonPrefab",
+          "declaring_type": 4299,
+          "type_index": 18431,
+          "type": "NewMapObjectButton",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007c5",
+          "runtime_offset": 124,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17917,
+          "name": "newMapObjectButtonsParent",
+          "declaring_type": 4299,
+          "type_index": 22270,
+          "type": "UnityEngine.Transform",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007c6",
+          "runtime_offset": 128,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17918,
+          "name": "hierarchyButtonsParent",
+          "declaring_type": 4299,
+          "type_index": 22270,
+          "type": "UnityEngine.Transform",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007c7",
+          "runtime_offset": 132,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17919,
+          "name": "availableMapObjectPrefabs",
+          "declaring_type": 4299,
+          "type_index": 11329,
+          "type": "MapObjectPrefab[]",
+          "type_kind": 29,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007c8",
+          "runtime_offset": 136,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17920,
+          "name": "data",
+          "declaring_type": 4299,
+          "type_index": 17751,
+          "type": "MapBuilderData",
+          "type_kind": 18,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x40007c9",
+          "runtime_offset": 140,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17921,
+          "name": "subSceneParent",
+          "declaring_type": 4299,
+          "type_index": 22272,
+          "type": "UnityEngine.Transform",
+          "type_kind": 18,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x40007ca",
+          "runtime_offset": 144,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17922,
+          "name": "defaultIcons",
+          "declaring_type": 4299,
+          "type_index": 11499,
+          "type": "UnityEngine.Sprite[]",
+          "type_kind": 29,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x40007cb",
+          "runtime_offset": 148,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17923,
+          "name": "currentInspectedObject",
+          "declaring_type": 4299,
+          "type_index": 17759,
+          "type": "MapObject",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007cc",
+          "runtime_offset": 152,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        }
+      ],
+      "custom_attributes": []
+    },
+    {
+      "index": 4302,
+      "name": "MapSettings",
+      "namespace": "",
+      "full_name": "MapSettings",
+      "declaring_type": -1,
+      "parent_type_index": 18528,
+      "parent": "object",
+      "parent_definition": null,
+      "byval_type_index": 17765,
+      "flags": 1056769,
+      "bitfield": 3072,
+      "token": "0x200017e",
+      "fields": [
+        {
+          "index": 17952,
+          "name": "gameName",
+          "declaring_type": 4302,
+          "type_index": 21255,
+          "type": "string",
+          "type_kind": 14,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x40007e9",
+          "runtime_offset": 8,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17953,
+          "name": "creatorUid",
+          "declaring_type": 4302,
+          "type_index": 21255,
+          "type": "string",
+          "type_kind": 14,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x40007ea",
+          "runtime_offset": 12,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17954,
+          "name": "gameMode",
+          "declaring_type": 4302,
+          "type_index": 16975,
+          "type": "int",
+          "type_kind": 8,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x40007eb",
+          "runtime_offset": 16,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17955,
+          "name": "groundLimit",
+          "declaring_type": 4302,
+          "type_index": 20923,
+          "type": "float",
+          "type_kind": 12,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x40007ec",
+          "runtime_offset": 20,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17956,
+          "name": "airLimit",
+          "declaring_type": 4302,
+          "type_index": 20923,
+          "type": "float",
+          "type_kind": 12,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x40007ed",
+          "runtime_offset": 24,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17957,
+          "name": "forceWeapons",
+          "declaring_type": 4302,
+          "type_index": 11276,
+          "type": "int[]",
+          "type_kind": 29,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x40007ee",
+          "runtime_offset": 28,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17958,
+          "name": "gravity",
+          "declaring_type": 4302,
+          "type_index": 20923,
+          "type": "float",
+          "type_kind": 12,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x40007ef",
+          "runtime_offset": 32,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17959,
+          "name": "allowDash",
+          "declaring_type": 4302,
+          "type_index": 12887,
+          "type": "bool",
+          "type_kind": 2,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x40007f0",
+          "runtime_offset": 36,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17960,
+          "name": "forceSkin",
+          "declaring_type": 4302,
+          "type_index": 16975,
+          "type": "int",
+          "type_kind": 8,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x40007f1",
+          "runtime_offset": 40,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17961,
+          "name": "spawnPoints",
+          "declaring_type": 4302,
+          "type_index": 11637,
+          "type": "UnityEngine.Vector3[]",
+          "type_kind": 29,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x40007f2",
+          "runtime_offset": 44,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        }
+      ],
+      "custom_attributes": []
+    },
+    {
+      "index": 4303,
+      "name": "MapBuilderData",
+      "namespace": "",
+      "full_name": "MapBuilderData",
+      "declaring_type": -1,
+      "parent_type_index": 20595,
+      "parent": "UnityEngine.ScriptableObject",
+      "parent_definition": 6702,
+      "byval_type_index": 17749,
+      "flags": 1048577,
+      "bitfield": 3072,
+      "token": "0x200017f",
+      "fields": [
+        {
+          "index": 17962,
+          "name": "meshList",
+          "declaring_type": 4303,
+          "type_index": 11357,
+          "type": "UnityEngine.Mesh[]",
+          "type_kind": 29,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x40007f3",
+          "runtime_offset": 12,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17963,
+          "name": "textureList",
+          "declaring_type": 4303,
+          "type_index": 11581,
+          "type": "UnityEngine.Texture2D[]",
+          "type_kind": 29,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x40007f4",
+          "runtime_offset": 16,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17964,
+          "name": "shaderList",
+          "declaring_type": 4303,
+          "type_index": 11340,
+          "type": "UnityEngine.Material[]",
+          "type_kind": 29,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x40007f5",
+          "runtime_offset": 20,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        }
+      ],
+      "custom_attributes": [
+        {
+          "type": "UnityEngine.CreateAssetMenuAttribute",
+          "constructor_method": 48341
+        }
+      ]
+    },
+    {
+      "index": 4319,
+      "name": "MapInfo",
+      "namespace": "",
+      "full_name": "MapInfo",
+      "declaring_type": -1,
+      "parent_type_index": 18093,
+      "parent": "UnityEngine.MonoBehaviour",
+      "parent_definition": 6696,
+      "byval_type_index": 17755,
+      "flags": 1048577,
+      "bitfield": 3080,
+      "token": "0x2000180",
+      "fields": [
+        {
+          "index": 17965,
+          "name": "GOsecrets",
+          "declaring_type": 4319,
+          "type_index": 11186,
+          "type": "UnityEngine.GameObject[]",
+          "type_kind": 29,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x40007f6",
+          "runtime_offset": 16,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17966,
+          "name": "sharedRoomDiscord",
+          "declaring_type": 4319,
+          "type_index": 12888,
+          "type": "bool",
+          "type_kind": 2,
+          "attributes": 17,
+          "static": true,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007f7",
+          "runtime_offset": 0,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 17967,
+          "name": "lastLeaveTime",
+          "declaring_type": 4319,
+          "type_index": 20927,
+          "type": "float",
+          "type_kind": 12,
+          "attributes": 22,
+          "static": true,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x40007f8",
+          "runtime_offset": 4,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 17968,
+          "name": "disableForParkour",
+          "declaring_type": 4319,
+          "type_index": 11185,
+          "type": "UnityEngine.GameObject[]",
+          "type_kind": 29,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007f9",
+          "runtime_offset": 20,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17969,
+          "name": "customSpawnIndex",
+          "declaring_type": 4319,
+          "type_index": 16975,
+          "type": "int",
+          "type_kind": 8,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x40007fa",
+          "runtime_offset": 24,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17970,
+          "name": "midgameRewards",
+          "declaring_type": 4319,
+          "type_index": 11365,
+          "type": "MidgameReward[]",
+          "type_kind": 29,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007fb",
+          "runtime_offset": 28,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17971,
+          "name": "pressYToGetSkinPanel",
+          "declaring_type": 4319,
+          "type_index": 19290,
+          "type": "PressYToGetSkinPanel",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007fc",
+          "runtime_offset": 32,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17972,
+          "name": "canvasScalers",
+          "declaring_type": 4319,
+          "type_index": 11045,
+          "type": "UnityEngine.UI.CanvasScaler[]",
+          "type_kind": 29,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007fd",
+          "runtime_offset": 36,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17973,
+          "name": "friendCountTxt",
+          "declaring_type": 4319,
+          "type_index": 21592,
+          "type": "TMPro.TMP_Text",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007fe",
+          "runtime_offset": 40,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17974,
+          "name": "yourPlaceTxtGo",
+          "declaring_type": 4319,
+          "type_index": 15544,
+          "type": "UnityEngine.GameObject",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x40007ff",
+          "runtime_offset": 44,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17975,
+          "name": "missionNotification",
+          "declaring_type": 4319,
+          "type_index": 18050,
+          "type": "MissionNotification",
+          "type_kind": 18,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x4000800",
+          "runtime_offset": 48,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17976,
+          "name": "newMatchButton",
+          "declaring_type": 4319,
+          "type_index": 15544,
+          "type": "UnityEngine.GameObject",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000801",
+          "runtime_offset": 52,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17977,
+          "name": "roomNameStaticIF",
+          "declaring_type": 4319,
+          "type_index": 21547,
+          "type": "TMPro.TMP_InputField",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000802",
+          "runtime_offset": 56,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17978,
+          "name": "roomLinkStaticIF",
+          "declaring_type": 4319,
+          "type_index": 21547,
+          "type": "TMPro.TMP_InputField",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000803",
+          "runtime_offset": 60,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17979,
+          "name": "invitePopup",
+          "declaring_type": 4319,
+          "type_index": 19216,
+          "type": "Popup",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000804",
+          "runtime_offset": 64,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17980,
+          "name": "teamAddTxts",
+          "declaring_type": 4319,
+          "type_index": 11554,
+          "type": "TMPro.TMP_Text[]",
+          "type_kind": 29,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000805",
+          "runtime_offset": 68,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17981,
+          "name": "youImgs",
+          "declaring_type": 4319,
+          "type_index": 11185,
+          "type": "UnityEngine.GameObject[]",
+          "type_kind": 29,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000806",
+          "runtime_offset": 72,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17982,
+          "name": "currentTeamDesign",
+          "declaring_type": 4319,
+          "type_index": 21724,
+          "type": "TeamSelectDesign",
+          "type_kind": 18,
+          "attributes": 22,
+          "static": true,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x4000807",
+          "runtime_offset": 8,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 17983,
+          "name": "teamBackgrounds",
+          "declaring_type": 4319,
+          "type_index": 11245,
+          "type": "UnityEngine.UI.Image[]",
+          "type_kind": 29,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000808",
+          "runtime_offset": 76,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17984,
+          "name": "teamImages",
+          "declaring_type": 4319,
+          "type_index": 11245,
+          "type": "UnityEngine.UI.Image[]",
+          "type_kind": 29,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000809",
+          "runtime_offset": 80,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17985,
+          "name": "hardpointObjectiveGOs",
+          "declaring_type": 4319,
+          "type_index": 11209,
+          "type": "HardpointArea[]",
+          "type_kind": 29,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x400080a",
+          "runtime_offset": 84,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17986,
+          "name": "sscc",
+          "declaring_type": 4319,
+          "type_index": 20467,
+          "type": "ScreenSpaceCavityCurvature.SSCC",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x400080b",
+          "runtime_offset": 88,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17987,
+          "name": "gunGameTopPanel",
+          "declaring_type": 4319,
+          "type_index": 15736,
+          "type": "GunGameTopPanel",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x400080c",
+          "runtime_offset": 92,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17988,
+          "name": "chickenExplosionYellow",
+          "declaring_type": 4319,
+          "type_index": 12882,
+          "type": "bool",
+          "type_kind": 2,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x400080d",
+          "runtime_offset": 96,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17989,
+          "name": "classSelectButtonLock",
+          "declaring_type": 4319,
+          "type_index": 15544,
+          "type": "UnityEngine.GameObject",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x400080e",
+          "runtime_offset": 100,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17990,
+          "name": "defaultChickMat",
+          "declaring_type": 4319,
+          "type_index": 17834,
+          "type": "UnityEngine.Material",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x400080f",
+          "runtime_offset": 104,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17991,
+          "name": "worldHitmarks",
+          "declaring_type": 4319,
+          "type_index": 11669,
+          "type": "WorldHitmark[]",
+          "type_kind": 29,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x4000810",
+          "runtime_offset": 108,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17992,
+          "name": "missionSlots",
+          "declaring_type": 4319,
+          "type_index": 11366,
+          "type": "MissionSlot[]",
+          "type_kind": 29,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000811",
+          "runtime_offset": 112,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17993,
+          "name": "hideForPoki",
+          "declaring_type": 4319,
+          "type_index": 11185,
+          "type": "UnityEngine.GameObject[]",
+          "type_kind": 29,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000812",
+          "runtime_offset": 116,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17994,
+          "name": "hideForCrazyGames",
+          "declaring_type": 4319,
+          "type_index": 11185,
+          "type": "UnityEngine.GameObject[]",
+          "type_kind": 29,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000813",
+          "runtime_offset": 120,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17995,
+          "name": "hideForAndroidAndIOS",
+          "declaring_type": 4319,
+          "type_index": 11185,
+          "type": "UnityEngine.GameObject[]",
+          "type_kind": 29,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000814",
+          "runtime_offset": 124,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17996,
+          "name": "hideForMobileWeb",
+          "declaring_type": 4319,
+          "type_index": 11185,
+          "type": "UnityEngine.GameObject[]",
+          "type_kind": 29,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000815",
+          "runtime_offset": 128,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17997,
+          "name": "chatPanel",
+          "declaring_type": 4319,
+          "type_index": 22270,
+          "type": "UnityEngine.Transform",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000816",
+          "runtime_offset": 132,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17998,
+          "name": "loginBtn",
+          "declaring_type": 4319,
+          "type_index": 15544,
+          "type": "UnityEngine.GameObject",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000817",
+          "runtime_offset": 136,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 17999,
+          "name": "spectateToggle",
+          "declaring_type": 4319,
+          "type_index": 22167,
+          "type": "UnityEngine.UI.Toggle",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000818",
+          "runtime_offset": 140,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18000,
+          "name": "showIfLoggedIn",
+          "declaring_type": 4319,
+          "type_index": 11185,
+          "type": "UnityEngine.GameObject[]",
+          "type_kind": 29,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000819",
+          "runtime_offset": 144,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18001,
+          "name": "profileImage",
+          "declaring_type": 4319,
+          "type_index": 16694,
+          "type": "UnityEngine.UI.Image",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x400081a",
+          "runtime_offset": 148,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18002,
+          "name": "profileBackgroundImage",
+          "declaring_type": 4319,
+          "type_index": 16694,
+          "type": "UnityEngine.UI.Image",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x400081b",
+          "runtime_offset": 152,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18003,
+          "name": "mainMenuUsernameTxt",
+          "declaring_type": 4319,
+          "type_index": 21592,
+          "type": "TMPro.TMP_Text",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x400081c",
+          "runtime_offset": 156,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18004,
+          "name": "playerRT",
+          "declaring_type": 4319,
+          "type_index": 20060,
+          "type": "UnityEngine.RenderTexture",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x400081d",
+          "runtime_offset": 160,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18005,
+          "name": "lobbyRenderCamera",
+          "declaring_type": 4319,
+          "type_index": 13110,
+          "type": "UnityEngine.Camera",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x400081e",
+          "runtime_offset": 164,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18006,
+          "name": "leavePanel",
+          "declaring_type": 4319,
+          "type_index": 19216,
+          "type": "Popup",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x400081f",
+          "runtime_offset": 168,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18007,
+          "name": "leavePanelTopText",
+          "declaring_type": 4319,
+          "type_index": 21592,
+          "type": "TMPro.TMP_Text",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000820",
+          "runtime_offset": 172,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18008,
+          "name": "lobbyRequestWindow",
+          "declaring_type": 4319,
+          "type_index": 21258,
+          "type": "string",
+          "type_kind": 14,
+          "attributes": 22,
+          "static": true,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x4000821",
+          "runtime_offset": 12,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 18009,
+          "name": "enableForTeams",
+          "declaring_type": 4319,
+          "type_index": 11185,
+          "type": "UnityEngine.GameObject[]",
+          "type_kind": 29,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000822",
+          "runtime_offset": 176,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18010,
+          "name": "teamTxts",
+          "declaring_type": 4319,
+          "type_index": 11554,
+          "type": "TMPro.TMP_Text[]",
+          "type_kind": 29,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000823",
+          "runtime_offset": 180,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18011,
+          "name": "missionPanel",
+          "declaring_type": 4319,
+          "type_index": 18055,
+          "type": "MissionsPanel",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000824",
+          "runtime_offset": 184,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 18012,
+          "name": "loginPanel",
+          "declaring_type": 4319,
+          "type_index": 17685,
+          "type": "LoginPanel",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000825",
+          "runtime_offset": 188,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 18013,
+          "name": "profilePanel",
+          "declaring_type": 4319,
+          "type_index": 19382,
+          "type": "ProfilePanel",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000826",
+          "runtime_offset": 192,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 18014,
+          "name": "lobbyPlayer",
+          "declaring_type": 4319,
+          "type_index": 17615,
+          "type": "LobbyPlayer",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000827",
+          "runtime_offset": 196,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18015,
+          "name": "inviteTxt",
+          "declaring_type": 4319,
+          "type_index": 21592,
+          "type": "TMPro.TMP_Text",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000828",
+          "runtime_offset": 200,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18016,
+          "name": "coinTxts",
+          "declaring_type": 4319,
+          "type_index": 11554,
+          "type": "TMPro.TMP_Text[]",
+          "type_kind": 29,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000829",
+          "runtime_offset": 204,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18017,
+          "name": "usernameTxt",
+          "declaring_type": 4319,
+          "type_index": 21592,
+          "type": "TMPro.TMP_Text",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x400082a",
+          "runtime_offset": 208,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18018,
+          "name": "lvlTxt",
+          "declaring_type": 4319,
+          "type_index": 21592,
+          "type": "TMPro.TMP_Text",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x400082b",
+          "runtime_offset": 212,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18019,
+          "name": "botPrefab",
+          "declaring_type": 4319,
+          "type_index": 17294,
+          "type": "KourBot",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x400082c",
+          "runtime_offset": 216,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18020,
+          "name": "chickenPrefab",
+          "declaring_type": 4319,
+          "type_index": 13317,
+          "type": "ChickenController",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x400082d",
+          "runtime_offset": 220,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18021,
+          "name": "chickenLines",
+          "declaring_type": 4319,
+          "type_index": 11068,
+          "type": "ChickenLine[]",
+          "type_kind": 29,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x400082e",
+          "runtime_offset": 224,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18022,
+          "name": "botLines",
+          "declaring_type": 4319,
+          "type_index": 11068,
+          "type": "ChickenLine[]",
+          "type_kind": 29,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x400082f",
+          "runtime_offset": 228,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18023,
+          "name": "victoryPanel",
+          "declaring_type": 4319,
+          "type_index": 15544,
+          "type": "UnityEngine.GameObject",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000830",
+          "runtime_offset": 232,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18024,
+          "name": "defeatPanel",
+          "declaring_type": 4319,
+          "type_index": 15544,
+          "type": "UnityEngine.GameObject",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000831",
+          "runtime_offset": 236,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18025,
+          "name": "fpsTxt",
+          "declaring_type": 4319,
+          "type_index": 21592,
+          "type": "TMPro.TMP_Text",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000832",
+          "runtime_offset": 240,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18026,
+          "name": "currentClassTxt",
+          "declaring_type": 4319,
+          "type_index": 21592,
+          "type": "TMPro.TMP_Text",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000833",
+          "runtime_offset": 244,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18027,
+          "name": "currentClassImg",
+          "declaring_type": 4319,
+          "type_index": 16694,
+          "type": "UnityEngine.UI.Image",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000834",
+          "runtime_offset": 248,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18028,
+          "name": "instance",
+          "declaring_type": 4319,
+          "type_index": 17757,
+          "type": "MapInfo",
+          "type_kind": 18,
+          "attributes": 22,
+          "static": true,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x4000835",
+          "runtime_offset": 16,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 18029,
+          "name": "spawnPoints",
+          "declaring_type": 4319,
+          "type_index": 11590,
+          "type": "UnityEngine.Transform[]",
+          "type_kind": 29,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x4000836",
+          "runtime_offset": 252,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18030,
+          "name": "defaultCamera",
+          "declaring_type": 4319,
+          "type_index": 13113,
+          "type": "UnityEngine.Camera",
+          "type_kind": 18,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x4000837",
+          "runtime_offset": 256,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18031,
+          "name": "gameEndedPanelPrefab",
+          "declaring_type": 4319,
+          "type_index": 15527,
+          "type": "GameEndedPanel",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000838",
+          "runtime_offset": 260,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18032,
+          "name": "priorityCanvas",
+          "declaring_type": 4319,
+          "type_index": 19817,
+          "type": "UnityEngine.RectTransform",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000839",
+          "runtime_offset": 264,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18033,
+          "name": "teamSelectPanelPrefab",
+          "declaring_type": 4319,
+          "type_index": 21726,
+          "type": "TeamSelectPanel",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x400083a",
+          "runtime_offset": 268,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18034,
+          "name": "gamePausedPanel",
+          "declaring_type": 4319,
+          "type_index": 15547,
+          "type": "UnityEngine.GameObject",
+          "type_kind": 18,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x400083b",
+          "runtime_offset": 272,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18035,
+          "name": "resumeGameTxt",
+          "declaring_type": 4319,
+          "type_index": 21592,
+          "type": "TMPro.TMP_Text",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x400083c",
+          "runtime_offset": 276,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18036,
+          "name": "timerTxt",
+          "declaring_type": 4319,
+          "type_index": 21592,
+          "type": "TMPro.TMP_Text",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x400083d",
+          "runtime_offset": 280,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.SerializeField",
+              "constructor_method": 48765
+            }
+          ],
+          "serialize_field": true,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18037,
+          "name": "lastEscapeTime",
+          "declaring_type": 4319,
+          "type_index": 20919,
+          "type": "float",
+          "type_kind": 12,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x400083e",
+          "runtime_offset": 284,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 18038,
+          "name": "START_TIME_KEY",
+          "declaring_type": 4319,
+          "type_index": 21273,
+          "type": "string",
+          "type_kind": 14,
+          "attributes": 32854,
+          "static": true,
+          "literal": true,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x400083f",
+          "default": "C5",
+          "runtime_offset": 0,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 18039,
+          "name": "gamePhotonStartTime",
+          "declaring_type": 4319,
+          "type_index": 14547,
+          "type": "double",
+          "type_kind": 13,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x4000840",
+          "runtime_offset": 288,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18040,
+          "name": "matchTimeInSeconds",
+          "declaring_type": 4319,
+          "type_index": 16970,
+          "type": "int",
+          "type_kind": 8,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000841",
+          "runtime_offset": 296,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 18041,
+          "name": "isKourStrike",
+          "declaring_type": 4319,
+          "type_index": 12890,
+          "type": "bool",
+          "type_kind": 2,
+          "attributes": 22,
+          "static": true,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x4000842",
+          "runtime_offset": 20,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 18042,
+          "name": "parkourGameFinished",
+          "declaring_type": 4319,
+          "type_index": 12890,
+          "type": "bool",
+          "type_kind": 2,
+          "attributes": 22,
+          "static": true,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x4000843",
+          "runtime_offset": 21,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 18043,
+          "name": "parkourTime",
+          "declaring_type": 4319,
+          "type_index": 14545,
+          "type": "double",
+          "type_kind": 13,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000844",
+          "runtime_offset": 304,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 18044,
+          "name": "lastGamePausedPanelActive",
+          "declaring_type": 4319,
+          "type_index": 12882,
+          "type": "bool",
+          "type_kind": 2,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000845",
+          "runtime_offset": 312,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 18045,
+          "name": "OnGameSceneLoad",
+          "declaring_type": 4319,
+          "type_index": 2468,
+          "type": "System.Action<bool>",
+          "type_kind": 21,
+          "attributes": 17,
+          "static": true,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000846",
+          "runtime_offset": 24,
+          "custom_attributes": [
+            {
+              "type": "System.Runtime.CompilerServices.CompilerGeneratedAttribute",
+              "constructor_method": 8545
+            }
+          ],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 18046,
+          "name": "TIMER_TIMEOUT",
+          "declaring_type": 4319,
+          "type_index": 20937,
+          "type": "float",
+          "type_kind": 12,
+          "attributes": 32849,
+          "static": true,
+          "literal": true,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000847",
+          "default": 100,
+          "runtime_offset": 0,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 18047,
+          "name": "matchEnded",
+          "declaring_type": 4319,
+          "type_index": 12887,
+          "type": "bool",
+          "type_kind": 2,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x4000848",
+          "runtime_offset": 313,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18048,
+          "name": "lastKnownTimerInSeconds",
+          "declaring_type": 4319,
+          "type_index": 14547,
+          "type": "double",
+          "type_kind": 13,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x4000849",
+          "runtime_offset": 320,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.HideInInspector",
+              "constructor_method": 48344
+            }
+          ],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18049,
+          "name": "currentGameEndedPanel",
+          "declaring_type": 4319,
+          "type_index": 15527,
+          "type": "GameEndedPanel",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x400084a",
+          "runtime_offset": 328,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 18050,
+          "name": "waitingForSpawn",
+          "declaring_type": 4319,
+          "type_index": 12882,
+          "type": "bool",
+          "type_kind": 2,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x400084b",
+          "runtime_offset": 332,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 18051,
+          "name": "forceResumeOnJoinTeam",
+          "declaring_type": 4319,
+          "type_index": 12882,
+          "type": "bool",
+          "type_kind": 2,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x400084c",
+          "runtime_offset": 333,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 18052,
+          "name": "canvas",
+          "declaring_type": 4319,
+          "type_index": 19819,
+          "type": "UnityEngine.RectTransform",
+          "type_kind": 18,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x400084d",
+          "runtime_offset": 336,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18053,
+          "name": "settingsPanel",
+          "declaring_type": 4319,
+          "type_index": 19216,
+          "type": "Popup",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x400084e",
+          "runtime_offset": 340,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 18054,
+          "name": "leaveButtonWasPressed",
+          "declaring_type": 4319,
+          "type_index": 12887,
+          "type": "bool",
+          "type_kind": 2,
+          "attributes": 6,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x400084f",
+          "runtime_offset": 344,
+          "custom_attributes": [
+            {
+              "type": "UnityEngine.HideInInspector",
+              "constructor_method": 48344
+            }
+          ],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": true
+        },
+        {
+          "index": 18055,
+          "name": "TEAM_1_TOTAL_SCORE_KEY",
+          "declaring_type": 4319,
+          "type_index": 21273,
+          "type": "string",
+          "type_kind": 14,
+          "attributes": 32854,
+          "static": true,
+          "literal": true,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x4000850",
+          "default": "T1S",
+          "runtime_offset": 0,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 18056,
+          "name": "TEAM_2_TOTAL_SCORE_KEY",
+          "declaring_type": 4319,
+          "type_index": 21273,
+          "type": "string",
+          "type_kind": 14,
+          "attributes": 32854,
+          "static": true,
+          "literal": true,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x4000851",
+          "default": "T2S",
+          "runtime_offset": 0,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 18057,
+          "name": "TEAM_3_TOTAL_SCORE_KEY",
+          "declaring_type": 4319,
+          "type_index": 21273,
+          "type": "string",
+          "type_kind": 14,
+          "attributes": 32854,
+          "static": true,
+          "literal": true,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x4000852",
+          "default": "T3S",
+          "runtime_offset": 0,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 18058,
+          "name": "TEAM_4_TOTAL_SCORE_KEY",
+          "declaring_type": 4319,
+          "type_index": 21273,
+          "type": "string",
+          "type_kind": 14,
+          "attributes": 32854,
+          "static": true,
+          "literal": true,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x4000853",
+          "default": "T4S",
+          "runtime_offset": 0,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 18059,
+          "name": "previousTeam0Score",
+          "declaring_type": 4319,
+          "type_index": 16970,
+          "type": "int",
+          "type_kind": 8,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000854",
+          "runtime_offset": 348,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 18060,
+          "name": "previousTeam1Score",
+          "declaring_type": 4319,
+          "type_index": 16970,
+          "type": "int",
+          "type_kind": 8,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000855",
+          "runtime_offset": 352,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        }
+      ],
+      "custom_attributes": []
+    },
+    {
+      "index": 4546,
+      "name": "StreamingAssetsLoader",
+      "namespace": "",
+      "full_name": "StreamingAssetsLoader",
+      "declaring_type": -1,
+      "parent_type_index": 18093,
+      "parent": "UnityEngine.MonoBehaviour",
+      "parent_definition": 6696,
+      "byval_type_index": 21239,
+      "flags": 1048577,
+      "bitfield": 3072,
+      "token": "0x200026c",
+      "fields": [
+        {
+          "index": 19539,
+          "name": "mobileWebPreloadMap",
+          "declaring_type": 4546,
+          "type_index": 21273,
+          "type": "string",
+          "type_kind": 14,
+          "attributes": 32854,
+          "static": true,
+          "literal": true,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x4000e1c",
+          "default": "map2mobile",
+          "runtime_offset": 0,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 19540,
+          "name": "instance",
+          "declaring_type": 4546,
+          "type_index": 21241,
+          "type": "StreamingAssetsLoader",
+          "type_kind": 18,
+          "attributes": 22,
+          "static": true,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "public",
+          "token": "0x4000e1d",
+          "runtime_offset": 0,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 19541,
+          "name": "isSubscribedOnGameSceneLoad",
+          "declaring_type": 4546,
+          "type_index": 12888,
+          "type": "bool",
+          "type_kind": 2,
+          "attributes": 17,
+          "static": true,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000e1e",
+          "runtime_offset": 4,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        },
+        {
+          "index": 19542,
+          "name": "lastMapAssetBundle",
+          "declaring_type": 4546,
+          "type_index": 12345,
+          "type": "UnityEngine.AssetBundle",
+          "type_kind": 18,
+          "attributes": 1,
+          "static": false,
+          "literal": false,
+          "not_serialized": false,
+          "visibility": "private",
+          "token": "0x4000e1f",
+          "runtime_offset": 16,
+          "custom_attributes": [],
+          "serialize_field": false,
+          "serialize_reference": false,
+          "serialization_candidate": false
+        }
+      ],
+      "custom_attributes": []
+    }
+  ],
+  "script_instances": [
+    {
+      "file": "level0",
+      "path_id": 3153,
+      "script": "StreamingAssetsLoader",
+      "name": "",
+      "game_object": "MainManager",
+      "values": {}
+    }
+  ],
+  "map_named_resources": [],
+  "map_named_objects": [
+    {
+      "file": "resources.assets",
+      "path_id": 468,
+      "class": "GameObject",
+      "name": "KourstrikeDeadCamera"
+    },
+    {
+      "file": "resources.assets",
+      "path_id": 567,
+      "class": "GameObject",
+      "name": "KourstrikeBackInCanvas"
+    },
+    {
+      "file": "resources.assets",
+      "path_id": 1326,
+      "class": "GameObject",
+      "name": "OffsetKourStrike"
+    },
+    {
+      "file": "sharedassets0.assets",
+      "path_id": 7765,
+      "class": "MonoBehaviour",
+      "name": "ALWAYSKOURSTRIKE"
+    },
+    {
+      "file": "sharedassets0.assets",
+      "path_id": 7771,
+      "class": "MonoBehaviour",
+      "name": "Map3Style"
+    },
+    {
+      "file": "sharedassets0.assets",
+      "path_id": 7776,
+      "class": "MonoBehaviour",
+      "name": "map15"
+    },
+    {
+      "file": "sharedassets0.assets",
+      "path_id": 7777,
+      "class": "MonoBehaviour",
+      "name": "map5 1"
+    },
+    {
+      "file": "sharedassets0.assets",
+      "path_id": 7778,
+      "class": "MonoBehaviour",
+      "name": "map5 2"
+    },
+    {
+      "file": "sharedassets0.assets",
+      "path_id": 7779,
+      "class": "MonoBehaviour",
+      "name": "map5"
+    }
+  ],
+  "bundle_nodes": [
+    {
+      "offset": 0,
+      "size": 487636,
+      "flags": 4,
+      "name": "globalgamemanagers",
+      "sha256": "b5298e7091e108916e9e8aab132c8e69d8085a9e2c9996d305db29de36fbdd21"
+    },
+    {
+      "offset": 487636,
+      "size": 173648,
+      "flags": 4,
+      "name": "Resources/unity_builtin_extra",
+      "sha256": "a27dc3988e4232fb3677b832cfd00cbbd9b8be36e53ecba01637daded762da40"
+    },
+    {
+      "offset": 661284,
+      "size": 288660,
+      "flags": 4,
+      "name": "globalgamemanagers.assets",
+      "sha256": "8c3571cbba08cb10079ff56818c3fffab25548d6d6c1ac1f5a945613b4a547f2"
+    },
+    {
+      "offset": 949944,
+      "size": 9342280,
+      "flags": 4,
+      "name": "sharedassets0.assets",
+      "sha256": "bd9b053298e5d7db7cee952f4a6471f8566cb3d43aa831b6f805101499d6ac8f"
+    },
+    {
+      "offset": 10292224,
+      "size": 484708,
+      "flags": 4,
+      "name": "level0",
+      "sha256": "206cd64ac0b60f1bcf68801f55a343dae1cb3f473b0b48179f3ea493c6acefa6"
+    },
+    {
+      "offset": 10776932,
+      "size": 3459044,
+      "flags": 4,
+      "name": "resources.assets",
+      "sha256": "e87ef7dbc3772b8eb7c651fca2dc5ef59d35c5ad9e6f8cf26a1f46424e371146"
+    }
+  ],
+  "archive_members": [
+    {
+      "name": "RuntimeInitializeOnLoads.json",
+      "offset": 304,
+      "size": 2745
+    },
+    {
+      "name": "ScriptingAssemblies.json",
+      "offset": 3049,
+      "size": 4016
+    },
+    {
+      "name": "data.unity3d",
+      "offset": 7065,
+      "size": 5197026
+    },
+    {
+      "name": "resources.resource",
+      "offset": 5204091,
+      "size": 78220
+    },
+    {
+      "name": "sharedassets0.resource",
+      "offset": 5282311,
+      "size": 4937540
+    },
+    {
+      "name": "boot.config",
+      "offset": 10219851,
+      "size": 165
+    },
+    {
+      "name": "Il2CppData/Metadata/global-metadata.dat",
+      "offset": 10220016,
+      "size": 9740008
+    },
+    {
+      "name": "Resources/unity default resources",
+      "offset": 19960024,
+      "size": 1627572
+    }
+  ],
+  "text_assets": [
+    {
+      "file": "resources.assets",
+      "path_id": 125,
+      "name": "PerformanceTestRunInfo",
+      "size": 2444,
+      "export": "text/resources.assets_125_PerformanceTestRunInfo.txt"
+    },
+    {
+      "file": "resources.assets",
+      "path_id": 126,
+      "name": "PerformanceTestRunSettings",
+      "size": 60,
+      "export": "text/resources.assets_126_PerformanceTestRunSettings.txt"
+    },
+    {
+      "file": "resources.assets",
+      "path_id": 127,
+      "name": "LineBreaking Leading Characters",
+      "size": 136,
+      "export": "text/resources.assets_127_LineBreaking_Leading_Characters.txt"
+    },
+    {
+      "file": "resources.assets",
+      "path_id": 128,
+      "name": "LineBreaking Following Characters",
+      "size": 316,
+      "export": "text/resources.assets_128_LineBreaking_Following_Characters.txt"
+    }
+  ],
+  "resource_file_coverage": [
+    {
+      "file": "resources.resource",
+      "bytes": 78220,
+      "audio_slices": 9,
+      "audio_bytes": 78135,
+      "gap_bytes": 85,
+      "gap_count": 8,
+      "all_gaps_zero": true,
+      "gaps": [
+        {
+          "offset": 6098,
+          "size": 14,
+          "all_zero": true
+        },
+        {
+          "offset": 19449,
+          "size": 7,
+          "all_zero": true
+        },
+        {
+          "offset": 34210,
+          "size": 14,
+          "all_zero": true
+        },
+        {
+          "offset": 42629,
+          "size": 11,
+          "all_zero": true
+        },
+        {
+          "offset": 47682,
+          "size": 14,
+          "all_zero": true
+        },
+        {
+          "offset": 50472,
+          "size": 8,
+          "all_zero": true
+        },
+        {
+          "offset": 67621,
+          "size": 11,
+          "all_zero": true
+        },
+        {
+          "offset": 73962,
+          "size": 6,
+          "all_zero": true
+        }
+      ]
+    },
+    {
+      "file": "sharedassets0.resource",
+      "bytes": 4937540,
+      "audio_slices": 105,
+      "audio_bytes": 4936661,
+      "gap_bytes": 879,
+      "gap_count": 100,
+      "all_gaps_zero": true,
+      "gaps": [
+        {
+          "offset": 5969,
+          "size": 15,
+          "all_zero": true
+        },
+        {
+          "offset": 9769,
+          "size": 7,
+          "all_zero": true
+        },
+        {
+          "offset": 27014,
+          "size": 10,
+          "all_zero": true
+        },
+        {
+          "offset": 66373,
+          "size": 11,
+          "all_zero": true
+        },
+        {
+          "offset": 72293,
+          "size": 11,
+          "all_zero": true
+        },
+        {
+          "offset": 80245,
+          "size": 11,
+          "all_zero": true
+        },
+        {
+          "offset": 85420,
+          "size": 4,
+          "all_zero": true
+        },
+        {
+          "offset": 97834,
+          "size": 6,
+          "all_zero": true
+        },
+        {
+          "offset": 114243,
+          "size": 13,
+          "all_zero": true
+        },
+        {
+          "offset": 131741,
+          "size": 3,
+          "all_zero": true
+        },
+        {
+          "offset": 141508,
+          "size": 12,
+          "all_zero": true
+        },
+        {
+          "offset": 167532,
+          "size": 4,
+          "all_zero": true
+        },
+        {
+          "offset": 189933,
+          "size": 3,
+          "all_zero": true
+        },
+        {
+          "offset": 193455,
+          "size": 1,
+          "all_zero": true
+        },
+        {
+          "offset": 213317,
+          "size": 11,
+          "all_zero": true
+        },
+        {
+          "offset": 230615,
+          "size": 9,
+          "all_zero": true
+        },
+        {
+          "offset": 238161,
+          "size": 15,
+          "all_zero": true
+        },
+        {
+          "offset": 265579,
+          "size": 5,
+          "all_zero": true
+        },
+        {
+          "offset": 307369,
+          "size": 7,
+          "all_zero": true
+        },
+        {
+          "offset": 322098,
+          "size": 14,
+          "all_zero": true
+        },
+        {
+          "offset": 333349,
+          "size": 11,
+          "all_zero": true
+        },
+        {
+          "offset": 346376,
+          "size": 8,
+          "all_zero": true
+        },
+        {
+          "offset": 475747,
+          "size": 13,
+          "all_zero": true
+        },
+        {
+          "offset": 858130,
+          "size": 14,
+          "all_zero": true
+        },
+        {
+          "offset": 864755,
+          "size": 13,
+          "all_zero": true
+        },
+        {
+          "offset": 1146243,
+          "size": 13,
+          "all_zero": true
+        },
+        {
+          "offset": 1185817,
+          "size": 7,
+          "all_zero": true
+        },
+        {
+          "offset": 1334659,
+          "size": 13,
+          "all_zero": true
+        },
+        {
+          "offset": 1346249,
+          "size": 7,
+          "all_zero": true
+        },
+        {
+          "offset": 1353148,
+          "size": 4,
+          "all_zero": true
+        },
+        {
+          "offset": 2106949,
+          "size": 11,
+          "all_zero": true
+        },
+        {
+          "offset": 2122670,
+          "size": 2,
+          "all_zero": true
+        },
+        {
+          "offset": 2128906,
+          "size": 6,
+          "all_zero": true
+        },
+        {
+          "offset": 2171724,
+          "size": 4,
+          "all_zero": true
+        },
+        {
+          "offset": 2179485,
+          "size": 3,
+          "all_zero": true
+        },
+        {
+          "offset": 2204663,
+          "size": 9,
+          "all_zero": true
+        },
+        {
+          "offset": 2218610,
+          "size": 14,
+          "all_zero": true
+        },
+        {
+          "offset": 2227238,
+          "size": 10,
+          "all_zero": true
+        },
+        {
+          "offset": 2228668,
+          "size": 4,
+          "all_zero": true
+        },
+        {
+          "offset": 2248170,
+          "size": 6,
+          "all_zero": true
+        },
+        {
+          "offset": 2253013,
+          "size": 11,
+          "all_zero": true
+        },
+        {
+          "offset": 2266862,
+          "size": 2,
+          "all_zero": true
+        },
+        {
+          "offset": 2270943,
+          "size": 1,
+          "all_zero": true
+        },
+        {
+          "offset": 2278105,
+          "size": 7,
+          "all_zero": true
+        },
+        {
+          "offset": 2291711,
+          "size": 1,
+          "all_zero": true
+        },
+        {
+          "offset": 2309878,
+          "size": 10,
+          "all_zero": true
+        },
+        {
+          "offset": 2318066,
+          "size": 14,
+          "all_zero": true
+        },
+        {
+          "offset": 2327642,
+          "size": 6,
+          "all_zero": true
+        },
+        {
+          "offset": 2333719,
+          "size": 9,
+          "all_zero": true
+        },
+        {
+          "offset": 2335283,
+          "size": 13,
+          "all_zero": true
+        },
+        {
+          "offset": 2339270,
+          "size": 10,
+          "all_zero": true
+        },
+        {
+          "offset": 2345153,
+          "size": 15,
+          "all_zero": true
+        },
+        {
+          "offset": 2363925,
+          "size": 11,
+          "all_zero": true
+        },
+        {
+          "offset": 2368177,
+          "size": 15,
+          "all_zero": true
+        },
+        {
+          "offset": 2373373,
+          "size": 3,
+          "all_zero": true
+        },
+        {
+          "offset": 2518396,
+          "size": 4,
+          "all_zero": true
+        },
+        {
+          "offset": 2585998,
+          "size": 2,
+          "all_zero": true
+        },
+        {
+          "offset": 2591249,
+          "size": 15,
+          "all_zero": true
+        },
+        {
+          "offset": 2613150,
+          "size": 2,
+          "all_zero": true
+        },
+        {
+          "offset": 2631062,
+          "size": 10,
+          "all_zero": true
+        },
+        {
+          "offset": 2646135,
+          "size": 9,
+          "all_zero": true
+        },
+        {
+          "offset": 2657940,
+          "size": 12,
+          "all_zero": true
+        },
+        {
+          "offset": 2667954,
+          "size": 14,
+          "all_zero": true
+        },
+        {
+          "offset": 2675222,
+          "size": 10,
+          "all_zero": true
+        },
+        {
+          "offset": 2708097,
+          "size": 15,
+          "all_zero": true
+        },
+        {
+          "offset": 2725593,
+          "size": 7,
+          "all_zero": true
+        },
+        {
+          "offset": 2732926,
+          "size": 2,
+          "all_zero": true
+        },
+        {
+          "offset": 2752161,
+          "size": 15,
+          "all_zero": true
+        },
+        {
+          "offset": 2818551,
+          "size": 9,
+          "all_zero": true
+        },
+        {
+          "offset": 2843892,
+          "size": 12,
+          "all_zero": true
+        },
+        {
+          "offset": 2851761,
+          "size": 15,
+          "all_zero": true
+        },
+        {
+          "offset": 2856933,
+          "size": 11,
+          "all_zero": true
+        },
+        {
+          "offset": 2861037,
+          "size": 3,
+          "all_zero": true
+        },
+        {
+          "offset": 2866971,
+          "size": 5,
+          "all_zero": true
+        },
+        {
+          "offset": 2870076,
+          "size": 4,
+          "all_zero": true
+        },
+        {
+          "offset": 2891879,
+          "size": 9,
+          "all_zero": true
+        },
+        {
+          "offset": 2897398,
+          "size": 10,
+          "all_zero": true
+        },
+        {
+          "offset": 2902734,
+          "size": 2,
+          "all_zero": true
+        },
+        {
+          "offset": 2929482,
+          "size": 6,
+          "all_zero": true
+        },
+        {
+          "offset": 2959522,
+          "size": 14,
+          "all_zero": true
+        },
+        {
+          "offset": 2978614,
+          "size": 10,
+          "all_zero": true
+        },
+        {
+          "offset": 3000439,
+          "size": 9,
+          "all_zero": true
+        },
+        {
+          "offset": 3041925,
+          "size": 11,
+          "all_zero": true
+        },
+        {
+          "offset": 3045705,
+          "size": 7,
+          "all_zero": true
+        },
+        {
+          "offset": 3065403,
+          "size": 5,
+          "all_zero": true
+        },
+        {
+          "offset": 3074033,
+          "size": 15,
+          "all_zero": true
+        },
+        {
+          "offset": 3077346,
+          "size": 14,
+          "all_zero": true
+        },
+        {
+          "offset": 3090437,
+          "size": 11,
+          "all_zero": true
+        },
+        {
+          "offset": 3105819,
+          "size": 5,
+          "all_zero": true
+        },
+        {
+          "offset": 3172023,
+          "size": 9,
+          "all_zero": true
+        },
+        {
+          "offset": 3175529,
+          "size": 7,
+          "all_zero": true
+        },
+        {
+          "offset": 4645284,
+          "size": 12,
+          "all_zero": true
+        },
+        {
+          "offset": 4653541,
+          "size": 11,
+          "all_zero": true
+        },
+        {
+          "offset": 4657067,
+          "size": 5,
+          "all_zero": true
+        },
+        {
+          "offset": 4660065,
+          "size": 15,
+          "all_zero": true
+        },
+        {
+          "offset": 4876861,
+          "size": 3,
+          "all_zero": true
+        },
+        {
+          "offset": 4884471,
+          "size": 9,
+          "all_zero": true
+        },
+        {
+          "offset": 4907591,
+          "size": 9,
+          "all_zero": true
+        },
+        {
+          "offset": 4914774,
+          "size": 10,
+          "all_zero": true
+        },
+        {
+          "offset": 4933331,
+          "size": 13,
+          "all_zero": true
+        }
+      ]
+    }
+  ],
+  "bundle_signature_search": [
+    {
+      "file": "game.data",
+      "bytes": 21587596,
+      "sha256": "77b76d5dfdee9e4a587fa69c22982bb72ef486f297a7dc2a9c252d4331e5a739",
+      "matches": [
+        {
+          "signature": "UnityFS",
+          "offset": 7065,
+          "following_32_bytes_hex": "00000008352e782e7800363030302e322e3766320000000000004f4ce2000002",
+          "following_text_preview": "\u0000\u0000\u0000\b5.x.x\u00006000.2.7f2\u0000\u0000\u0000\u0000\u0000\u0000OL�\u0000\u0000\u0002�\u0000\u0000\u0005J\u0000\u0000\u0002C\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+        }
+      ],
+      "note": "A signature in WASM can be an engine string, not an embedded bundle. Only data.unity3d is decoded as UnityFS here."
+    },
+    {
+      "file": "source.wasm",
+      "bytes": 54791483,
+      "sha256": "dc4848ad11ac723b2a58f22118055ac9a91c1abbf3e851e415a08e7685f397c2",
+      "matches": [
+        {
+          "signature": "UnityFS",
+          "offset": 47942600,
+          "following_32_bytes_hex": "65755f45530065735f455300676c5f45530063615f45530043454c4c5f534f52",
+          "following_text_preview": "eu_ES\u0000es_ES\u0000gl_ES\u0000ca_ES\u0000CELL_SORT_FAILURES\u0000SHADO"
+        },
+        {
+          "signature": "UnityRaw",
+          "offset": 47658245,
+          "following_32_bytes_hex": "73657474696e677352617700556e697479456e67696e652e416e64726f69642e",
+          "following_text_preview": "settingsRaw\u0000UnityEngine.Android.AndroidApplicati"
+        },
+        {
+          "signature": "UnityWeb",
+          "offset": 47931248,
+          "following_32_bytes_hex": "64656661756c7453637265656e4865696768745765620064656661756c745363",
+          "following_text_preview": "defaultScreenHeightWeb\u0000defaultScreenWidthWeb\u0000Feb"
+        }
+      ],
+      "note": "A signature in WASM can be an engine string, not an embedded bundle. Only data.unity3d is decoded as UnityFS here."
+    },
+    {
+      "file": "analysis/extracted/data.unity3d",
+      "bytes": 5197026,
+      "sha256": "baa17ae7c1bcc5c4ec76095dbf8e49431941db94c9e68d42ca63afad2f85f36b",
+      "matches": [
+        {
+          "signature": "UnityFS",
+          "offset": 0,
+          "following_32_bytes_hex": "00000008352e782e7800363030302e322e3766320000000000004f4ce2000002",
+          "following_text_preview": "\u0000\u0000\u0000\b5.x.x\u00006000.2.7f2\u0000\u0000\u0000\u0000\u0000\u0000OL�\u0000\u0000\u0002�\u0000\u0000\u0005J\u0000\u0000\u0002C\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+        }
+      ],
+      "note": "A signature in WASM can be an engine string, not an embedded bundle. Only data.unity3d is decoded as UnityFS here."
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+[
+  {
+    "path_id": 200,
+    "class_id": 28,
+    "error": "Invalid read 120+-1197413628/4220"
+  },
+  {
+    "path_id": 203,
+    "class_id": 28,
+    "error": "Invalid read 116+-1707660541/932"
+  },
+  {
+    "path_id": 205,
+    "class_id": 28,
+    "error": "Invalid read 120+-1681500158/4220"
+  },
+  {
+    "path_id": 206,
+    "class_id": 28,
+    "error": "Invalid read 120+-192390868/4220"
+  },
+  {
+    "path_id": 208,
+    "class_id": 28,
+    "error": "Invalid read 120+1839270963/65660"
+  },
+  {
+    "path_id": 209,
+    "class_id": 28,
+    "error": "Invalid read 120+1305174946/4220"
+  },
+  {
+    "path_id": 212,
+    "class_id": 28,
+    "error": "Invalid read 120+-984643879/4220"
+  },
+  {
+    "path_id": 214,
+    "class_id": 28,
+    "error": "Invalid read 120+-1959152818/4220"
+  },
+  {
+    "path_id": 215,
+    "class_id": 28,
+    "error": "Invalid read 120+2061613041/4220"
+  },
+  {
+    "path_id": 216,
+    "class_id": 28,
+    "error": "Invalid read 120+-1619190072/4220"
+  },
+  {
+    "path_id": 219,
+    "class_id": 28,
+    "error": "Invalid read 120+1217616771/4220"
+  },
+  {
+    "path_id": 220,
+    "class_id": 28,
+    "error": "Invalid read 120+-1184361735/65660"
+  },
+  {
+    "path_id": 224,
+    "class_id": 28,
+    "error": "Invalid read 120+1147987117/4220"
+  },
+  {
+    "path_id": 230,
+    "class_id": 28,
+    "error": "Invalid read 120+161894669/4220"
+  },
+  {
+    "path_id": 233,
+    "class_id": 28,
+    "error": "Invalid read 120+-1912377936/4220"
+  },
+  {
+    "path_id": 234,
+    "class_id": 28,
+    "error": "Invalid read 120+-862112829/4220"
+  },
+  {
+    "path_id": 235,
+    "class_id": 28,
+    "error": "Invalid read 120+306858499/968"
+  },
+  {
+    "path_id": 236,
+    "class_id": 28,
+    "error": "Invalid read 120+1015870294/4220"
+  },
+  {
+    "path_id": 239,
+    "class_id": 28,
+    "error": "Invalid read 120+-1989147099/4220"
+  },
+  {
+    "path_id": 241,
+    "class_id": 28,
+    "error": "Invalid read 120+-266362022/4220"
+  },
+  {
+    "path_id": 243,
+    "class_id": 28,
+    "error": "Invalid read 120+878631432/4220"
+  },
+  {
+    "path_id": 245,
+    "class_id": 28,
+    "error": "Invalid read 120+1697338326/4220"
+  },
+  {
+    "path_id": 246,
+    "class_id": 28,
+    "error": "Invalid read 120+1319264637/4220"
+  },
+  {
+    "path_id": 256,
+    "class_id": 28,
+    "error": "Invalid read 120+2095484875/4220"
+  },
+  {
+    "path_id": 263,
+    "class_id": 28,
+    "error": "Invalid read 120+1257742634/4220"
+  },
+  {
+    "path_id": 268,
+    "class_id": 28,
+    "error": "Invalid read 120+1396144883/4220"
+  },
+  {
+    "path_id": 271,
+    "class_id": 28,
+    "error": "Invalid read 120+-1939204860/1172"
+  },
+  {
+    "path_id": 274,
+    "class_id": 28,
+    "error": "Invalid read 120+-415709536/4220"
+  },
+  {
+    "path_id": 275,
+    "class_id": 28,
+    "error": "Invalid read 120+-2090212788/65660"
+  },
+  {
+    "path_id": 283,
+    "class_id": 28,
+    "error": "Invalid read 120+372105286/4220"
+  },
+  {
+    "path_id": 288,
+    "class_id": 28,
+    "error": "Invalid read 116+-1289319165/1032"
+  },
+  {
+    "path_id": 289,
+    "class_id": 28,
+    "error": "Invalid read 120+991131889/4220"
+  },
+  {
+    "path_id": 292,
+    "class_id": 28,
+    "error": "Invalid read 120+2093150322/4220"
+  },
+  {
+    "path_id": 294,
+    "class_id": 28,
+    "error": "Invalid read 120+-464193230/4220"
+  },
+  {
+    "path_id": 296,
+    "class_id": 28,
+    "error": "Invalid read 120+72471204/65660"
+  },
+  {
+    "path_id": 298,
+    "class_id": 28,
+    "error": "Invalid read 120+519923723/4220"
+  },
+  {
+    "path_id": 299,
+    "class_id": 28,
+    "error": "Invalid read 120+958256045/4220"
+  },
+  {
+    "path_id": 301,
+    "class_id": 28,
+    "error": "Invalid read 120+2083372518/4220"
+  },
+  {
+    "path_id": 302,
+    "class_id": 28,
+    "error": "Invalid read 120+-1876400899/4220"
+  },
+  {
+    "path_id": 304,
+    "class_id": 28,
+    "error": "Invalid read 120+2080500532/4220"
+  },
+  {
+    "path_id": 306,
+    "class_id": 28,
+    "error": "Invalid read 120+1809518654/4220"
+  },
+  {
+    "path_id": 310,
+    "class_id": 28,
+    "error": "Invalid read 120+911258755/4220"
+  },
+  {
+    "path_id": 316,
+    "class_id": 28,
+    "error": "Invalid read 120+226964674/4220"
+  },
+  {
+    "path_id": 319,
+    "class_id": 28,
+    "error": "Invalid read 120+-1422688520/4220"
+  },
+  {
+    "path_id": 320,
+    "class_id": 28,
+    "error": "Invalid read 120+395695877/1620"
+  },
+  {
+    "path_id": 324,
+    "class_id": 28,
+    "error": "Invalid read 120+1576343355/4220"
+  },
+  {
+    "path_id": 325,
+    "class_id": 28,
+    "error": "Invalid read 120+1359034515/4220"
+  },
+  {
+    "path_id": 329,
+    "class_id": 28,
+    "error": "Invalid read 120+468898489/4220"
+  },
+  {
+    "path_id": 330,
+    "class_id": 28,
+    "error": "Invalid read 120+1154266524/4220"
+  },
+  {
+    "path_id": 332,
+    "class_id": 28,
+    "error": "Invalid read 120+1426839830/65660"
+  },
+  {
+    "path_id": 341,
+    "class_id": 28,
+    "error": "Invalid read 120+1930319725/4220"
+  },
+  {
+    "path_id": 344,
+    "class_id": 28,
+    "error": "Invalid read 120+717585048/4220"
+  },
+  {
+    "path_id": 345,
+    "class_id": 28,
+    "error": "Invalid read 120+-1543558296/4220"
+  },
+  {
+    "path_id": 349,
+    "class_id": 28,
+    "error": "Invalid read 120+1714385687/4220"
+  },
+  {
+    "path_id": 350,
+    "class_id": 28,
+    "error": "Invalid read 120+-491839084/65660"
+  },
+  {
+    "path_id": 353,
+    "class_id": 28,
+    "error": "Invalid read 120+1110098001/4220"
+  },
+  {
+    "path_id": 354,
+    "class_id": 28,
+    "error": "Invalid read 120+308204442/4220"
+  },
+  {
+    "path_id": 356,
+    "class_id": 28,
+    "error": "Invalid read 120+-1021315001/4220"
+  },
+  {
+    "path_id": 358,
+    "class_id": 28,
+    "error": "Invalid read 120+1334115990/65660"
+  },
+  {
+    "path_id": 360,
+    "class_id": 28,
+    "error": "Invalid read 120+333273642/4220"
+  },
+  {
+    "path_id": 361,
+    "class_id": 28,
+    "error": "Invalid read 120+1372564092/4220"
+  },
+  {
+    "path_id": 363,
+    "class_id": 28,
+    "error": "Invalid read 120+396755249/4220"
+  },
+  {
+    "path_id": 367,
+    "class_id": 28,
+    "error": "Invalid read 120+-1977234538/4220"
+  },
+  {
+    "path_id": 368,
+    "class_id": 28,
+    "error": "Invalid read 120+1856634293/4220"
+  },
+  {
+    "path_id": 369,
+    "class_id": 28,
+    "error": "Invalid read 120+-339335293/4220"
+  },
+  {
+    "path_id": 370,
+    "class_id": 28,
+    "error": "Invalid read 120+1222520932/65660"
+  },
+  {
+    "path_id": 372,
+    "class_id": 28,
+    "error": "Invalid read 120+1021626443/4220"
+  },
+  {
+    "path_id": 374,
+    "class_id": 28,
+    "error": "Invalid read 120+-1542827555/4220"
+  },
+  {
+    "path_id": 376,
+    "class_id": 28,
+    "error": "Invalid read 120+-137666244/4220"
+  },
+  {
+    "path_id": 381,
+    "class_id": 28,
+    "error": "Invalid read 120+-738068644/4220"
+  },
+  {
+    "path_id": 384,
+    "class_id": 28,
+    "error": "Invalid read 120+2095998324/4220"
+  },
+  {
+    "path_id": 389,
+    "class_id": 28,
+    "error": "Invalid read 120+602045209/4220"
+  },
+  {
+    "path_id": 391,
+    "class_id": 28,
+    "error": "Invalid read 120+531389739/4220"
+  },
+  {
+    "path_id": 392,
+    "class_id": 28,
+    "error": "Invalid read 120+2139029758/1148"
+  },
+  {
+    "path_id": 396,
+    "class_id": 28,
+    "error": "Invalid read 120+1827831737/4220"
+  },
+  {
+    "path_id": 398,
+    "class_id": 28,
+    "error": "Invalid read 120+391281849/4220"
+  },
+  {
+    "path_id": 414,
+    "class_id": 28,
+    "error": "Invalid read 120+-1114657270/4220"
+  },
+  {
+    "path_id": 416,
+    "class_id": 28,
+    "error": "Invalid read 116+-1031684606/824"
+  },
+  {
+    "path_id": 417,
+    "class_id": 28,
+    "error": "Invalid read 120+1726919210/4220"
+  }
+]

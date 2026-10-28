@@ -1,0 +1,66 @@
+{
+  "archive_members": [
+    {
+      "file": "RuntimeInitializeOnLoads.json",
+      "bytes": 2745,
+      "sha256": "f08000dd761a0d0c77464f34caa5529585c9a6bac8f41955eebc3cd57e6ada5e"
+    },
+    {
+      "file": "ScriptingAssemblies.json",
+      "bytes": 4016,
+      "sha256": "6249c5a755def4b1fdaf9ae1237f3c5708452514c0e8ba18b0d3d0951c627ed3"
+    },
+    {
+      "file": "data.unity3d",
+      "bytes": 5197026,
+      "sha256": "baa17ae7c1bcc5c4ec76095dbf8e49431941db94c9e68d42ca63afad2f85f36b"
+    },
+    {
+      "file": "resources.resource",
+      "bytes": 78220,
+      "sha256": "a72ecb53f16384fc8873fe1ff7f3cf46b064c6bdd7810cde8905ed6452b3d6da"
+    },
+    {
+      "file": "sharedassets0.resource",
+      "bytes": 4937540,
+      "sha256": "ed0c6e75c212bee9e598b75fc1d9adc199ee7dbad6ed3bdc3b5cea64cb876821"
+    },
+    {
+      "file": "boot.config",
+      "bytes": 165,
+      "sha256": "666d7f5dd28e8b45eaa7712b4ec83a8d117a5745e7df64f5608712f00db85404"
+    },
+    {
+      "file": "Il2CppData/Metadata/global-metadata.dat",
+      "bytes": 9740008,
+      "sha256": "3b5d4c385596b555cb760bf42855e5ded84f9cbe360afb93f3f2bcb7e3f2de24"
+    },
+    {
+      "file": "Resources/unity default resources",
+      "bytes": 1627572,
+      "sha256": "2c50f333be4f4121776351aab8ed55cd59028f04b9425b0da35862c8828348a4"
+    }
+  ],
+  "pngs_validated": 190,
+  "audio_byte_exact": 114,
+  "obj_meshes": 124,
+  "triangles": 35100,
+  "gameplay_settings_objects": 1044,
+  "gameplay_classes": 786,
+  "gameplay_methods": 4833,
+  "checks": [
+    "Original Brotli/decompressed files agree",
+    "All eight extracted archive members are byte-exact",
+    "PNG signatures/dimensions/deflated payload lengths",
+    "AAC exports match original resource byte slices",
+    "OBJ vertex counts/finite coordinates/face index bounds",
+    "Complete decoded field byte ranges stay within objects",
+    "Gameplay counts and selected code/asset constants agree"
+  ],
+  "limitations": [
+    "PNG checks do not compare rendered colors to Unity",
+    "OBJ checks do not establish original material/rig/animation fidelity",
+    "Serialized decoding without original type trees can be incomplete",
+    "Runtime game reachability is separate from static verification"
+  ]
+}

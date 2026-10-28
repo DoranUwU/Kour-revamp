@@ -1,0 +1,337 @@
+{
+  "evidence_id": "ev_9e1b298724fc1c58daa48572f550768e3f746c4d0af637c812651dc090551198",
+  "subject": {
+    "name": "global-metadata.dat",
+    "digest": {
+      "sha256": "3b5d4c385596b555cb760bf42855e5ded84f9cbe360afb93f3f2bcb7e3f2de24"
+    },
+    "local_path": "C:/Users/Admin/Documents/Code/REA/Kour.io/analysis/global-metadata.dat",
+    "format": "file",
+    "architecture": null
+  },
+  "provider": {
+    "id": "rea-analysis-view",
+    "name": "REA analysis view projection",
+    "version": "1"
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.analysis-view",
+  "operation": "inspect_analysis_view",
+  "parameters": {
+    "parent_evidence_id": "ev_effaaa217c77804598ae99af2a44e70d65dbbc3f089e7b1f838f7d9c14711f3e",
+    "view": {
+      "kind": "il2cpp-metadata",
+      "offset": 29727,
+      "limit": 46,
+      "collection": "methods"
+    }
+  },
+  "raw_result": null,
+  "normalized_result": {
+    "kind": "il2cpp-metadata",
+    "view": {
+      "kind": "il2cpp-metadata",
+      "offset": 29727,
+      "limit": 46,
+      "collection": "methods"
+    },
+    "items": [
+      {
+        "name": "ResetMomentum",
+        "declaring_type": 3935,
+        "index": 29727
+      },
+      {
+        "name": "ResetJumps",
+        "declaring_type": 3935,
+        "index": 29728
+      },
+      {
+        "name": "get_InputRot",
+        "declaring_type": 3935,
+        "index": 29729
+      },
+      {
+        "name": "Awake",
+        "declaring_type": 3935,
+        "index": 29730
+      },
+      {
+        "name": "IenuWaitForMapSettings",
+        "declaring_type": 3935,
+        "index": 29731
+      },
+      {
+        "name": "Start",
+        "declaring_type": 3935,
+        "index": 29732
+      },
+      {
+        "name": "SetYVelNormal",
+        "declaring_type": 3935,
+        "index": 29733
+      },
+      {
+        "name": "MolotovUpdate",
+        "declaring_type": 3935,
+        "index": 29734
+      },
+      {
+        "name": "ZoneUpdate",
+        "declaring_type": 3935,
+        "index": 29735
+      },
+      {
+        "name": "SlowUpdate",
+        "declaring_type": 3935,
+        "index": 29736
+      },
+      {
+        "name": "OnSettingsChanged",
+        "declaring_type": 3935,
+        "index": 29737
+      },
+      {
+        "name": "SetSpeedMultis",
+        "declaring_type": 3935,
+        "index": 29738
+      },
+      {
+        "name": "get_landedBr",
+        "declaring_type": 3935,
+        "index": 29739
+      },
+      {
+        "name": "Update",
+        "declaring_type": 3935,
+        "index": 29740
+      },
+      {
+        "name": "Dash",
+        "declaring_type": 3935,
+        "index": 29741
+      },
+      {
+        "name": "UpdateCrosshair",
+        "declaring_type": 3935,
+        "index": 29742
+      },
+      {
+        "name": "RPCBRLand",
+        "declaring_type": 3935,
+        "index": 29743
+      },
+      {
+        "name": "FixedUpdate",
+        "declaring_type": 3935,
+        "index": 29744
+      },
+      {
+        "name": "GetMovementInput",
+        "declaring_type": 3935,
+        "index": 29745
+      },
+      {
+        "name": "MouseLook",
+        "declaring_type": 3935,
+        "index": 29746
+      },
+      {
+        "name": "GatherAimAssist",
+        "declaring_type": 3935,
+        "index": 29747
+      },
+      {
+        "name": "GroundAccelerate",
+        "declaring_type": 3935,
+        "index": 29748
+      },
+      {
+        "name": "NormalizeAngle",
+        "declaring_type": 3935,
+        "index": 29749
+      },
+      {
+        "name": "AirAccelerate",
+        "declaring_type": 3935,
+        "index": 29750
+      },
+      {
+        "name": "ApplyFriction",
+        "declaring_type": 3935,
+        "index": 29751
+      },
+      {
+        "name": "ApplyAirFriction",
+        "declaring_type": 3935,
+        "index": 29752
+      },
+      {
+        "name": "Jump",
+        "declaring_type": 3935,
+        "index": 29753
+      },
+      {
+        "name": "ApplyGravity",
+        "declaring_type": 3935,
+        "index": 29754
+      },
+      {
+        "name": "OnCollisionEnter",
+        "declaring_type": 3935,
+        "index": 29755
+      },
+      {
+        "name": "OnCollisionStay",
+        "declaring_type": 3935,
+        "index": 29756
+      },
+      {
+        "name": "ResetParams",
+        "declaring_type": 3935,
+        "index": 29757
+      },
+      {
+        "name": "OnMolotovEnded",
+        "declaring_type": 3935,
+        "index": 29758
+      },
+      {
+        "name": "ForceQuitMolotov",
+        "declaring_type": 3935,
+        "index": 29759
+      },
+      {
+        "name": "OnTriggerEnter",
+        "declaring_type": 3935,
+        "index": 29760
+      },
+      {
+        "name": "OnTriggerExit",
+        "declaring_type": 3935,
+        "index": 29761
+      },
+      {
+        "name": "JumpOnPad",
+        "declaring_type": 3935,
+        "index": 29762
+      },
+      {
+        "name": "CalculateVerticalVelocity",
+        "declaring_type": 3935,
+        "index": 29763
+      },
+      {
+        "name": "JumpTimer",
+        "declaring_type": 3935,
+        "index": 29764
+      },
+      {
+        "name": "GetClosestPlayer",
+        "declaring_type": 3935,
+        "index": 29765
+      },
+      {
+        "name": "GetVisiblePlayers",
+        "declaring_type": 3935,
+        "index": 29766
+      },
+      {
+        "name": "ImpactForce",
+        "declaring_type": 3935,
+        "index": 29767
+      },
+      {
+        "name": "RegisterShooter",
+        "declaring_type": 3935,
+        "index": 29768
+      },
+      {
+        "name": "UnregisterShooter",
+        "declaring_type": 3935,
+        "index": 29769
+      },
+      {
+        "name": "SetMyVehicle",
+        "declaring_type": 3935,
+        "index": 29770
+      },
+      {
+        "name": ".ctor",
+        "declaring_type": 3935,
+        "index": 29771
+      },
+      {
+        "name": ".cctor",
+        "declaring_type": 3935,
+        "index": 29772
+      }
+    ],
+    "parent_evidence_id": "ev_effaaa217c77804598ae99af2a44e70d65dbbc3f089e7b1f838f7d9c14711f3e",
+    "parent_operation": "inspect_il2cpp_metadata",
+    "parent_digest": "effaaa217c77804598ae99af2a44e70d65dbbc3f089e7b1f838f7d9c14711f3e",
+    "view_digest": "f6d6b74a2008eacb2082f50ff1a8d924e68331d4a2a6dc67fca221605b85abcc",
+    "artifact": {
+      "path": "C:/Users/Admin/Documents/Code/REA/Kour.io/analysis/global-metadata.dat",
+      "sha256": "3b5d4c385596b555cb760bf42855e5ded84f9cbe360afb93f3f2bcb7e3f2de24"
+    },
+    "coverage": {
+      "status": "page",
+      "examined": 46,
+      "total": 74584,
+      "next_offset": 29773,
+      "exhausted": false
+    },
+    "limitations": [
+      "Only unencrypted global-metadata.dat versions 24, 27, 29, 31 and 39 are decoded; names, counts and string literals are observed file content, not runtime behavior.",
+      "Native code addresses and IL2CPP binary registration are not recovered without binary_path.",
+      "Field, parameter and return types are not recovered without binary_path; type indices refer to the native binary.",
+      "declaring_type for types is derived from the nestedTypes section, and member and parameter owners from the owners' index ranges; row positions are the metadata indices."
+    ],
+    "unknowns": [
+      "Generic method instances were not requested; their count is unknown.",
+      "Names come from unencrypted metadata only; native code addresses and runtime registration remain unknown."
+    ],
+    "metadata_version": 31,
+    "counts": {
+      "sections": 31,
+      "images": 73,
+      "types": 10670,
+      "methods": 74584,
+      "nested_types": 3640,
+      "fields": 46803,
+      "properties": 14319,
+      "events": 340,
+      "parameters": 79679,
+      "string_literals": 15368,
+      "code_gen_modules": null,
+      "method_addresses": null,
+      "method_address_states": null,
+      "return_types": null,
+      "field_types": null,
+      "parameter_types": null,
+      "generic_method_instances": null,
+      "generic_method_instance_states": null,
+      "generic_method_issues": null
+    }
+  },
+  "confidence": "derived",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "Only unencrypted global-metadata.dat versions 24, 27, 29, 31 and 39 are decoded; names, counts and string literals are observed file content, not runtime behavior.",
+    "Native code addresses and IL2CPP binary registration are not recovered without binary_path.",
+    "Field, parameter and return types are not recovered without binary_path; type indices refer to the native binary.",
+    "declaring_type for types is derived from the nestedTypes section, and member and parameter owners from the owners' index ranges; row positions are the metadata indices."
+  ],
+  "relationship_coverage": null,
+  "locations": [
+    {
+      "kind": "artifact-path",
+      "path": "C:/Users/Admin/Documents/Code/REA/Kour.io/analysis/global-metadata.dat"
+    }
+  ],
+  "evidence_links": [
+    "ev_effaaa217c77804598ae99af2a44e70d65dbbc3f089e7b1f838f7d9c14711f3e"
+  ]
+}

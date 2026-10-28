@@ -1,0 +1,293 @@
+{
+  "path": "globalgamemanagers",
+  "bytes": 487636,
+  "metadata_size": 1164,
+  "declared_size": 487636,
+  "version": 22,
+  "unity": "6000.2.7f2",
+  "platform": 20,
+  "type_tree_enabled": false,
+  "data_offset": 1216,
+  "types": [
+    {
+      "class_id": 129,
+      "stripped": 0,
+      "script_index": -1,
+      "hash": "3290cd652d6263ac939c0581b9b50886"
+    },
+    {
+      "class_id": 13,
+      "stripped": 0,
+      "script_index": -1,
+      "hash": "592e035c5fc203d9bbeebadbc7948718"
+    },
+    {
+      "class_id": 78,
+      "stripped": 0,
+      "script_index": -1,
+      "hash": "9b7c87bc5656cf7d6483e54efc925864"
+    },
+    {
+      "class_id": 11,
+      "stripped": 0,
+      "script_index": -1,
+      "hash": "6242779d8601a68210e3f754464550ee"
+    },
+    {
+      "class_id": 94,
+      "stripped": 0,
+      "script_index": -1,
+      "hash": "567731d208d81a268e016746dbcd46c0"
+    },
+    {
+      "class_id": 116,
+      "stripped": 0,
+      "script_index": -1,
+      "hash": "14797036b80748dd759b736b9b4d17e1"
+    },
+    {
+      "class_id": 30,
+      "stripped": 0,
+      "script_index": -1,
+      "hash": "53b5f22312b4845018c5a7fa4251de6b"
+    },
+    {
+      "class_id": 5,
+      "stripped": 0,
+      "script_index": -1,
+      "hash": "feafa5e435152ad7d5551a5ca79b01fe"
+    },
+    {
+      "class_id": 98,
+      "stripped": 0,
+      "script_index": -1,
+      "hash": "643e11867d6e720ee84a107eb84644bd"
+    },
+    {
+      "class_id": 55,
+      "stripped": 0,
+      "script_index": -1,
+      "hash": "14e8e4b721c1e860d1c64277d1999af7"
+    },
+    {
+      "class_id": 141,
+      "stripped": 0,
+      "script_index": -1,
+      "hash": "02314bcbe46e3457c4f1db6ac46237b8"
+    },
+    {
+      "class_id": 47,
+      "stripped": 0,
+      "script_index": -1,
+      "hash": "0ec23efa0e85e55443f83d05d29d5788"
+    },
+    {
+      "class_id": 147,
+      "stripped": 0,
+      "script_index": -1,
+      "hash": "0d9d880e077f33c76fc2c99bd629a50a"
+    },
+    {
+      "class_id": 126,
+      "stripped": 0,
+      "script_index": -1,
+      "hash": "3f94c2f4da895f0eb5e94def3e57f3f5"
+    },
+    {
+      "class_id": 19,
+      "stripped": 0,
+      "script_index": -1,
+      "hash": "a9ded943fc9041b32db9e7f4d2435754"
+    },
+    {
+      "class_id": 300,
+      "stripped": 0,
+      "script_index": -1,
+      "hash": "e338a255460201b5f5fe96544385bb31"
+    },
+    {
+      "class_id": 1403656975,
+      "stripped": 0,
+      "script_index": -1,
+      "hash": "6732968092ba7dfba8a0b019df3daadd"
+    },
+    {
+      "class_id": 937362698,
+      "stripped": 0,
+      "script_index": -1,
+      "hash": "43bc0ecf354e80611cb3d579b98181c2"
+    },
+    {
+      "class_id": 655991488,
+      "stripped": 0,
+      "script_index": -1,
+      "hash": "d05423c09374d13148ad96a936f00f3b"
+    }
+  ],
+  "objects": [
+    {
+      "path_id": 1,
+      "offset": 1216,
+      "size": 896,
+      "type_index": 0,
+      "class_id": 129
+    },
+    {
+      "path_id": 2,
+      "offset": 2112,
+      "size": 3360,
+      "type_index": 1,
+      "class_id": 13
+    },
+    {
+      "path_id": 3,
+      "offset": 5472,
+      "size": 760,
+      "type_index": 2,
+      "class_id": 78
+    },
+    {
+      "path_id": 4,
+      "offset": 6240,
+      "size": 48,
+      "type_index": 3,
+      "class_id": 11
+    },
+    {
+      "path_id": 5,
+      "offset": 6288,
+      "size": 12473,
+      "type_index": 4,
+      "class_id": 94
+    },
+    {
+      "path_id": 6,
+      "offset": 18768,
+      "size": 90400,
+      "type_index": 5,
+      "class_id": 116
+    },
+    {
+      "path_id": 7,
+      "offset": 109168,
+      "size": 604,
+      "type_index": 6,
+      "class_id": 30
+    },
+    {
+      "path_id": 8,
+      "offset": 109776,
+      "size": 28,
+      "type_index": 7,
+      "class_id": 5
+    },
+    {
+      "path_id": 9,
+      "offset": 109808,
+      "size": 0,
+      "type_index": 8,
+      "class_id": 98
+    },
+    {
+      "path_id": 10,
+      "offset": 109808,
+      "size": 276,
+      "type_index": 9,
+      "class_id": 55
+    },
+    {
+      "path_id": 11,
+      "offset": 110096,
+      "size": 164,
+      "type_index": 10,
+      "class_id": 141
+    },
+    {
+      "path_id": 12,
+      "offset": 110272,
+      "size": 828,
+      "type_index": 11,
+      "class_id": 47
+    },
+    {
+      "path_id": 13,
+      "offset": 111104,
+      "size": 375712,
+      "type_index": 12,
+      "class_id": 147
+    },
+    {
+      "path_id": 14,
+      "offset": 486816,
+      "size": 372,
+      "type_index": 13,
+      "class_id": 126
+    },
+    {
+      "path_id": 15,
+      "offset": 487200,
+      "size": 296,
+      "type_index": 14,
+      "class_id": 19
+    },
+    {
+      "path_id": 17,
+      "offset": 487504,
+      "size": 0,
+      "type_index": 15,
+      "class_id": 300
+    },
+    {
+      "path_id": 19,
+      "offset": 487504,
+      "size": 0,
+      "type_index": 16,
+      "class_id": 1403656975
+    },
+    {
+      "path_id": 20,
+      "offset": 487504,
+      "size": 116,
+      "type_index": 17,
+      "class_id": 937362698
+    },
+    {
+      "path_id": 21,
+      "offset": 487632,
+      "size": 4,
+      "type_index": 18,
+      "class_id": 655991488
+    }
+  ],
+  "scripts": [],
+  "externals": [
+    {
+      "guid": "00000000000000000000000000000000",
+      "type": 0,
+      "path": "globalgamemanagers.assets"
+    },
+    {
+      "guid": "00000000000000000e00000000000000",
+      "type": 0,
+      "path": "Library/unity default resources"
+    },
+    {
+      "guid": "00000000000000000000000000000000",
+      "type": 0,
+      "path": "sharedassets0.assets"
+    },
+    {
+      "guid": "00000000000000000f00000000000000",
+      "type": 0,
+      "path": "Resources/unity_builtin_extra"
+    },
+    {
+      "guid": "00000000000000000000000000000000",
+      "type": 0,
+      "path": "resources.assets"
+    }
+  ],
+  "ref_types": [],
+  "user": "",
+  "metadata_end": 1212
+}

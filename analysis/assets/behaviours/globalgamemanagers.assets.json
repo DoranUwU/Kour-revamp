@@ -1,0 +1,23 @@
+[
+  {
+    "path_id": 1849,
+    "offset": 271920,
+    "size": 16740,
+    "type_index": 4,
+    "class_id": 114,
+    "class": "MonoBehaviour",
+    "game_object": {
+      "file_id": 0,
+      "path_id": 0
+    },
+    "enabled": true,
+    "script": {
+      "file_id": 0,
+      "path_id": 390
+    },
+    "name": "IA_Player",
+    "fields_offset": 44,
+    "fields_bytes": 16696,
+    "script_type_index": 0
+  }
+]

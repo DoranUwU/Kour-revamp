@@ -1,0 +1,4821 @@
+{
+  "provenance": "Serialized prefab/ScriptableObject values decoded with metadata-derived schemas, not measured runtime values. Modifiers and code can change effective behavior. Weapon fireRate units have not been independently confirmed.",
+  "weapons": [
+    {
+      "index": 0,
+      "name": "AK-47",
+      "script": "AimableWeapon",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8314,
+        "coverage": "complete-object"
+      },
+      "damage": 21,
+      "maxAmmo": 30,
+      "fireRate": 11.100000381469727,
+      "reloadTime": 1.399999976158142,
+      "minDistance": 30.0,
+      "maxDistance": 2000.0,
+      "groundSpeedMulti": 1.2999999523162842,
+      "airSpeedMulti": 0.699999988079071,
+      "holdToShoot": true,
+      "shootOnRelease": false,
+      "holdToAim": true,
+      "weaponType": 0,
+      "instabilityMultiplier": 0.20000000298023224,
+      "relativeWeaponSize": 1.5,
+      "recoilCrazinessPhysical": 0.20000000298023224,
+      "recoilCrazinessCrosshair": 2.0,
+      "recoilReturnSpeed": 0.8999999761581421,
+      "realisticIconPath": "weapons/renders/ak47"
+    },
+    {
+      "index": 1,
+      "name": "Deagle",
+      "script": "Weapon",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8310,
+        "coverage": "complete-object"
+      },
+      "damage": 76,
+      "maxAmmo": 6,
+      "fireRate": 10.0,
+      "reloadTime": 1.600000023841858,
+      "minDistance": 80.0,
+      "maxDistance": 2000.0,
+      "groundSpeedMulti": 1.100000023841858,
+      "airSpeedMulti": 1.0,
+      "holdToShoot": false,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 1,
+      "instabilityMultiplier": 0.3400000035762787,
+      "relativeWeaponSize": 1.0,
+      "recoilCrazinessPhysical": 4.0,
+      "recoilCrazinessCrosshair": 6.0,
+      "recoilReturnSpeed": 2.0,
+      "realisticIconPath": "weapons/renders/deagle"
+    },
+    {
+      "index": 2,
+      "name": "Awp",
+      "script": "Sniper",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8423,
+        "coverage": "complete-object"
+      },
+      "damage": 111,
+      "maxAmmo": 5,
+      "fireRate": 0.8999999761581421,
+      "reloadTime": 3.0,
+      "minDistance": 100.0,
+      "maxDistance": 2000.0,
+      "groundSpeedMulti": 1.0,
+      "airSpeedMulti": 0.6499999761581421,
+      "holdToShoot": true,
+      "shootOnRelease": true,
+      "holdToAim": true,
+      "weaponType": 0,
+      "instabilityMultiplier": 0.8999999761581421,
+      "relativeWeaponSize": 1.5,
+      "recoilCrazinessPhysical": 8.0,
+      "recoilCrazinessCrosshair": 1.0,
+      "recoilReturnSpeed": 1.0,
+      "realisticIconPath": "weapons/renders/awp"
+    },
+    {
+      "index": 3,
+      "name": "Bayonet",
+      "script": "Knife",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8380,
+        "coverage": "complete-object"
+      },
+      "damage": 90,
+      "maxAmmo": -1,
+      "fireRate": 4.400000095367432,
+      "reloadTime": -1.0,
+      "minDistance": 3.5,
+      "maxDistance": 3.5999999046325684,
+      "groundSpeedMulti": 1.2999999523162842,
+      "airSpeedMulti": 1.2999999523162842,
+      "holdToShoot": true,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 2,
+      "instabilityMultiplier": 0.0,
+      "relativeWeaponSize": 0.699999988079071,
+      "recoilCrazinessPhysical": 1.0,
+      "recoilCrazinessCrosshair": 1.0,
+      "recoilReturnSpeed": 2.0,
+      "realisticIconPath": "weapons/renders/bayonet"
+    },
+    {
+      "index": 4,
+      "name": "Uzi",
+      "script": "Weapon",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8321,
+        "coverage": "complete-object"
+      },
+      "damage": 29,
+      "maxAmmo": 26,
+      "fireRate": 12.0,
+      "reloadTime": 1.25,
+      "minDistance": 90.0,
+      "maxDistance": 2000.0,
+      "groundSpeedMulti": 1.340000033378601,
+      "airSpeedMulti": 0.8999999761581421,
+      "holdToShoot": true,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 0,
+      "instabilityMultiplier": 0.20000000298023224,
+      "relativeWeaponSize": 1.0,
+      "recoilCrazinessPhysical": 1.0,
+      "recoilCrazinessCrosshair": 3.299999952316284,
+      "recoilReturnSpeed": 0.800000011920929,
+      "realisticIconPath": "weapons/renders/uzi"
+    },
+    {
+      "index": 5,
+      "name": "PKM",
+      "script": "Weapon",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8329,
+        "coverage": "complete-object"
+      },
+      "damage": 26,
+      "maxAmmo": 70,
+      "fireRate": 13.0,
+      "reloadTime": 4.0,
+      "minDistance": 150.0,
+      "maxDistance": 2000.0,
+      "groundSpeedMulti": 0.8299999833106995,
+      "airSpeedMulti": 0.6000000238418579,
+      "holdToShoot": true,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 0,
+      "instabilityMultiplier": 0.05000000074505806,
+      "relativeWeaponSize": 1.0,
+      "recoilCrazinessPhysical": 0.8999999761581421,
+      "recoilCrazinessCrosshair": 1.2999999523162842,
+      "recoilReturnSpeed": 0.800000011920929,
+      "realisticIconPath": "weapons/renders/pkm"
+    },
+    {
+      "index": 6,
+      "name": "Revolver",
+      "script": "Weapon",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8331,
+        "coverage": "complete-object"
+      },
+      "damage": 130,
+      "maxAmmo": 6,
+      "fireRate": 1.2999999523162842,
+      "reloadTime": 2.4000000953674316,
+      "minDistance": 18.0,
+      "maxDistance": 220.0,
+      "groundSpeedMulti": 1.2000000476837158,
+      "airSpeedMulti": 1.124500036239624,
+      "holdToShoot": false,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 1,
+      "instabilityMultiplier": 0.6000000238418579,
+      "relativeWeaponSize": 1.0,
+      "recoilCrazinessPhysical": 4.0,
+      "recoilCrazinessCrosshair": 3.0,
+      "recoilReturnSpeed": 2.0,
+      "realisticIconPath": "weapons/renders/revolver"
+    },
+    {
+      "index": 7,
+      "name": "RPG",
+      "script": "RocketLauncher",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8449,
+        "coverage": "complete-object"
+      },
+      "damage": 100,
+      "maxAmmo": 1,
+      "fireRate": 0.5,
+      "reloadTime": 2.0,
+      "minDistance": 90.0,
+      "maxDistance": 2000000.0,
+      "groundSpeedMulti": 0.8799999952316284,
+      "airSpeedMulti": 0.6600000262260437,
+      "holdToShoot": true,
+      "shootOnRelease": true,
+      "holdToAim": true,
+      "weaponType": 0,
+      "instabilityMultiplier": 3.0,
+      "relativeWeaponSize": 1.6699999570846558,
+      "recoilCrazinessPhysical": 4.0,
+      "recoilCrazinessCrosshair": 2.0,
+      "recoilReturnSpeed": 0.699999988079071,
+      "realisticIconPath": "weapons/renders/rpg"
+    },
+    {
+      "index": 8,
+      "name": "USPS",
+      "script": "Weapon",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8319,
+        "coverage": "complete-object"
+      },
+      "damage": 25,
+      "maxAmmo": 12,
+      "fireRate": 10.0,
+      "reloadTime": 1.600000023841858,
+      "minDistance": 90.0,
+      "maxDistance": 2000.0,
+      "groundSpeedMulti": 1.100000023841858,
+      "airSpeedMulti": 1.1200000047683716,
+      "holdToShoot": false,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 1,
+      "instabilityMultiplier": 0.5,
+      "relativeWeaponSize": 1.0,
+      "recoilCrazinessPhysical": 0.25,
+      "recoilCrazinessCrosshair": 12.0,
+      "recoilReturnSpeed": 4.0,
+      "realisticIconPath": "weapons/renders/usps"
+    },
+    {
+      "index": 9,
+      "name": "MP5",
+      "script": "AimableWeapon",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8325,
+        "coverage": "complete-object"
+      },
+      "damage": 22,
+      "maxAmmo": 35,
+      "fireRate": 11.0,
+      "reloadTime": 1.2000000476837158,
+      "minDistance": 0.0,
+      "maxDistance": 2000.0,
+      "groundSpeedMulti": 1.2450000047683716,
+      "airSpeedMulti": 0.8999999761581421,
+      "holdToShoot": true,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 0,
+      "instabilityMultiplier": 0.20000000298023224,
+      "relativeWeaponSize": 1.100000023841858,
+      "recoilCrazinessPhysical": 0.20000000298023224,
+      "recoilCrazinessCrosshair": 2.0,
+      "recoilReturnSpeed": 0.699999988079071,
+      "realisticIconPath": "weapons/renders/mp5"
+    },
+    {
+      "index": 10,
+      "name": "Shotgun",
+      "script": "Shotgun",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8306,
+        "coverage": "complete-object"
+      },
+      "damage": 310,
+      "maxAmmo": 2,
+      "fireRate": 1.5,
+      "reloadTime": 1.5499999523162842,
+      "minDistance": 0.5,
+      "maxDistance": 45.0,
+      "groundSpeedMulti": 1.2999999523162842,
+      "airSpeedMulti": 0.699999988079071,
+      "holdToShoot": false,
+      "shootOnRelease": true,
+      "holdToAim": false,
+      "weaponType": 0,
+      "instabilityMultiplier": 0.25,
+      "relativeWeaponSize": 1.2999999523162842,
+      "recoilCrazinessPhysical": 8.0,
+      "recoilCrazinessCrosshair": 1.0,
+      "recoilReturnSpeed": 0.5,
+      "realisticIconPath": "weapons/renders/shotgun"
+    },
+    {
+      "index": 11,
+      "name": "Glock",
+      "script": "AimableWeapon",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8330,
+        "coverage": "complete-object"
+      },
+      "damage": 22,
+      "maxAmmo": 16,
+      "fireRate": 11.0,
+      "reloadTime": 0.8999999761581421,
+      "minDistance": 0.0,
+      "maxDistance": 2000.0,
+      "groundSpeedMulti": 1.100000023841858,
+      "airSpeedMulti": 1.1200000047683716,
+      "holdToShoot": false,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 1,
+      "instabilityMultiplier": 0.4000000059604645,
+      "relativeWeaponSize": 0.5,
+      "recoilCrazinessPhysical": 0.800000011920929,
+      "recoilCrazinessCrosshair": 4.699999809265137,
+      "recoilReturnSpeed": 2.9000000953674316,
+      "realisticIconPath": "weapons/renders/glock"
+    },
+    {
+      "index": 12,
+      "name": "Karambit",
+      "script": "Knife",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8379,
+        "coverage": "complete-object"
+      },
+      "damage": 110,
+      "maxAmmo": -1,
+      "fireRate": 3.799999952316284,
+      "reloadTime": -1.0,
+      "minDistance": 3.5,
+      "maxDistance": 3.5999999046325684,
+      "groundSpeedMulti": 1.2999999523162842,
+      "airSpeedMulti": 1.2999999523162842,
+      "holdToShoot": true,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 2,
+      "instabilityMultiplier": 0.0,
+      "relativeWeaponSize": 0.699999988079071,
+      "recoilCrazinessPhysical": 1.0,
+      "recoilCrazinessCrosshair": 1.0,
+      "recoilReturnSpeed": 2.0,
+      "realisticIconPath": "weapons/renders/karambit"
+    },
+    {
+      "index": 13,
+      "name": "Knife",
+      "script": "Knife",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8378,
+        "coverage": "complete-object"
+      },
+      "damage": 70,
+      "maxAmmo": -1,
+      "fireRate": 6.5,
+      "reloadTime": -1.0,
+      "minDistance": 3.5,
+      "maxDistance": 3.5999999046325684,
+      "groundSpeedMulti": 1.2999999523162842,
+      "airSpeedMulti": 1.2999999523162842,
+      "holdToShoot": true,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 2,
+      "instabilityMultiplier": 0.0,
+      "relativeWeaponSize": 1.0,
+      "recoilCrazinessPhysical": 0.0,
+      "recoilCrazinessCrosshair": 0.0,
+      "recoilReturnSpeed": 10.0,
+      "realisticIconPath": "weapons/renders/defaultknife"
+    },
+    {
+      "index": 14,
+      "name": "FN-Scar",
+      "script": "Weapon",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8308,
+        "coverage": "complete-object"
+      },
+      "damage": 35,
+      "maxAmmo": 25,
+      "fireRate": 6.900000095367432,
+      "reloadTime": 1.2899999618530273,
+      "minDistance": 30.0,
+      "maxDistance": 2000.0,
+      "groundSpeedMulti": 1.100000023841858,
+      "airSpeedMulti": 0.800000011920929,
+      "holdToShoot": true,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 0,
+      "instabilityMultiplier": 0.06499999761581421,
+      "relativeWeaponSize": 1.0,
+      "recoilCrazinessPhysical": 0.30000001192092896,
+      "recoilCrazinessCrosshair": 8.0,
+      "recoilReturnSpeed": 1.600000023841858,
+      "realisticIconPath": "weapons/renders/scar"
+    },
+    {
+      "index": 15,
+      "name": "Minigun",
+      "script": "Minigun",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8324,
+        "coverage": "complete-object"
+      },
+      "damage": 26,
+      "maxAmmo": 100,
+      "fireRate": 11.199999809265137,
+      "reloadTime": 2.799999952316284,
+      "minDistance": 70.0,
+      "maxDistance": 2000.0,
+      "groundSpeedMulti": 0.9300000071525574,
+      "airSpeedMulti": 0.9300000071525574,
+      "holdToShoot": true,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 0,
+      "instabilityMultiplier": 0.03999999910593033,
+      "relativeWeaponSize": 1.0,
+      "recoilCrazinessPhysical": 0.8999999761581421,
+      "recoilCrazinessCrosshair": 1.2999999523162842,
+      "recoilReturnSpeed": 0.47999998927116394,
+      "realisticIconPath": "weapons/renders/minigun"
+    },
+    {
+      "index": 16,
+      "name": "Famas",
+      "script": "BurstWeapon",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8317,
+        "coverage": "complete-object"
+      },
+      "damage": 44,
+      "maxAmmo": 30,
+      "fireRate": 2.759999990463257,
+      "reloadTime": 1.850000023841858,
+      "minDistance": 30.0,
+      "maxDistance": 2000.0,
+      "groundSpeedMulti": 1.3200000524520874,
+      "airSpeedMulti": 0.800000011920929,
+      "holdToShoot": true,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 0,
+      "instabilityMultiplier": 0.10000000149011612,
+      "relativeWeaponSize": 1.0,
+      "recoilCrazinessPhysical": 0.9200000166893005,
+      "recoilCrazinessCrosshair": 8.0,
+      "recoilReturnSpeed": 1.0,
+      "realisticIconPath": "weapons/renders/famas"
+    },
+    {
+      "index": 17,
+      "name": "Vector",
+      "script": "AimableWeapon",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8327,
+        "coverage": "complete-object"
+      },
+      "damage": 25,
+      "maxAmmo": 35,
+      "fireRate": 11.5,
+      "reloadTime": 1.2000000476837158,
+      "minDistance": 60.0,
+      "maxDistance": 400.0,
+      "groundSpeedMulti": 1.2450000047683716,
+      "airSpeedMulti": 0.9300000071525574,
+      "holdToShoot": true,
+      "shootOnRelease": false,
+      "holdToAim": true,
+      "weaponType": 1,
+      "instabilityMultiplier": 1.399999976158142,
+      "relativeWeaponSize": 1.0,
+      "recoilCrazinessPhysical": 0.20000000298023224,
+      "recoilCrazinessCrosshair": 0.3499999940395355,
+      "recoilReturnSpeed": 0.1599999964237213,
+      "realisticIconPath": "weapons/renders/vector"
+    },
+    {
+      "index": 18,
+      "name": "Flamethrower",
+      "script": "Flamethrower",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8448,
+        "coverage": "complete-object"
+      },
+      "damage": 30,
+      "maxAmmo": -1,
+      "fireRate": 14.0,
+      "reloadTime": 2.0,
+      "minDistance": 4.0,
+      "maxDistance": 32.0,
+      "groundSpeedMulti": 1.1200000047683716,
+      "airSpeedMulti": 1.100000023841858,
+      "holdToShoot": true,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 0,
+      "instabilityMultiplier": 2.0,
+      "relativeWeaponSize": 1.2000000476837158,
+      "recoilCrazinessPhysical": 0.0,
+      "recoilCrazinessCrosshair": 0.0,
+      "recoilReturnSpeed": 1.0,
+      "realisticIconPath": "weapons/renders/flamethrower"
+    },
+    {
+      "index": 19,
+      "name": "Kar98k",
+      "script": "Sniper",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8424,
+        "coverage": "complete-object"
+      },
+      "damage": 110,
+      "maxAmmo": 4,
+      "fireRate": 1.2999999523162842,
+      "reloadTime": 2.5,
+      "minDistance": 100.0,
+      "maxDistance": 2000.0,
+      "groundSpeedMulti": 1.0,
+      "airSpeedMulti": 0.6499999761581421,
+      "holdToShoot": true,
+      "shootOnRelease": true,
+      "holdToAim": true,
+      "weaponType": 0,
+      "instabilityMultiplier": 0.4000000059604645,
+      "relativeWeaponSize": 1.0,
+      "recoilCrazinessPhysical": 4.0,
+      "recoilCrazinessCrosshair": 1.0,
+      "recoilReturnSpeed": 2.0,
+      "realisticIconPath": "weapons/renders/kar98"
+    },
+    {
+      "index": 20,
+      "name": "M4A4",
+      "script": "Weapon",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8323,
+        "coverage": "complete-object"
+      },
+      "damage": 27,
+      "maxAmmo": 20,
+      "fireRate": 11.5,
+      "reloadTime": 1.850000023841858,
+      "minDistance": 6.0,
+      "maxDistance": 2000.0,
+      "groundSpeedMulti": 1.2999999523162842,
+      "airSpeedMulti": 0.699999988079071,
+      "holdToShoot": true,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 0,
+      "instabilityMultiplier": 0.09000000357627869,
+      "relativeWeaponSize": 1.0,
+      "recoilCrazinessPhysical": 0.800000011920929,
+      "recoilCrazinessCrosshair": 4.0,
+      "recoilReturnSpeed": 0.8999999761581421,
+      "realisticIconPath": "weapons/renders/m4a1"
+    },
+    {
+      "index": 21,
+      "name": "Tec9",
+      "script": "Weapon",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8328,
+        "coverage": "complete-object"
+      },
+      "damage": 38,
+      "maxAmmo": 18,
+      "fireRate": 9.0,
+      "reloadTime": 0.8999999761581421,
+      "minDistance": 90.0,
+      "maxDistance": 2000.0,
+      "groundSpeedMulti": 1.100000023841858,
+      "airSpeedMulti": 1.1200000047683716,
+      "holdToShoot": false,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 1,
+      "instabilityMultiplier": 0.30000001192092896,
+      "relativeWeaponSize": 1.0,
+      "recoilCrazinessPhysical": 1.0,
+      "recoilCrazinessCrosshair": 5.0,
+      "recoilReturnSpeed": 1.5,
+      "realisticIconPath": "weapons/renders/tec9"
+    },
+    {
+      "index": 22,
+      "name": "Beretta92fs",
+      "script": "Weapon",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8320,
+        "coverage": "complete-object"
+      },
+      "damage": 44,
+      "maxAmmo": 10,
+      "fireRate": 6.0,
+      "reloadTime": 0.8999999761581421,
+      "minDistance": 90.0,
+      "maxDistance": 2000.0,
+      "groundSpeedMulti": 1.100000023841858,
+      "airSpeedMulti": 1.1200000047683716,
+      "holdToShoot": false,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 1,
+      "instabilityMultiplier": 0.20000000298023224,
+      "relativeWeaponSize": 1.0,
+      "recoilCrazinessPhysical": 2.0,
+      "recoilCrazinessCrosshair": 20.0,
+      "recoilReturnSpeed": 2.9000000953674316,
+      "realisticIconPath": "weapons/renders/beretta"
+    },
+    {
+      "index": 23,
+      "name": "Cz",
+      "script": "AimableWeapon",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8326,
+        "coverage": "complete-object"
+      },
+      "damage": 29,
+      "maxAmmo": 18,
+      "fireRate": 10.0,
+      "reloadTime": 1.2000000476837158,
+      "minDistance": 90.0,
+      "maxDistance": 2000.0,
+      "groundSpeedMulti": 1.2450000047683716,
+      "airSpeedMulti": 0.9300000071525574,
+      "holdToShoot": false,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 1,
+      "instabilityMultiplier": 0.20000000298023224,
+      "relativeWeaponSize": 1.0,
+      "recoilCrazinessPhysical": 0.46000000834465027,
+      "recoilCrazinessCrosshair": 0.3499999940395355,
+      "recoilReturnSpeed": 0.1599999964237213,
+      "realisticIconPath": "weapons/renders/cz"
+    },
+    {
+      "index": 24,
+      "name": "AK-109",
+      "script": "Weapon",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8312,
+        "coverage": "complete-object"
+      },
+      "damage": 38,
+      "maxAmmo": 30,
+      "fireRate": 8.5,
+      "reloadTime": 1.850000023841858,
+      "minDistance": 30.0,
+      "maxDistance": 2000.0,
+      "groundSpeedMulti": 1.2999999523162842,
+      "airSpeedMulti": 1.0,
+      "holdToShoot": true,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 0,
+      "instabilityMultiplier": 0.05000000074505806,
+      "relativeWeaponSize": 1.0,
+      "recoilCrazinessPhysical": 0.8999999761581421,
+      "recoilCrazinessCrosshair": 1.2999999523162842,
+      "recoilReturnSpeed": 0.800000011920929,
+      "realisticIconPath": "weapons/renders/ak109"
+    },
+    {
+      "index": 25,
+      "name": "P90",
+      "script": "Weapon",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8309,
+        "coverage": "complete-object"
+      },
+      "damage": 23,
+      "maxAmmo": 50,
+      "fireRate": 13.0,
+      "reloadTime": 1.9500000476837158,
+      "minDistance": 0.0,
+      "maxDistance": 2000.0,
+      "groundSpeedMulti": 1.2450000047683716,
+      "airSpeedMulti": 0.8999999761581421,
+      "holdToShoot": true,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 0,
+      "instabilityMultiplier": 0.10000000149011612,
+      "relativeWeaponSize": 1.0,
+      "recoilCrazinessPhysical": 0.10000000149011612,
+      "recoilCrazinessCrosshair": 0.10000000149011612,
+      "recoilReturnSpeed": 0.6000000238418579,
+      "realisticIconPath": "weapons/renders/p90"
+    },
+    {
+      "index": 26,
+      "name": "Thompson",
+      "script": "Weapon",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8311,
+        "coverage": "complete-object"
+      },
+      "damage": 24,
+      "maxAmmo": 12,
+      "fireRate": 12.0,
+      "reloadTime": 1.4500000476837158,
+      "minDistance": 0.0,
+      "maxDistance": 200.0,
+      "groundSpeedMulti": 1.2999999523162842,
+      "airSpeedMulti": 0.699999988079071,
+      "holdToShoot": true,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 0,
+      "instabilityMultiplier": 0.05000000074505806,
+      "relativeWeaponSize": 1.0,
+      "recoilCrazinessPhysical": 0.6600000262260437,
+      "recoilCrazinessCrosshair": 2.5,
+      "recoilReturnSpeed": 0.800000011920929,
+      "realisticIconPath": "weapons/renders/thompson"
+    },
+    {
+      "index": 27,
+      "name": "UMP45",
+      "script": "AimableWeapon",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8315,
+        "coverage": "complete-object"
+      },
+      "damage": 21,
+      "maxAmmo": 35,
+      "fireRate": 10.0,
+      "reloadTime": 1.2000000476837158,
+      "minDistance": 20.0,
+      "maxDistance": 2000.0,
+      "groundSpeedMulti": 1.2450000047683716,
+      "airSpeedMulti": 0.8999999761581421,
+      "holdToShoot": true,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 0,
+      "instabilityMultiplier": 0.20000000298023224,
+      "relativeWeaponSize": 1.0,
+      "recoilCrazinessPhysical": 0.5,
+      "recoilCrazinessCrosshair": 1.0,
+      "recoilReturnSpeed": 0.699999988079071,
+      "realisticIconPath": "weapons/renders/ump"
+    },
+    {
+      "index": 28,
+      "name": "XM1014",
+      "script": "Shotgun",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8305,
+        "coverage": "complete-object"
+      },
+      "damage": 300,
+      "maxAmmo": 12,
+      "fireRate": 1.2999999523162842,
+      "reloadTime": 1.2000000476837158,
+      "minDistance": 1.0,
+      "maxDistance": 50.0,
+      "groundSpeedMulti": 1.2999999523162842,
+      "airSpeedMulti": 0.699999988079071,
+      "holdToShoot": true,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 0,
+      "instabilityMultiplier": 0.25,
+      "relativeWeaponSize": 1.0,
+      "recoilCrazinessPhysical": 3.0,
+      "recoilCrazinessCrosshair": 2.0,
+      "recoilReturnSpeed": 0.5,
+      "realisticIconPath": "weapons/renders/shotgun"
+    },
+    {
+      "index": 29,
+      "name": "Butterfly",
+      "script": "Knife",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8382,
+        "coverage": "complete-object"
+      },
+      "damage": 90,
+      "maxAmmo": -1,
+      "fireRate": 4.400000095367432,
+      "reloadTime": -1.0,
+      "minDistance": 3.5,
+      "maxDistance": 3.5999999046325684,
+      "groundSpeedMulti": 1.2999999523162842,
+      "airSpeedMulti": 1.2999999523162842,
+      "holdToShoot": true,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 2,
+      "instabilityMultiplier": 0.0,
+      "relativeWeaponSize": 0.699999988079071,
+      "recoilCrazinessPhysical": 1.0,
+      "recoilCrazinessCrosshair": 1.0,
+      "recoilReturnSpeed": 2.0,
+      "realisticIconPath": "weapons/renders/butterfly"
+    },
+    {
+      "index": 30,
+      "name": "LaserGun",
+      "script": "AimableWeapon",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8316,
+        "coverage": "complete-object"
+      },
+      "damage": 25,
+      "maxAmmo": 50,
+      "fireRate": 9.399999618530273,
+      "reloadTime": 1.850000023841858,
+      "minDistance": 6.0,
+      "maxDistance": 2000.0,
+      "groundSpeedMulti": 1.2999999523162842,
+      "airSpeedMulti": 0.699999988079071,
+      "holdToShoot": true,
+      "shootOnRelease": false,
+      "holdToAim": true,
+      "weaponType": 0,
+      "instabilityMultiplier": 1.2999999523162842,
+      "relativeWeaponSize": 1.0,
+      "recoilCrazinessPhysical": 0.20000000298023224,
+      "recoilCrazinessCrosshair": 7.0,
+      "recoilReturnSpeed": 1.0,
+      "realisticIconPath": "weapons/renders/lasergun"
+    },
+    {
+      "index": 31,
+      "name": "Bomb",
+      "script": "Bomb",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8464,
+        "coverage": "complete-object"
+      },
+      "damage": 0,
+      "maxAmmo": -1,
+      "fireRate": 0.4000000059604645,
+      "reloadTime": 2.0,
+      "minDistance": 1.0,
+      "maxDistance": 1.0,
+      "groundSpeedMulti": 1.100000023841858,
+      "airSpeedMulti": 1.0,
+      "holdToShoot": false,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 3,
+      "instabilityMultiplier": 0.0,
+      "relativeWeaponSize": 1.0,
+      "recoilCrazinessPhysical": 0.0,
+      "recoilCrazinessCrosshair": 0.0,
+      "recoilReturnSpeed": 1000.0,
+      "realisticIconPath": "weapons/renders/c4"
+    },
+    {
+      "index": 32,
+      "name": "Smoke",
+      "script": "Grenade",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8313,
+        "coverage": "complete-object"
+      },
+      "damage": 0,
+      "maxAmmo": -1,
+      "fireRate": 1.0,
+      "reloadTime": 2.0,
+      "minDistance": 90.0,
+      "maxDistance": 2000.0,
+      "groundSpeedMulti": 1.2000000476837158,
+      "airSpeedMulti": 1.2000000476837158,
+      "holdToShoot": false,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 4,
+      "instabilityMultiplier": 0.0,
+      "relativeWeaponSize": 0.30000001192092896,
+      "recoilCrazinessPhysical": 0.0,
+      "recoilCrazinessCrosshair": 0.0,
+      "recoilReturnSpeed": 10000.0,
+      "realisticIconPath": ""
+    },
+    {
+      "index": 33,
+      "name": "Molotov",
+      "script": "Grenade",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8322,
+        "coverage": "complete-object"
+      },
+      "damage": 0,
+      "maxAmmo": -1,
+      "fireRate": 1.0,
+      "reloadTime": 2.0,
+      "minDistance": 90.0,
+      "maxDistance": 2000.0,
+      "groundSpeedMulti": 1.2000000476837158,
+      "airSpeedMulti": 1.2000000476837158,
+      "holdToShoot": false,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 4,
+      "instabilityMultiplier": 0.0,
+      "relativeWeaponSize": 1.0,
+      "recoilCrazinessPhysical": 0.0,
+      "recoilCrazinessCrosshair": 0.0,
+      "recoilReturnSpeed": 10000.0,
+      "realisticIconPath": ""
+    },
+    {
+      "index": 34,
+      "name": "Grenade",
+      "script": "Grenade",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8307,
+        "coverage": "complete-object"
+      },
+      "damage": 0,
+      "maxAmmo": -1,
+      "fireRate": 1.0,
+      "reloadTime": 2.0,
+      "minDistance": 90.0,
+      "maxDistance": 2000.0,
+      "groundSpeedMulti": 1.2000000476837158,
+      "airSpeedMulti": 1.2000000476837158,
+      "holdToShoot": false,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 4,
+      "instabilityMultiplier": 0.0,
+      "relativeWeaponSize": 0.30000001192092896,
+      "recoilCrazinessPhysical": 0.0,
+      "recoilCrazinessCrosshair": 0.0,
+      "recoilReturnSpeed": 10000.0,
+      "realisticIconPath": ""
+    },
+    {
+      "index": 35,
+      "name": "Flashbang",
+      "script": "Grenade",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8318,
+        "coverage": "complete-object"
+      },
+      "damage": 0,
+      "maxAmmo": -1,
+      "fireRate": 1.0,
+      "reloadTime": 2.0,
+      "minDistance": 90.0,
+      "maxDistance": 2000.0,
+      "groundSpeedMulti": 1.2000000476837158,
+      "airSpeedMulti": 1.2000000476837158,
+      "holdToShoot": false,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 4,
+      "instabilityMultiplier": 0.0,
+      "relativeWeaponSize": 0.30000001192092896,
+      "recoilCrazinessPhysical": 0.0,
+      "recoilCrazinessCrosshair": 0.0,
+      "recoilReturnSpeed": 10000.0,
+      "realisticIconPath": ""
+    },
+    {
+      "index": 36,
+      "name": "Glizzy",
+      "script": "Knife",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8376,
+        "coverage": "complete-object"
+      },
+      "damage": 30,
+      "maxAmmo": -1,
+      "fireRate": 4.0,
+      "reloadTime": -1.0,
+      "minDistance": 3.5,
+      "maxDistance": 3.5999999046325684,
+      "groundSpeedMulti": 1.2999999523162842,
+      "airSpeedMulti": 1.2999999523162842,
+      "holdToShoot": true,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 2,
+      "instabilityMultiplier": 0.0,
+      "relativeWeaponSize": 0.699999988079071,
+      "recoilCrazinessPhysical": 0.0,
+      "recoilCrazinessCrosshair": 0.0,
+      "recoilReturnSpeed": 2.0,
+      "realisticIconPath": "weapons/renders/glizzy"
+    },
+    {
+      "index": 37,
+      "name": "Axe",
+      "script": "Knife",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8377,
+        "coverage": "complete-object"
+      },
+      "damage": 70,
+      "maxAmmo": -1,
+      "fireRate": 1.600000023841858,
+      "reloadTime": -1.0,
+      "minDistance": 3.5,
+      "maxDistance": 3.5999999046325684,
+      "groundSpeedMulti": 1.2999999523162842,
+      "airSpeedMulti": 1.2999999523162842,
+      "holdToShoot": true,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 2,
+      "instabilityMultiplier": 0.0,
+      "relativeWeaponSize": 0.699999988079071,
+      "recoilCrazinessPhysical": 1.0,
+      "recoilCrazinessCrosshair": 1.0,
+      "recoilReturnSpeed": 2.0,
+      "realisticIconPath": "weapons/renders/axe"
+    },
+    {
+      "index": 38,
+      "name": "Bare Fists",
+      "script": "Knife",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 8381,
+        "coverage": "complete-object"
+      },
+      "damage": 50,
+      "maxAmmo": -1,
+      "fireRate": 4.199999809265137,
+      "reloadTime": -1.0,
+      "minDistance": 3.5,
+      "maxDistance": 3.5999999046325684,
+      "groundSpeedMulti": 1.4299999475479126,
+      "airSpeedMulti": 1.4299999475479126,
+      "holdToShoot": true,
+      "shootOnRelease": false,
+      "holdToAim": false,
+      "weaponType": 2,
+      "instabilityMultiplier": 1.0,
+      "relativeWeaponSize": 1.0,
+      "recoilCrazinessPhysical": 2.0,
+      "recoilCrazinessCrosshair": 1.0,
+      "recoilReturnSpeed": 2.0,
+      "realisticIconPath": "weapons/renders/fists"
+    }
+  ],
+  "classes": [
+    {
+      "index": 0,
+      "name": "Soldier",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 7989,
+        "coverage": "complete-object"
+      },
+      "canGetChosenRandomly": true,
+      "overrideCharacterSkinIndex": -1,
+      "description": "The Soldier is a battle-hardened warrior, equipped with the iconic AK-47 assault rifle, making them a formidable force on the battlefield. Trained in the art of warfare, Soldiers excel in both offensive and defensive tactics, providing a versatile and reliable option for players seeking a balanced and robust gameplay experience.",
+      "iconName": "P0",
+      "weaponIndexes": [
+        0,
+        1,
+        3,
+        -1,
+        -1
+      ],
+      "overrideWeaponIndexesNew": [
+        -1,
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "health": 100,
+      "classLevels": [
+        {
+          "KillsForLevel": 3,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 4,
+          "unlocksWeaponPair": [
+            1,
+            11
+          ]
+        },
+        {
+          "KillsForLevel": 5,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 10,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 20,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 30,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 40,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 50,
+          "unlocksWeaponPair": [
+            0,
+            24
+          ]
+        },
+        {
+          "KillsForLevel": 100,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 120,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 200,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 300,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 500,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 750,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1500,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1800,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2,
+          "unlocksWeaponPair": [
+            0,
+            20
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 10000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 20000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 100000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        }
+      ],
+      "firstLevelIsUnlock": false,
+      "resolved_weapons": [
+        "AK-47",
+        "Deagle",
+        "Bayonet",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "Hitman",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 7982,
+        "coverage": "complete-object"
+      },
+      "canGetChosenRandomly": true,
+      "overrideCharacterSkinIndex": -1,
+      "description": "The Hitman is the embodiment of precision and stealth, armed with a high-powered sniper rifle to eliminate targets from a distance. Masters of covert operations, Hitmen specialize taking out adversaries with deadly accuracy. Renowned for their patience and lethal marksmanship, Hitmen excel in turning the tide of battle.",
+      "iconName": "P1",
+      "weaponIndexes": [
+        2,
+        11,
+        3,
+        -1,
+        -1
+      ],
+      "overrideWeaponIndexesNew": [
+        -1,
+        8,
+        -1,
+        -1,
+        -1
+      ],
+      "health": 85,
+      "classLevels": [
+        {
+          "KillsForLevel": 6,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 3,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 4,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 5,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 10,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 20,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 30,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 40,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 50,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 100,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 120,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 200,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 300,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 500,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 750,
+          "unlocksWeaponPair": [
+            0,
+            19
+          ]
+        },
+        {
+          "KillsForLevel": 1000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1500,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1800,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 10000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 20000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 100000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        }
+      ],
+      "firstLevelIsUnlock": false,
+      "resolved_weapons": [
+        "Awp",
+        "Glock",
+        "Bayonet",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "index": 2,
+      "name": "Gunner",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 7980,
+        "coverage": "complete-object"
+      },
+      "canGetChosenRandomly": true,
+      "overrideCharacterSkinIndex": -1,
+      "description": "The Gunner is a relentless force on the battlefield, armed with a high-speed Submachine Gun that excels in close-quarters combat. With a focus on rapid-fire and mobility, the Gunner class is designed to quickly dispatch enemies and maneuver through the chaos of the fight. Whether clearing tight spaces or providing sustained suppressive fire, the Gunner is a versatile and aggressive combatant.",
+      "iconName": "P2",
+      "weaponIndexes": [
+        25,
+        11,
+        3,
+        -1,
+        -1
+      ],
+      "overrideWeaponIndexesNew": [
+        -1,
+        8,
+        -1,
+        -1,
+        -1
+      ],
+      "health": 90,
+      "classLevels": [
+        {
+          "KillsForLevel": 2,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 3,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 4,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 5,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 10,
+          "unlocksWeaponPair": [
+            0,
+            4
+          ]
+        },
+        {
+          "KillsForLevel": 20,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 30,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 40,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 50,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 100,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 120,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 200,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 300,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 500,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 750,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1500,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1800,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 10000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 20000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 100000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        }
+      ],
+      "firstLevelIsUnlock": false,
+      "resolved_weapons": [
+        "P90",
+        "Glock",
+        "Bayonet",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "index": 3,
+      "name": "Heavy",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 7981,
+        "coverage": "complete-object"
+      },
+      "canGetChosenRandomly": true,
+      "overrideCharacterSkinIndex": -1,
+      "description": "The Heavy is a formidable juggernaut on the battlefield, wielding the powerful PKM machine gun to deliver sustained and devastating firepower. Renowned for their ability to control the flow of battle and dominate large areas, the Heavy class is a walking arsenal capable of turning the tide with overwhelming force.",
+      "iconName": "P3",
+      "weaponIndexes": [
+        5,
+        11,
+        3,
+        -1,
+        -1
+      ],
+      "overrideWeaponIndexesNew": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "health": 135,
+      "classLevels": [
+        {
+          "KillsForLevel": 2,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 3,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 4,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 5,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 10,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 20,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 30,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 40,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 50,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 100,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 120,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 200,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 300,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 500,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 750,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1500,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1800,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 10000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 20000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 100000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        }
+      ],
+      "firstLevelIsUnlock": false,
+      "resolved_weapons": [
+        "PKM",
+        "Glock",
+        "Bayonet",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "Rocketeer",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 7988,
+        "coverage": "complete-object"
+      },
+      "canGetChosenRandomly": true,
+      "overrideCharacterSkinIndex": -1,
+      "description": "The Rocketeer is a high-impact combat specialist, armed with a devastating rocket launcher that turns the tide of battle with explosive force. Renowned for their ability to deliver powerful blows to both infantry and armored targets, the Rocketeer excels in providing heavy artillery support and disrupting enemy formations.",
+      "iconName": "P4",
+      "weaponIndexes": [
+        7,
+        11,
+        3,
+        -1,
+        -1
+      ],
+      "overrideWeaponIndexesNew": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "health": 90,
+      "classLevels": [
+        {
+          "KillsForLevel": 2,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 3,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 4,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 5,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 10,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 20,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 30,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 40,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 50,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 100,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 120,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 200,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 300,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 500,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 750,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1500,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1800,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 10000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 20000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 100000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        }
+      ],
+      "firstLevelIsUnlock": false,
+      "resolved_weapons": [
+        "RPG",
+        "Glock",
+        "Bayonet",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "index": 5,
+      "name": "Agent",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 7977,
+        "coverage": "complete-object"
+      },
+      "canGetChosenRandomly": true,
+      "overrideCharacterSkinIndex": -1,
+      "description": "The Agent is a covert operative, equipped with an MP5SD submachine gun, blending speed, and precision to navigate the shadows and execute precise strikes. Renowned for their versatility and proficiency in both close-quarters combat and silent infiltration, Agents excel at eliminating targets with finesse and discretion.",
+      "iconName": "P5",
+      "weaponIndexes": [
+        9,
+        1,
+        3,
+        -1,
+        -1
+      ],
+      "overrideWeaponIndexesNew": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "health": 100,
+      "classLevels": [
+        {
+          "KillsForLevel": 10,
+          "unlocksWeaponPair": [
+            1,
+            11
+          ]
+        },
+        {
+          "KillsForLevel": 3,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 4,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 5,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 20,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 30,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 40,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 50,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 10,
+          "unlocksWeaponPair": [
+            0,
+            27
+          ]
+        },
+        {
+          "KillsForLevel": 100,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 120,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 200,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 300,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 500,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 750,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1500,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1800,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 10000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 20000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 100000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        }
+      ],
+      "firstLevelIsUnlock": false,
+      "resolved_weapons": [
+        "MP5",
+        "Deagle",
+        "Bayonet",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "index": 6,
+      "name": "Brawler",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 7979,
+        "coverage": "complete-object"
+      },
+      "canGetChosenRandomly": true,
+      "overrideCharacterSkinIndex": -1,
+      "description": "The Brawler is a relentless close-quarters combat specialist armed with the Ithaca M37 shotgun, delivering bone-crushing power with each blast. Renowned for their fearless approach to battle, Brawlers excel in breaching enemy defenses, clearing tight spaces, and dominating the scene with sheer force.",
+      "iconName": "P6",
+      "weaponIndexes": [
+        10,
+        11,
+        3,
+        -1,
+        -1
+      ],
+      "overrideWeaponIndexesNew": [
+        -1,
+        8,
+        -1,
+        -1,
+        -1
+      ],
+      "health": 120,
+      "classLevels": [
+        {
+          "KillsForLevel": 20,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 3,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 4,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 5,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 10,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 20,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 30,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 40,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 50,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 100,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 120,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 200,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 300,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 500,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 750,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1000,
+          "unlocksWeaponPair": [
+            0,
+            28
+          ]
+        },
+        {
+          "KillsForLevel": 1500,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1800,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 10000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 20000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 100000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        }
+      ],
+      "firstLevelIsUnlock": false,
+      "resolved_weapons": [
+        "Shotgun",
+        "Glock",
+        "Bayonet",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "index": 7,
+      "name": "Investor",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 7983,
+        "coverage": "complete-object"
+      },
+      "canGetChosenRandomly": true,
+      "overrideCharacterSkinIndex": -1,
+      "description": "The Investor is a strategic and charismatic leader armed with the FN Scar, seamlessly blending political acumen with combat expertise. This unique class excels in providing effective support on the battlefield. With the FN Scar in hand, the Politician combines diplomatic finesse with lethal precision to shape the course of battle.",
+      "iconName": "P7",
+      "weaponIndexes": [
+        14,
+        11,
+        3,
+        -1,
+        -1
+      ],
+      "overrideWeaponIndexesNew": [
+        -1,
+        8,
+        -1,
+        -1,
+        -1
+      ],
+      "health": 95,
+      "classLevels": [
+        {
+          "KillsForLevel": 10,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 3,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 4,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 5,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 10,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 20,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 30,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 40,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 50,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 100,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 120,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 200,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 300,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 500,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 750,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1500,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1800,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 10000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 20000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 100000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        }
+      ],
+      "firstLevelIsUnlock": true,
+      "resolved_weapons": [
+        "FN-Scar",
+        "Glock",
+        "Bayonet",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "index": 8,
+      "name": "Assassin",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 7978,
+        "coverage": "complete-object"
+      },
+      "canGetChosenRandomly": true,
+      "overrideCharacterSkinIndex": -1,
+      "description": "The Assassin is a master of stealth and precision, armed with the deadly FAMAS assault rifle. Renowned for their ability to eliminate targets swiftly and quietly, Assassins excel in covert operations, infiltrations, and high-stakes assassinations. With the FAMAS in hand, they strike fear into the hearts of their enemies with lethal accuracy.",
+      "iconName": "P8",
+      "weaponIndexes": [
+        16,
+        11,
+        3,
+        -1,
+        -1
+      ],
+      "overrideWeaponIndexesNew": [
+        -1,
+        8,
+        -1,
+        -1,
+        -1
+      ],
+      "health": 110,
+      "classLevels": [
+        {
+          "KillsForLevel": 25,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 3,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 4,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 5,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 10,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 20,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 30,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 40,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 50,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 100,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 120,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 200,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 300,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 500,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 750,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1500,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1800,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 10000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 20000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 100000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        }
+      ],
+      "firstLevelIsUnlock": false,
+      "resolved_weapons": [
+        "Famas",
+        "Glock",
+        "Bayonet",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "index": 9,
+      "name": "Juggernaut",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 7984,
+        "coverage": "complete-object"
+      },
+      "canGetChosenRandomly": true,
+      "overrideCharacterSkinIndex": -1,
+      "description": "The Juggernaut is an unstoppable force on the battlefield, carrying the devastating firepower of a minigun. Clad in heavy armor and exuding raw power, the Juggernaut is designed to dominate the front lines, absorb enemy fire, and unleash a torrent of bullets with the fearsome minigun. When the Juggernaut marches into battle, chaos ensues, and adversaries tremble in the face of overwhelming firepower.",
+      "iconName": "P9",
+      "weaponIndexes": [
+        15,
+        11,
+        3,
+        -1,
+        -1
+      ],
+      "overrideWeaponIndexesNew": [
+        -1,
+        8,
+        -1,
+        -1,
+        -1
+      ],
+      "health": 125,
+      "classLevels": [
+        {
+          "KillsForLevel": 10,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 3,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 4,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 5,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 10,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 20,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 30,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 40,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 50,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 100,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 120,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 200,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 300,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 500,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 750,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1500,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1800,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 10000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 20000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 100000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        }
+      ],
+      "firstLevelIsUnlock": true,
+      "resolved_weapons": [
+        "Minigun",
+        "Glock",
+        "Bayonet",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "index": 10,
+      "name": "Recon",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 7987,
+        "coverage": "complete-object"
+      },
+      "canGetChosenRandomly": true,
+      "overrideCharacterSkinIndex": -1,
+      "description": "The Recon is a master of intelligence and precision, armed with the Kriss Vector submachine gun. Renowned for their sharpshooting skills and keen awareness, Recon operatives excel in gathering critical information, eliminating high-value targets, and providing crucial support to their team. With the Kriss Vector in hand, the Recon class is a deadly force capable of striking swiftly close quarters and at range. ",
+      "iconName": "P10",
+      "weaponIndexes": [
+        17,
+        11,
+        3,
+        -1,
+        -1
+      ],
+      "overrideWeaponIndexesNew": [
+        -1,
+        8,
+        -1,
+        -1,
+        -1
+      ],
+      "health": 80,
+      "classLevels": [
+        {
+          "KillsForLevel": 50,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 3,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 4,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 5,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 10,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 20,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 30,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 40,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 50,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 100,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 120,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 200,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 300,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 500,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 750,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1500,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1800,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 10000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 20000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 100000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        }
+      ],
+      "firstLevelIsUnlock": true,
+      "resolved_weapons": [
+        "Vector",
+        "Glock",
+        "Bayonet",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "index": 11,
+      "name": "Pyro",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 7985,
+        "coverage": "complete-object"
+      },
+      "canGetChosenRandomly": true,
+      "overrideCharacterSkinIndex": -1,
+      "description": "The Pyro is a master of fire and chaos, wielding a flamethrower to bring destruction to the front lines of the battlefield. With a relentless focus on close-range combat and area denial, the Pyro is a formidable force capable of turning the tide of battle with scorching flames. Embracing the heat of war, the Pyro excels in creating havoc and instilling fear among enemies.",
+      "iconName": "P11",
+      "weaponIndexes": [
+        18,
+        6,
+        3,
+        -1,
+        -1
+      ],
+      "overrideWeaponIndexesNew": [
+        -1,
+        8,
+        -1,
+        -1,
+        -1
+      ],
+      "health": 130,
+      "classLevels": [
+        {
+          "KillsForLevel": 100,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 3,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 4,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 5,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 10,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 20,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 30,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 40,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 50,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 100,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 120,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 200,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 300,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 500,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 750,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1500,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1800,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 10000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 20000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 100000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        }
+      ],
+      "firstLevelIsUnlock": true,
+      "resolved_weapons": [
+        "Flamethrower",
+        "Revolver",
+        "Bayonet",
+        "none",
+        "none"
+      ]
+    },
+    {
+      "index": 12,
+      "name": "Rayblader",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 7986,
+        "coverage": "complete-object"
+      },
+      "canGetChosenRandomly": false,
+      "overrideCharacterSkinIndex": 31,
+      "description": "The Rayblader is a master of fire and chaos, wielding a flamethrower to bring destruction to the front lines of the battlefield. With a relentless focus on close-range combat and area denial, the Pyro is a formidable force capable of turning the tide of battle with scorching flames. Embracing the heat of war, the Pyro excels in creating havoc and instilling fear among enemies.",
+      "iconName": "P15",
+      "weaponIndexes": [
+        30,
+        11,
+        3,
+        -1,
+        -1
+      ],
+      "overrideWeaponIndexesNew": [
+        -1,
+        8,
+        -1,
+        -1,
+        -1
+      ],
+      "health": 110,
+      "classLevels": [
+        {
+          "KillsForLevel": 5000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 3,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 4,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 5,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 10,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 20,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 30,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 40,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 50,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 100,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 120,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 200,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 300,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 500,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 750,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1500,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 1800,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 2000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 10000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 20000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        },
+        {
+          "KillsForLevel": 100000,
+          "unlocksWeaponPair": [
+            -1,
+            -1
+          ]
+        }
+      ],
+      "firstLevelIsUnlock": true,
+      "resolved_weapons": [
+        "LaserGun",
+        "Glock",
+        "Bayonet",
+        "none",
+        "none"
+      ]
+    }
+  ],
+  "game_modes": [
+    {
+      "name": "Battle Royale",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 7884,
+        "coverage": "complete-object"
+      },
+      "chanceWeight": 0.0,
+      "mobileChanceWeight": 0.0,
+      "kourstrikeChanceWeight": 0.0,
+      "kourzoneChanceWeight": 1.0,
+      "id": 9,
+      "canChangeTimerOnPrivateMatches": false,
+      "canChangeMaxPlayersOnPrivateMatches": false,
+      "forcesMap": [
+        10
+      ],
+      "_maxPlayers": 15,
+      "_teamSize": -1,
+      "matchTimeInSeconds": 1200,
+      "sprite": {
+        "file_id": 0,
+        "path_id": 1012
+      },
+      "weaponList": [],
+      "forcePrivate": false,
+      "excludeFromPubs": true,
+      "excludeFromPubsKourstrike": true,
+      "excludeFromPubsKourZone": false
+    },
+    {
+      "name": "FFA",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 7885,
+        "coverage": "complete-object"
+      },
+      "chanceWeight": 1.5,
+      "mobileChanceWeight": 1.0,
+      "kourstrikeChanceWeight": 0.0,
+      "kourzoneChanceWeight": 0.0,
+      "id": 1,
+      "canChangeTimerOnPrivateMatches": true,
+      "canChangeMaxPlayersOnPrivateMatches": true,
+      "forcesMap": [],
+      "_maxPlayers": 6,
+      "_teamSize": -1,
+      "matchTimeInSeconds": 540,
+      "sprite": {
+        "file_id": 0,
+        "path_id": 1012
+      },
+      "weaponList": [],
+      "forcePrivate": false,
+      "excludeFromPubs": false,
+      "excludeFromPubsKourstrike": true,
+      "excludeFromPubsKourZone": true
+    },
+    {
+      "name": "FFA35",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 7886,
+        "coverage": "complete-object"
+      },
+      "chanceWeight": 0.38999998569488525,
+      "mobileChanceWeight": 20.0,
+      "kourstrikeChanceWeight": 0.0,
+      "kourzoneChanceWeight": 0.0,
+      "id": 4,
+      "canChangeTimerOnPrivateMatches": false,
+      "canChangeMaxPlayersOnPrivateMatches": true,
+      "forcesMap": [],
+      "_maxPlayers": 6,
+      "_teamSize": -1,
+      "matchTimeInSeconds": 2100,
+      "sprite": {
+        "file_id": 0,
+        "path_id": 1020
+      },
+      "weaponList": [],
+      "forcePrivate": false,
+      "excludeFromPubs": false,
+      "excludeFromPubsKourstrike": true,
+      "excludeFromPubsKourZone": true
+    },
+    {
+      "name": "Gun Game",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 7887,
+        "coverage": "complete-object"
+      },
+      "chanceWeight": 1.0,
+      "mobileChanceWeight": 1.0,
+      "kourstrikeChanceWeight": 0.0,
+      "kourzoneChanceWeight": 0.0,
+      "id": 3,
+      "canChangeTimerOnPrivateMatches": false,
+      "canChangeMaxPlayersOnPrivateMatches": true,
+      "forcesMap": [],
+      "_maxPlayers": 6,
+      "_teamSize": -1,
+      "matchTimeInSeconds": 4200,
+      "sprite": {
+        "file_id": 0,
+        "path_id": 1013
+      },
+      "weaponList": [
+        {
+          "file_id": 0,
+          "path_id": 8314
+        },
+        {
+          "file_id": 0,
+          "path_id": 8324
+        },
+        {
+          "file_id": 0,
+          "path_id": 8449
+        },
+        {
+          "file_id": 0,
+          "path_id": 8306
+        },
+        {
+          "file_id": 0,
+          "path_id": 8317
+        },
+        {
+          "file_id": 0,
+          "path_id": 8308
+        },
+        {
+          "file_id": 0,
+          "path_id": 8423
+        },
+        {
+          "file_id": 0,
+          "path_id": 8316
+        },
+        {
+          "file_id": 0,
+          "path_id": 8327
+        },
+        {
+          "file_id": 0,
+          "path_id": 8448
+        },
+        {
+          "file_id": 0,
+          "path_id": 8424
+        },
+        {
+          "file_id": 0,
+          "path_id": 8323
+        },
+        {
+          "file_id": 0,
+          "path_id": 8325
+        },
+        {
+          "file_id": 0,
+          "path_id": 8309
+        },
+        {
+          "file_id": 0,
+          "path_id": 8329
+        },
+        {
+          "file_id": 0,
+          "path_id": 8312
+        },
+        {
+          "file_id": 0,
+          "path_id": 8311
+        },
+        {
+          "file_id": 0,
+          "path_id": 8315
+        },
+        {
+          "file_id": 0,
+          "path_id": 8321
+        },
+        {
+          "file_id": 0,
+          "path_id": 8331
+        },
+        {
+          "file_id": 0,
+          "path_id": 8310
+        },
+        {
+          "file_id": 0,
+          "path_id": 8326
+        },
+        {
+          "file_id": 0,
+          "path_id": 8320
+        },
+        {
+          "file_id": 0,
+          "path_id": 8328
+        },
+        {
+          "file_id": 0,
+          "path_id": 8319
+        },
+        {
+          "file_id": 0,
+          "path_id": 8330
+        },
+        {
+          "file_id": 0,
+          "path_id": 8380
+        }
+      ],
+      "forcePrivate": false,
+      "excludeFromPubs": false,
+      "excludeFromPubsKourstrike": true,
+      "excludeFromPubsKourZone": true
+    },
+    {
+      "name": "Hardpoint",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 7888,
+        "coverage": "complete-object"
+      },
+      "chanceWeight": 1.0,
+      "mobileChanceWeight": 1.0,
+      "kourstrikeChanceWeight": 0.0,
+      "kourzoneChanceWeight": 0.0,
+      "id": 6,
+      "canChangeTimerOnPrivateMatches": true,
+      "canChangeMaxPlayersOnPrivateMatches": true,
+      "forcesMap": [],
+      "_maxPlayers": 6,
+      "_teamSize": 5,
+      "matchTimeInSeconds": 540,
+      "sprite": {
+        "file_id": 0,
+        "path_id": 1028
+      },
+      "weaponList": [],
+      "forcePrivate": false,
+      "excludeFromPubs": false,
+      "excludeFromPubsKourstrike": true,
+      "excludeFromPubsKourZone": true
+    },
+    {
+      "name": "KourCraft",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 7889,
+        "coverage": "complete-object"
+      },
+      "chanceWeight": 0.0,
+      "mobileChanceWeight": 0.0,
+      "kourstrikeChanceWeight": 0.0,
+      "kourzoneChanceWeight": 0.0,
+      "id": 11,
+      "canChangeTimerOnPrivateMatches": true,
+      "canChangeMaxPlayersOnPrivateMatches": true,
+      "forcesMap": [
+        14
+      ],
+      "_maxPlayers": 8,
+      "_teamSize": -1,
+      "matchTimeInSeconds": 600,
+      "sprite": {
+        "file_id": 0,
+        "path_id": 996
+      },
+      "weaponList": [],
+      "forcePrivate": false,
+      "excludeFromPubs": true,
+      "excludeFromPubsKourstrike": true,
+      "excludeFromPubsKourZone": true
+    },
+    {
+      "name": "KourSurf",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 7890,
+        "coverage": "complete-object"
+      },
+      "chanceWeight": 0.0,
+      "mobileChanceWeight": 0.0,
+      "kourstrikeChanceWeight": 0.0,
+      "kourzoneChanceWeight": 0.0,
+      "id": 7,
+      "canChangeTimerOnPrivateMatches": false,
+      "canChangeMaxPlayersOnPrivateMatches": true,
+      "forcesMap": [
+        7
+      ],
+      "_maxPlayers": 12,
+      "_teamSize": -1,
+      "matchTimeInSeconds": 999999,
+      "sprite": {
+        "file_id": 0,
+        "path_id": 1022
+      },
+      "weaponList": [],
+      "forcePrivate": false,
+      "excludeFromPubs": true,
+      "excludeFromPubsKourstrike": true,
+      "excludeFromPubsKourZone": true
+    },
+    {
+      "name": "MoonSnipe",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 7891,
+        "coverage": "complete-object"
+      },
+      "chanceWeight": 0.0,
+      "mobileChanceWeight": 0.0,
+      "kourstrikeChanceWeight": 0.0,
+      "kourzoneChanceWeight": 0.0,
+      "id": 10,
+      "canChangeTimerOnPrivateMatches": true,
+      "canChangeMaxPlayersOnPrivateMatches": true,
+      "forcesMap": [
+        13
+      ],
+      "_maxPlayers": 7,
+      "_teamSize": -1,
+      "matchTimeInSeconds": 600,
+      "sprite": {
+        "file_id": 0,
+        "path_id": 996
+      },
+      "weaponList": [],
+      "forcePrivate": false,
+      "excludeFromPubs": true,
+      "excludeFromPubsKourstrike": true,
+      "excludeFromPubsKourZone": true
+    },
+    {
+      "name": "ParKour",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 7892,
+        "coverage": "complete-object"
+      },
+      "chanceWeight": 0.0,
+      "mobileChanceWeight": 0.0,
+      "kourstrikeChanceWeight": 0.0,
+      "kourzoneChanceWeight": 0.0,
+      "id": 12,
+      "canChangeTimerOnPrivateMatches": false,
+      "canChangeMaxPlayersOnPrivateMatches": true,
+      "forcesMap": [
+        15
+      ],
+      "_maxPlayers": 12,
+      "_teamSize": -1,
+      "matchTimeInSeconds": 999999,
+      "sprite": {
+        "file_id": 0,
+        "path_id": 1022
+      },
+      "weaponList": [],
+      "forcePrivate": false,
+      "excludeFromPubs": true,
+      "excludeFromPubsKourstrike": true,
+      "excludeFromPubsKourZone": true
+    },
+    {
+      "name": "Search And Destroy",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 7893,
+        "coverage": "complete-object"
+      },
+      "chanceWeight": 0.0,
+      "mobileChanceWeight": 0.0,
+      "kourstrikeChanceWeight": 1.0,
+      "kourzoneChanceWeight": 0.0,
+      "id": 8,
+      "canChangeTimerOnPrivateMatches": false,
+      "canChangeMaxPlayersOnPrivateMatches": false,
+      "forcesMap": [
+        8,
+        9,
+        11
+      ],
+      "_maxPlayers": 8,
+      "_teamSize": 4,
+      "matchTimeInSeconds": 600,
+      "sprite": {
+        "file_id": 0,
+        "path_id": 1012
+      },
+      "weaponList": [],
+      "forcePrivate": false,
+      "excludeFromPubs": true,
+      "excludeFromPubsKourstrike": false,
+      "excludeFromPubsKourZone": true
+    },
+    {
+      "name": "TDM",
+      "source": {
+        "file": "sharedassets0.assets",
+        "path_id": 7894,
+        "coverage": "complete-object"
+      },
+      "chanceWeight": 1.0,
+      "mobileChanceWeight": 1.0,
+      "kourstrikeChanceWeight": 0.0,
+      "kourzoneChanceWeight": 0.0,
+      "id": 2,
+      "canChangeTimerOnPrivateMatches": true,
+      "canChangeMaxPlayersOnPrivateMatches": true,
+      "forcesMap": [],
+      "_maxPlayers": 6,
+      "_teamSize": 5,
+      "matchTimeInSeconds": 540,
+      "sprite": {
+        "file_id": 0,
+        "path_id": 973
+      },
+      "weaponList": [],
+      "forcePrivate": false,
+      "excludeFromPubs": false,
+      "excludeFromPubsKourstrike": true,
+      "excludeFromPubsKourZone": true
+    }
+  ],
+  "movement": {
+    "source": {
+      "file": "resources.assets",
+      "path_id": 7063,
+      "coverage": "complete-object"
+    },
+    "values": {
+      "obstacleMask": 1024,
+      "mouseSensitivity": 1.0,
+      "groundAcceleration": 600.0,
+      "airAcceleration": 100.0,
+      "airFriction": 50.0,
+      "groundLimit": 15.0,
+      "crouchGroundLimit": 9.0,
+      "airLimit": 0.8999999761581421,
+      "gravity": 21.0,
+      "friction": 20.0,
+      "jumpHeight": 7.800000190734863,
+      "rampSlideLimit": 5.0,
+      "slopeLimit": 45.0,
+      "additiveJump": true,
+      "autoJump": true,
+      "clampGroundSpeed": false,
+      "onGround": false,
+      "currentInstability": 0.0,
+      "landedBrTime": 3.4028234663852886e+38,
+      "dealZoneDamage": false
+    },
+    "field_offsets": [
+      {
+        "field": "disableForParkour",
+        "type": "UnityEngine.GameObject[]",
+        "start": 32,
+        "end": 48
+      },
+      {
+        "field": "dashFill",
+        "type": "UnityEngine.RectTransform",
+        "start": 48,
+        "end": 60
+      },
+      {
+        "field": "fastPS",
+        "type": "ParticleSystemExtension",
+        "start": 60,
+        "end": 72
+      },
+      {
+        "field": "umbrellaGfx",
+        "type": "UnityEngine.GameObject",
+        "start": 72,
+        "end": 84
+      },
+      {
+        "field": "umbrellaRotator",
+        "type": "UnityEngine.Transform",
+        "start": 84,
+        "end": 96
+      },
+      {
+        "field": "myCollider",
+        "type": "UnityEngine.CapsuleCollider",
+        "start": 96,
+        "end": 108
+      },
+      {
+        "field": "SSCCs",
+        "type": "ScreenSpaceCavityCurvature.SSCC[]",
+        "start": 108,
+        "end": 148
+      },
+      {
+        "field": "teamMember",
+        "type": "TeamMember",
+        "start": 148,
+        "end": 160
+      },
+      {
+        "field": "characterAnimatorManager",
+        "type": "CharacterAnimatorManager",
+        "start": 160,
+        "end": 172
+      },
+      {
+        "field": "shooter",
+        "type": "Shooter",
+        "start": 172,
+        "end": 184
+      },
+      {
+        "field": "obstacleMask",
+        "type": "UnityEngine.LayerMask",
+        "start": 184,
+        "end": 188
+      },
+      {
+        "field": "recoil",
+        "type": "Recoil",
+        "start": 188,
+        "end": 200
+      },
+      {
+        "field": "crosshair",
+        "type": "CrosshairReticle",
+        "start": 200,
+        "end": 212
+      },
+      {
+        "field": "playerInput",
+        "type": "PlayerInputHandler",
+        "start": 212,
+        "end": 224
+      },
+      {
+        "field": "playerCameraParent",
+        "type": "UnityEngine.Transform",
+        "start": 224,
+        "end": 236
+      },
+      {
+        "field": "playerCamera",
+        "type": "UnityEngine.Camera",
+        "start": 236,
+        "end": 248
+      },
+      {
+        "field": "mouseSensitivity",
+        "type": "float",
+        "start": 248,
+        "end": 252
+      },
+      {
+        "field": "groundAcceleration",
+        "type": "float",
+        "start": 252,
+        "end": 256
+      },
+      {
+        "field": "airAcceleration",
+        "type": "float",
+        "start": 256,
+        "end": 260
+      },
+      {
+        "field": "airFriction",
+        "type": "float",
+        "start": 260,
+        "end": 264
+      },
+      {
+        "field": "groundLimit",
+        "type": "float",
+        "start": 264,
+        "end": 268
+      },
+      {
+        "field": "crouchGroundLimit",
+        "type": "float",
+        "start": 268,
+        "end": 272
+      },
+      {
+        "field": "airLimit",
+        "type": "float",
+        "start": 272,
+        "end": 276
+      },
+      {
+        "field": "gravity",
+        "type": "float",
+        "start": 276,
+        "end": 280
+      },
+      {
+        "field": "friction",
+        "type": "float",
+        "start": 280,
+        "end": 284
+      },
+      {
+        "field": "jumpHeight",
+        "type": "float",
+        "start": 284,
+        "end": 288
+      },
+      {
+        "field": "rampSlideLimit",
+        "type": "float",
+        "start": 288,
+        "end": 292
+      },
+      {
+        "field": "slopeLimit",
+        "type": "float",
+        "start": 292,
+        "end": 296
+      },
+      {
+        "field": "additiveJump",
+        "type": "bool",
+        "start": 296,
+        "end": 300
+      },
+      {
+        "field": "autoJump",
+        "type": "bool",
+        "start": 300,
+        "end": 304
+      },
+      {
+        "field": "clampGroundSpeed",
+        "type": "bool",
+        "start": 304,
+        "end": 308
+      },
+      {
+        "field": "vel",
+        "type": "UnityEngine.Vector3",
+        "start": 308,
+        "end": 320
+      },
+      {
+        "field": "onGround",
+        "type": "bool",
+        "start": 320,
+        "end": 324
+      },
+      {
+        "field": "currentInstability",
+        "type": "float",
+        "start": 324,
+        "end": 328
+      },
+      {
+        "field": "landedBrTime",
+        "type": "float",
+        "start": 328,
+        "end": 332
+      },
+      {
+        "field": "dealZoneDamage",
+        "type": "bool",
+        "start": 332,
+        "end": 336
+      }
+    ]
+  }
+}

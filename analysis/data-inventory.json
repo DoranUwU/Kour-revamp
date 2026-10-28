@@ -1,0 +1,42 @@
+[
+  {
+    "name": "RuntimeInitializeOnLoads.json",
+    "offset": 304,
+    "size": 2745
+  },
+  {
+    "name": "ScriptingAssemblies.json",
+    "offset": 3049,
+    "size": 4016
+  },
+  {
+    "name": "data.unity3d",
+    "offset": 7065,
+    "size": 5197026
+  },
+  {
+    "name": "resources.resource",
+    "offset": 5204091,
+    "size": 78220
+  },
+  {
+    "name": "sharedassets0.resource",
+    "offset": 5282311,
+    "size": 4937540
+  },
+  {
+    "name": "boot.config",
+    "offset": 10219851,
+    "size": 165
+  },
+  {
+    "name": "Il2CppData/Metadata/global-metadata.dat",
+    "offset": 10220016,
+    "size": 9740008
+  },
+  {
+    "name": "Resources/unity default resources",
+    "offset": 19960024,
+    "size": 1627572
+  }
+]

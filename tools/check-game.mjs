@@ -1,0 +1,31 @@
+import vm from 'node:vm';
+import {readFileSync} from 'node:fs';
+import assert from 'node:assert/strict';
+const elements=new Map();
+const gradient={addColorStop(){}};
+const context=new Proxy({createLinearGradient:()=>gradient},{get:(o,k)=>o[k]||(()=>{})});
+const element=id=>{if(!elements.has(id))elements.set(id,{style:{},textContent:'',innerHTML:'',getContext:()=>context});return elements.get(id)};
+const sandbox={console,Float32Array,Math,performance:{now:()=>1000},innerWidth:1280,innerHeight:720,requestAnimationFrame(){},addEventListener(){},document:{querySelector:()=>element('view'),getElementById:element,addEventListener(){},body:{classList:{add(){},remove(){}}},exitPointerLock(){}}};
+vm.createContext(sandbox);
+vm.runInContext(readFileSync('game/game.js','utf8'),sandbox);
+vm.runInContext(`
+muted=true;
+reset();active=true;
+for(const s of spawns)if(solid(...s))throw Error('Spawn inside wall');
+p.x=1.25;p.y=1.25;move(p,-1,0);if(p.x!==1.25)throw Error('Wall collision failed');
+p.x=6.5;p.y=11.5;p.a=0;p.pitch=0;p.z=0;
+bots.forEach(b=>b.wait=99);bots[0].wait=0;bots[0].x=8.5;bots[0].y=11.5;
+shoot();cooldown=0;shoot();cooldown=0;shoot();
+if(kills!==1||bots[0].wait!==2)throw Error('Elimination failed');
+ammo=0;startReload();update(.8);update(.8);if(ammo!==30||reload!==0)throw Error('Reload failed');
+reset();active=true;p.x=6.5;p.y=11.5;p.a=0;p.pitch=0;
+bots.forEach(b=>b.wait=99);bots[0].wait=0;bots[0].x=12.5;bots[0].y=11.5;
+// Three-cell cover between shooter and target blocks damage.
+p.x=8.5;p.y=5.5;p.a=Math.PI/2;bots[0].x=8.5;bots[0].y=8.5;
+shoot();if(bots[0].hp!==100)throw Error('Shot passed through wall');
+reset();active=true;time=.01;update(.02);if(active||started)throw Error('Round end failed');
+reset();active=true;const remaining=time;pause();update(1);if(time!==remaining)throw Error('Paused round advanced');
+render(1000);
+`,sandbox);
+assert.ok(elements.get('clock').textContent);
+console.log('Passed: spawns, collision, eliminations, wall occlusion, reload, round end, pause, mocked render.');

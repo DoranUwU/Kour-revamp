@@ -1,0 +1,21 @@
+* text=auto
+*.js text eol=lf
+*.mjs text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.bin -text
+*.dat -text
+*.png -text
+*.m4a -text
+/framework.js -text
+/source.wasm filter=lfs diff=lfs merge=lfs -text
+/game.data filter=lfs diff=lfs merge=lfs -text
+/game.data.br filter=lfs diff=lfs merge=lfs -text
+/original-preview/StreamingAssets/* filter=lfs diff=lfs merge=lfs -text
+/original-preview/StreamingAssets/grenades/mesh/* filter=lfs diff=lfs merge=lfs -text
+/original-preview/StreamingAssets/README.md text !filter !diff !merge
+/analysis/assets/bundle/* filter=lfs diff=lfs merge=lfs -text
+/analysis/global-metadata.dat filter=lfs diff=lfs merge=lfs -text

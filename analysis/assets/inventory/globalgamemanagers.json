@@ -1,0 +1,154 @@
+[
+  {
+    "path_id": 1,
+    "offset": 1216,
+    "size": 896,
+    "type_index": 0,
+    "class_id": 129,
+    "class": "129"
+  },
+  {
+    "path_id": 2,
+    "offset": 2112,
+    "size": 3360,
+    "type_index": 1,
+    "class_id": 13,
+    "class": "13"
+  },
+  {
+    "path_id": 3,
+    "offset": 5472,
+    "size": 760,
+    "type_index": 2,
+    "class_id": 78,
+    "class": "78"
+  },
+  {
+    "path_id": 4,
+    "offset": 6240,
+    "size": 48,
+    "type_index": 3,
+    "class_id": 11,
+    "class": "11"
+  },
+  {
+    "path_id": 5,
+    "offset": 6288,
+    "size": 12473,
+    "type_index": 4,
+    "class_id": 94,
+    "class": "94"
+  },
+  {
+    "path_id": 6,
+    "offset": 18768,
+    "size": 90400,
+    "type_index": 5,
+    "class_id": 116,
+    "class": "116"
+  },
+  {
+    "path_id": 7,
+    "offset": 109168,
+    "size": 604,
+    "type_index": 6,
+    "class_id": 30,
+    "class": "30"
+  },
+  {
+    "path_id": 8,
+    "offset": 109776,
+    "size": 28,
+    "type_index": 7,
+    "class_id": 5,
+    "class": "5"
+  },
+  {
+    "path_id": 9,
+    "offset": 109808,
+    "size": 0,
+    "type_index": 8,
+    "class_id": 98,
+    "class": "98"
+  },
+  {
+    "path_id": 10,
+    "offset": 109808,
+    "size": 276,
+    "type_index": 9,
+    "class_id": 55,
+    "class": "55"
+  },
+  {
+    "path_id": 11,
+    "offset": 110096,
+    "size": 164,
+    "type_index": 10,
+    "class_id": 141,
+    "class": "141"
+  },
+  {
+    "path_id": 12,
+    "offset": 110272,
+    "size": 828,
+    "type_index": 11,
+    "class_id": 47,
+    "class": "47"
+  },
+  {
+    "path_id": 13,
+    "offset": 111104,
+    "size": 375712,
+    "type_index": 12,
+    "class_id": 147,
+    "class": "147"
+  },
+  {
+    "path_id": 14,
+    "offset": 486816,
+    "size": 372,
+    "type_index": 13,
+    "class_id": 126,
+    "class": "126"
+  },
+  {
+    "path_id": 15,
+    "offset": 487200,
+    "size": 296,
+    "type_index": 14,
+    "class_id": 19,
+    "class": "19"
+  },
+  {
+    "path_id": 17,
+    "offset": 487504,
+    "size": 0,
+    "type_index": 15,
+    "class_id": 300,
+    "class": "300"
+  },
+  {
+    "path_id": 19,
+    "offset": 487504,
+    "size": 0,
+    "type_index": 16,
+    "class_id": 1403656975,
+    "class": "1403656975"
+  },
+  {
+    "path_id": 20,
+    "offset": 487504,
+    "size": 116,
+    "type_index": 17,
+    "class_id": 937362698,
+    "class": "937362698"
+  },
+  {
+    "path_id": 21,
+    "offset": 487632,
+    "size": 4,
+    "type_index": 18,
+    "class_id": 655991488,
+    "class": "655991488"
+  }
+]
