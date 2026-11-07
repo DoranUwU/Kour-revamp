@@ -2,7 +2,7 @@
 
 ## GitHub Pages
 
-The Pages workflow exports only the runtime, required map/mesh/texture files and public client configuration. Expected project URL: https://doranuwu.github.io/Kour-revamp/. Friends using the hosted site need only their browser.
+The Pages workflow exports only the runtime, required map/mesh/texture files and public client configuration. Live project URL: https://doranuwu.github.io/Kour-revamp/. Friends using the hosted site need only their browser.
 
 Repository Settings → Pages must use **GitHub Actions**. Set repository Actions variable `PHOTON_APP_ID` to your Realtime/PUN App ID; it is public client configuration, not an account credential. The workflow retrieves the required Git LFS inputs, generates the patched runtime and deploys the static artifact. Private `local/` configuration and diagnostics are not copied into the website. The build output under `local/pages-dist/` is ignored by Git.
 
@@ -45,3 +45,10 @@ Hong Kong authentication and room creation passed. Singapore returned Photon aut
 A master disconnect or timeout during an unfinished halftime transaction pauses the round rather than risking duplicate swaps; create a new room if this occurs. Automatic recovery of interrupted swaps is not implemented. Public deployment, matchmaking security, voice, and full-match or cross-country endurance testing have not been established. Audio decode warnings from the original assets remain.
 
 Core checks: `npm.cmd run test:kourstrike` and `npm.cmd run check`. Optional live test: `node tools/test-photon-multiplayer.mjs`, with a separately running preview on port 8088 and an existing Playwright installation selected by `PLAYWRIGHT_MODULE`. `BROWSER_PATH` selects a Chromium executable. The test uses real Photon traffic and writes private evidence only to ignored `local/multiplayer/`. `PHOTON_TEST_REGION=hk` selects the tested region; `PHOTON_TEST_DELAY_MS` optionally delays ordered WebSocket messages in both directions. Such a test models application-message delay, not TCP packet loss. No native threaded network simulator is enabled in this single-threaded WebGL build.
+
+
+## Hosted verification
+
+The compressed build deployed successfully through GitHub Actions. Two real browser clients loaded the public HTTPS URL, joined one Hong Kong room, selected opposite teams and agreed on round state. Ordinary walking and native teleport positions converged. The original round-12 end flow advanced both to 13 with the expected side exchange, actor replacement and C4-holder state. A native raycast pistol shot reduced the victim from 100 to 69 HP on both clients. Guest departure reduced the remaining client's player count to one. The suite reported zero uncaught page errors and all non-WebSocket requests stayed on the website origin. The owned test browsers were closed afterwards.
+
+The initial uncompressed deployment timed out during GitHub's syncing_files stage; the gzip retry deployed successfully. This observation does not establish whether payload size or a transient service delay caused the initial timeout. Runtime compression reduces the two major downloads from about 85 MB to 27 MB without changing decoded game bytes. Raw hosted-test evidence remains under ignored local/multiplayer/.

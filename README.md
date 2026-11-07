@@ -2,6 +2,8 @@
 
 Deep recovery of the supplied Unity WebGL build, with REA metadata, original asset exports, compiled-method analysis, serialized gameplay configuration and an offline original-menu diagnostic. Start with [analysis/FINDINGS.md](analysis/FINDINGS.md).
 
+Play the hosted game: **https://doranuwu.github.io/Kour-revamp/**. Choose Hong Kong, create or join the same Photon room code, and select a team. Friends need only a current browser. [Hosting and verification](PHOTON.md).
+
 ## Clone and requirements
 
 Requires Node.js, Python 3, and Git LFS. The game build, native mesh/map bundles, and binary test fixtures are tracked with Git LFS:

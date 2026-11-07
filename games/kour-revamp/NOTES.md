@@ -41,3 +41,8 @@
 - Core KourStrike, Photon profile/gate/lifetime fixtures, offline preview checks and syntax checks passed. Raw evidence is ignored under local/multiplayer/.
 - Remaining: full-match/endurance play, abrupt connection recovery, and automatic recovery if the master disconnects during halftime. Interrupted halftime pauses; start a new room.
 - No upstream claim issue, PR, account publication, game asset upload, commit or push was performed for this feature. Shared playbook contributions remain a separate review step.
+
+
+## GitHub Pages phase
+
+The static exporter and pinned Actions workflow publish the client at https://doranuwu.github.io/Kour-revamp/. Assets use the repository subdirectory; only generated runtime/assets/public configuration are uploaded. Original inputs and private diagnostics remain unchanged/excluded. The first raw deployment timed out in syncing_files; after gzip delivery was implemented and locally tested, the retry succeeded. Two real clients then passed the full hosted HTTPS suite: room entry, native walking/teleport replication, round-12 end to halftime, fresh actors, native shooting with shared 69 HP result, and guest disconnect. No uncaught errors or external HTTP service requests occurred. The hosting change and deployment were authorized by the user's request to test GitHub hosting. No upstream Co-op Anything contribution was published.
