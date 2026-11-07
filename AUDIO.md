@@ -30,3 +30,6 @@ The loader now supplies owned timer helpers and clears them during teardown. Gua
 - Tests inspect rendered audio graphs; physical speaker/headphone output was not recorded. Raw evidence stays in ignored `local/audio/` and `local/multiplayer/`.
 
 Core checks include `tools/check-audio-backend.mjs` and `tools/check-game-audio.mjs`. Live two-client test: `node tools/test-spatial-audio.mjs` with a Photon preview on port 8088, or set `PHOTON_TEST_URL` to a hosted build. Use `PHOTON_TEST_REGION=hk`. Browser test requirements match the existing multiplayer suite.
+
+
+The same two-client suite passed on the published GitHub Pages URL after deployment: enemy left/right panning, zero idle footstep output, distance falloff, volume/mute and the native pistol sound all passed with zero uncaught errors or clip decode failures. Owned test browsers were closed after verification.

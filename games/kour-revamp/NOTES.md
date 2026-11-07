@@ -46,3 +46,8 @@
 ## GitHub Pages phase
 
 The static exporter and pinned Actions workflow publish the client at https://doranuwu.github.io/Kour-revamp/. Assets use the repository subdirectory; only generated runtime/assets/public configuration are uploaded. Original inputs and private diagnostics remain unchanged/excluded. The first raw deployment timed out in syncing_files; after gzip delivery was implemented and locally tested, the retry succeeded. Two real clients then passed the full hosted HTTPS suite: room entry, native walking/teleport replication, round-12 end to halftime, fresh actors, native shooting with shared 69 HP result, and guest disconnect. No uncaught errors or external HTTP service requests occurred. The hosting change and deployment were authorized by the user's request to test GitHub hosting. No upstream Co-op Anything contribution was published.
+
+
+## Native audio repair
+
+Restored the missing Unity host timer contract. Actual audio initialization now enables the original Web Audio bridge, eliminating the generic FSB failures for the clips exercised. Added a native master-gain bridge and persistent local Sound controls/API. Existing remote StepsManager motion/ground/crouch logic provides enemy spatial footsteps without extra RPCs or replacement samples. Two real clients passed both local and hosted graph tests: opposing stereo direction, zero idle output, strong distant attenuation and native pistol playback; master volume/mute and timer teardown checks also passed. Clip loading remains lazy; no claim is made that all 114 clips or physical speaker output were tested. Raw evidence is ignored under local/audio/.
