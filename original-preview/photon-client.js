@@ -23,7 +23,7 @@ window.createPhotonClient=function(module,{log=console.log,onStatus=()=>{}}={}){
   const settings=fn('settings')(0),app=u32(settings+12);
   if(!valid(app))throw Error('Native Photon settings are unavailable.');
   module.HEAPU32[(app+8)>>>2]=string(appId);
-  module.HEAPU32[(app+24)>>>2]=string('kour-revamp-1');
+  module.HEAPU32[(app+24)>>>2]=string('kour-revamp-2');
   module.HEAPU32[(app+32)>>>2]=string(region);
   module.HEAPU32[(app+40)>>>2]=0;module.HEAPU16[(app+44)>>>1]=0;
   module.HEAPU8[app+28]=1;module.HEAPU8[app+52]=5;module.HEAPU8[app+53]=0;module.HEAPU8[settings+26]=0;

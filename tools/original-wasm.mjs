@@ -1,4 +1,5 @@
 import crypto from 'node:crypto';
+import {economyRules,economyPatches} from './kourstrike-economy.mjs';
 import {insertRoundHook} from './wasm-round-hook.mjs';
 const expectedSha256='dc4848ad11ac723b2a58f22118055ac9a91c1abbf3e851e415a08e7685f397c2';
 const offset=23683617;
@@ -26,13 +27,7 @@ export function prepareLocalWasm(original,{kourstrike=false,roundStartHook=true,
  const halftime=[],photonCallbacks=[],c4Handoff=[];let hook=null;
  if(kourstrike){for(const item of [{method:'NetworkManager.OnDisconnected',offset:23889930,before:'4102',after:'4107',meaning:'Disconnected offline first map2 ->7 (room index8/Kour2)'},{method:'UIManager.GoOfflineEmergency',offset:24448525,before:'4102',after:'4107',meaning:'Offline first map argument2 ->7 (room index8/Kour2)'},{method:'UIManager.LoadForceMap',offset:24435819,before:'4100',after:'4106',meaning:'GameModes array index0 ->6 (Search And Destroy/mode8)'}]){const beforeBytes=Buffer.from(item.before,'hex');if(!original.subarray(item.offset,item.offset+beforeBytes.length).equals(beforeBytes))throw Error('Unknown KourStrike bootstrap instruction');Buffer.from(item.after,'hex').copy(source,item.offset);bootstrap.push(item)}}
  if(kourstrike){
-  // Buy-phase entry: replace previous cash + round bonus with the native cap.
-  // Keep the existing ObscuredInt constructor, money setter and UI callbacks.
-  // The two drops consume the old decode arguments, retaining its output ptr.
-  roundStartCash={method:'SearchAndDestroyManager.OnStateChanged',function_index:74503,amount:14000,offset:23693680,before:'10a99c0320056a',after:'1a1a41b0ed0001'};
-  const patch=roundStartCash,beforeBytes=Buffer.from(patch.before,'hex');
-  if(!original.subarray(patch.offset,patch.offset+beforeBytes.length).equals(beforeBytes))throw Error('Unknown round-start cash instructions.');
-  Buffer.from(patch.after,'hex').copy(source,patch.offset);
+  for(const patch of economyPatches){const bytes=Buffer.from(patch.before,'hex');if(!original.subarray(patch.offset,patch.offset+bytes.length).equals(bytes))throw Error('Unknown native economy instructions');Buffer.from(patch.after,'hex').copy(source,patch.offset)}
   for(const patch of [
    {method:'SearchAndDestroyManager.OnStateChanged',offset:23691668,before:'410d',after:'410b',meaning:'First-half warnings move to rounds11 and12'},
    {method:'SearchAndDestroyManager.StartRound',offset:23703301,before:'410e',after:'417f',meaning:'Remove legacy round15 CT C4 assignment; select current T roster'}
@@ -71,5 +66,5 @@ export function prepareLocalWasm(original,{kourstrike=false,roundStartHook=true,
  if(!WebAssembly.validate(source))throw Error('Local-preview WASM failed full module validation.');
  const servedOffset=p=>p+(hook?.profile==='photon'?hook.relocations.filter(x=>p>=x.original_offset).reduce((sum,x)=>sum+x.added_bytes,0):(hook&&p>=hook.original_code_offset?hook.added_bytes:0));
  for(const patch of [...bootstrap,...halftime,...c4Handoff])patch.served_offset=servedOffset(patch.offset);
- return{source,manifest:{original_sha256:expectedSha256,served_sha256:hash(source),original_modified:false,method:'SdkManager.CheckHost',function_index:74474,offset,before:before.toString('hex'),after:after.toString('hex'),network_probe:{method:'NetworkManager.IsInternetAvailable',function_index:75077,body_start:23891566,start:networkStart,end:networkEnd,before_sha256:hash(networkBefore),served_start:servedOffset(networkStart),served_end:servedOffset(networkEnd),after_sha256:hash(source.subarray(servedOffset(networkStart),servedOffset(networkEnd))),replacement:'return false in local-only mode'},bootstrap,round_start_cash:roundStartCash,c4_handoff:c4Handoff,halftime,round_start_hook:hook,photon_callbacks:photonCallbacks,scope:photon?'Opt-in user Photon application; original services remain disabled.':'Local compatibility, KourStrike round rules and maximum round-start cash; external services remain disabled.'}};
+ return{source,manifest:{original_sha256:expectedSha256,served_sha256:hash(source),original_modified:false,method:'SdkManager.CheckHost',function_index:74474,offset,before:before.toString('hex'),after:after.toString('hex'),network_probe:{method:'NetworkManager.IsInternetAvailable',function_index:75077,body_start:23891566,start:networkStart,end:networkEnd,before_sha256:hash(networkBefore),served_start:servedOffset(networkStart),served_end:servedOffset(networkEnd),after_sha256:hash(source.subarray(servedOffset(networkStart),servedOffset(networkEnd))),replacement:'return false in local-only mode'},bootstrap,round_start_cash:roundStartCash,economy:kourstrike?{...economyRules,patches:economyPatches.map(p=>({...p,served_offset:servedOffset(p.offset)}))}:null,c4_handoff:c4Handoff,halftime,round_start_hook:hook,photon_callbacks:photonCallbacks,scope:photon?'Opt-in user Photon application; original services remain disabled.':'Local compatibility, KourStrike round rules and streak-based economy; external services remain disabled.'}};
 }

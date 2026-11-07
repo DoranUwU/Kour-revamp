@@ -32,7 +32,7 @@ Alternatively, set `PHOTON_APP_ID` before starting the server. The App ID is del
 
 The online profile uses the supplied client's native Photon/PUN connection, replication, room lifecycle, map loader and combat. It suppresses the original game's automatic connection, random-room matchmaking and forced-offline fallback. Explicit opt-in permits only Photon WSS domains. Original game services, accounts, ads, telemetry and external links remain disabled. Maps, meshes and textures load from local files.
 
-The offline command `npm.cmd run preview:kourstrike` remains available. The $14,000 round-start cash experiment also applies online. Temporary debug round buttons remain offline-only.
+The offline command `npm.cmd run preview:kourstrike` remains available. The streak-based economy also applies online: wins award 3,000; losses award 2,000/2,500/3,000, capped after three consecutive losses. Wins reset the streak. Starting credits remain 800 and the wallet cap is 14,000. Refresh all clients and create a new room after updating; AppVersion `kour-revamp-2` isolates this economy from older clients. Temporary debug round buttons remain offline-only.
 
 Online halftime is controlled by the Photon master client. It waits for server acknowledgements of roster changes and score exchange before starting round 13. Each client replaces its own player/camera through native lifecycle calls. A persisted transaction marker prevents a second master from blindly repeating an interrupted swap.
 
@@ -62,3 +62,5 @@ A three-client native-death regression reproduced the original forced pistol-to-
 
 
 The deployed Pages build also passed the three-client death-handoff check with an AK loadout selected in slot0: the recipient's active weapon pointer and slot stayed identical while slot2 changed from knife3 to C4 weapon31. Manual C4 selection and native flag regression cases passed without uncaught page errors. The test uses native lethal damage to invoke the real death/handoff path; it is not an endurance or human combat playthrough.
+
+Economy regression: `node tools/check-economy.mjs` executes the patched WASM reward selector. `node tools/test-economy.mjs` runs two browser clients in a private HK Photon room and checks six round results, streak cap/reset, 800 initial credits, balance carryover and the 14,000 wallet cap. Set `PHOTON_TEST_URL` to test a hosted build.

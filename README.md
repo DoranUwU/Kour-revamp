@@ -42,7 +42,7 @@ Beretta's original default uses embedded silver/gray materials and does not requ
 
 The revolver, all four buyable grenade types (HE, smoke, flashbang, Molotov) and the T player's C4 were also equipped and visually verified with their original textures. Appearance verification and its gameplay limits are recorded in analysis/runtime/equipment-colors-report.md.
 
-Current local experiment: each round starts with the native maximum **$14,000** when the buy phase begins. Purchases still deduct normally. The seven-byte patch is recorded in tools/original-wasm.mjs and only applies to the KourStrike profile; the original source.wasm stays unchanged.
+KourStrike economy: start with **800 credits**; wins award **3,000**; consecutive losses award **2,000 ? 2,500 ? 3,000**, capped thereafter. A win resets the loss streak. Balances carry between rounds, purchases deduct normally, and the wallet cap remains **14,000**. Guarded native patches are recorded in `tools/kourstrike-economy.mjs`; the original `source.wasm` stays unchanged.
 
 Sides swap automatically after12 completed rounds, so round13 starts on the opposite side with scores following the players. Open **Debug: rounds (temporary)** below the game to start a chosen round. To test the boundary, start round12, wait for the buy phase to finish, then choose **End current round**. [Halftime setup, verification and debug removal](analysis/runtime/HALFTIME.md).
 
