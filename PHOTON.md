@@ -64,3 +64,5 @@ A three-client native-death regression reproduced the original forced pistol-to-
 The deployed Pages build also passed the three-client death-handoff check with an AK loadout selected in slot0: the recipient's active weapon pointer and slot stayed identical while slot2 changed from knife3 to C4 weapon31. Manual C4 selection and native flag regression cases passed without uncaught page errors. The test uses native lethal damage to invoke the real death/handoff path; it is not an endurance or human combat playthrough.
 
 Economy regression: `node tools/check-economy.mjs` executes the patched WASM reward selector. `node tools/test-economy.mjs` runs two browser clients in a private HK Photon room and checks six round results, streak cap/reset, 800 initial credits, balance carryover and the 14,000 wallet cap. Set `PHOTON_TEST_URL` to test a hosted build.
+
+Verified on GitHub Pages with two clients in HK: all six economy round results passed, including four consecutive losses, a win, another loss, balance carryover and wallet cap; no runtime errors. Hosted boot allows up to 120 seconds for a cold download (`PHOTON_TEST_BOOT_TIMEOUT` can override it).
