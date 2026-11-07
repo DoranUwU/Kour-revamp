@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
+import {gzipSync} from 'node:zlib';
 import {prepareFramework} from './original-framework.mjs';
 import {prepareLocalWasm} from './original-wasm.mjs';
 import {prepareKourStrikeData} from './kourstrike-data.mjs';
@@ -19,11 +20,16 @@ loader=loader.replace("('/'+name)","("+JSON.stringify(base)+"+name)");
 const policy="default-src 'self' blob: data:; script-src 'self' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; connect-src 'self' wss://*.photonengine.io:* wss://*.photonengine.com:* wss://*.exitgames.com:*; worker-src 'none'; object-src 'none'; frame-src 'none'; form-action 'none'; base-uri 'none'";
 let html=read('original-preview/index.html').replaceAll('src="/','src="'+base);
 html=html.replace('<head>','<head><meta http-equiv="Content-Security-Policy" content="'+policy+'">');
+html=html.replace('<script src="'+base+'offline-policy.js">','<script src="'+base+'static-host.js"></script><script src="'+base+'offline-policy.js">');
 write('index.html',html);write('.nojekyll','');
 write('loader.js',loader);write('framework.js',prepareFramework(read('framework.js')).source);
 write('offline-policy.js','window.BuildBasePath='+JSON.stringify(base)+';\n'+prepareOfflinePolicy(read('original-preview/offline-policy.js')));
+write('static-host.js','window.BuildBasePath='+JSON.stringify(base)+';\n'+read('original-preview/static-host.js'));
 for(const name of ['photon-client.js','kourstrike-rules.js','round-debug.js'])write(name,read('original-preview/'+name));
-write('source.wasm',wasm.source);write('game.data',data.source);
+for(const [name,bytes]of [['source.wasm',wasm.source],['game.data',data.source]]){
+ const file=path.join(output,name);if(fs.existsSync(file))fs.unlinkSync(file);
+ write(name+'.gz',gzipSync(bytes,{level:9}));
+}
 for(const name of localBundles){const file='original-preview/StreamingAssets/'+name;if(fs.existsSync(file))write('StreamingAssets/'+name,fs.readFileSync(file))}
 for(const asset of textureAssets)write(asset.pathname.slice(1),fs.readFileSync(asset.file));
 write('local-config.json',JSON.stringify({profile:'kourstrike',photonEnabled:true,photonAppId:process.env.PHOTON_APP_ID||'',photonRegion:'hk',gameType:1,gameMode:8,mapName:'Kour2',mapBundle:'map7',mapAvailable:true,requiredFiles:['map7'],wasmSha256:wasm.manifest.served_sha256}));

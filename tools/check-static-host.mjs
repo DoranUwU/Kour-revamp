@@ -1,0 +1,18 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+import {gzipSync} from 'node:zlib';
+const expected=Uint8Array.of(0,97,115,109,1,0,0,0),calls=[];
+let compressed=true,status=200;
+const sandbox={URL,Request,Response,Headers,Blob,Uint8Array,DecompressionStream,location:{href:'https://example.github.io/Game/',origin:'https://example.github.io'},window:{BuildBasePath:'/Game/',fetch:async(input,options)=>{calls.push({input,options});return new Response(compressed?gzipSync(expected):expected,{status,headers:compressed?{}:{'content-encoding':'gzip'}})}}};
+vm.createContext(sandbox);vm.runInContext(fs.readFileSync('original-preview/static-host.js','utf8'),sandbox);
+const signal=new AbortController().signal;
+let response=await sandbox.window.fetch('/Game/source.wasm',{signal});
+assert.equal(calls.at(-1).input,'https://example.github.io/Game/source.wasm.gz');assert.equal(calls.at(-1).options.signal,signal);
+assert.deepEqual(new Uint8Array(await response.arrayBuffer()),expected);assert.equal(response.headers.get('content-type'),'application/wasm');assert.equal(response.headers.get('content-encoding'),null);
+compressed=false;response=await sandbox.window.fetch(new Request('https://example.github.io/Game/game.data'));
+assert.equal(calls.at(-1).input.url,'https://example.github.io/Game/game.data.gz');assert.deepEqual(new Uint8Array(await response.arrayBuffer()),expected,'Browser-decoded responses must not be decompressed twice');
+await sandbox.window.fetch('/Other/source.wasm');assert.equal(calls.at(-1).input,'/Other/source.wasm','Other project paths must not be rewritten');
+await sandbox.window.fetch('/Game/source.wasm?x=1');assert.equal(calls.at(-1).input,'/Game/source.wasm?x=1');
+status=404;response=await sandbox.window.fetch('/Game/source.wasm');assert.equal(response.status,404);
+console.log('Static gzip bridge verified: decoded bytes/MIME, already-decoded responses, request signal, subdirectory isolation and HTTP errors.');

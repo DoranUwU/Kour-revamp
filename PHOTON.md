@@ -6,7 +6,7 @@ The Pages workflow exports only the runtime, required map/mesh/texture files and
 
 Repository Settings → Pages must use **GitHub Actions**. Set repository Actions variable `PHOTON_APP_ID` to your Realtime/PUN App ID; it is public client configuration, not an account credential. The workflow retrieves the required Git LFS inputs, generates the patched runtime and deploys the static artifact. Private `local/` configuration and diagnostics are not copied into the website. The build output under `local/pages-dist/` is ignored by Git.
 
-For a local static-host check, run `npm.cmd run build:pages`, then `npm.cmd run preview:pages`, and open http://localhost:8088/Kour-revamp/. `PAGES_BASE_PATH` controls the project subdirectory. This single-thread build was tested without COOP/COEP server headers. A meta CSP retains the asset and Photon connection restrictions; Pages requires no Node server at runtime.
+For a local static-host check, run `npm.cmd run build:pages`, then `npm.cmd run preview:pages`, and open http://localhost:8088/Kour-revamp/. `PAGES_BASE_PATH` controls the project subdirectory. The exported WASM and startup data use gzip files with a small browser-side decoder, so no custom Content-Encoding server headers are needed. A current browser with DecompressionStream support is required. This single-thread build was tested without COOP/COEP server headers. A meta CSP retains the asset and Photon connection restrictions; Pages requires no Node server at runtime.
 
 ## Local preview
 
