@@ -1,5 +1,6 @@
 // Loaded before the supplied framework. No original service is emulated here.
 (() => {
+ const basePath=window.BuildBasePath||'/';
  const allowedPaths=new Set(['/','/offline-policy.js','/framework.js','/loader.js','/kourstrike-rules.js','/round-debug.js','/photon-client.js','/game.data','/source.wasm','/local-config.json']);
  const allowedMaps=new Set(['/StreamingAssets/map7','/StreamingAssets/map8','/StreamingAssets/map10']);
  // Static mesh dependencies from the supplied prefabs, served only locally.
@@ -7,10 +8,10 @@
  for(const name of meshBundles)allowedMaps.add('/StreamingAssets/'+name);
  const texturePaths=new Set(window.LocalTexturePaths||[]);
  function validTextureQuery(url){return url.search.length<128&&[...url.searchParams.keys()].every(k=>k==='size')&&url.searchParams.getAll('size').length<=1&&(!url.searchParams.has('size')||/^[1-9]\d{0,3}x[1-9]\d{0,3}$/.test(url.searchParams.get('size')))}
- function localTextureAlias(input){try{const value=typeof input==='string'||input instanceof URL?String(input):input.url;const url=new URL(value,location.href);if(url.origin!=='https://kour.io'||url.username||url.password||!texturePaths.has(url.pathname)||!validTextureQuery(url))return null;return new URL(url.pathname+url.search,location.href).href}catch{return null}}
+ function localTextureAlias(input){try{const value=typeof input==='string'||input instanceof URL?String(input):input.url;const url=new URL(value,location.href);if(url.origin!=='https://kour.io'||url.username||url.password||!texturePaths.has(url.pathname)||!validTextureQuery(url))return null;return new URL(basePath+url.pathname.slice(1)+url.search,location.href).href}catch{return null}}
  const counts=Object.create(null);
  function blocked(kind){counts[kind]=(counts[kind]||0)+1;if(counts[kind]===1)console.info('LOCAL MODE: disabled '+kind)}
- function isLocalAsset(input){try{const value=typeof input==='string'||input instanceof URL?String(input):input.url;const url=new URL(value,location.href);if(url.origin!==location.origin||url.username||url.password)return false;if(texturePaths.has(url.pathname))return validTextureQuery(url);if(allowedMaps.has(url.pathname))return [...url.searchParams.keys()].every(k=>k==='v')&&url.search.length<128;return allowedPaths.has(url.pathname)&&!url.search}catch{return false}}
+ function isLocalAsset(input){try{const value=typeof input==='string'||input instanceof URL?String(input):input.url;const url=new URL(value,location.href);if(url.origin!==location.origin||url.username||url.password||!url.pathname.startsWith(basePath))return false;const pathname='/'+url.pathname.slice(basePath.length);if(texturePaths.has(pathname))return validTextureQuery(url);if(allowedMaps.has(pathname))return [...url.searchParams.keys()].every(k=>k==='v')&&url.search.length<128;return allowedPaths.has(pathname)&&!url.search}catch{return false}}
  const nativeFetch=window.fetch.bind(window);
  window.fetch=(input,options)=>{const alias=localTextureAlias(input);if(alias&&!['GET','HEAD'].includes(String(options?.method||input?.method||'GET').toUpperCase()))return Promise.reject(new DOMException('Static textures are read-only.','SecurityError'));const target=alias?(typeof input==='string'||input instanceof URL?alias:new Request(alias,input)):input;if(isLocalAsset(target))return nativeFetch(target,options);blocked('service requests');return Promise.reject(new DOMException('External services are disabled in local mode.','SecurityError'))};
  const nativeOpen=XMLHttpRequest.prototype.open;

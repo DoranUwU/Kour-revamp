@@ -7,7 +7,8 @@ const require=createRequire(import.meta.url);
 const cache=path.join(os.homedir(),'AppData/Local/npm-cache/_npx');
 const cached=fs.existsSync(cache)?fs.readdirSync(cache).map(name=>path.join(cache,name,'node_modules/playwright-core')).find(p=>fs.existsSync(path.join(p,'package.json'))):null;
 const {chromium}=require(process.env.PLAYWRIGHT_MODULE||cached||'playwright-core');
-const origin='http://127.0.0.1:'+(process.env.ORIGINAL_PREVIEW_PORT||8088);
+const target=process.env.PHOTON_TEST_URL||('http://127.0.0.1:'+(process.env.ORIGINAL_PREVIEW_PORT||8088));
+const origin=new URL(target).origin;
 fs.mkdirSync('local/multiplayer',{recursive:true});
 const lockPath='local/multiplayer/browser-test.lock',lock=fs.openSync(lockPath,'wx');
 const delayMs=Number(process.env.PHOTON_TEST_DELAY_MS||0),evidence={started:new Date().toISOString(),delayMs,clients:[],errors:[],sockets:[],actions:[]};
@@ -27,7 +28,7 @@ async function boot(label){
  page.on('console',m=>{record.console.push(m.text());save()});
  page.on('websocket',ws=>{const socket={label,url:ws.url(),received:0,sent:0};evidence.sockets.push(socket);for(const [event,key]of [['framereceived','received'],['framesent','sent']])ws.on(event,()=>{socket[key]++});save()});
  page.on('request',r=>{record.requests.push(r.url());save()});
- await page.goto(origin);await page.evaluate(()=>{window.PhotonDebug=true});await page.locator('#start').click();
+ await page.goto(target);await page.evaluate(()=>{window.PhotonDebug=true});await page.locator('#start').click();
  await page.waitForFunction(()=>document.querySelector('#start').dataset.state==='ready',null,{timeout:45000});await page.waitForTimeout(1600);await page.selectOption('#photon-region',process.env.PHOTON_TEST_REGION||'asia');
  return page;
 }
