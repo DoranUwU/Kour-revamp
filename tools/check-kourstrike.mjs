@@ -18,7 +18,7 @@ const cash=kour.manifest.round_start_cash;assert.equal(cash.amount,14000);assert
 assert.equal(input.subarray(cash.offset,cash.offset+7).toString('hex'),'10a99c0320056a');
 assert.equal(kour.source.subarray(cash.offset,cash.offset+7).toString('hex'),'1a1a41b0ed0001');
 const changed=[];for(let i=0;i<base.length;i++)if(base[i]!==kour.source[i])changed.push(i);
-assert.deepEqual(changed,[23691669,...Array.from({length:7},(_,i)=>cash.offset+i),23703302,23889931,24435820,24448526]);
+assert.deepEqual(changed,[23584099,23691669,...Array.from({length:7},(_,i)=>cash.offset+i),23703302,23706657,23889931,24435820,24448526]);
 assert.ok(WebAssembly.validate(kour.source));assert.equal(kour.manifest.bootstrap.length,3);assert.equal(prepareLocalWasm(input).manifest.round_start_cash,null);
 // Run the exact patch instructions in isolation: preserve the destination
 // pointer, discard both former decode arguments, and produce the native cap.

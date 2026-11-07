@@ -23,7 +23,7 @@ export function prepareLocalWasm(original,{kourstrike=false,roundStartHook=true,
  source.set([0x41,0x00,0x0f],networkStart);source[networkEnd-1]=0x0b;
  const bootstrap=[];
  let roundStartCash=null;
- const halftime=[],photonCallbacks=[];let hook=null;
+ const halftime=[],photonCallbacks=[],c4Handoff=[];let hook=null;
  if(kourstrike){for(const item of [{method:'NetworkManager.OnDisconnected',offset:23889930,before:'4102',after:'4107',meaning:'Disconnected offline first map2 ->7 (room index8/Kour2)'},{method:'UIManager.GoOfflineEmergency',offset:24448525,before:'4102',after:'4107',meaning:'Offline first map argument2 ->7 (room index8/Kour2)'},{method:'UIManager.LoadForceMap',offset:24435819,before:'4100',after:'4106',meaning:'GameModes array index0 ->6 (Search And Destroy/mode8)'}]){const beforeBytes=Buffer.from(item.before,'hex');if(!original.subarray(item.offset,item.offset+beforeBytes.length).equals(beforeBytes))throw Error('Unknown KourStrike bootstrap instruction');Buffer.from(item.after,'hex').copy(source,item.offset);bootstrap.push(item)}}
  if(kourstrike){
   // Buy-phase entry: replace previous cash + round bonus with the native cap.
@@ -39,6 +39,16 @@ export function prepareLocalWasm(original,{kourstrike=false,roundStartHook=true,
   ]){
    if(source.subarray(patch.offset,patch.offset+2).toString('hex')!==patch.before)throw Error('Unknown halftime instructions');
    Buffer.from(patch.after,'hex').copy(source,patch.offset);halftime.push(patch);
+  }
+  // Reserve the otherwise unused SetBomb(true,true) combination for a passive
+  // death handoff. The giveBomb branch skips planting-specific state changes.
+  // XOR preserves ordinary grant(1,0), planting(0,1), and clear(0,0) behavior.
+  for(const item of [
+   {method:'Shooter.SetBomb',offset:23584095,before:'2001200272',after:'2001200273',meaning:'Reserved handoff grant retains equipped weapon'},
+   {method:'SearchAndDestroyManager.OnEvent',offset:23706649,before:'200228020841014100410010b2c404',after:'200228020841014101410010b2c404',meaning:'Only C4 handoff event uses SetBomb(true,true)'}
+  ]){
+   const bytes=Buffer.from(item.before,'hex');if(!original.subarray(item.offset,item.offset+bytes.length).equals(bytes))throw Error('Unknown C4 handoff instructions');
+   Buffer.from(item.after,'hex').copy(source,item.offset);c4Handoff.push(item);
   }
   if(photon){
    const autoConnect={method:'NetworkManager.NewConnectUsingSettings',function_index:75044,start:23867347,end:23867494};
@@ -60,6 +70,6 @@ export function prepareLocalWasm(original,{kourstrike=false,roundStartHook=true,
  }
  if(!WebAssembly.validate(source))throw Error('Local-preview WASM failed full module validation.');
  const servedOffset=p=>p+(hook?.profile==='photon'?hook.relocations.filter(x=>p>=x.original_offset).reduce((sum,x)=>sum+x.added_bytes,0):(hook&&p>=hook.original_code_offset?hook.added_bytes:0));
- for(const patch of [...bootstrap,...halftime])patch.served_offset=servedOffset(patch.offset);
- return{source,manifest:{original_sha256:expectedSha256,served_sha256:hash(source),original_modified:false,method:'SdkManager.CheckHost',function_index:74474,offset,before:before.toString('hex'),after:after.toString('hex'),network_probe:{method:'NetworkManager.IsInternetAvailable',function_index:75077,body_start:23891566,start:networkStart,end:networkEnd,before_sha256:hash(networkBefore),served_start:servedOffset(networkStart),served_end:servedOffset(networkEnd),after_sha256:hash(source.subarray(servedOffset(networkStart),servedOffset(networkEnd))),replacement:'return false in local-only mode'},bootstrap,round_start_cash:roundStartCash,halftime,round_start_hook:hook,photon_callbacks:photonCallbacks,scope:photon?'Opt-in user Photon application; original services remain disabled.':'Local compatibility, KourStrike round rules and maximum round-start cash; external services remain disabled.'}};
+ for(const patch of [...bootstrap,...halftime,...c4Handoff])patch.served_offset=servedOffset(patch.offset);
+ return{source,manifest:{original_sha256:expectedSha256,served_sha256:hash(source),original_modified:false,method:'SdkManager.CheckHost',function_index:74474,offset,before:before.toString('hex'),after:after.toString('hex'),network_probe:{method:'NetworkManager.IsInternetAvailable',function_index:75077,body_start:23891566,start:networkStart,end:networkEnd,before_sha256:hash(networkBefore),served_start:servedOffset(networkStart),served_end:servedOffset(networkEnd),after_sha256:hash(source.subarray(servedOffset(networkStart),servedOffset(networkEnd))),replacement:'return false in local-only mode'},bootstrap,round_start_cash:roundStartCash,c4_handoff:c4Handoff,halftime,round_start_hook:hook,photon_callbacks:photonCallbacks,scope:photon?'Opt-in user Photon application; original services remain disabled.':'Local compatibility, KourStrike round rules and maximum round-start cash; external services remain disabled.'}};
 }
