@@ -55,11 +55,12 @@ try{
  await choose(host,'t');await choose(enemy,'ct');await choose(teammate,'t');
  const pages=[host,teammate,enemy];for(const p of pages)await p.waitForFunction(()=>photonClient.inspect().players===3,null,{timeout:15000});
  await host.evaluate(()=>{const r=localKourStrikeRules,c=r.native.context();r.native.fn('startRound')(c.manager,r.native.fn('name')(c.manager,0),0,0)});
- for(const p of pages)await p.waitForFunction(()=>localKourStrikeRules.inspect()?.round>=1&&localKourStrikeRules.inspect()?.phase===2,null,{timeout:20000});
+ for(const p of pages)await p.waitForFunction(()=>localKourStrikeRules.inspect()?.round>=1&&localKourStrikeRules.inspect()?.phase>=1,null,{timeout:20000});
  const info=[await gun(host),await gun(teammate)],holder=info[0].match.bombHolder,holderPage=info[0].actor===holder?host:teammate,receiver=holderPage===host?teammate:host;
  const selectedSlot=process.argv.includes('--rifle')?0:1;
- await receiver.evaluate(slot=>{const m=originalModule,h=m.HEAPU32,c=h[6910700>>>2],sf=h[(c+92)>>>2],t=m.asm.__indirect_function_table;if(slot===0)t.get(20677)(h[sf>>>2],0,0,-1,0);else t.get(20724)(h[sf>>>2],1,1,0)},selectedSlot);await receiver.waitForTimeout(650);
- const before=await gun(receiver);assert.equal(before.slot,selectedSlot);assert.notEqual(before.inventory[2],31);
+ await receiver.evaluate(slot=>{const m=originalModule,h=m.HEAPU32,c=h[6910700>>>2],sf=h[(c+92)>>>2],t=m.asm.__indirect_function_table;if(slot===0){t.get(20677)(h[sf>>>2],0,0,-1,0);t.get(20724)(h[sf>>>2],0,1,0)}else t.get(20724)(h[sf>>>2],1,1,0)},selectedSlot);await receiver.waitForTimeout(650);
+ for(const p of pages)await p.waitForFunction(()=>localKourStrikeRules.inspect()?.phase===2,null,{timeout:20000});
+ const before=await gun(receiver);evidence.actions.push({label:'recipient-loadout',state:before});save();assert.equal(before.slot,selectedSlot);assert.notEqual(before.inventory[2],31);
  evidence.actions.push({label:'before-holder-death',holder,receiver:before});save();
  // Native lethal damage on the holder exercises death, server C4 selection and
  // the receiving client's real SetBomb callback; no inventory writes are used.
