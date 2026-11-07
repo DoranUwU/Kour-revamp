@@ -72,6 +72,18 @@ function createQuitCleanup(module){
   log('RUNTIME STOPPED: original client requested shutdown; reload to restart.');
  };
 }
+
+// Unity's host contract includes tracked timer helpers. Audio initialization
+// uses Module.setInterval before enabling playback; omitting it leaves sound
+// disabled even though the browser successfully creates an AudioContext.
+function installRuntimeTimers(module){
+ const intervals=new Set(),timeouts=new Set();
+ module.setInterval=(callback,delay)=>{const id=window.setInterval(callback,delay);intervals.add(id);return id};
+ module.clearInterval=id=>{window.clearInterval(id);intervals.delete(id)};
+ module.setTimeout=(callback,delay)=>{const id=window.setTimeout(()=>{timeouts.delete(id);callback()},delay);timeouts.add(id);return id};
+ module.clearTimeout=id=>{window.clearTimeout(id);timeouts.delete(id)};
+ module.deinitializers.push(()=>{for(const id of intervals)window.clearInterval(id);for(const id of timeouts)window.clearTimeout(id);intervals.clear();timeouts.clear()});
+}
 document.querySelector('#start').onclick=async()=>{
  document.querySelector('#start').disabled=true;
  try{
@@ -87,6 +99,8 @@ document.querySelector('#start').onclick=async()=>{
  locateFile:name=>name.includes('.wasm')?'/source.wasm':('/'+name),dataUrl:'/game.data',codeUrl:'/source.wasm',streamingAssetsUrl:new URL('/StreamingAssets',location.href).href,companyName:'Offline analysis',productName:'Supplied build',productVersion:'unknown',webglContextAttributes:{preserveDrawingBuffer:true},
  SystemInfo:{width:screen.width,height:screen.height,userAgent:navigator.userAgent,browser:'Edge',browserVersion:'130',mobile:false,os:'Windows',osVersion:'10',gpu:'Local browser',language:navigator.language,hasWebGL:2,hasWebGPU:false,hasCursorLock:true,hasFullscreen:true,hasThreads:typeof SharedArrayBuffer!=='undefined',hasWasm:true},
  disabledCanvasEvents:['contextmenu','dragstart'],startupErrorHandler:e=>log('STARTUP ERROR',e),errorHandler:e=>log('UNITY ERROR',e),onAbort:e=>log('ABORT',e),onRuntimeInitialized:()=>log('RUNTIME INITIALIZED'),setStatus:s=>{if(s)log('STATUS',s)},monitorRunDependencies:n=>log('DEPENDENCIES',n)};
+ installRuntimeTimers(module);
+ window.gameAudio=window.createGameAudio?.(module,{log});
  module.QuitCleanup=createQuitCleanup(module);
  module.preRun.push(()=>{for(const f of files){const slash=f.name.lastIndexOf('/'),dir=slash<0?'/':'/'+f.name.slice(0,slash),name=f.name.slice(slash+1);if(dir!=='/')module.FS_createPath('/',dir.slice(1),true,true);module.FS_createDataFile(dir,name,bytes.subarray(f.offset,f.offset+f.size),true,true,true)}log('MOUNTED',files.length,'files')});
  window.originalModule=module;

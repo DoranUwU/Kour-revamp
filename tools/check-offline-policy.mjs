@@ -50,6 +50,6 @@ policy.disablePhoton();assert.ok(!(new sandbox.window.WebSocket('wss://ns.photon
 assert.equal(sandbox.navigator.sendBeacon('https://example.com/',new Uint8Array()),false);
 assert.equal(sandbox.window.open('https://kour.io/'),null);
 let prevented=false;listeners.click({target:{closest:()=>({href:'https://example.com/'})},preventDefault:()=>prevented=true});assert.ok(prevented);
-const original=fs.readFileSync('framework.js','utf8'),prepared=prepareFramework(original);assert.equal(prepared.manifest.changes.length,6);assert.ok(!prepared.source.includes('function _JS_Eval_OpenURL(ptr){var str=UTF8ToString(ptr);window.open'));assert.ok(prepared.source.includes('function _isCursorLocked(){if(_isMobileDevice())'));
+const original=fs.readFileSync('framework.js','utf8'),prepared=prepareFramework(original);assert.equal(prepared.manifest.changes.length,9);assert.ok(!prepared.source.includes('function _JS_Eval_OpenURL(ptr){var str=UTF8ToString(ptr);window.open'));assert.ok(prepared.source.includes('function _isCursorLocked(){if(_isMobileDevice())'));
 assert.ok(!fs.readFileSync('game/style.css','utf8').includes('https://'));
 console.log('Offline checks passed: exact PNG aliases stay local; external service/socket/beacon/link routes disabled; engine URL bridge neutralized; prototype fonts local.');

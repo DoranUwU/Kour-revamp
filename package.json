@@ -7,15 +7,15 @@
     "start": "node tools/serve.mjs",
     "inspect": "node tools/serve-analysis.mjs",
     "preview:original": "node tools/serve-original.mjs",
-    "check": "node --check game/game.js && node --check tools/serve.mjs && node --check tools/serve-analysis.mjs && node --check analysis/explorer/explorer.js && node --check tools/recover-metadata.mjs && node --check original-preview/loader.js && node --check original-preview/photon-client.js && node --check tools/test-photon-multiplayer.mjs && node --check tools/test-c4-transfer.mjs && node --check original-preview/kourstrike-rules.js && node --check original-preview/round-debug.js && node --check tools/wasm-round-hook.mjs && node --check original-preview/offline-policy.js && node --check tools/original-wasm.mjs && node --check tools/serve-original.mjs && node --check original-preview/static-host.js && node --check tools/build-pages.mjs && node --check tools/serve-pages-test.mjs",
+    "check": "node --check game/game.js && node --check tools/serve.mjs && node --check tools/serve-analysis.mjs && node --check analysis/explorer/explorer.js && node --check tools/recover-metadata.mjs && node --check original-preview/loader.js && node --check original-preview/game-audio.js && node --check tools/test-spatial-audio.mjs && node --check tools/audio-state-probe.mjs && node --check original-preview/photon-client.js && node --check tools/test-photon-multiplayer.mjs && node --check tools/test-c4-transfer.mjs && node --check original-preview/kourstrike-rules.js && node --check original-preview/round-debug.js && node --check tools/wasm-round-hook.mjs && node --check original-preview/offline-policy.js && node --check tools/original-wasm.mjs && node --check tools/serve-original.mjs && node --check original-preview/static-host.js && node --check tools/build-pages.mjs && node --check tools/serve-pages-test.mjs",
     "verify:recovery": "node tools/audit-recovery.mjs && node tools/inspect-wasm-verify.mjs",
     "catalog": "node tools/build-explorer.mjs",
-    "test:preview": "node tools/check-local-wasm.mjs && node tools/check-original-loader.mjs && node tools/check-offline-policy.mjs",
+    "test:preview": "node tools/check-local-wasm.mjs && node tools/check-original-loader.mjs && node tools/check-audio-backend.mjs && node tools/check-game-audio.mjs && node tools/check-offline-policy.mjs",
     "test:pages": "node tools/check-static-host.mjs",
     "build:pages": "node tools/build-pages.mjs",
     "preview:pages": "node tools/serve-pages-test.mjs",
     "preview:photon": "node tools/serve-original.mjs --kourstrike --photon",
     "preview:kourstrike": "node tools/serve-original.mjs --kourstrike",
-    "test:kourstrike": "node tools/check-kourstrike.mjs && node tools/check-c4-handoff.mjs && node tools/check-round-hook.mjs && node tools/check-photon-halftime.mjs && node tools/check-photon-profile.mjs && node tools/check-mesh-assets.mjs && node tools/check-texture-assets.mjs && node tools/check-original-loader.mjs && node tools/check-offline-policy.mjs"
+    "test:kourstrike": "node tools/check-kourstrike.mjs && node tools/check-c4-handoff.mjs && node tools/check-round-hook.mjs && node tools/check-photon-halftime.mjs && node tools/check-photon-profile.mjs && node tools/check-mesh-assets.mjs && node tools/check-texture-assets.mjs && node tools/check-original-loader.mjs && node tools/check-audio-backend.mjs && node tools/check-game-audio.mjs && node tools/check-offline-policy.mjs"
   }
 }

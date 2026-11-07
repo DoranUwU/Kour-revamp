@@ -6,7 +6,7 @@ import {prepareLocalWasm} from './original-wasm.mjs';
 import {prepareKourStrikeData} from './kourstrike-data.mjs';
 import {localBundles} from './local-bundles.mjs';
 import {textureAssets,prepareOfflinePolicy} from './local-textures.mjs';
-const files={'/':'original-preview/index.html','/offline-policy.js':'original-preview/offline-policy.js','/loader.js':'original-preview/loader.js','/photon-client.js':'original-preview/photon-client.js','/kourstrike-rules.js':'original-preview/kourstrike-rules.js','/round-debug.js':'original-preview/round-debug.js','/framework.js':'framework.js','/source.wasm':'source.wasm','/game.data':'game.data'};
+const files={'/':'original-preview/index.html','/offline-policy.js':'original-preview/offline-policy.js','/loader.js':'original-preview/loader.js','/game-audio.js':'original-preview/game-audio.js','/photon-client.js':'original-preview/photon-client.js','/kourstrike-rules.js':'original-preview/kourstrike-rules.js','/round-debug.js':'original-preview/round-debug.js','/framework.js':'framework.js','/source.wasm':'source.wasm','/game.data':'game.data'};
 const types={'.html':'text/html','.js':'text/javascript','.wasm':'application/wasm','.data':'application/octet-stream'};
 const port=Number(process.env.ORIGINAL_PREVIEW_PORT||8082);
 const kourstrike=process.argv.includes('--kourstrike')||process.env.LOCAL_GAME_MODE!=='lobby';

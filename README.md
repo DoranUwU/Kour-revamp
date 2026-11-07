@@ -46,7 +46,7 @@ Current local experiment: each round starts with the native maximum **$14,000** 
 
 Sides swap automatically after12 completed rounds, so round13 starts on the opposite side with scores following the players. Open **Debug: rounds (temporary)** below the game to start a chosen round. To test the boundary, start round12, wait for the buy phase to finish, then choose **End current round**. [Halftime setup, verification and debug removal](analysis/runtime/HALFTIME.md).
 
-This is solo offline play on the included Kour2/map7. No online multiplayer or AI opponents were verified. Audio decode warnings remain. Original code/data inputs are preserved, and original-service connections remain disabled during play. [Setup and implementation](analysis/runtime/KOURSTRIKE.md) · [Native gameplay verification](analysis/runtime/kourstrike-ui-playable-report.md).
+This is solo offline play on the included Kour2/map7. No online multiplayer or AI opponents were verified. Native sound effects and spatial enemy footsteps are enabled. Use the Sound panel for volume/mute; see [audio setup and verification](AUDIO.md). Original code/data inputs are preserved, and original-service connections remain disabled during play. [Setup and implementation](analysis/runtime/KOURSTRIKE.md) · [Native gameplay verification](analysis/runtime/kourstrike-ui-playable-report.md).
 
 ## Browse recovered content
 

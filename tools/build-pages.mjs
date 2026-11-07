@@ -25,7 +25,7 @@ write('index.html',html);write('.nojekyll','');
 write('loader.js',loader);write('framework.js',prepareFramework(read('framework.js')).source);
 write('offline-policy.js','window.BuildBasePath='+JSON.stringify(base)+';\n'+prepareOfflinePolicy(read('original-preview/offline-policy.js')));
 write('static-host.js','window.BuildBasePath='+JSON.stringify(base)+';\n'+read('original-preview/static-host.js'));
-for(const name of ['photon-client.js','kourstrike-rules.js','round-debug.js'])write(name,read('original-preview/'+name));
+for(const name of ['game-audio.js','photon-client.js','kourstrike-rules.js','round-debug.js'])write(name,read('original-preview/'+name));
 for(const [name,bytes]of [['source.wasm',wasm.source],['game.data',data.source]]){
  const file=path.join(output,name);if(fs.existsSync(file))fs.unlinkSync(file);
  write(name+'.gz',gzipSync(bytes,{level:9}));
