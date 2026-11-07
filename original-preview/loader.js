@@ -4,6 +4,7 @@ window.addEventListener('error',e=>log('ERROR',e.message));
 window.addEventListener('unhandledrejection',e=>log('REJECTION',e.reason));
 document.querySelector('#check-response').onclick=()=>log('HOST PAGE RESPONSIVE');
 let activeModule;
+let activeRoundRules,activeRoundDebug;
 function showModeStatus(text){document.querySelector('#mode-status').textContent=text;log(text)}
 // Verified against the supplied WASM build: this original settings handler
 // persists renderWeapon and toggles the live first-person weapon camera.
@@ -25,6 +26,7 @@ window.startKourStrikeOffline=async()=>{
   const table=activeModule?.asm?.__indirect_function_table;
   if(!table)throw Error('Load the local build before starting a match.');
   restoreWeaponVisibility();
+  activeRoundRules?.reset();
   activeModule.SendMessage('Canvas','ForceSetGameMode','Search And Destroy');
   table.get(27673)(1,0); // PhotonNetwork.set_OfflineMode(bool, MethodInfo*)
   table.get(21283)(7,0); // UIManager.LoadForceMap(mapNumber, MethodInfo*)
@@ -53,7 +55,9 @@ window.open=()=>{if(window.OfflinePolicy)window.OfflinePolicy.blocked('external 
 window.setCursor=value=>{const cursor=typeof value==='string'&&CSS.supports('cursor',value)?value:value===false?'none':'default';document.querySelector('#canvas').style.cursor=cursor};
 window.testDevice=()=>/Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 window.UnlockCursor=()=>document.exitPointerLock?.();
+window.LockCursor=()=>{if(navigator.userActivation&&!navigator.userActivation.isActive)return;try{document.querySelector('#canvas').requestPointerLock?.()?.catch?.(()=>{})}catch{}};
 window.AllowCtrlW=()=>logOnce('host:AllowCtrlW','LOCAL MODE: browser close shortcut uses its normal behavior');
+window.PreventCtrlW=window.AllowCtrlW;
 window.gameplayStart=()=>logOnce('host:gameplayStart','LOCAL MODE: external gameplay telemetry disabled');
 for(const name of ['SetAds','checkVersion','requestUserData','SetURL'])window[name]=()=>{logOnce('host:'+name,'OFFLINE: host service unavailable',name)};
 
@@ -78,6 +82,7 @@ document.querySelector('#start').onclick=async()=>{
  for(let i=20;i<header;){const offset=view.getUint32(i,true),size=view.getUint32(i+4,true),len=view.getUint32(i+8,true);i+=12;const name=new TextDecoder().decode(bytes.subarray(i,i+len));i+=len;files.push({name,offset,size})}
  const canvas=document.querySelector('#canvas');
  const module={canvas,preRun:[],postRun:[],deinitializers:[],print:log,printErr:log,noExitRuntime:true,fetchWithProgress:fetchUnityWithProgress,
+ onKourStrikeRoundStart:()=>activeRoundRules?.beforeRound(),
  locateFile:name=>name.includes('.wasm')?'/source.wasm':('/'+name),dataUrl:'/game.data',codeUrl:'/source.wasm',streamingAssetsUrl:new URL('/StreamingAssets',location.href).href,companyName:'Offline analysis',productName:'Supplied build',productVersion:'unknown',webglContextAttributes:{preserveDrawingBuffer:true},
  SystemInfo:{width:screen.width,height:screen.height,userAgent:navigator.userAgent,browser:'Edge',browserVersion:'130',mobile:false,os:'Windows',osVersion:'10',gpu:'Local browser',language:navigator.language,hasWebGL:2,hasWebGPU:false,hasCursorLock:true,hasFullscreen:true,hasThreads:typeof SharedArrayBuffer!=='undefined',hasWasm:true},
  disabledCanvasEvents:['contextmenu','dragstart'],startupErrorHandler:e=>log('STARTUP ERROR',e),errorHandler:e=>log('UNITY ERROR',e),onAbort:e=>log('ABORT',e),onRuntimeInitialized:()=>log('RUNTIME INITIALIZED'),setStatus:s=>{if(s)log('STATUS',s)},monitorRunDependencies:n=>log('DEPENDENCIES',n)};
@@ -87,6 +92,12 @@ document.querySelector('#start').onclick=async()=>{
  activeModule=module;
  log('Starting local original runtime; remote services blocked');
  await unityFramework(module);document.querySelector('#start').dataset.state='ready';log('FRAMEWORK READY');
+ if(config.profile==='kourstrike'){
+  activeRoundRules=window.createKourStrikeRules(module,{log,onSwap:state=>showModeStatus(`${state.round>=13?'Halftime':'First half'}: now playing ${state.team==='t'?'Terrorists':'Counter-Terrorists'}.`)});
+  window.localKourStrikeRules=activeRoundRules;
+  activeRoundDebug=window.installKourStrikeRoundDebug?.(activeRoundRules);
+  module.deinitializers.push(()=>activeRoundDebug?.dispose());
+ }
  document.querySelector('#show-weapon').disabled=false;
  document.querySelector('#start-match').disabled=config.profile!=='kourstrike';
  if(config.profile==='kourstrike')setTimeout(()=>{try{module.SendMessage('Canvas','ForceSetGameMode','Search And Destroy')}catch(error){log('MODE SELECTION',error.message)}},1000);

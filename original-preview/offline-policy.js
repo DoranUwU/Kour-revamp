@@ -1,17 +1,20 @@
 // Loaded before the supplied framework. No original service is emulated here.
 (() => {
- const allowedPaths=new Set(['/','/offline-policy.js','/framework.js','/loader.js','/game.data','/source.wasm','/local-config.json']);
+ const allowedPaths=new Set(['/','/offline-policy.js','/framework.js','/loader.js','/kourstrike-rules.js','/round-debug.js','/game.data','/source.wasm','/local-config.json']);
  const allowedMaps=new Set(['/StreamingAssets/map7','/StreamingAssets/map8','/StreamingAssets/map10']);
  // Static mesh dependencies from the supplied prefabs, served only locally.
  const meshBundles=['ak109','awp','axe','beretta','bomb','cz','deagle','famas','flamethrower','grenades/mesh/flash','grenades/mesh/grenade','grenades/mesh/molotov','grenades/mesh/smoke','kar98','knife','lasergun1','lasergun2','m4a4','minigun','mp5','p90','pkm','revolver','scar','tec9','thompson','umbrella','ump45','usps','uzi','vector1','vector2','vector3','xm1014'];
  for(const name of meshBundles)allowedMaps.add('/StreamingAssets/'+name);
+ const texturePaths=new Set(window.LocalTexturePaths||[]);
+ function validTextureQuery(url){return url.search.length<128&&[...url.searchParams.keys()].every(k=>k==='size')&&url.searchParams.getAll('size').length<=1&&(!url.searchParams.has('size')||/^[1-9]\d{0,3}x[1-9]\d{0,3}$/.test(url.searchParams.get('size')))}
+ function localTextureAlias(input){try{const value=typeof input==='string'||input instanceof URL?String(input):input.url;const url=new URL(value,location.href);if(url.origin!=='https://kour.io'||url.username||url.password||!texturePaths.has(url.pathname)||!validTextureQuery(url))return null;return new URL(url.pathname+url.search,location.href).href}catch{return null}}
  const counts=Object.create(null);
  function blocked(kind){counts[kind]=(counts[kind]||0)+1;if(counts[kind]===1)console.info('LOCAL MODE: disabled '+kind)}
- function isLocalAsset(input){try{const value=typeof input==='string'||input instanceof URL?String(input):input.url;const url=new URL(value,location.href);if(url.origin!==location.origin||url.username||url.password)return false;if(allowedMaps.has(url.pathname))return [...url.searchParams.keys()].every(k=>k==='v')&&url.search.length<128;return allowedPaths.has(url.pathname)&&!url.search}catch{return false}}
+ function isLocalAsset(input){try{const value=typeof input==='string'||input instanceof URL?String(input):input.url;const url=new URL(value,location.href);if(url.origin!==location.origin||url.username||url.password)return false;if(texturePaths.has(url.pathname))return validTextureQuery(url);if(allowedMaps.has(url.pathname))return [...url.searchParams.keys()].every(k=>k==='v')&&url.search.length<128;return allowedPaths.has(url.pathname)&&!url.search}catch{return false}}
  const nativeFetch=window.fetch.bind(window);
- window.fetch=(input,options)=>{if(isLocalAsset(input))return nativeFetch(input,options);blocked('service requests');return Promise.reject(new DOMException('External services are disabled in local mode.','SecurityError'))};
+ window.fetch=(input,options)=>{const alias=localTextureAlias(input);if(alias&&!['GET','HEAD'].includes(String(options?.method||input?.method||'GET').toUpperCase()))return Promise.reject(new DOMException('Static textures are read-only.','SecurityError'));const target=alias?(typeof input==='string'||input instanceof URL?alias:new Request(alias,input)):input;if(isLocalAsset(target))return nativeFetch(target,options);blocked('service requests');return Promise.reject(new DOMException('External services are disabled in local mode.','SecurityError'))};
  const nativeOpen=XMLHttpRequest.prototype.open;
- XMLHttpRequest.prototype.open=function(method,url,...rest){if(!isLocalAsset(url)){blocked('service requests');throw new DOMException('External services are disabled in local mode.','SecurityError')}return nativeOpen.call(this,method,url,...rest)};
+ XMLHttpRequest.prototype.open=function(method,url,...rest){const alias=localTextureAlias(url);if(alias&&!['GET','HEAD'].includes(String(method).toUpperCase()))throw new DOMException('Static textures are read-only.','SecurityError');const target=alias||url;if(!isLocalAsset(target)){blocked('service requests');throw new DOMException('External services are disabled in local mode.','SecurityError')}return nativeOpen.call(this,method,target,...rest)};
  class DisconnectedSocket extends EventTarget {
   static CONNECTING=0;static OPEN=1;static CLOSING=2;static CLOSED=3;
   CONNECTING=0;OPEN=1;CLOSING=2;CLOSED=3;readyState=0;bufferedAmount=0;extensions='';protocol='';binaryType='blob';

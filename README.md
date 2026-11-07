@@ -32,6 +32,16 @@ Open http://localhost:8082/, choose **Load KourStrike**, then **Start KourStrike
 
 The local build includes the 34 separate mesh bundles referenced by the supplied weapon prefabs, including the CT-side USPS pistol. Startup enables weapon rendering; **Show gun** restores the original weapon-camera setting during play. Restart the preview server after updating these files.
 
+Eight original default PNGs are mirrored locally: MP5, AWP, revolver, HE grenade, smoke, flashbang, Molotov and C4. Their exact native image URLs are translated into local requests by the offline policy; other external requests remain blocked. Texture identities, image structure and route behavior are included in the core checks.
+
+Beretta's original default uses embedded silver/gray materials and does not request a separate default skin PNG. Native local purchases and the visible finishes of MP5, Beretta92fs and AWP were checked in the browser.
+
+The revolver, all four buyable grenade types (HE, smoke, flashbang, Molotov) and the T player's C4 were also equipped and visually verified with their original textures. Appearance verification and its gameplay limits are recorded in analysis/runtime/equipment-colors-report.md.
+
+Current local experiment: each round starts with the native maximum **$14,000** when the buy phase begins. Purchases still deduct normally. The seven-byte patch is recorded in tools/original-wasm.mjs and only applies to the KourStrike profile; the original source.wasm stays unchanged.
+
+Sides swap automatically after12 completed rounds, so round13 starts on the opposite side with scores following the players. Open **Debug: rounds (temporary)** below the game to start a chosen round. To test the boundary, start round12, wait for the buy phase to finish, then choose **End current round**. [Halftime setup, verification and debug removal](analysis/runtime/HALFTIME.md).
+
 This is solo offline play on the included Kour2/map7. No online multiplayer or AI opponents were verified. Audio decode warnings remain. Original code/data inputs are preserved, and original-service connections remain disabled during play. [Setup and implementation](analysis/runtime/KOURSTRIKE.md) · [Native gameplay verification](analysis/runtime/kourstrike-ui-playable-report.md).
 
 ## Browse recovered content
