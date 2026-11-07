@@ -83,6 +83,7 @@ document.querySelector('#start').onclick=async()=>{
  const canvas=document.querySelector('#canvas');
  const module={canvas,preRun:[],postRun:[],deinitializers:[],print:log,printErr:log,noExitRuntime:true,fetchWithProgress:fetchUnityWithProgress,
  onKourStrikeRoundStart:()=>activeRoundRules?.beforeRound(),
+ onKourStrikeStateChange:()=>activeRoundRules?.beforeStateChange?.(),
  locateFile:name=>name.includes('.wasm')?'/source.wasm':('/'+name),dataUrl:'/game.data',codeUrl:'/source.wasm',streamingAssetsUrl:new URL('/StreamingAssets',location.href).href,companyName:'Offline analysis',productName:'Supplied build',productVersion:'unknown',webglContextAttributes:{preserveDrawingBuffer:true},
  SystemInfo:{width:screen.width,height:screen.height,userAgent:navigator.userAgent,browser:'Edge',browserVersion:'130',mobile:false,os:'Windows',osVersion:'10',gpu:'Local browser',language:navigator.language,hasWebGL:2,hasWebGPU:false,hasCursorLock:true,hasFullscreen:true,hasThreads:typeof SharedArrayBuffer!=='undefined',hasWasm:true},
  disabledCanvasEvents:['contextmenu','dragstart'],startupErrorHandler:e=>log('STARTUP ERROR',e),errorHandler:e=>log('UNITY ERROR',e),onAbort:e=>log('ABORT',e),onRuntimeInitialized:()=>log('RUNTIME INITIALIZED'),setStatus:s=>{if(s)log('STATUS',s)},monitorRunDependencies:n=>log('DEPENDENCIES',n)};
@@ -97,6 +98,21 @@ document.querySelector('#start').onclick=async()=>{
   window.localKourStrikeRules=activeRoundRules;
   activeRoundDebug=window.installKourStrikeRoundDebug?.(activeRoundRules);
   module.deinitializers.push(()=>activeRoundDebug?.dispose());
+ }
+ if(config.photonEnabled){
+  const panel=document.querySelector('#photon-panel'),status=document.querySelector('#photon-status'),app=document.querySelector('#photon-app-id');
+  app.value=config.photonAppId||'';document.querySelector('#photon-region').value=config.photonRegion||'asia';
+  const client=window.createPhotonClient(module,{log,onStatus:message=>{status.textContent=message}});
+  window.photonClient=client;panel.open=true;
+  module.deinitializers.push(()=>client.dispose());
+  for(const [id,action]of [['#photon-create','create'],['#photon-join','join']]){
+   const button=document.querySelector(id);button.disabled=false;
+   button.onclick=async()=>{const buttons=['#photon-create','#photon-join'].map(s=>document.querySelector(s));buttons.forEach(b=>b.disabled=true);document.querySelector('#start-match').disabled=true;
+    try{restoreWeaponVisibility();activeRoundRules?.reset();await client[action]({appId:app.value.trim(),nickname:document.querySelector('#photon-name').value,room:document.querySelector('#photon-room').value,region:document.querySelector('#photon-region').value});panel.open=false}
+    catch(error){log('PHOTON',error.message)}finally{buttons.forEach(b=>b.disabled=!!client.inspect().inRoom)}
+   };
+  }
+  status.textContent='Ready. Create a room, or enter your friend?s room code and join.';
  }
  document.querySelector('#show-weapon').disabled=false;
  document.querySelector('#start-match').disabled=config.profile!=='kourstrike';

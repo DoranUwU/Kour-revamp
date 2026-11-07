@@ -1,6 +1,6 @@
 // Loaded before the supplied framework. No original service is emulated here.
 (() => {
- const allowedPaths=new Set(['/','/offline-policy.js','/framework.js','/loader.js','/kourstrike-rules.js','/round-debug.js','/game.data','/source.wasm','/local-config.json']);
+ const allowedPaths=new Set(['/','/offline-policy.js','/framework.js','/loader.js','/kourstrike-rules.js','/round-debug.js','/photon-client.js','/game.data','/source.wasm','/local-config.json']);
  const allowedMaps=new Set(['/StreamingAssets/map7','/StreamingAssets/map8','/StreamingAssets/map10']);
  // Static mesh dependencies from the supplied prefabs, served only locally.
  const meshBundles=['ak109','awp','axe','beretta','bomb','cz','deagle','famas','flamethrower','grenades/mesh/flash','grenades/mesh/grenade','grenades/mesh/molotov','grenades/mesh/smoke','kar98','knife','lasergun1','lasergun2','m4a4','minigun','mp5','p90','pkm','revolver','scar','tec9','thompson','umbrella','ump45','usps','uzi','vector1','vector2','vector3','xm1014'];
@@ -23,11 +23,18 @@
   send(){throw new DOMException('No local multiplayer server is configured.','InvalidStateError')}
   close(){if(this.readyState===3)return;this.readyState=3;setTimeout(()=>this.emit(new CloseEvent('close',{code:1000,wasClean:true})),0)}
  }
- window.WebSocket=DisconnectedSocket;
+ // Only an explicit online action enables Photon WSS. Original account, ad,
+ // telemetry and matchmaking services remain blocked, including HTTP requests.
+ const NativeWebSocket=window.WebSocket;
+ let photonEnabled=false;
+ function isPhotonSocket(value){try{const url=new URL(String(value));return url.protocol==='wss:'&&!url.username&&!url.password&&['photonengine.io','photonengine.com','exitgames.com'].some(domain=>url.hostname===domain||url.hostname.endsWith('.'+domain))}catch{return false}}
+ if(NativeWebSocket){
+  window.WebSocket=new Proxy(NativeWebSocket,{construct(Target,args){if(photonEnabled&&isPhotonSocket(args[0]))return Reflect.construct(Target,args);return new DisconnectedSocket(args[0])}});
+ }else window.WebSocket=DisconnectedSocket;
  window.EventSource=class extends EventTarget {static CONNECTING=0;static OPEN=1;static CLOSED=2;readyState=0;constructor(){super();blocked('event streams');setTimeout(()=>{this.readyState=2;const event=new Event('error');this.dispatchEvent(event);this.onerror?.call(this,event)},0)}close(){this.readyState=2}};
  navigator.sendBeacon=()=>{blocked('analytics');return false};
  window.open=()=>{blocked('external links');return null};
  // Covers HTML links as well as the supplied engine's OpenURL bridge.
  document.addEventListener('click',event=>{const link=event.target.closest?.('a[href]');if(link&&!isLocalAsset(link.href)){event.preventDefault();blocked('external links')}},true);
- window.OfflinePolicy={blocked,counts,isLocalAsset};
+ window.OfflinePolicy={blocked,counts,isLocalAsset,isPhotonSocket,enablePhoton(appId){if(!/^[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}$/i.test(appId))throw Error('Enter a valid Photon Realtime App ID.');photonEnabled=true},disablePhoton(){photonEnabled=false}};
 })();

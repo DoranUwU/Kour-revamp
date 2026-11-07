@@ -20,6 +20,8 @@ Generated startup archives, raw browser captures and large intermediate analysis
 
 ## Play KourStrike locally
 
+For private online play through your own Photon application, run `npm.cmd run preview:photon` and follow [Photon setup and multiplayer verification](PHOTON.md). Each friend can serve their own local copy and join the same Photon room without port forwarding.
+
 The original client now runs **Search And Destroy on Kour2** in a local offline room. Team selection, spawning, movement, pistol firing and reload were verified in a browser.
 
 Close any old/frozen preview tab and stop its server before restarting:

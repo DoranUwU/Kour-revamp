@@ -4,7 +4,7 @@ const expectedSha256='dc4848ad11ac723b2a58f22118055ac9a91c1abbf3e851e415a08e7685
 const offset=23683617;
 const hash=data=>crypto.createHash('sha256').update(data).digest('hex');
 function leb(value){const bytes=[];do{const byte=value&127;value>>>=7;bytes.push(byte|(value?128:0))}while(value);return Buffer.from(bytes)}
-export function prepareLocalWasm(original,{kourstrike=false,roundStartHook=true}={}){
+export function prepareLocalWasm(original,{kourstrike=false,roundStartHook=true,photon=false}={}){
  if(hash(original)!==expectedSha256)throw Error('Unknown WASM build: refusing a fixed-offset local-preview change.');
  // Validated disassembly: SdkManager.CheckHost -> Application.Quit(MethodInfo*).
  // Consume that one argument without calling Quit; retain identical body size.
@@ -23,7 +23,7 @@ export function prepareLocalWasm(original,{kourstrike=false,roundStartHook=true}
  source.set([0x41,0x00,0x0f],networkStart);source[networkEnd-1]=0x0b;
  const bootstrap=[];
  let roundStartCash=null;
- const halftime=[];let hook=null;
+ const halftime=[],photonCallbacks=[];let hook=null;
  if(kourstrike){for(const item of [{method:'NetworkManager.OnDisconnected',offset:23889930,before:'4102',after:'4107',meaning:'Disconnected offline first map2 ->7 (room index8/Kour2)'},{method:'UIManager.GoOfflineEmergency',offset:24448525,before:'4102',after:'4107',meaning:'Offline first map argument2 ->7 (room index8/Kour2)'},{method:'UIManager.LoadForceMap',offset:24435819,before:'4100',after:'4106',meaning:'GameModes array index0 ->6 (Search And Destroy/mode8)'}]){const beforeBytes=Buffer.from(item.before,'hex');if(!original.subarray(item.offset,item.offset+beforeBytes.length).equals(beforeBytes))throw Error('Unknown KourStrike bootstrap instruction');Buffer.from(item.after,'hex').copy(source,item.offset);bootstrap.push(item)}}
  if(kourstrike){
   // Buy-phase entry: replace previous cash + round bonus with the native cap.
@@ -40,10 +40,26 @@ export function prepareLocalWasm(original,{kourstrike=false,roundStartHook=true}
    if(source.subarray(patch.offset,patch.offset+2).toString('hex')!==patch.before)throw Error('Unknown halftime instructions');
    Buffer.from(patch.after,'hex').copy(source,patch.offset);halftime.push(patch);
   }
-  if(roundStartHook){const result=insertRoundHook(source);source=result.source;hook=result.manifest}
+  if(photon){
+   const autoConnect={method:'NetworkManager.NewConnectUsingSettings',function_index:75044,start:23867347,end:23867494};
+   if(original[autoConnect.end-1]!==0x0b)throw Error('Unknown Photon startup boundary');
+   autoConnect.before_sha256=hash(original.subarray(autoConnect.start,autoConnect.end));
+   source.fill(0x01,autoConnect.start,autoConnect.end);source.set([0x41,0x00,0x0f],autoConnect.start);source[autoConnect.end-1]=0x0b;
+   photonCallbacks.push(autoConnect);
+   // Keep Photon library dispatch and OnJoinedRoom intact. The custom launcher
+   // owns matchmaking and failure UI instead of the original random-room and
+   // forced-offline fallbacks. Function locals and body lengths stay unchanged.
+   for(const item of [{method:'NetworkManager.OnConnectedToMaster',function_index:75069,start:23883433,end:23885437},{method:'NetworkManager.OnDisconnected',function_index:75076,start:23889488,end:23891564}]){
+    if(original[item.end-1]!==0x0b)throw Error('Unknown Photon callback boundary');
+    item.before_sha256=hash(original.subarray(item.start,item.end));
+    source.fill(0x01,item.start,item.end);source[item.start]=0x0f;source[item.end-1]=0x0b;
+    photonCallbacks.push(item);
+   }
+  }
+  if(roundStartHook){const result=insertRoundHook(source,{photon});source=result.source;hook=result.manifest}
  }
  if(!WebAssembly.validate(source))throw Error('Local-preview WASM failed full module validation.');
- const servedOffset=p=>p+(hook&&p>=hook.original_code_offset?hook.added_bytes:0);
+ const servedOffset=p=>p+(hook?.profile==='photon'?hook.relocations.filter(x=>p>=x.original_offset).reduce((sum,x)=>sum+x.added_bytes,0):(hook&&p>=hook.original_code_offset?hook.added_bytes:0));
  for(const patch of [...bootstrap,...halftime])patch.served_offset=servedOffset(patch.offset);
- return{source,manifest:{original_sha256:expectedSha256,served_sha256:hash(source),original_modified:false,method:'SdkManager.CheckHost',function_index:74474,offset,before:before.toString('hex'),after:after.toString('hex'),network_probe:{method:'NetworkManager.IsInternetAvailable',function_index:75077,body_start:23891566,start:networkStart,end:networkEnd,before_sha256:hash(networkBefore),served_start:servedOffset(networkStart),served_end:servedOffset(networkEnd),after_sha256:hash(source.subarray(servedOffset(networkStart),servedOffset(networkEnd))),replacement:'return false in local-only mode'},bootstrap,round_start_cash:roundStartCash,halftime,round_start_hook:hook,scope:'Local compatibility, KourStrike round rules and maximum round-start cash; external services remain disabled.'}};
+ return{source,manifest:{original_sha256:expectedSha256,served_sha256:hash(source),original_modified:false,method:'SdkManager.CheckHost',function_index:74474,offset,before:before.toString('hex'),after:after.toString('hex'),network_probe:{method:'NetworkManager.IsInternetAvailable',function_index:75077,body_start:23891566,start:networkStart,end:networkEnd,before_sha256:hash(networkBefore),served_start:servedOffset(networkStart),served_end:servedOffset(networkEnd),after_sha256:hash(source.subarray(servedOffset(networkStart),servedOffset(networkEnd))),replacement:'return false in local-only mode'},bootstrap,round_start_cash:roundStartCash,halftime,round_start_hook:hook,photon_callbacks:photonCallbacks,scope:photon?'Opt-in user Photon application; original services remain disabled.':'Local compatibility, KourStrike round rules and maximum round-start cash; external services remain disabled.'}};
 }

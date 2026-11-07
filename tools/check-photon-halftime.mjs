@@ -1,0 +1,44 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+// Controlled native-cache fixture: outbound operations do NOT mutate caches
+// until an explicit server ack. It guards the async boundary, not rendering.
+const bytes=new ArrayBuffer(16*1024*1024),h=new Uint32Array(bytes),u8=new Uint8Array(bytes),u16=new Uint16Array(bytes),i32=new Int32Array(bytes);
+let allocation=9*1024*1024;const alloc=n=>{const p=allocation;allocation=(allocation+n+3)&~3;return p};
+const string=value=>{const p=alloc(12+value.length*2);h[(p+8)>>>2]=value.length;for(let i=0;i<value.length;i++)u16[((p+12)>>>1)+i]=value.charCodeAt(i);return p};
+const text=p=>String.fromCharCode(...u16.subarray((p+12)>>>1,((p+12)>>>1)+h[(p+8)>>>2]));
+const boxed=n=>{const p=alloc(12);i32[(p+8)>>>2]=n;return p};
+const ht=new Map(),hash=entries=>{const p=alloc(128);ht.set(p,new Map(entries));return p};
+const room=alloc(128),manager=alloc(256),local=alloc(128),remote=alloc(128),array=alloc(128),klass=alloc(128),statics=alloc(128),networkClass=alloc(128),networkStatics=alloc(128),network=alloc(128),go=alloc(128);
+h[6910428>>>2]=klass;h[(klass+92)>>>2]=statics;h[(statics+20)>>>2]=manager;h[(room+12)>>>2]=hash([['CurrentRound',boxed(12)],['T1S',boxed(7)],['T2S',boxed(4)]]);h[8037700>>>2]=alloc(128);
+h[6908040>>>2]=networkClass;h[(networkClass+92)>>>2]=networkStatics;h[(networkStatics+56)>>>2]=network;
+h[(array+12)>>>2]=2;h[(array+16)>>>2]=local;h[(array+20)>>>2]=remote;
+const teams={1:alloc(128),2:alloc(128)};for(const code of [1,2]){u8[teams[code]+12]=code;h[(teams[code]+8)>>>2]=string(code===1?'ct':'t')}
+const membership=new Map([[local,2],[remote,1]]),keys={CurrentRound:7013824,T1S:7033132,T2S:7033136};for(const [k,p]of Object.entries(keys))h[p>>>2]=string(k);
+let master=true,offline=false,live=true,clock=1000,nativeStarts=0,destroyed=[],outbound=[],callbacks=[],rejectPublish=false;
+const handles=new Map();let nextHandle=1,allocatedHandles=0,freedHandles=0;const rooted=p=>[...handles.values()].includes(p);
+const prop=k=>ht.get(h[(room+12)>>>2]).get(k)||0;
+const fns=new Map(),fn=(slot,name,arity,body)=>{Object.defineProperty(body,'name',{value:name});Object.defineProperty(body,'length',{value:arity});fns.set(slot,body)};
+fn(27666,'24867',1,()=>room);fn(27667,'24943',1,()=>local);fn(27670,'24946',1,()=>array);fn(27672,'24948',1,()=>+offline);fn(27688,'24896',1,()=>+master);fn(28158,'74087',2,p=>teams[membership.get(p)]||0);
+fn(28163,'74109',3,(p,code)=>{if(offline)membership.set(p,code);else outbound.push({kind:'team',p,code});return 1});fn(20450,'74519',2,()=>i32[(prop('CurrentRound')+8)>>>2]);
+fn(26337,'80828',2,p=>hash(ht.get(p)));fn(3727,'80818',3,(p,k)=>ht.get(p).get(text(k))||0);fn(3780,'80819',4,(p,k,v)=>{assert.ok(rooted(p),'Cloned properties must stay rooted while adding fields');ht.get(p).set(text(k),v)});
+fn(27522,'23926',5,(r,p)=>{assert.ok(rooted(p),'Properties must stay rooted through publication');if(rejectPublish)throw Error('Injected publication failure');if(offline)h[(room+12)>>>2]=p;else outbound.push({kind:'room',p});return 1});fn(3300,'84181',2,()=>string('SearchAndDestroyManager'));fn(1036,'2162',2,(k,p)=>boxed(i32[p>>>2]));
+fn(2105,'95579',2,obj=>{const handle=nextHandle++;handles.set(handle,obj);allocatedHandles++;return handle});fn(2577,'95581',2,slot=>{const handle=h[slot>>>2];assert.ok(handles.has(handle),'Handle is freed once using its value-type pointer');handles.delete(handle);freedHandles++});
+fn(75048,'91484',2,n=>{const p=alloc(12+n*2);h[(p+8)>>>2]=n;return p});fn(12380,'74078',1,()=>alloc(128));fn(28139,'74086',2,()=>{});
+fn(19879,'74902',3,(n,out)=>{h[out>>>2]=live?go:0;return +live});fn(27756,'25040',2,p=>destroyed.push(p));fn(3127,'84199',2,()=>{live=false});
+let rules;const gate={value:0},incoming={value:0};fn(20444,'74516',4,()=>{rules.beforeRound();if(!gate.value)nativeStarts++});
+const log=[],module={HEAPU32:h,HEAPU8:u8,HEAPU16:u16,HEAP32:i32,asm:{__indirect_function_table:{get:i=>{assert.ok(fns.has(i),'Unexpected native call '+i);return fns.get(i)}},malloc:alloc,free(){},kourstrikeRoundGate:gate,kourstrikeIncomingState:incoming}};
+const context={window:{},console,Date:{now:()=>clock},setTimeout:f=>{callbacks.push(f);return f},clearTimeout:f=>{callbacks=callbacks.filter(c=>c!==f)}};vm.createContext(context);vm.runInContext(fs.readFileSync('original-preview/kourstrike-rules.js','utf8'),context);rules=context.window.createKourStrikeRules(module,{log:m=>log.push(m)});
+const tick=()=>{const next=callbacks.shift();assert.ok(next,'Expected pending barrier timer');next()};
+const ack=()=>{const ops=outbound;outbound=[];for(const op of ops)if(op.kind==='room')h[(room+12)>>>2]=op.p;else membership.set(op.p,op.code)};
+rules.beforeRound();assert.equal(gate.value,1);assert.equal(nativeStarts,0);assert.equal(outbound.length,1);assert.equal(outbound[0].kind,'room','Persist intent before modifying teams');
+tick();assert.equal(outbound.length,1,'Do not send team operations before intent ack');ack();tick();assert.equal(outbound.length,2);assert.ok(outbound.every(o=>o.kind==='team'));assert.equal(membership.get(local),2);
+rules.beforeRound();assert.equal(outbound.length,2,'Duplicate round hook must not resubmit operations');tick();assert.equal(nativeStarts,0,'No spawn before team ack');ack();tick();assert.equal(outbound.length,1);assert.equal(outbound[0].kind,'room');assert.equal(nativeStarts,0);assert.equal(prop('KourRevampHalf'),0,'No optimistic half marker');
+ack();tick();assert.equal(nativeStarts,1);assert.equal(gate.value,0);assert.equal(membership.get(local),1);assert.equal(membership.get(remote),2);assert.equal(i32[(prop('T1S')+8)>>>2],4);assert.equal(i32[(prop('T2S')+8)>>>2],7);
+incoming.value=1;rules.beforeStateChange();assert.deepEqual(destroyed,[go],'Only own actor is replaced');rules.beforeStateChange();assert.equal(destroyed.length,1,'Repeated buy-phase notification cannot destroy twice');
+master=false;rules.beforeRound();assert.equal(gate.value,1,'Replica may not start a round');assert.equal(nativeStarts,1);master=true;
+rules.reset();ht.get(h[(room+12)>>>2]).set('KourRevampHalf',boxed(0));rules.beforeRound();clock+=16000;tick();assert.equal(gate.value,1);assert.ok(log.some(m=>m.includes('15 seconds')));const count=outbound.length;rules.beforeRound();assert.equal(outbound.length,count,'Timed-out barrier must remain latched');
+assert.equal(handles.size,0,'No handles may survive an async yield or timeout');assert.equal(allocatedHandles,freedHandles);
+rules.reset();rejectPublish=true;outbound=[];rules.beforeRound();assert.equal(gate.value,1);assert.equal(handles.size,0,'Thrown native publication must release all nested handles');assert.equal(allocatedHandles,freedHandles);rejectPublish=false;
+rules.reset();offline=true;live=true;outbound=[];membership.set(local,2);membership.set(remote,1);ht.get(h[(room+12)>>>2]).delete('T1S');ht.get(h[(room+12)>>>2]).delete('T2S');rules.beforeRound();assert.equal(membership.get(local),1);assert.equal(membership.get(remote),2);assert.equal(i32[(prop('T1S')+8)>>>2],0);assert.equal(i32[(prop('T2S')+8)>>>2],0);assert.equal(handles.size,0,'Offline score root must release after player teardown and publication');assert.equal(allocatedHandles,freedHandles);
+console.log('Photon halftime barrier checks passed: delayed intent/team/room acks, duplicate hook, replica guard, score ownership, local-only reset, bounded timeout, and GC handles freed on success/fault/offline teardown.');
