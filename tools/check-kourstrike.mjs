@@ -16,7 +16,7 @@ assert.ok(sceneVerified);assert.equal(q,info.length);
 const input=fs.readFileSync('source.wasm'),base=prepareLocalWasm(input).source,kour=prepareLocalWasm(input,{kourstrike:true,roundStartHook:false});
 assert.equal(kour.manifest.round_start_cash,null);assert.equal(kour.manifest.economy.win,3000);
 assert.equal(kour.source.subarray(23693680,23693687).toString('hex'),'10a99c0320056a','Native cash accumulation must replace the old forced maximum');
-const expected=Buffer.from(base);for(const patch of [...kour.manifest.bootstrap,...kour.manifest.halftime,...kour.manifest.c4_handoff,...kour.manifest.economy.patches])Buffer.from(patch.after,'hex').copy(expected,patch.offset);
+const expected=Buffer.from(base);for(const patch of [...kour.manifest.bootstrap,...kour.manifest.halftime,...kour.manifest.c4_handoff,...kour.manifest.economy.patches,kour.manifest.molotov_update])Buffer.from(patch.after,'hex').copy(expected,patch.offset);
 assert.ok(kour.source.equals(expected),'Unrelated native instructions must remain unchanged');
 assert.ok(WebAssembly.validate(kour.source));assert.equal(kour.manifest.bootstrap.length,3);assert.equal(prepareLocalWasm(input).manifest.economy,null);
 const hooked=prepareLocalWasm(input,{kourstrike:true});assert.equal(hooked.source.length,kour.source.length+5);assert.equal(hooked.manifest.round_start_hook.prefix,'417f10a601');assert.ok(WebAssembly.validate(hooked.source));

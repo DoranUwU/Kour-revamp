@@ -169,6 +169,7 @@ document.querySelector('#start').onclick=async()=>{
   activeRoundRules=window.createKourStrikeRules(module,{log,onSwap:state=>showModeStatus(`${state.round>=13?'Halftime':'First half'}: now playing ${state.team==='t'?'Terrorists':'Counter-Terrorists'}.`)});
   window.localKourStrikeRules=activeRoundRules;
   activeRoundDebug=window.installKourStrikeRoundDebug?.(activeRoundRules);
+  window.molotovRules=window.createMolotovRules(module,{rules:activeRoundRules,log});module.deinitializers.push(()=>window.molotovRules.dispose());
   module.deinitializers.push(()=>activeRoundDebug?.dispose());
  }
  if(config.photonEnabled){
