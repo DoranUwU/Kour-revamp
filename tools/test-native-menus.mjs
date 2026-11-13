@@ -45,6 +45,7 @@ try{
  await page.locator('#open-settings').click();await page.waitForTimeout(700);assert.equal((await settings(page)).fov,95,'Native FOV preference survives reopening');await page.screenshot({path:'local/multiplayer/settings-restored.png'});
  await page.mouse.click(24,21,{delay:120});await page.waitForTimeout(1800);await page.locator('#open-customize').click();await page.waitForTimeout(2000);
  await page.mouse.click(738,80,{delay:120});await page.waitForTimeout(700);await page.mouse.click(300,270,{delay:120});await page.waitForTimeout(1000);await page.mouse.click(623,214,{delay:120});await page.waitForTimeout(1500);await page.screenshot({path:'local/multiplayer/customize-restored.png'});
+ await page.keyboard.press('Escape');await page.waitForTimeout(1800);assert.equal(await page.evaluate(()=>document.body.classList.contains('native-menu-open')),false,'Escape closes Customize without opening Settings');
  const requests=evidence.clients[0].requests;for(const name of ['settingspanel','classselectpanel'])assert.ok(requests.some(u=>u.includes('/StreamingAssets/'+name)));
  assert.ok(requests.some(u=>u.includes('/content/stream/characters/icons/P0.png')),'Character icon is served locally');
  assert.deepEqual(evidence.errors,[]);evidence.passed=true;evidence.actions.push({label:'native-settings-change',initial,after:await settings(page)});

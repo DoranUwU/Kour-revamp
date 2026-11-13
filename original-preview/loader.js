@@ -16,17 +16,30 @@ function restoreWeaponVisibility(){
  setRenderWeapon(0,1,0);
  log('Weapon rendering enabled through the original game settings.');
 }
-// Exact supplied-build entry points; menus retain native handlers and PlayerPrefs.
+// Exact supplied-build entry points for lobby and active-map Settings owners.
+function menuFunction(slot,name,arity){const f=activeModule?.asm?.__indirect_function_table?.get(slot);if(typeof f!=='function'||f.name!==name||f.length!==arity)throw Error('Native menus are unavailable for this runtime build.');return f}
+function nativeSettingsContext(){
+ const m=activeModule;if(!m?.asm)return null;const out=m.asm.malloc(4);
+ try{for(const [slot,name,offset,map]of [[19576,'77518',340,true],[12367,'76597',256,false]]){m.HEAPU32[out>>>2]=0;if(menuFunction(slot,name,2)(out,0)){const owner=m.HEAPU32[out>>>2];return{owner,panel:m.HEAPU32[(owner+offset)>>>2],map}}}return null}finally{m.asm.free(out)}
+}
+function nativeCustomizePanel(){const h=activeModule?.HEAPU32;if(!h)return 0;const klass=h[6901068>>>2],statics=klass?h[(klass+92)>>>2]:0,owner=statics?h[(statics+4)>>>2]:0;return owner?h[(owner+64)>>>2]:0}
 function openNativeMenu(kind){
- const m=activeModule,t=m?.asm?.__indirect_function_table;
- const checked=(slot,name,arity)=>{const f=t?.get(slot);if(typeof f!=='function'||f.name!==name||f.length!==arity)throw Error('Native menus are unavailable for this runtime build.');return f};
- const getUI=checked(12367,'76597',2),open=kind==='settings'?checked(21301,'76709',2):checked(21331,'76737',2),out=m.asm.malloc(4);
- try{m.HEAPU32[out>>>2]=0;if(!getUI(out,0))throw Error('Open this menu from the lobby. In a match, use Esc for settings.');document.exitPointerLock?.();open(m.HEAPU32[out>>>2],0);document.body.classList.add('native-menu-open');window.nativeMenuOpenedAt=performance.now()}finally{m.asm.free(out)}
+ const m=activeModule;let owner,open;
+ if(kind==='settings'){const ctx=nativeSettingsContext();if(!ctx)throw Error('Load the lobby or a match before opening Settings.');owner=ctx.owner;open=ctx.map?menuFunction(19616,'77718',2):menuFunction(21301,'76709',2)}
+ else{const out=m.asm.malloc(4);try{if(!menuFunction(12367,'76597',2)(out,0))throw Error('Customize is available from the lobby.');owner=m.HEAPU32[out>>>2]}finally{m.asm.free(out)}open=menuFunction(21331,'76737',2)}
+ document.exitPointerLock?.();open(owner,0);document.body.classList.add('native-menu-open');window.nativeMenuOpenedAt=performance.now();
 }
 for(const [id,kind]of [['open-settings','settings'],['open-customize','customize']])document.querySelector('#'+id).onclick=()=>{try{openNativeMenu(kind)}catch(error){log('MENU',error.message)}};
 window.openNativeMenu=openNativeMenu;
-// Native close buttons remain inside the canvas; restore host controls on Escape.
-document.addEventListener('keydown',event=>{if(event.key==='Escape')document.body.classList.remove('native-menu-open')});
+// Handle Escape once in the host; Unity must not process the same key again.
+document.addEventListener('keydown',event=>{
+ if(event.key!=='Escape'||!activeModule?.asm||event.target?.matches?.('input,textarea,select,[contenteditable="true"]'))return;
+ event.preventDefault();event.stopImmediatePropagation();if(event.repeat)return;
+ try{const custom=nativeCustomizePanel();if(custom&&menuFunction(11431,'83962',2)(custom,0)){menuFunction(18372,'74842',3)(custom,0,0);return}const ctx=nativeSettingsContext();if(!ctx)return;if(ctx.panel&&menuFunction(11431,'83962',2)(ctx.panel,0)){
+  if(ctx.map)menuFunction(19640,'77734',2)(ctx.owner,0);else menuFunction(20547,'74593',3)(ctx.panel,0,0);
+ }else if(!document.body.classList.contains('native-menu-open')||performance.now()-window.nativeMenuOpenedAt>1500)openNativeMenu('settings');
+ }catch(error){log('MENU',error.message)}
+},true);
 
 document.querySelector('#show-weapon').onclick=()=>{
  try{restoreWeaponVisibility()}catch(error){log('WEAPON VISIBILITY',error.message)}
@@ -145,7 +158,7 @@ document.querySelector('#start').onclick=async()=>{
  module.setInterval(()=>{
   if(!document.body.classList.contains('native-menu-open')||performance.now()-window.nativeMenuOpenedAt<1500)return;
   const h=module.HEAPU32,t=module.asm.__indirect_function_table,out=module.asm.malloc(4);
-  try{h[out>>>2]=0;const ui=t.get(12367)(out,0)?h[out>>>2]:0,settings=ui?h[(ui+256)>>>2]:0,klass=h[6901068>>>2],statics=klass?h[(klass+92)>>>2]:0,alltime=statics?h[(statics+4)>>>2]:0,customize=alltime?h[(alltime+64)>>>2]:0;
+  try{h[out>>>2]=0;const settings=nativeSettingsContext()?.panel||0,klass=h[6901068>>>2],statics=klass?h[(klass+92)>>>2]:0,alltime=statics?h[(statics+4)>>>2]:0,customize=alltime?h[(alltime+64)>>>2]:0;
    if(![settings,customize].some(p=>p>1024&&p+128<h.byteLength&&t.get(11431)(p,0)))document.body.classList.remove('native-menu-open');
   }finally{module.asm.free(out)}
  },500);

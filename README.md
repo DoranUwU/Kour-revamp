@@ -96,3 +96,5 @@ The simulation checks use a mocked canvas/DOM. Real browser rendering and pointe
 See `analysis/FINDINGS.md`, the data inventory and retained REA JSON evidence. Reproduce archive extraction with `node tools/extract-data.mjs`. Original input files are preserved. The prototype does not load their WASM, engine glue, assets, credentials, or multiplayer services.
 
 Native menus: after loading, use **Settings** or **Customize / loadout** near the bottom of the canvas. Original in-game menu buttons also load the retained local prefabs. Settings use native handlers and PlayerPrefs. Customize exposes the original Classes, Weapons and Customize tabs; account-backed ownership/unlocks and remote custom image URLs remain unavailable. Menu bundles, character icons and the default preview assets are retained locally with hashes in `tools/menu-bundles.json` and `tools/menu-images.json`. Run `node tools/test-native-menus.mjs` for the browser regression.
+
+Press **Esc** to open or close native Settings in the lobby or a loaded match, including when the mouse is locked to the canvas. Esc also closes Customize. Regression: `node tools/test-escape-settings.mjs`.
