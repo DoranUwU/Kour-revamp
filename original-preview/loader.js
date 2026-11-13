@@ -5,6 +5,12 @@ window.addEventListener('unhandledrejection',e=>log('REJECTION',e.reason));
 document.querySelector('#check-response').onclick=()=>log('HOST PAGE RESPONSIVE');
 let activeModule;
 let activeRoundRules,activeRoundDebug;
+// Host diagnostics stay available in the lobby and local games only.
+function updateOnlinePresentation(){
+ const connection=window.photonClient?.inspect();
+ const online=!!connection?.inRoom&&!connection.offline&&!!nativeSettingsContext()?.map;
+ document.body.classList.toggle('online-match',online);
+}
 function showModeStatus(text){document.querySelector('#mode-status').textContent=text;log(text)}
 // Verified against the supplied WASM build: this original settings handler
 // persists renderWeapon and toggles the live first-person weapon camera.
@@ -187,6 +193,8 @@ document.querySelector('#start').onclick=async()=>{
   }
   status.textContent='Ready. Create a room, or enter your friend?s room code and join.';
  }
+ module.setInterval(updateOnlinePresentation,250);
+ module.deinitializers.push(()=>document.body.classList.remove('online-match'));
  document.querySelector('#show-weapon').disabled=false;
  document.querySelector('#open-settings').disabled=false;document.querySelector('#open-customize').disabled=false;
  module.setInterval(()=>{
