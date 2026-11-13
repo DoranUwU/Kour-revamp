@@ -23,9 +23,41 @@ function nativeSettingsContext(){
  try{for(const [slot,name,offset,map]of [[19576,'77518',340,true],[12367,'76597',256,false]]){m.HEAPU32[out>>>2]=0;if(menuFunction(slot,name,2)(out,0)){const owner=m.HEAPU32[out>>>2];return{owner,panel:m.HEAPU32[(owner+offset)>>>2],map}}}return null}finally{m.asm.free(out)}
 }
 function nativeCustomizePanel(){const h=activeModule?.HEAPU32;if(!h)return 0;const klass=h[6901068>>>2],statics=klass?h[(klass+92)>>>2]:0,owner=statics?h[(statics+4)>>>2]:0;return owner?h[(owner+64)>>>2]:0}
+let settingsPauseOwner=0,settingsInputFlags=null,settingsSeenOpen=false;
+function localMenuInput(){const h=activeModule.HEAPU32,k=h[6910700>>>2],sf=k?h[(k+92)>>>2]:0,sh=sf?h[sf>>>2]:0;return sh>1024&&sh+204<h.byteLength?h[(sh+200)>>>2]:0}
+
+// PlayerInputHandler static +9/+10/+11 are movement, shooting and inventory gates.
+// Reapply before each Unity frame so round/spawn callbacks cannot release them.
+function holdSettingsInput(){
+ if(!settingsPauseOwner)return;const context=nativeSettingsContext();if(context?.owner!==settingsPauseOwner)return;if(context.panel&&menuFunction(11431,'83962',2)(context.panel,0))settingsSeenOpen=true;const m=activeModule,h=m.HEAPU32,k=h[6908800>>>2],sf=k?h[(k+92)>>>2]:0;
+ if(sf){m.HEAPU8[sf+9]=1;m.HEAPU8[sf+10]=1;m.HEAPU8[sf+11]=1}
+ const input=localMenuInput();if(input&&!m.HEAPU8[input+80])menuFunction(20104,'75375',2)(input,0);
+}
+function pauseForSettings(ctx){
+ if(!ctx?.map)return;
+ const m=activeModule,pausePanel=m.HEAPU32[(ctx.owner+272)>>>2];if(!pausePanel)return;
+ const manager=activeRoundRules?.native.context()?.manager,buy=manager?m.HEAPU32[(manager+76)>>>2]:0;
+ // The buy canvas otherwise draws over Settings and intercepts pointer events.
+ if(buy&&menuFunction(20427,'74499',2)(manager,0)){
+  menuFunction(18165,'74678',2)(buy,0);
+  menuFunction(3124,'84045',3)(menuFunction(2954,'83983',2)(buy,0),0,0);
+ }
+ const sf=m.HEAPU32[(m.HEAPU32[6908800>>>2]+92)>>>2];
+ if(!settingsInputFlags)settingsInputFlags=[m.HEAPU8[sf+9],m.HEAPU8[sf+10],m.HEAPU8[sf+11]];
+ menuFunction(18419,'74877',1)(0);
+ menuFunction(3124,'84045',3)(pausePanel,1,0);
+ const input=localMenuInput();if(input)menuFunction(20104,'75375',2)(input,0);
+ settingsPauseOwner=ctx.owner;holdSettingsInput();
+}
+function resumeAfterSettings(){
+ if(!settingsPauseOwner)return;const ctx=nativeSettingsContext(),owner=settingsPauseOwner;settingsPauseOwner=0;
+ if(settingsInputFlags&&ctx?.map&&ctx.owner===owner){const m=activeModule,sf=m.HEAPU32[(m.HEAPU32[6908800>>>2]+92)>>>2];m.HEAPU8.set(settingsInputFlags,sf+9);settingsInputFlags=null}
+ settingsInputFlags=null;
+ if(ctx?.map&&ctx.owner===owner){menuFunction(19622,'77721',2)(owner,0);const input=localMenuInput();if(input&&activeModule.HEAPU8[input+80])menuFunction(20105,'75383',2)(input,0);}
+}
 function openNativeMenu(kind){
  const m=activeModule;let owner,open;
- if(kind==='settings'){const ctx=nativeSettingsContext();if(!ctx)throw Error('Load the lobby or a match before opening Settings.');owner=ctx.owner;open=ctx.map?menuFunction(19616,'77718',2):menuFunction(21301,'76709',2)}
+ if(kind==='settings'){const ctx=nativeSettingsContext();if(!ctx)throw Error('Load the lobby or a match before opening Settings.');settingsSeenOpen=false;pauseForSettings(ctx);owner=ctx.owner;open=ctx.map?menuFunction(19616,'77718',2):menuFunction(21301,'76709',2)}
  else{const out=m.asm.malloc(4);try{if(!menuFunction(12367,'76597',2)(out,0))throw Error('Customize is available from the lobby.');owner=m.HEAPU32[out>>>2]}finally{m.asm.free(out)}open=menuFunction(21331,'76737',2)}
  document.exitPointerLock?.();open(owner,0);document.body.classList.add('native-menu-open');window.nativeMenuOpenedAt=performance.now();
 }
@@ -80,7 +112,7 @@ window.open=()=>{if(window.OfflinePolicy)window.OfflinePolicy.blocked('external 
 window.setCursor=value=>{const cursor=typeof value==='string'&&CSS.supports('cursor',value)?value:value===false?'none':'default';document.querySelector('#canvas').style.cursor=cursor};
 window.testDevice=()=>/Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 window.UnlockCursor=()=>document.exitPointerLock?.();
-window.LockCursor=()=>{if(navigator.userActivation&&!navigator.userActivation.isActive)return;try{document.querySelector('#canvas').requestPointerLock?.()?.catch?.(()=>{})}catch{}};
+window.LockCursor=()=>{if(settingsPauseOwner)return;if(navigator.userActivation&&!navigator.userActivation.isActive)return;try{document.querySelector('#canvas').requestPointerLock?.()?.catch?.(()=>{})}catch{}};
 window.AllowCtrlW=()=>logOnce('host:AllowCtrlW','LOCAL MODE: browser close shortcut uses its normal behavior');
 window.PreventCtrlW=window.AllowCtrlW;
 window.gameplayStart=()=>logOnce('host:gameplayStart','LOCAL MODE: external gameplay telemetry disabled');
@@ -119,6 +151,7 @@ document.querySelector('#start').onclick=async()=>{
  for(let i=20;i<header;){const offset=view.getUint32(i,true),size=view.getUint32(i+4,true),len=view.getUint32(i+8,true);i+=12;const name=new TextDecoder().decode(bytes.subarray(i,i+len));i+=len;files.push({name,offset,size})}
  const canvas=document.querySelector('#canvas');
  const module={canvas,preRun:[],postRun:[],deinitializers:[],print:log,printErr:log,noExitRuntime:true,fetchWithProgress:fetchUnityWithProgress,
+ preMainLoop:holdSettingsInput,
  onKourStrikeRoundStart:()=>activeRoundRules?.beforeRound(),
  onKourStrikeStateChange:()=>activeRoundRules?.beforeStateChange?.(),
  locateFile:name=>name.includes('.wasm')?'/source.wasm':('/'+name),dataUrl:'/game.data',codeUrl:'/source.wasm',streamingAssetsUrl:new URL('/StreamingAssets',location.href).href,companyName:'Offline analysis',productName:'Supplied build',productVersion:'unknown',webglContextAttributes:{preserveDrawingBuffer:true},
@@ -159,7 +192,8 @@ document.querySelector('#start').onclick=async()=>{
   if(!document.body.classList.contains('native-menu-open')||performance.now()-window.nativeMenuOpenedAt<1500)return;
   const h=module.HEAPU32,t=module.asm.__indirect_function_table,out=module.asm.malloc(4);
   try{h[out>>>2]=0;const settings=nativeSettingsContext()?.panel||0,klass=h[6901068>>>2],statics=klass?h[(klass+92)>>>2]:0,alltime=statics?h[(statics+4)>>>2]:0,customize=alltime?h[(alltime+64)>>>2]:0;
-   if(![settings,customize].some(p=>p>1024&&p+128<h.byteLength&&t.get(11431)(p,0)))document.body.classList.remove('native-menu-open');
+   if(settingsPauseOwner&&!settingsSeenOpen&&nativeSettingsContext()?.owner===settingsPauseOwner&&performance.now()-window.nativeMenuOpenedAt<15000)return;
+   if(![settings,customize].some(p=>p>1024&&p+128<h.byteLength&&t.get(11431)(p,0))){document.body.classList.remove('native-menu-open');resumeAfterSettings()}
   }finally{module.asm.free(out)}
  },500);
 
