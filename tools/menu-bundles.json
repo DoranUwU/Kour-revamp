@@ -1,0 +1,26 @@
+[
+  {
+    "name": "settingspanel",
+    "bytes": 259546,
+    "sha256": "fb975f027ce699ac522d1585a1b91e16cb9a7c4f74b10d6e330118922812b5c5",
+    "source": "https://kourstrike.io/StreamingAssets/settingspanel?v=4.24"
+  },
+  {
+    "name": "classselectpanel",
+    "bytes": 399937,
+    "sha256": "13b52e341114c151dc171703f7d818ec7fe17ffcdaa04db38ab0adf643cde52d",
+    "source": "https://kourstrike.io/StreamingAssets/classselectpanel?v=4.24"
+  },
+  {
+    "name": "characters/meshes/head/40",
+    "bytes": 11671,
+    "sha256": "99f675487b0ad5b21cae797289b935ff181621fddd015571db77b7db58003184",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/40?v=4.24"
+  },
+  {
+    "name": "characters/meshes/body-attachments/34",
+    "bytes": 11078,
+    "sha256": "f4e9721f3909e57df3aae756bd2be116eafc4d159dcc6a73e7358a36eb648f1b",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/body-attachments/34?v=4.24"
+  }
+]

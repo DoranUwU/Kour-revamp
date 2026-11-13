@@ -5,7 +5,7 @@ import {prepareFramework} from './original-framework.mjs';
 import {prepareLocalWasm} from './original-wasm.mjs';
 import {prepareKourStrikeData} from './kourstrike-data.mjs';
 import {localBundles} from './local-bundles.mjs';
-import {textureAssets,prepareOfflinePolicy} from './local-textures.mjs';
+import {textureAssets,menuTextureAssets,prepareOfflinePolicy} from './local-textures.mjs';
 const files={'/':'original-preview/index.html','/offline-policy.js':'original-preview/offline-policy.js','/loader.js':'original-preview/loader.js','/game-audio.js':'original-preview/game-audio.js','/photon-client.js':'original-preview/photon-client.js','/kourstrike-rules.js':'original-preview/kourstrike-rules.js','/round-debug.js':'original-preview/round-debug.js','/framework.js':'framework.js','/source.wasm':'source.wasm','/game.data':'game.data'};
 const types={'.html':'text/html','.js':'text/javascript','.wasm':'application/wasm','.data':'application/octet-stream'};
 const port=Number(process.env.ORIGINAL_PREVIEW_PORT||8082);
@@ -17,7 +17,7 @@ const wasm=prepareLocalWasm(fs.readFileSync('source.wasm'),{kourstrike,photon});
 const data=kourstrike?prepareKourStrikeData():null;
 const mapRoot=path.resolve('original-preview/StreamingAssets');fs.mkdirSync(mapRoot,{recursive:true});
 const bundleNames=new Set(localBundles);
-const textures=new Map(textureAssets.map(x=>[x.pathname,x.file]));
+const textures=new Map([...textureAssets,...menuTextureAssets].map(x=>[x.pathname,x.file]));
 const offlinePolicy=prepareOfflinePolicy(fs.readFileSync('original-preview/offline-policy.js','utf8'));
 const policy=`default-src 'self' blob: data:; script-src 'self' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; connect-src 'self'${photon?" wss://*.photonengine.io:* wss://*.photonengine.com:* wss://*.exitgames.com:*":''}; worker-src 'none'; object-src 'none'; frame-src 'none'; form-action 'none'; base-uri 'none'`;
 http.createServer((req,res)=>{

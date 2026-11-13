@@ -16,6 +16,18 @@ function restoreWeaponVisibility(){
  setRenderWeapon(0,1,0);
  log('Weapon rendering enabled through the original game settings.');
 }
+// Exact supplied-build entry points; menus retain native handlers and PlayerPrefs.
+function openNativeMenu(kind){
+ const m=activeModule,t=m?.asm?.__indirect_function_table;
+ const checked=(slot,name,arity)=>{const f=t?.get(slot);if(typeof f!=='function'||f.name!==name||f.length!==arity)throw Error('Native menus are unavailable for this runtime build.');return f};
+ const getUI=checked(12367,'76597',2),open=kind==='settings'?checked(21301,'76709',2):checked(21331,'76737',2),out=m.asm.malloc(4);
+ try{m.HEAPU32[out>>>2]=0;if(!getUI(out,0))throw Error('Open this menu from the lobby. In a match, use Esc for settings.');document.exitPointerLock?.();open(m.HEAPU32[out>>>2],0);document.body.classList.add('native-menu-open');window.nativeMenuOpenedAt=performance.now()}finally{m.asm.free(out)}
+}
+for(const [id,kind]of [['open-settings','settings'],['open-customize','customize']])document.querySelector('#'+id).onclick=()=>{try{openNativeMenu(kind)}catch(error){log('MENU',error.message)}};
+window.openNativeMenu=openNativeMenu;
+// Native close buttons remain inside the canvas; restore host controls on Escape.
+document.addEventListener('keydown',event=>{if(event.key==='Escape')document.body.classList.remove('native-menu-open')});
+
 document.querySelector('#show-weapon').onclick=()=>{
  try{restoreWeaponVisibility()}catch(error){log('WEAPON VISIBILITY',error.message)}
 };
@@ -129,6 +141,15 @@ document.querySelector('#start').onclick=async()=>{
   status.textContent='Ready. Create a room, or enter your friend?s room code and join.';
  }
  document.querySelector('#show-weapon').disabled=false;
+ document.querySelector('#open-settings').disabled=false;document.querySelector('#open-customize').disabled=false;
+ module.setInterval(()=>{
+  if(!document.body.classList.contains('native-menu-open')||performance.now()-window.nativeMenuOpenedAt<1500)return;
+  const h=module.HEAPU32,t=module.asm.__indirect_function_table,out=module.asm.malloc(4);
+  try{h[out>>>2]=0;const ui=t.get(12367)(out,0)?h[out>>>2]:0,settings=ui?h[(ui+256)>>>2]:0,klass=h[6901068>>>2],statics=klass?h[(klass+92)>>>2]:0,alltime=statics?h[(statics+4)>>>2]:0,customize=alltime?h[(alltime+64)>>>2]:0;
+   if(![settings,customize].some(p=>p>1024&&p+128<h.byteLength&&t.get(11431)(p,0)))document.body.classList.remove('native-menu-open');
+  }finally{module.asm.free(out)}
+ },500);
+
  document.querySelector('#start-match').disabled=config.profile!=='kourstrike';
  if(config.profile==='kourstrike')setTimeout(()=>{try{module.SendMessage('Canvas','ForceSetGameMode','Search And Destroy')}catch(error){log('MODE SELECTION',error.message)}},1000);
  }catch(e){log('LOADER FAILED',e.stack||e)}

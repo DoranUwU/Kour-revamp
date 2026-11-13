@@ -6,7 +6,7 @@ import {prepareFramework} from './original-framework.mjs';
 import {prepareLocalWasm} from './original-wasm.mjs';
 import {prepareKourStrikeData} from './kourstrike-data.mjs';
 import {localBundles} from './local-bundles.mjs';
-import {textureAssets,prepareOfflinePolicy} from './local-textures.mjs';
+import {textureAssets,menuTextureAssets,prepareOfflinePolicy} from './local-textures.mjs';
 const base=process.env.PAGES_BASE_PATH||'/Kour-revamp/';
 if(!/^\/(?:[A-Za-z0-9_-]+\/)*$/.test(base))throw Error('PAGES_BASE_PATH must be a directory path with leading/trailing slashes.');
 const output=path.resolve('local/pages-dist');fs.mkdirSync(output,{recursive:true});
@@ -31,7 +31,7 @@ for(const [name,bytes]of [['source.wasm',wasm.source],['game.data',data.source]]
  write(name+'.gz',gzipSync(bytes,{level:9}));
 }
 for(const name of localBundles){const file='original-preview/StreamingAssets/'+name;if(fs.existsSync(file))write('StreamingAssets/'+name,fs.readFileSync(file))}
-for(const asset of textureAssets)write(asset.pathname.slice(1),fs.readFileSync(asset.file));
+for(const asset of [...textureAssets,...menuTextureAssets])write(asset.pathname.slice(1),fs.readFileSync(asset.file));
 write('local-config.json',JSON.stringify({profile:'kourstrike',photonEnabled:true,photonAppId:process.env.PHOTON_APP_ID||'',photonRegion:'hk',gameType:1,gameMode:8,mapName:'Kour2',mapBundle:'map7',mapAvailable:true,requiredFiles:['map7'],wasmSha256:wasm.manifest.served_sha256}));
 write('build-manifest.json',JSON.stringify(manifest,null,2));
 console.log('Pages export ready:',Object.keys(manifest.files).length,'files; base path',base);

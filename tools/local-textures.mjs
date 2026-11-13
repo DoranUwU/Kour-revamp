@@ -1,3 +1,5 @@
+import fs from 'node:fs';
+export const menuTextureAssets=Object.freeze(JSON.parse(fs.readFileSync(new URL('./menu-images.json',import.meta.url),'utf8')));
 // Explicit static image dependencies; never proxy arbitrary remote URLs.
 export const textureAssets=Object.freeze([
  {pathname:'/content/stream/weapon-skins/texture/mp5.png',file:'original-preview/content/stream/weapon-skins/texture/mp5.png'},
@@ -10,5 +12,5 @@ export const textureAssets=Object.freeze([
  {pathname:'/content/stream/weapon-skins/texture/bomb.png',file:'original-preview/content/stream/weapon-skins/texture/bomb.png'}
 ]);
 export function prepareOfflinePolicy(source){
- return 'window.LocalTexturePaths=Object.freeze('+JSON.stringify(textureAssets.map(x=>x.pathname))+');\n'+source;
+ return 'window.LocalTexturePaths=Object.freeze('+JSON.stringify([...textureAssets,...menuTextureAssets].map(x=>x.pathname))+');\n'+source;
 }
