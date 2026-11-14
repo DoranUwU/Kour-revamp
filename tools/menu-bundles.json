@@ -22,5 +22,11 @@
     "bytes": 11078,
     "sha256": "f4e9721f3909e57df3aae756bd2be116eafc4d159dcc6a73e7358a36eb648f1b",
     "source": "https://kourstrike.io/StreamingAssets/characters/meshes/body-attachments/34?v=4.24"
+  },
+  {
+    "name": "characters/meshes/head/41",
+    "bytes": 22552,
+    "sha256": "243a70a2e5c375fefca33a45f22df1f3f96ac1ddc9a4bdbcb696b14ddb9c9fc2",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/41?v=4.24"
   }
 ]

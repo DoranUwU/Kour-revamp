@@ -88,5 +88,47 @@
     "file": "original-preview/content/stream/characters/textures/head/40.png",
     "sha256": "528f144b724a46c983d0a6e66e344263564ef65dcc9cacbf6ec56cec961ed3fb",
     "bytes": 385
+  },
+  {
+    "pathname": "/content/stream/characters/icons/P36.png",
+    "file": "original-preview/content/stream/characters/icons/P36.png",
+    "bytes": 182082,
+    "sha256": "77825d48245938eee4d7ea8d9f6d522dcfdcb74f1d00dfcf270952495d7bbd24"
+  },
+  {
+    "pathname": "/content/stream/characters/icons/P51.png",
+    "file": "original-preview/content/stream/characters/icons/P51.png",
+    "bytes": 164438,
+    "sha256": "a7503b7f0933cec579fccb24beff31e47499bf1f4c11ce25758a44eeea2db2c9"
+  },
+  {
+    "pathname": "/content/stream/characters/icons/P52.png",
+    "file": "original-preview/content/stream/characters/icons/P52.png",
+    "bytes": 150863,
+    "sha256": "afdeefbaa320e457eff4f275bd787bba13d197197df0ddb0e913082acfb00450"
+  },
+  {
+    "pathname": "/content/stream/characters/textures/body/41.png",
+    "file": "original-preview/content/stream/characters/textures/body/41.png",
+    "bytes": 3476,
+    "sha256": "e27d3831d346389458599bb53c6299528b77d77b3123a3f584e5a0f3bb171cc4"
+  },
+  {
+    "pathname": "/content/stream/characters/textures/body-attachments/40.png",
+    "file": "original-preview/content/stream/characters/textures/body-attachments/40.png",
+    "bytes": 401,
+    "sha256": "83a316476e203902ee74b6c8fabf5abbcbecaa00eafc2373b70321067ea8e99e"
+  },
+  {
+    "pathname": "/content/stream/characters/textures/body-attachments/41.png",
+    "file": "original-preview/content/stream/characters/textures/body-attachments/41.png",
+    "bytes": 420,
+    "sha256": "6fa2119de34bc62bde08f0931541c06c449c9c78a4e19d393cb82a5814e84e37"
+  },
+  {
+    "pathname": "/content/stream/characters/textures/head/41.png",
+    "file": "original-preview/content/stream/characters/textures/head/41.png",
+    "bytes": 1062,
+    "sha256": "d0b5b7bfa6f49326d99483c4c412d108d099086995927f77d2a98fa1ee689ff6"
   }
 ]

@@ -2,7 +2,7 @@
 (() => {
  const basePath=window.BuildBasePath||'/';
  const allowedPaths=new Set(['/','/offline-policy.js','/framework.js','/loader.js','/game-audio.js','/molotov-rules.js','/kourstrike-rules.js','/round-debug.js','/photon-client.js','/game.data','/source.wasm','/local-config.json']);
- const allowedMaps=new Set(['/StreamingAssets/map7','/StreamingAssets/map8','/StreamingAssets/map10','/StreamingAssets/settingspanel','/StreamingAssets/classselectpanel','/StreamingAssets/characters/meshes/head/40','/StreamingAssets/characters/meshes/body-attachments/34']);
+ const allowedMaps=new Set(['/StreamingAssets/map7','/StreamingAssets/map8','/StreamingAssets/map10','/StreamingAssets/settingspanel','/StreamingAssets/classselectpanel','/StreamingAssets/characters/meshes/head/40','/StreamingAssets/characters/meshes/head/41','/StreamingAssets/characters/meshes/body-attachments/34']);
  // Static mesh dependencies from the supplied prefabs, served only locally.
  const meshBundles=['ak109','awp','axe','beretta','bomb','cz','deagle','famas','flamethrower','grenades/mesh/flash','grenades/mesh/grenade','grenades/mesh/molotov','grenades/mesh/smoke','kar98','knife','lasergun1','lasergun2','m4a4','minigun','mp5','p90','pkm','revolver','scar','tec9','thompson','umbrella','ump45','usps','uzi','vector1','vector2','vector3','xm1014'];
  for(const name of meshBundles)allowedMaps.add('/StreamingAssets/'+name);
