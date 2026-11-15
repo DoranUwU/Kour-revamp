@@ -177,6 +177,7 @@ document.querySelector('#start').onclick=async()=>{
   activeRoundDebug=window.installKourStrikeRoundDebug?.(activeRoundRules);
   window.molotovRules=window.createMolotovRules(module,{rules:activeRoundRules,log});module.deinitializers.push(()=>window.molotovRules.dispose());
   module.deinitializers.push(()=>activeRoundDebug?.dispose());
+  window.matchLeaderboard=window.createMatchLeaderboard(module,{rules:activeRoundRules,log});module.deinitializers.push(()=>window.matchLeaderboard.dispose());
  }
  if(config.photonEnabled){
   const panel=document.querySelector('#photon-panel'),status=document.querySelector('#photon-status'),app=document.querySelector('#photon-app-id');
