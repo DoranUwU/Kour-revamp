@@ -170,7 +170,7 @@ document.querySelector('#start').onclick=async()=>{
  window.originalModule=module;
  activeModule=module;
  log('Starting local original runtime; remote services blocked');
- await unityFramework(module);document.querySelector('#start').dataset.state='ready';log('FRAMEWORK READY');
+ await unityFramework(module);window.localCosmetics=window.installLocalCosmetics(module);module.deinitializers.push(()=>window.localCosmetics.dispose());document.querySelector('#start').dataset.state='ready';log('FRAMEWORK READY');
  if(config.profile==='kourstrike'){
   activeRoundRules=window.createKourStrikeRules(module,{log,onSwap:state=>showModeStatus(`${state.round>=13?'Halftime':'First half'}: now playing ${state.team==='t'?'Terrorists':'Counter-Terrorists'}.`)});
   window.localKourStrikeRules=activeRoundRules;

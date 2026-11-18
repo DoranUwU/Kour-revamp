@@ -1,0 +1,5078 @@
+[
+  {
+    "type": "CharacterSkin",
+    "name": "Ambush",
+    "file": "sharedassets0.assets",
+    "pathId": 7792,
+    "values": {
+      "rarity": 1,
+      "secure": {
+        "currentCryptoKey": 214,
+        "hiddenValue": 99,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P39",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828363797,
+        "inited": true,
+        "fakeValue": 1200,
+        "fakeValueActive": true
+      },
+      "description": "Kour Ghillie",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 42
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Astronaut",
+    "file": "sharedassets0.assets",
+    "pathId": 7793,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 214,
+        "hiddenValue": 3,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P54",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828439349,
+        "inited": true,
+        "fakeValue": 90000,
+        "fakeValueActive": true
+      },
+      "description": "Kour to the moon!",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 45
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Baby Kour",
+    "file": "sharedassets0.assets",
+    "pathId": 7794,
+    "values": {
+      "rarity": 0,
+      "secure": {
+        "currentCryptoKey": 214,
+        "hiddenValue": 99,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P53",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828362847,
+        "inited": true,
+        "fakeValue": 250,
+        "fakeValueActive": true
+      },
+      "description": "Goo goo ga ga?",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 43
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Blue Astronaut",
+    "file": "sharedassets0.assets",
+    "pathId": 7795,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P76",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828384661,
+        "inited": true,
+        "fakeValue": 30000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 58
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Blue Hologram",
+    "file": "sharedassets0.assets",
+    "pathId": 7796,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 228,
+        "hiddenValue": 81,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P63",
+      "price": {
+        "currentCryptoKey": 1578426227,
+        "hiddenValue": 1578382611,
+        "inited": true,
+        "fakeValue": 60000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 214,
+        "hiddenValue": 99,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 49
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Brown Hologram",
+    "file": "sharedassets0.assets",
+    "pathId": 7797,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/69",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828352197,
+        "inited": true,
+        "fakeValue": 60000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 69
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Chef",
+    "file": "sharedassets0.assets",
+    "pathId": 7798,
+    "values": {
+      "rarity": 2,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/81",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828371893,
+        "inited": true,
+        "fakeValue": 10000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 81
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Chicken",
+    "file": "sharedassets0.assets",
+    "pathId": 7799,
+    "values": {
+      "rarity": 0,
+      "secure": {
+        "currentCryptoKey": 121,
+        "hiddenValue": 172,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P36",
+      "price": {
+        "currentCryptoKey": 1556596247,
+        "hiddenValue": 1556580407,
+        "inited": true,
+        "fakeValue": 20000,
+        "fakeValueActive": true
+      },
+      "description": "Kill 50 Chickens and get this skin for free!",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 254,
+        "hiddenValue": 75,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 28
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Chickoletta",
+    "file": "sharedassets0.assets",
+    "pathId": 7800,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 213,
+        "hiddenValue": 0,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P37",
+      "price": {
+        "currentCryptoKey": 1864002033,
+        "hiddenValue": 1863996265,
+        "inited": true,
+        "fakeValue": 15000,
+        "fakeValueActive": true
+      },
+      "description": "Can also be unlocked by Completing a mission!",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 166,
+        "hiddenValue": 19,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 29
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Christmas2024",
+    "file": "sharedassets0.assets",
+    "pathId": 7801,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/95",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": -1828362918,
+        "inited": true,
+        "fakeValue": -1,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 95
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "CocoBunny",
+    "file": "sharedassets0.assets",
+    "pathId": 7802,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 157,
+        "hiddenValue": 72,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P42",
+      "price": {
+        "currentCryptoKey": 2073271594,
+        "hiddenValue": -2073271595,
+        "inited": true,
+        "fakeValue": -1,
+        "fakeValueActive": true
+      },
+      "description": "The Legendary Coco Bunny has ALSO arrived!",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 206,
+        "hiddenValue": 123,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 34
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Counter Terrorist",
+    "file": "sharedassets0.assets",
+    "pathId": 7803,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 214,
+        "hiddenValue": 3,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P52",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": -1828362918,
+        "inited": true,
+        "fakeValue": -1,
+        "fakeValueActive": true
+      },
+      "description": "Comin' from KourStrike.io!",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 41
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Dark Blue Hologram",
+    "file": "sharedassets0.assets",
+    "pathId": 7804,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/68",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828370829,
+        "inited": true,
+        "fakeValue": 9000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 68
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Dark Red Hologram",
+    "file": "sharedassets0.assets",
+    "pathId": 7805,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/71",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828369477,
+        "inited": true,
+        "fakeValue": 12000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 71
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Deer2024",
+    "file": "sharedassets0.assets",
+    "pathId": 7806,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/96",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": -1828362918,
+        "inited": true,
+        "fakeValue": -1,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 96
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Doctor",
+    "file": "sharedassets0.assets",
+    "pathId": 7807,
+    "values": {
+      "rarity": 1,
+      "secure": {
+        "currentCryptoKey": 245,
+        "hiddenValue": 64,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "characters/icons/P22",
+      "price": {
+        "currentCryptoKey": 1372096793,
+        "hiddenValue": 1372096887,
+        "inited": true,
+        "fakeValue": 110,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 15
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Drakour",
+    "file": "sharedassets0.assets",
+    "pathId": 7808,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 112,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/94",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828535173,
+        "inited": true,
+        "fakeValue": 500000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 94
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "FireKour",
+    "file": "sharedassets0.assets",
+    "pathId": 7809,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/74",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828408933,
+        "inited": true,
+        "fakeValue": 120000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 74
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Firefighter",
+    "file": "sharedassets0.assets",
+    "pathId": 7810,
+    "values": {
+      "rarity": 2,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/73",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828361765,
+        "inited": true,
+        "fakeValue": 3200,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 73
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Forest Kour",
+    "file": "sharedassets0.assets",
+    "pathId": 7811,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/92",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828346357,
+        "inited": true,
+        "fakeValue": 50000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 92
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Gas Man",
+    "file": "sharedassets0.assets",
+    "pathId": 7812,
+    "values": {
+      "rarity": 2,
+      "secure": {
+        "currentCryptoKey": 192,
+        "hiddenValue": 21,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P50",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828364009,
+        "inited": true,
+        "fakeValue": 1100,
+        "fakeValueActive": true
+      },
+      "description": "Gas Man",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 39
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Golden Hackour",
+    "file": "sharedassets0.assets",
+    "pathId": 7813,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 184,
+        "hiddenValue": 109,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P49",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": -1828362918,
+        "inited": true,
+        "fakeValue": -1,
+        "fakeValueActive": true
+      },
+      "description": "Golden Hackour is even more powerful",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 38
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Green Hologram",
+    "file": "sharedassets0.assets",
+    "pathId": 7814,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 228,
+        "hiddenValue": 49,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P32",
+      "price": {
+        "currentCryptoKey": 1578426227,
+        "hiddenValue": 1578437555,
+        "inited": true,
+        "fakeValue": 120000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 214,
+        "hiddenValue": 99,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 25
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Hackour",
+    "file": "sharedassets0.assets",
+    "pathId": 7815,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 160,
+        "hiddenValue": 117,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P47",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828342909,
+        "inited": true,
+        "fakeValue": 55000,
+        "fakeValueActive": true
+      },
+      "description": "Hackour is powerful",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 37
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "HoloGrape",
+    "file": "sharedassets0.assets",
+    "pathId": 7816,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 122,
+        "hiddenValue": 175,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P33",
+      "price": {
+        "currentCryptoKey": 1719290294,
+        "hiddenValue": 1719343726,
+        "inited": true,
+        "fakeValue": 87000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 135,
+        "hiddenValue": 50,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 26
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "IceBunny",
+    "file": "sharedassets0.assets",
+    "pathId": 7817,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 160,
+        "hiddenValue": 117,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P41",
+      "price": {
+        "currentCryptoKey": 1582694673,
+        "hiddenValue": -1582694674,
+        "inited": true,
+        "fakeValue": -1,
+        "fakeValueActive": true
+      },
+      "description": "The Legendary Ice Bunny has arrived!",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 240,
+        "hiddenValue": 69,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 33
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Investor Inverted",
+    "file": "sharedassets0.assets",
+    "pathId": 7818,
+    "values": {
+      "rarity": 2,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P65",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828362265,
+        "inited": true,
+        "fakeValue": 700,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 61
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "James Kour",
+    "file": "sharedassets0.assets",
+    "pathId": 7819,
+    "values": {
+      "rarity": 1,
+      "secure": {
+        "currentCryptoKey": 149,
+        "hiddenValue": 64,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P21",
+      "price": {
+        "currentCryptoKey": 1598359208,
+        "hiddenValue": 1598359248,
+        "inited": true,
+        "fakeValue": 120,
+        "fakeValueActive": true
+      },
+      "description": "James Kour.",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 206,
+        "hiddenValue": 27,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "skinIndex": 13
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "KBI Agent",
+    "file": "sharedassets0.assets",
+    "pathId": 7820,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 143,
+        "hiddenValue": 90,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P20",
+      "price": {
+        "currentCryptoKey": 1087343479,
+        "hiddenValue": 1087372871,
+        "inited": true,
+        "fakeValue": 30000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 224,
+        "hiddenValue": 85,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 12
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Kelvis",
+    "file": "sharedassets0.assets",
+    "pathId": 7821,
+    "values": {
+      "rarity": 2,
+      "secure": {
+        "currentCryptoKey": 248,
+        "hiddenValue": 45,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P26",
+      "price": {
+        "currentCryptoKey": 1040295222,
+        "hiddenValue": 1040295422,
+        "inited": true,
+        "fakeValue": 200,
+        "fakeValueActive": true
+      },
+      "description": "Elvis Kour.",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 126,
+        "hiddenValue": 203,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 19
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Kitty Kour One",
+    "file": "sharedassets0.assets",
+    "pathId": 7822,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/84",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828352197,
+        "inited": true,
+        "fakeValue": 60000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 84
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Kitty Kour Three",
+    "file": "sharedassets0.assets",
+    "pathId": 7823,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/86",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828424661,
+        "inited": true,
+        "fakeValue": 70000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 86
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Kitty Kour Two",
+    "file": "sharedassets0.assets",
+    "pathId": 7824,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/85",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828424661,
+        "inited": true,
+        "fakeValue": 70000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 85
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Kour Banana",
+    "file": "sharedassets0.assets",
+    "pathId": 7825,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P66",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828325093,
+        "inited": true,
+        "fakeValue": 40000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 59
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Kour Brady",
+    "file": "sharedassets0.assets",
+    "pathId": 7826,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/78",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828374701,
+        "inited": true,
+        "fakeValue": 21000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 78
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Kour Burger",
+    "file": "sharedassets0.assets",
+    "pathId": 7827,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/76",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828370829,
+        "inited": true,
+        "fakeValue": 9000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 76
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Kour Craft",
+    "file": "sharedassets0.assets",
+    "pathId": 7828,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P78",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828352197,
+        "inited": true,
+        "fakeValue": 60000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 53
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Kour Crafter",
+    "file": "sharedassets0.assets",
+    "pathId": 7829,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/87",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828439349,
+        "inited": true,
+        "fakeValue": 90000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 87
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Kour Fan",
+    "file": "sharedassets0.assets",
+    "pathId": 7830,
+    "values": {
+      "rarity": 0,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/77",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828362861,
+        "inited": true,
+        "fakeValue": 200,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 77
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Kour Green Soldier",
+    "file": "sharedassets0.assets",
+    "pathId": 7831,
+    "values": {
+      "rarity": 1,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P77",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828363237,
+        "inited": true,
+        "fakeValue": 320,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 54
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Kour Jungler",
+    "file": "sharedassets0.assets",
+    "pathId": 7832,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P67",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828327965,
+        "inited": true,
+        "fakeValue": 35000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 62
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Kour Parrot",
+    "file": "sharedassets0.assets",
+    "pathId": 7833,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 214,
+        "hiddenValue": 99,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P60",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828361591,
+        "inited": true,
+        "fakeValue": 4050,
+        "fakeValueActive": true
+      },
+      "description": "Kour Kour!",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 46
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Kour Pirate",
+    "file": "sharedassets0.assets",
+    "pathId": 7834,
+    "values": {
+      "rarity": 2,
+      "secure": {
+        "currentCryptoKey": 214,
+        "hiddenValue": 99,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P61",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828363797,
+        "inited": true,
+        "fakeValue": 1200,
+        "fakeValueActive": true
+      },
+      "description": "Arrrrr!",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 47
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Kour Shocker",
+    "file": "sharedassets0.assets",
+    "pathId": 7835,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/90",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828535173,
+        "inited": true,
+        "fakeValue": 500000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 90
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Kour Thief",
+    "file": "sharedassets0.assets",
+    "pathId": 7836,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/75",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828325093,
+        "inited": true,
+        "fakeValue": 40000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 75
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Kour Trooper",
+    "file": "sharedassets0.assets",
+    "pathId": 7837,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P79",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828673221,
+        "inited": true,
+        "fakeValue": 380000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 52
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "KourG",
+    "file": "sharedassets0.assets",
+    "pathId": 7838,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 148,
+        "hiddenValue": 65,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P46",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828337005,
+        "inited": true,
+        "fakeValue": 45000,
+        "fakeValueActive": true
+      },
+      "description": "KourG",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 36
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "KourObby",
+    "file": "sharedassets0.assets",
+    "pathId": 7839,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/82",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": -1828362918,
+        "inited": true,
+        "fakeValue": -1,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 82
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "KourTuber",
+    "file": "sharedassets0.assets",
+    "pathId": 7840,
+    "values": {
+      "rarity": 0,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P71",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828363145,
+        "inited": true,
+        "fakeValue": 300,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 64
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Koura Kroft",
+    "file": "sharedassets0.assets",
+    "pathId": 7841,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 162,
+        "hiddenValue": 119,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P31",
+      "price": {
+        "currentCryptoKey": 1663553477,
+        "hiddenValue": 1663550589,
+        "inited": true,
+        "fakeValue": 3000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 234,
+        "hiddenValue": 95,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 24
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Kourean",
+    "file": "sharedassets0.assets",
+    "pathId": 7842,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 112,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P43",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828443821,
+        "inited": true,
+        "fakeValue": 85000,
+        "fakeValueActive": true
+      },
+      "description": "Kourean is here to defend.",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 35
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Kourist",
+    "file": "sharedassets0.assets",
+    "pathId": 7843,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/72",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828376733,
+        "inited": true,
+        "fakeValue": 19000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 72
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Kourkin",
+    "file": "sharedassets0.assets",
+    "pathId": 7844,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 112,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/91",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": -1828362918,
+        "inited": true,
+        "fakeValue": -1,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 91
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Kyle",
+    "file": "sharedassets0.assets",
+    "pathId": 7845,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 135,
+        "hiddenValue": 82,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P38",
+      "price": {
+        "currentCryptoKey": 1246876017,
+        "hiddenValue": 1249811473,
+        "inited": true,
+        "fakeValue": 3100000,
+        "fakeValueActive": true
+      },
+      "description": "Can also be unlocked by Completing a mission!",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 207,
+        "hiddenValue": 122,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 30
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "LeKour James",
+    "file": "sharedassets0.assets",
+    "pathId": 7846,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/79",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828325593,
+        "inited": true,
+        "fakeValue": 37500,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 79
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Legionary",
+    "file": "sharedassets0.assets",
+    "pathId": 7847,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/83",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828276789,
+        "inited": true,
+        "fakeValue": 250000,
+        "fakeValueActive": true
+      },
+      "description": "The perfect idea of a True soldier.",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 83
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Legionaut",
+    "file": "sharedassets0.assets",
+    "pathId": 7848,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 214,
+        "hiddenValue": 99,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P62",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828418285,
+        "inited": true,
+        "fakeValue": 125000,
+        "fakeValueActive": true
+      },
+      "description": "Kour to the moon! legionplatforms.com",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 48
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Loony Kour",
+    "file": "sharedassets0.assets",
+    "pathId": 7849,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/89",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828396037,
+        "inited": true,
+        "fakeValue": 100000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 89
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Mr Wireframe",
+    "file": "sharedassets0.assets",
+    "pathId": 7850,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 214,
+        "hiddenValue": 99,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P64",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": -1828362918,
+        "inited": true,
+        "fakeValue": -1,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 50
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Mrs Kour",
+    "file": "sharedassets0.assets",
+    "pathId": 7851,
+    "values": {
+      "rarity": 0,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P72",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828362898,
+        "inited": true,
+        "fakeValue": 55,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 60
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Mythian",
+    "file": "sharedassets0.assets",
+    "pathId": 7852,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 112,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P70",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828276789,
+        "inited": true,
+        "fakeValue": 250000,
+        "fakeValueActive": true
+      },
+      "description": "Mythian is here to defend.",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 51
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Orange Astronaut",
+    "file": "sharedassets0.assets",
+    "pathId": 7853,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P74",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828384661,
+        "inited": true,
+        "fakeValue": 30000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 56
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Orange Hologram",
+    "file": "sharedassets0.assets",
+    "pathId": 7854,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/67",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828357605,
+        "inited": true,
+        "fakeValue": 8000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 67
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Peter",
+    "file": "sharedassets0.assets",
+    "pathId": 7855,
+    "values": {
+      "rarity": 2,
+      "secure": {
+        "currentCryptoKey": 100,
+        "hiddenValue": 177,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P34",
+      "price": {
+        "currentCryptoKey": 1520680502,
+        "hiddenValue": 1520680370,
+        "inited": true,
+        "fakeValue": 900,
+        "fakeValueActive": true
+      },
+      "description": "Peter Kour Pen.",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 125,
+        "hiddenValue": 200,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 27
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Poacher",
+    "file": "sharedassets0.assets",
+    "pathId": 7856,
+    "values": {
+      "rarity": 0,
+      "secure": {
+        "currentCryptoKey": 214,
+        "hiddenValue": 99,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P40",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828362929,
+        "inited": true,
+        "fakeValue": 20,
+        "fakeValueActive": true
+      },
+      "description": "Kour Poacher",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 44
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "President",
+    "file": "sharedassets0.assets",
+    "pathId": 7857,
+    "values": {
+      "rarity": 2,
+      "secure": {
+        "currentCryptoKey": 139,
+        "hiddenValue": 62,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "characters/icons/P7_1",
+      "price": {
+        "currentCryptoKey": 1625182819,
+        "hiddenValue": 1625182894,
+        "inited": true,
+        "fakeValue": 205,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 119,
+        "hiddenValue": 162,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "skinIndex": 14
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Princess Bee",
+    "file": "sharedassets0.assets",
+    "pathId": 7858,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 157,
+        "hiddenValue": 72,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P29",
+      "price": {
+        "currentCryptoKey": 1329016800,
+        "hiddenValue": 1329068344,
+        "inited": true,
+        "fakeValue": 55000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 116,
+        "hiddenValue": 193,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 22
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Princess Leaf",
+    "file": "sharedassets0.assets",
+    "pathId": 7859,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 204,
+        "hiddenValue": 25,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P30",
+      "price": {
+        "currentCryptoKey": 1064596009,
+        "hiddenValue": 1064623585,
+        "inited": true,
+        "fakeValue": 45000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 23
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Princess Pink",
+    "file": "sharedassets0.assets",
+    "pathId": 7860,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 253,
+        "hiddenValue": 40,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P27",
+      "price": {
+        "currentCryptoKey": 1304152856,
+        "hiddenValue": 1304089176,
+        "inited": true,
+        "fakeValue": 72000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 191,
+        "hiddenValue": 10,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 20
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Princess White",
+    "file": "sharedassets0.assets",
+    "pathId": 7861,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 254,
+        "hiddenValue": 43,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P28",
+      "price": {
+        "currentCryptoKey": 2141619792,
+        "hiddenValue": 2141603072,
+        "inited": true,
+        "fakeValue": 50000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 237,
+        "hiddenValue": 88,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 21
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "RTX",
+    "file": "sharedassets0.assets",
+    "pathId": 7862,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/88",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828535173,
+        "inited": true,
+        "fakeValue": 500000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 88
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Red Astronaut",
+    "file": "sharedassets0.assets",
+    "pathId": 7863,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P75",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828384661,
+        "inited": true,
+        "fakeValue": 30000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 57
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Red Hologram",
+    "file": "sharedassets0.assets",
+    "pathId": 7864,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/65",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828396037,
+        "inited": true,
+        "fakeValue": 100000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 65
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Royal Guard",
+    "file": "sharedassets0.assets",
+    "pathId": 7865,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 141,
+        "hiddenValue": 88,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P24",
+      "price": {
+        "currentCryptoKey": 2011678292,
+        "hiddenValue": 2011676692,
+        "inited": true,
+        "fakeValue": 1600,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 140,
+        "hiddenValue": 57,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 17
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Shadowgram",
+    "file": "sharedassets0.assets",
+    "pathId": 7866,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 181,
+        "hiddenValue": 96,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P48",
+      "price": {
+        "currentCryptoKey": 1155006421,
+        "hiddenValue": 1154806421,
+        "inited": true,
+        "fakeValue": 200000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 152,
+        "hiddenValue": 45,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 32
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Skinny Baby",
+    "file": "sharedassets0.assets",
+    "pathId": 7867,
+    "values": {
+      "rarity": 2,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P69",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828362350,
+        "inited": true,
+        "fakeValue": 715,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 63
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Slender Kour",
+    "file": "sharedassets0.assets",
+    "pathId": 7868,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/93",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": -1828362918,
+        "inited": true,
+        "fakeValue": -1,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 93
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Terrorist",
+    "file": "sharedassets0.assets",
+    "pathId": 7869,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 225,
+        "hiddenValue": 52,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P51",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": -1828362918,
+        "inited": true,
+        "fakeValue": -1,
+        "fakeValueActive": true
+      },
+      "description": "Comin' from KourStrike.io!",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 40
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Trickster",
+    "file": "sharedassets0.assets",
+    "pathId": 7870,
+    "values": {
+      "rarity": 2,
+      "secure": {
+        "currentCryptoKey": 161,
+        "hiddenValue": 116,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P23",
+      "price": {
+        "currentCryptoKey": 1260070384,
+        "hiddenValue": 1260070086,
+        "inited": true,
+        "fakeValue": 310,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 232,
+        "hiddenValue": 93,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 16
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Uncle Kour",
+    "file": "sharedassets0.assets",
+    "pathId": 7871,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/80",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828346357,
+        "inited": true,
+        "fakeValue": 50000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 80
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "White Hologram",
+    "file": "sharedassets0.assets",
+    "pathId": 7872,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/66",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828296677,
+        "inited": true,
+        "fakeValue": 200000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 66
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Xmas",
+    "file": "sharedassets0.assets",
+    "pathId": 7873,
+    "values": {
+      "rarity": 0,
+      "secure": {
+        "currentCryptoKey": 106,
+        "hiddenValue": 191,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P25",
+      "price": {
+        "currentCryptoKey": 1501347537,
+        "hiddenValue": 1501346401,
+        "inited": true,
+        "fakeValue": 1200,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 197,
+        "hiddenValue": 112,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 18
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Yellow Astronaut",
+    "file": "sharedassets0.assets",
+    "pathId": 7874,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/P73",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828384661,
+        "inited": true,
+        "fakeValue": 30000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 55
+    }
+  },
+  {
+    "type": "CharacterSkin",
+    "name": "Yellow Hologram",
+    "file": "sharedassets0.assets",
+    "pathId": 7875,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 165,
+        "hiddenValue": 16,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "iconPath": "characters/icons/70",
+      "price": {
+        "currentCryptoKey": 1828362917,
+        "hiddenValue": 1828352197,
+        "inited": true,
+        "fakeValue": 60000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 219,
+        "hiddenValue": 110,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "skinIndex": 70
+    }
+  },
+  {
+    "type": "Emote",
+    "name": "Backourflip",
+    "file": "sharedassets0.assets",
+    "pathId": 7876,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 117,
+        "hiddenValue": 192,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "emotes/icons/backflip",
+      "price": {
+        "currentCryptoKey": 1585674824,
+        "hiddenValue": 1585642728,
+        "inited": true,
+        "fakeValue": 100000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 212,
+        "hiddenValue": 97,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "clip": {
+        "file_id": 0,
+        "path_id": 823
+      },
+      "animationClip": {
+        "file_id": 0,
+        "path_id": 585
+      },
+      "audioPitch": 0.5,
+      "audioVolume": 0.20000000298023224,
+      "animationTimeAdd": 0.0
+    }
+  },
+  {
+    "type": "Emote",
+    "name": "Blue",
+    "file": "sharedassets0.assets",
+    "pathId": 7877,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 131,
+        "hiddenValue": 54,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "emotes/icons/blue",
+      "price": {
+        "currentCryptoKey": 2107167825,
+        "hiddenValue": 2106909009,
+        "inited": true,
+        "fakeValue": 800000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 114,
+        "hiddenValue": 199,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "clip": {
+        "file_id": 0,
+        "path_id": 800
+      },
+      "animationClip": {
+        "file_id": 0,
+        "path_id": 591
+      },
+      "audioPitch": 1.100000023841858,
+      "audioVolume": 0.20000000298023224,
+      "animationTimeAdd": 10.149999618530273
+    }
+  },
+  {
+    "type": "Emote",
+    "name": "Chicken Dance",
+    "file": "sharedassets0.assets",
+    "pathId": 7878,
+    "values": {
+      "rarity": 1,
+      "secure": {
+        "currentCryptoKey": 147,
+        "hiddenValue": 38,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "emotes/icons/chickendance",
+      "price": {
+        "currentCryptoKey": 1585674824,
+        "hiddenValue": 1585649448,
+        "inited": true,
+        "fakeValue": 28000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 161,
+        "hiddenValue": 20,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "clip": {
+        "file_id": 0,
+        "path_id": 797
+      },
+      "animationClip": {
+        "file_id": 0,
+        "path_id": 592
+      },
+      "audioPitch": 1.100000023841858,
+      "audioVolume": 0.3499999940395355,
+      "animationTimeAdd": 4.199999809265137
+    }
+  },
+  {
+    "type": "Emote",
+    "name": "Macarena",
+    "file": "sharedassets0.assets",
+    "pathId": 7879,
+    "values": {
+      "rarity": 0,
+      "secure": {
+        "currentCryptoKey": 224,
+        "hiddenValue": 85,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "emotes/icons/macarena",
+      "price": {
+        "currentCryptoKey": 2008162341,
+        "hiddenValue": 2008168277,
+        "inited": true,
+        "fakeValue": 6000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 120,
+        "hiddenValue": 205,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "clip": {
+        "file_id": 0,
+        "path_id": 873
+      },
+      "animationClip": {
+        "file_id": 0,
+        "path_id": 594
+      },
+      "audioPitch": 1.2000000476837158,
+      "audioVolume": 0.3499999940395355,
+      "animationTimeAdd": 0.0
+    }
+  },
+  {
+    "type": "Emote",
+    "name": "NumaNuma",
+    "file": "sharedassets0.assets",
+    "pathId": 7880,
+    "values": {
+      "rarity": 0,
+      "secure": {
+        "currentCryptoKey": 245,
+        "hiddenValue": 64,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "emotes/icons/numa",
+      "price": {
+        "currentCryptoKey": 1602400955,
+        "hiddenValue": 1602401643,
+        "inited": true,
+        "fakeValue": 2000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 121,
+        "hiddenValue": 204,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "clip": {
+        "file_id": 0,
+        "path_id": 831
+      },
+      "animationClip": {
+        "file_id": 0,
+        "path_id": 595
+      },
+      "audioPitch": 1.0,
+      "audioVolume": 0.3499999940395355,
+      "animationTimeAdd": 8.0
+    }
+  },
+  {
+    "type": "Emote",
+    "name": "Skibidi",
+    "file": "sharedassets0.assets",
+    "pathId": 7881,
+    "values": {
+      "rarity": 1,
+      "secure": {
+        "currentCryptoKey": 241,
+        "hiddenValue": 68,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "emotes/icons/skibidi",
+      "price": {
+        "currentCryptoKey": 1851165121,
+        "hiddenValue": 1851189353,
+        "inited": true,
+        "fakeValue": 25000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 201,
+        "hiddenValue": 124,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "clip": {
+        "file_id": 0,
+        "path_id": 802
+      },
+      "animationClip": {
+        "file_id": 0,
+        "path_id": 596
+      },
+      "audioPitch": 0.9200000166893005,
+      "audioVolume": 0.22499999403953552,
+      "animationTimeAdd": 0.0
+    }
+  },
+  {
+    "type": "Emote",
+    "name": "Style Dance",
+    "file": "sharedassets0.assets",
+    "pathId": 7882,
+    "values": {
+      "rarity": 0,
+      "secure": {
+        "currentCryptoKey": 240,
+        "hiddenValue": 69,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "emotes/icons/styledance",
+      "price": {
+        "currentCryptoKey": 1281114252,
+        "hiddenValue": 1281114252,
+        "inited": true,
+        "fakeValue": 0,
+        "fakeValueActive": false
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 132,
+        "hiddenValue": 49,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "clip": {
+        "file_id": 0,
+        "path_id": 798
+      },
+      "animationClip": {
+        "file_id": 0,
+        "path_id": 597
+      },
+      "audioPitch": 1.0,
+      "audioVolume": 0.3400000035762787,
+      "animationTimeAdd": 0.0
+    }
+  },
+  {
+    "type": "Emote",
+    "name": "YMCA",
+    "file": "sharedassets0.assets",
+    "pathId": 7883,
+    "values": {
+      "rarity": 0,
+      "secure": {
+        "currentCryptoKey": 215,
+        "hiddenValue": 98,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "emotes/icons/ymca",
+      "price": {
+        "currentCryptoKey": 2102186076,
+        "hiddenValue": 2102186932,
+        "inited": true,
+        "fakeValue": 1000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 247,
+        "hiddenValue": 66,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "clip": {
+        "file_id": 0,
+        "path_id": 873
+      },
+      "animationClip": {
+        "file_id": 0,
+        "path_id": 598
+      },
+      "audioPitch": 0.9700000286102295,
+      "audioVolume": 0.44999998807907104,
+      "animationTimeAdd": 9.300000190734863
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Agent Blue",
+    "file": "sharedassets0.assets",
+    "pathId": 7895,
+    "values": {
+      "rarity": 0,
+      "secure": {
+        "currentCryptoKey": 0,
+        "hiddenValue": 0,
+        "inited": false,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/agentBlue",
+      "price": {
+        "currentCryptoKey": 1527092321,
+        "hiddenValue": 1527092229,
+        "inited": true,
+        "fakeValue": 100,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 228,
+        "hiddenValue": 81,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "characters/meshes/head/5",
+      "texturePath": "hats/texture/agentBlue",
+      "showOffset": 0.0
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Agent Pink",
+    "file": "sharedassets0.assets",
+    "pathId": 7896,
+    "values": {
+      "rarity": 2,
+      "secure": {
+        "currentCryptoKey": 0,
+        "hiddenValue": 0,
+        "inited": false,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/purpleHatAgent",
+      "price": {
+        "currentCryptoKey": 1676671713,
+        "hiddenValue": 1676671377,
+        "inited": true,
+        "fakeValue": 880,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 250,
+        "hiddenValue": 79,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "characters/meshes/head/5",
+      "texturePath": "hats/texture/agentPink",
+      "showOffset": 0.0
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Alicorn",
+    "file": "sharedassets0.assets",
+    "pathId": 7897,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 187,
+        "hiddenValue": 14,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/37",
+      "price": {
+        "currentCryptoKey": 1376270079,
+        "hiddenValue": 1376262175,
+        "inited": true,
+        "fakeValue": 12000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 235,
+        "hiddenValue": 94,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/35",
+      "texturePath": "hats/texture/37",
+      "showOffset": 0.20000000298023224
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Alien Antenna",
+    "file": "sharedassets0.assets",
+    "pathId": 7898,
+    "values": {
+      "rarity": 0,
+      "secure": {
+        "currentCryptoKey": 0,
+        "hiddenValue": 0,
+        "inited": false,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/hats_9",
+      "price": {
+        "currentCryptoKey": 2143970016,
+        "hiddenValue": 2143970036,
+        "inited": true,
+        "fakeValue": 20,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 237,
+        "hiddenValue": 88,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/8",
+      "texturePath": "hats/texture/main",
+      "showOffset": -2.0
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Bag Head",
+    "file": "sharedassets0.assets",
+    "pathId": 7899,
+    "values": {
+      "rarity": 2,
+      "secure": {
+        "currentCryptoKey": 0,
+        "hiddenValue": 0,
+        "inited": false,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/hats_3",
+      "price": {
+        "currentCryptoKey": 1081203113,
+        "hiddenValue": 1081203407,
+        "inited": true,
+        "fakeValue": 870,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 120,
+        "hiddenValue": 173,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/3",
+      "texturePath": "hats/texture/main",
+      "showOffset": 0.0
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Black Balaclava",
+    "file": "sharedassets0.assets",
+    "pathId": 7900,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 209,
+        "hiddenValue": 100,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/blackbalaclava",
+      "price": {
+        "currentCryptoKey": 1440058760,
+        "hiddenValue": 1440064360,
+        "inited": true,
+        "fakeValue": 12000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 116,
+        "hiddenValue": 193,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "characters/meshes/head/9",
+      "texturePath": "hats/texture/blackbalaclava",
+      "showOffset": 0.6000000238418579
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Black Beard",
+    "file": "sharedassets0.assets",
+    "pathId": 7901,
+    "values": {
+      "rarity": 2,
+      "secure": {
+        "currentCryptoKey": 187,
+        "hiddenValue": 14,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/33",
+      "price": {
+        "currentCryptoKey": 1376270079,
+        "hiddenValue": 1376264591,
+        "inited": true,
+        "fakeValue": 6000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 235,
+        "hiddenValue": 94,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/32",
+      "texturePath": "hats/texture/33",
+      "showOffset": 0.20000000298023224
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Block Hat",
+    "file": "sharedassets0.assets",
+    "pathId": 7902,
+    "values": {
+      "rarity": 1,
+      "secure": {
+        "currentCryptoKey": 187,
+        "hiddenValue": 14,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/27",
+      "price": {
+        "currentCryptoKey": 1376270079,
+        "hiddenValue": 1376270091,
+        "inited": true,
+        "fakeValue": 500,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 235,
+        "hiddenValue": 94,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/27",
+      "texturePath": "hats/texture/27",
+      "showOffset": 0.20000000298023224
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Blue Cap",
+    "file": "sharedassets0.assets",
+    "pathId": 7903,
+    "values": {
+      "rarity": 0,
+      "secure": {
+        "currentCryptoKey": 194,
+        "hiddenValue": 119,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/rpgBlue",
+      "price": {
+        "currentCryptoKey": 2015748317,
+        "hiddenValue": 2015748307,
+        "inited": true,
+        "fakeValue": 14,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 181,
+        "hiddenValue": 0,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "characters/meshes/head/4",
+      "texturePath": "hats/texture/rpgBlue",
+      "showOffset": 0.0
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Blue Soldier",
+    "file": "sharedassets0.assets",
+    "pathId": 7904,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 204,
+        "hiddenValue": 121,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/soldierBlue",
+      "price": {
+        "currentCryptoKey": 1015497437,
+        "hiddenValue": 1015498385,
+        "inited": true,
+        "fakeValue": 1100,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 220,
+        "hiddenValue": 105,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "characters/meshes/head/10",
+      "texturePath": "hats/texture/soldierBlue",
+      "showOffset": 0.0
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Brown Beard",
+    "file": "sharedassets0.assets",
+    "pathId": 7905,
+    "values": {
+      "rarity": 2,
+      "secure": {
+        "currentCryptoKey": 187,
+        "hiddenValue": 14,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/32",
+      "price": {
+        "currentCryptoKey": 1376270079,
+        "hiddenValue": 1376265591,
+        "inited": true,
+        "fakeValue": 5000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 235,
+        "hiddenValue": 94,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/32",
+      "texturePath": "hats/texture/32",
+      "showOffset": 0.20000000298023224
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Cactus Head",
+    "file": "sharedassets0.assets",
+    "pathId": 7906,
+    "values": {
+      "rarity": 0,
+      "secure": {
+        "currentCryptoKey": 0,
+        "hiddenValue": 0,
+        "inited": false,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/hats_0",
+      "price": {
+        "currentCryptoKey": 2058805235,
+        "hiddenValue": 2058805243,
+        "inited": true,
+        "fakeValue": 8,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 234,
+        "hiddenValue": 95,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/0",
+      "texturePath": "hats/texture/main",
+      "showOffset": -2.0
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Camo Cap",
+    "file": "sharedassets0.assets",
+    "pathId": 7907,
+    "values": {
+      "rarity": 0,
+      "secure": {
+        "currentCryptoKey": 0,
+        "hiddenValue": 0,
+        "inited": false,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/rpgCamoBlack",
+      "price": {
+        "currentCryptoKey": 1722801588,
+        "hiddenValue": 1722801462,
+        "inited": true,
+        "fakeValue": 130,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 195,
+        "hiddenValue": 118,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "characters/meshes/head/4",
+      "texturePath": "hats/texture/rpgCamo",
+      "showOffset": 0.0
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Candle Head",
+    "file": "sharedassets0.assets",
+    "pathId": 7908,
+    "values": {
+      "rarity": 1,
+      "secure": {
+        "currentCryptoKey": 0,
+        "hiddenValue": 0,
+        "inited": false,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/hats_10",
+      "price": {
+        "currentCryptoKey": 1210041513,
+        "hiddenValue": 1210041543,
+        "inited": true,
+        "fakeValue": 110,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 144,
+        "hiddenValue": 37,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/10",
+      "texturePath": "hats/texture/main",
+      "showOffset": -1.0
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Coconut Head",
+    "file": "sharedassets0.assets",
+    "pathId": 7909,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 187,
+        "hiddenValue": 14,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/28",
+      "price": {
+        "currentCryptoKey": 1376270079,
+        "hiddenValue": 1376265591,
+        "inited": true,
+        "fakeValue": 5000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 235,
+        "hiddenValue": 94,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/28",
+      "texturePath": "hats/texture/28",
+      "showOffset": 0.20000000298023224
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Devil Horns",
+    "file": "sharedassets0.assets",
+    "pathId": 7910,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 187,
+        "hiddenValue": 14,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/35",
+      "price": {
+        "currentCryptoKey": 1376270079,
+        "hiddenValue": 1376260591,
+        "inited": true,
+        "fakeValue": 10000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 235,
+        "hiddenValue": 94,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/33",
+      "texturePath": "hats/texture/35",
+      "showOffset": 0.20000000298023224
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Dino Hat",
+    "file": "sharedassets0.assets",
+    "pathId": 7911,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 237,
+        "hiddenValue": 88,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/hats_4",
+      "price": {
+        "currentCryptoKey": 1014118932,
+        "hiddenValue": 1014133812,
+        "inited": true,
+        "fakeValue": 20000,
+        "fakeValueActive": true
+      },
+      "description": "Special: Green Trail",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 115,
+        "hiddenValue": 198,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/5",
+      "texturePath": "hats/texture/main",
+      "showOffset": 0.0
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Easter Balaclava",
+    "file": "sharedassets0.assets",
+    "pathId": 7912,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 185,
+        "hiddenValue": 12,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/easterbalaclava",
+      "price": {
+        "currentCryptoKey": 1160240473,
+        "hiddenValue": 1160177113,
+        "inited": true,
+        "fakeValue": 80000,
+        "fakeValueActive": true
+      },
+      "description": "Easter Event",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 157,
+        "hiddenValue": 40,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "characters/meshes/head/9",
+      "texturePath": "hats/texture/easterbalaclava",
+      "showOffset": 0.6000000238418579
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Firefighter Hat",
+    "file": "sharedassets0.assets",
+    "pathId": 7913,
+    "values": {
+      "rarity": 2,
+      "secure": {
+        "currentCryptoKey": 163,
+        "hiddenValue": 22,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/hats_7",
+      "price": {
+        "currentCryptoKey": 2078913140,
+        "hiddenValue": 2078913408,
+        "inited": true,
+        "fakeValue": 500,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 252,
+        "hiddenValue": 73,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/15",
+      "texturePath": "hats/texture/main",
+      "showOffset": -0.8999999761581421
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Flamingo Hat",
+    "file": "sharedassets0.assets",
+    "pathId": 7914,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 120,
+        "hiddenValue": 205,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/hats_2",
+      "price": {
+        "currentCryptoKey": 1510880054,
+        "hiddenValue": 1510877750,
+        "inited": true,
+        "fakeValue": 6400,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 155,
+        "hiddenValue": 46,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/2",
+      "texturePath": "hats/texture/main",
+      "showOffset": -1.600000023841858
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Forbidden Kour",
+    "file": "sharedassets0.assets",
+    "pathId": 7915,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 218,
+        "hiddenValue": 111,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/17",
+      "price": {
+        "currentCryptoKey": 1160240473,
+        "hiddenValue": 1160177113,
+        "inited": true,
+        "fakeValue": 80000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 157,
+        "hiddenValue": 40,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/17",
+      "texturePath": "hats/texture/ninja",
+      "showOffset": 0.0
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Ginger Beard",
+    "file": "sharedassets0.assets",
+    "pathId": 7916,
+    "values": {
+      "rarity": 2,
+      "secure": {
+        "currentCryptoKey": 187,
+        "hiddenValue": 14,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/34",
+      "price": {
+        "currentCryptoKey": 1376270079,
+        "hiddenValue": 1376267687,
+        "inited": true,
+        "fakeValue": 7000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 235,
+        "hiddenValue": 94,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/32",
+      "texturePath": "hats/texture/34",
+      "showOffset": 0.20000000298023224
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Green Balaclava",
+    "file": "sharedassets0.assets",
+    "pathId": 7917,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 209,
+        "hiddenValue": 100,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/greenbalaclava",
+      "price": {
+        "currentCryptoKey": 1440058760,
+        "hiddenValue": 1440056612,
+        "inited": true,
+        "fakeValue": 2220,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 116,
+        "hiddenValue": 193,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "characters/meshes/head/9",
+      "texturePath": "hats/texture/greenbalaclava",
+      "showOffset": 0.6000000238418579
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Halloween Mask",
+    "file": "sharedassets0.assets",
+    "pathId": 7918,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 187,
+        "hiddenValue": 14,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/38",
+      "price": {
+        "currentCryptoKey": 1376270079,
+        "hiddenValue": 1376366687,
+        "inited": true,
+        "fakeValue": 100000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 235,
+        "hiddenValue": 94,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/38",
+      "texturePath": "hats/texture/38",
+      "showOffset": 0.20000000298023224
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Halo",
+    "file": "sharedassets0.assets",
+    "pathId": 7919,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 187,
+        "hiddenValue": 14,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/36",
+      "price": {
+        "currentCryptoKey": 1376270079,
+        "hiddenValue": 1376262175,
+        "inited": true,
+        "fakeValue": 12000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 235,
+        "hiddenValue": 94,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/34",
+      "texturePath": "hats/texture/36",
+      "showOffset": 0.20000000298023224
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Hard Hat",
+    "file": "sharedassets0.assets",
+    "pathId": 7920,
+    "values": {
+      "rarity": 2,
+      "secure": {
+        "currentCryptoKey": 187,
+        "hiddenValue": 14,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/31",
+      "price": {
+        "currentCryptoKey": 1376270079,
+        "hiddenValue": 1376265591,
+        "inited": true,
+        "fakeValue": 5000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 235,
+        "hiddenValue": 94,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/31",
+      "texturePath": "hats/texture/31",
+      "showOffset": 0.20000000298023224
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "IceCube Head",
+    "file": "sharedassets0.assets",
+    "pathId": 7921,
+    "values": {
+      "rarity": 2,
+      "secure": {
+        "currentCryptoKey": 187,
+        "hiddenValue": 14,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/29",
+      "price": {
+        "currentCryptoKey": 1376270079,
+        "hiddenValue": 1376264591,
+        "inited": true,
+        "fakeValue": 6000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 235,
+        "hiddenValue": 94,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/27",
+      "texturePath": "hats/texture/29",
+      "showOffset": 0.20000000298023224
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Jester Hat",
+    "file": "sharedassets0.assets",
+    "pathId": 7922,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 0,
+        "hiddenValue": 0,
+        "inited": false,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/hats_1",
+      "price": {
+        "currentCryptoKey": 2014169197,
+        "hiddenValue": 2014139437,
+        "inited": true,
+        "fakeValue": 40000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 191,
+        "hiddenValue": 10,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/1",
+      "texturePath": "hats/texture/main",
+      "showOffset": -0.6000000238418579
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "King Kour",
+    "file": "sharedassets0.assets",
+    "pathId": 7923,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 0,
+        "hiddenValue": 0,
+        "inited": false,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/hats_14",
+      "price": {
+        "currentCryptoKey": 1955927445,
+        "hiddenValue": 1955869037,
+        "inited": true,
+        "fakeValue": 75000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 125,
+        "hiddenValue": 200,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/12",
+      "texturePath": "hats/texture/main",
+      "showOffset": -0.800000011920929
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Kour Deer",
+    "file": "sharedassets0.assets",
+    "pathId": 7924,
+    "values": {
+      "rarity": 1,
+      "secure": {
+        "currentCryptoKey": 170,
+        "hiddenValue": 31,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/hats_11",
+      "price": {
+        "currentCryptoKey": 2143970016,
+        "hiddenValue": 2143969910,
+        "inited": true,
+        "fakeValue": 150,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 237,
+        "hiddenValue": 88,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/9",
+      "texturePath": "hats/texture/main",
+      "showOffset": 0.0
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Kour Ninja",
+    "file": "sharedassets0.assets",
+    "pathId": 7925,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 170,
+        "hiddenValue": 31,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/16",
+      "price": {
+        "currentCryptoKey": 1160240473,
+        "hiddenValue": 1160141817,
+        "inited": true,
+        "fakeValue": 100000,
+        "fakeValueActive": true
+      },
+      "description": "Easter Event",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 157,
+        "hiddenValue": 40,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/16",
+      "texturePath": "hats/texture/ninja",
+      "showOffset": 0.0
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "KourBux",
+    "file": "sharedassets0.assets",
+    "pathId": 7926,
+    "values": {
+      "rarity": 2,
+      "secure": {
+        "currentCryptoKey": 187,
+        "hiddenValue": 14,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/20",
+      "price": {
+        "currentCryptoKey": 1376270079,
+        "hiddenValue": 1376270687,
+        "inited": true,
+        "fakeValue": 4000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 235,
+        "hiddenValue": 94,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/20",
+      "texturePath": "hats/texture/20",
+      "showOffset": 0.20000000298023224
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "KourPro",
+    "file": "sharedassets0.assets",
+    "pathId": 7927,
+    "values": {
+      "rarity": 0,
+      "secure": {
+        "currentCryptoKey": 187,
+        "hiddenValue": 14,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/25",
+      "price": {
+        "currentCryptoKey": 1376270079,
+        "hiddenValue": 1376269959,
+        "inited": true,
+        "fakeValue": 120,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 235,
+        "hiddenValue": 94,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/25",
+      "texturePath": "hats/texture/25",
+      "showOffset": 0.20000000298023224
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Kourphones",
+    "file": "sharedassets0.assets",
+    "pathId": 7928,
+    "values": {
+      "rarity": 0,
+      "secure": {
+        "currentCryptoKey": 187,
+        "hiddenValue": 14,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/22",
+      "price": {
+        "currentCryptoKey": 1376270079,
+        "hiddenValue": 1376269969,
+        "inited": true,
+        "fakeValue": 110,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 235,
+        "hiddenValue": 94,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/22",
+      "texturePath": "hats/texture/22",
+      "showOffset": 0.20000000298023224
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Legionary Helmet",
+    "file": "sharedassets0.assets",
+    "pathId": 7929,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 187,
+        "hiddenValue": 14,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/30",
+      "price": {
+        "currentCryptoKey": 1376270079,
+        "hiddenValue": 1376511599,
+        "inited": true,
+        "fakeValue": 250000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 235,
+        "hiddenValue": 94,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/30",
+      "texturePath": "hats/texture/30",
+      "showOffset": -0.699999988079071
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Legionphones",
+    "file": "sharedassets0.assets",
+    "pathId": 7930,
+    "values": {
+      "rarity": 4,
+      "secure": {
+        "currentCryptoKey": 187,
+        "hiddenValue": 14,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/23",
+      "price": {
+        "currentCryptoKey": 1376270079,
+        "hiddenValue": 1376366687,
+        "inited": true,
+        "fakeValue": 100000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 235,
+        "hiddenValue": 94,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/22",
+      "texturePath": "hats/texture/23",
+      "showOffset": 0.20000000298023224
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Leprechaun Hat",
+    "file": "sharedassets0.assets",
+    "pathId": 7931,
+    "values": {
+      "rarity": 1,
+      "secure": {
+        "currentCryptoKey": 0,
+        "hiddenValue": 0,
+        "inited": false,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/hats_5",
+      "price": {
+        "currentCryptoKey": 1257681679,
+        "hiddenValue": 1257681797,
+        "inited": true,
+        "fakeValue": 138,
+        "fakeValueActive": true
+      },
+      "description": "Special: Rainbow-Colored Trail in gameplay!",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 180,
+        "hiddenValue": 1,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/4",
+      "texturePath": "hats/texture/main",
+      "showOffset": -0.8999999761581421
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Light Blue Balaclava",
+    "file": "sharedassets0.assets",
+    "pathId": 7932,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 209,
+        "hiddenValue": 100,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/bluebalaclava",
+      "price": {
+        "currentCryptoKey": 1440058760,
+        "hiddenValue": 1440057846,
+        "inited": true,
+        "fakeValue": 1150,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 116,
+        "hiddenValue": 193,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "characters/meshes/head/9",
+      "texturePath": "hats/texture/bluebalaclava",
+      "showOffset": 0.6000000238418579
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Mega Gunner",
+    "file": "sharedassets0.assets",
+    "pathId": 7933,
+    "values": {
+      "rarity": 2,
+      "secure": {
+        "currentCryptoKey": 187,
+        "hiddenValue": 14,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/19",
+      "price": {
+        "currentCryptoKey": 1376270079,
+        "hiddenValue": 1376269091,
+        "inited": true,
+        "fakeValue": 1500,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 235,
+        "hiddenValue": 94,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/19",
+      "texturePath": "hats/texture/19",
+      "showOffset": -1.5
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Orange Balaclava",
+    "file": "sharedassets0.assets",
+    "pathId": 7934,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 191,
+        "hiddenValue": 10,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/orangebalaclava",
+      "price": {
+        "currentCryptoKey": 1514400780,
+        "hiddenValue": 1514403668,
+        "inited": true,
+        "fakeValue": 7000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 224,
+        "hiddenValue": 85,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "characters/meshes/head/9",
+      "texturePath": "hats/texture/orangebalaclava",
+      "showOffset": 0.6000000238418579
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Party Hat",
+    "file": "sharedassets0.assets",
+    "pathId": 7935,
+    "values": {
+      "rarity": 0,
+      "secure": {
+        "currentCryptoKey": 0,
+        "hiddenValue": 0,
+        "inited": false,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/hats_8",
+      "price": {
+        "currentCryptoKey": 1728931067,
+        "hiddenValue": 1728931027,
+        "inited": true,
+        "fakeValue": 40,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 160,
+        "hiddenValue": 21,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/7",
+      "texturePath": "hats/texture/main",
+      "showOffset": 0.0
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Pineapple Hat",
+    "file": "sharedassets0.assets",
+    "pathId": 7936,
+    "values": {
+      "rarity": 2,
+      "secure": {
+        "currentCryptoKey": 187,
+        "hiddenValue": 14,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/26",
+      "price": {
+        "currentCryptoKey": 1376270079,
+        "hiddenValue": 1376268591,
+        "inited": true,
+        "fakeValue": 2000,
+        "fakeValueActive": true
+      },
+      "description": "Who lives in a pineapple under the sea? KourBob Squarepants",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 235,
+        "hiddenValue": 94,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/26",
+      "texturePath": "hats/texture/26",
+      "showOffset": 0.20000000298023224
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Pink Balaclava",
+    "file": "sharedassets0.assets",
+    "pathId": 7937,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 191,
+        "hiddenValue": 10,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/pinkbalaclava",
+      "price": {
+        "currentCryptoKey": 1514400780,
+        "hiddenValue": 1514403668,
+        "inited": true,
+        "fakeValue": 7000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 224,
+        "hiddenValue": 85,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "characters/meshes/head/9",
+      "texturePath": "hats/texture/pinkbalaclava",
+      "showOffset": 0.6000000238418579
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Pirate Hat",
+    "file": "sharedassets0.assets",
+    "pathId": 7938,
+    "values": {
+      "rarity": 2,
+      "secure": {
+        "currentCryptoKey": 120,
+        "hiddenValue": 205,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/piratehat",
+      "price": {
+        "currentCryptoKey": 1510880054,
+        "hiddenValue": 1510879254,
+        "inited": true,
+        "fakeValue": 800,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 155,
+        "hiddenValue": 46,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/18",
+      "texturePath": "hats/texture/hat_17",
+      "showOffset": -1.0
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Purple Balaclava",
+    "file": "sharedassets0.assets",
+    "pathId": 7939,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 209,
+        "hiddenValue": 100,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/purplebalaclava",
+      "price": {
+        "currentCryptoKey": 1440058760,
+        "hiddenValue": 1440062788,
+        "inited": true,
+        "fakeValue": 4300,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 116,
+        "hiddenValue": 193,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "characters/meshes/head/9",
+      "texturePath": "hats/texture/purplebalaclava",
+      "showOffset": 0.6000000238418579
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Raider Hat",
+    "file": "sharedassets0.assets",
+    "pathId": 7940,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 120,
+        "hiddenValue": 205,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/raiderhat",
+      "price": {
+        "currentCryptoKey": 1510880054,
+        "hiddenValue": 1510882250,
+        "inited": true,
+        "fakeValue": 2300,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 155,
+        "hiddenValue": 46,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/18",
+      "texturePath": "hats/texture/hat_17_1",
+      "showOffset": -1.0
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Red Balaclava",
+    "file": "sharedassets0.assets",
+    "pathId": 7941,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 209,
+        "hiddenValue": 100,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/redbalaclava",
+      "price": {
+        "currentCryptoKey": 1440058760,
+        "hiddenValue": 1440067232,
+        "inited": true,
+        "fakeValue": 9000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 116,
+        "hiddenValue": 193,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "characters/meshes/head/9",
+      "texturePath": "hats/texture/redbalaclava",
+      "showOffset": 0.6000000238418579
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Red Helmet",
+    "file": "sharedassets0.assets",
+    "pathId": 7942,
+    "values": {
+      "rarity": 0,
+      "secure": {
+        "currentCryptoKey": 0,
+        "hiddenValue": 0,
+        "inited": false,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/shotgunRed",
+      "price": {
+        "currentCryptoKey": 1113355713,
+        "hiddenValue": 1113355345,
+        "inited": true,
+        "fakeValue": 400,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 168,
+        "hiddenValue": 125,
+        "inited": true,
+        "fakeValue": true,
+        "fakeValueActive": true
+      },
+      "meshPath": "characters/meshes/head/6",
+      "texturePath": "hats/texture/shotgunRed",
+      "showOffset": 0.0
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Red Soldier",
+    "file": "sharedassets0.assets",
+    "pathId": 7943,
+    "values": {
+      "rarity": 0,
+      "secure": {
+        "currentCryptoKey": 0,
+        "hiddenValue": 0,
+        "inited": false,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/soldierred",
+      "price": {
+        "currentCryptoKey": 1220772623,
+        "hiddenValue": 1220772686,
+        "inited": true,
+        "fakeValue": 65,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 103,
+        "hiddenValue": 210,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "characters/meshes/head/10",
+      "texturePath": "hats/texture/soldierred",
+      "showOffset": 0.0
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Spider Head",
+    "file": "sharedassets0.assets",
+    "pathId": 7944,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 187,
+        "hiddenValue": 14,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/hats_6",
+      "price": {
+        "currentCryptoKey": 1376270079,
+        "hiddenValue": 1376260591,
+        "inited": true,
+        "fakeValue": 10000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 235,
+        "hiddenValue": 94,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/6",
+      "texturePath": "hats/texture/main",
+      "showOffset": -1.7999999523162842
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Tin Foil Hat",
+    "file": "sharedassets0.assets",
+    "pathId": 7945,
+    "values": {
+      "rarity": 0,
+      "secure": {
+        "currentCryptoKey": 187,
+        "hiddenValue": 14,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/21",
+      "price": {
+        "currentCryptoKey": 1376270079,
+        "hiddenValue": 1376270024,
+        "inited": true,
+        "fakeValue": 55,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 235,
+        "hiddenValue": 94,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/21",
+      "texturePath": "hats/texture/21",
+      "showOffset": -1.0
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Toy Winder",
+    "file": "sharedassets0.assets",
+    "pathId": 7946,
+    "values": {
+      "rarity": 2,
+      "secure": {
+        "currentCryptoKey": 0,
+        "hiddenValue": 0,
+        "inited": false,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/hats_15",
+      "price": {
+        "currentCryptoKey": 1705286880,
+        "hiddenValue": 1705287558,
+        "inited": true,
+        "fakeValue": 870,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 248,
+        "hiddenValue": 77,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/13",
+      "texturePath": "hats/texture/main",
+      "showOffset": -1.7999999523162842
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Vision Kour",
+    "file": "sharedassets0.assets",
+    "pathId": 7947,
+    "values": {
+      "rarity": 0,
+      "secure": {
+        "currentCryptoKey": 187,
+        "hiddenValue": 14,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/24",
+      "price": {
+        "currentCryptoKey": 1376270079,
+        "hiddenValue": 1376269879,
+        "inited": true,
+        "fakeValue": 200,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 235,
+        "hiddenValue": 94,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "hats/mesh/24",
+      "texturePath": "hats/texture/24",
+      "showOffset": 0.20000000298023224
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "White Balaclava",
+    "file": "sharedassets0.assets",
+    "pathId": 7948,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 209,
+        "hiddenValue": 100,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/whitebalaclava",
+      "price": {
+        "currentCryptoKey": 1440058760,
+        "hiddenValue": 1440059238,
+        "inited": true,
+        "fakeValue": 750,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 116,
+        "hiddenValue": 193,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "characters/meshes/head/9",
+      "texturePath": "hats/texture/whitebalaclava",
+      "showOffset": 0.6000000238418579
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Yellow Balaclava",
+    "file": "sharedassets0.assets",
+    "pathId": 7949,
+    "values": {
+      "rarity": 3,
+      "secure": {
+        "currentCryptoKey": 191,
+        "hiddenValue": 10,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/yellowbalaclava",
+      "price": {
+        "currentCryptoKey": 1514400780,
+        "hiddenValue": 1514403668,
+        "inited": true,
+        "fakeValue": 7000,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 224,
+        "hiddenValue": 85,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "characters/meshes/head/9",
+      "texturePath": "hats/texture/yellowbalaclava",
+      "showOffset": 0.6000000238418579
+    }
+  },
+  {
+    "type": "Hat",
+    "name": "Yellow Helmet",
+    "file": "sharedassets0.assets",
+    "pathId": 7950,
+    "values": {
+      "rarity": 1,
+      "secure": {
+        "currentCryptoKey": 0,
+        "hiddenValue": 0,
+        "inited": false,
+        "fakeValue": false,
+        "fakeValueActive": false
+      },
+      "iconPath": "hats/icons/shotgunYellow",
+      "price": {
+        "currentCryptoKey": 1163401231,
+        "hiddenValue": 1163401354,
+        "inited": true,
+        "fakeValue": 133,
+        "fakeValueActive": true
+      },
+      "description": "",
+      "watchAdToUnlock": {
+        "currentCryptoKey": 171,
+        "hiddenValue": 30,
+        "inited": true,
+        "fakeValue": false,
+        "fakeValueActive": true
+      },
+      "meshPath": "characters/meshes/head/6",
+      "texturePath": "hats/texture/shotgunYellow",
+      "showOffset": 0.0
+    }
+  }
+]

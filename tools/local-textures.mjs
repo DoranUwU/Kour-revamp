@@ -12,5 +12,5 @@ export const textureAssets=Object.freeze([
  {pathname:'/content/stream/weapon-skins/texture/bomb.png',file:'original-preview/content/stream/weapon-skins/texture/bomb.png'}
 ]);
 export function prepareOfflinePolicy(source){
- return 'window.LocalTexturePaths=Object.freeze('+JSON.stringify([...textureAssets,...menuTextureAssets].map(x=>x.pathname))+');\n'+source;
+ return 'window.LocalBundlePaths='+JSON.stringify(JSON.parse(fs.readFileSync(new URL('./menu-bundles.json',import.meta.url),'utf8')).map(x=>x.name))+';\nwindow.LocalTexturePaths=Object.freeze('+JSON.stringify([...textureAssets,...menuTextureAssets].map(x=>x.pathname))+');\n'+source;
 }

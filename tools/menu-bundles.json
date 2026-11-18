@@ -28,5 +28,587 @@
     "bytes": 22552,
     "sha256": "243a70a2e5c375fefca33a45f22df1f3f96ac1ddc9a4bdbcb696b14ddb9c9fc2",
     "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/41?v=4.24"
+  },
+  {
+    "name": "characters/meshes/head/42",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/42",
+    "bytes": 23313,
+    "sha256": "0a6500fdbff008b4d2eb4ef97566460114f87abd0793fffd0e73f8b6c6bbf671"
+  },
+  {
+    "name": "characters/meshes/body-attachments/42",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/body-attachments/42",
+    "bytes": 29586,
+    "sha256": "dee5878cb5495401179376d0bc93376fb1af1eff52bb1549608bf67783780ff4"
+  },
+  {
+    "name": "characters/meshes/head/43",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/43",
+    "bytes": 9001,
+    "sha256": "ae1c320c52ebb054b13bbb85881d6635362c78e604ac6f6e009b13fa3d117ab0"
+  },
+  {
+    "name": "characters/meshes/body-attachments/43",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/body-attachments/43",
+    "bytes": 5339,
+    "sha256": "0ddd4cf2037d51e0a0b8630e366ffbdc38e3d3135f487c02ead8de1936fa6847"
+  },
+  {
+    "name": "characters/meshes/head/81",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/81",
+    "bytes": 6305,
+    "sha256": "540e8c3c48d2fddc0960a88dfea10dcad8bc317d4af4c1e67ed9ce18a6a3ac31"
+  },
+  {
+    "name": "characters/meshes/body-attachments/81",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/body-attachments/81",
+    "bytes": 5888,
+    "sha256": "5712ea6c89b776c3eae451dd971bd8357a4caf5e8af0162720480212c784c02d"
+  },
+  {
+    "name": "characters/meshes/head/28",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/28",
+    "bytes": 5661,
+    "sha256": "13d25e4e97fd62b460bbafc0e588850c41a8bb6563d9f7b47a130a1b4a554dde"
+  },
+  {
+    "name": "characters/meshes/body-attachments/28",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/body-attachments/28",
+    "bytes": 4717,
+    "sha256": "4a554bd375ae762787b492bf2a1b6030f85da4c5e035af0d9b0d5ecf85266809"
+  },
+  {
+    "name": "characters/meshes/head/15",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/15",
+    "bytes": 4526,
+    "sha256": "49434c51fe0475bc4c39dd6fbfd2f16ac3777ce12cbde4ab76542d7099f3753a"
+  },
+  {
+    "name": "characters/meshes/body-attachments/94",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/body-attachments/94",
+    "bytes": 7102,
+    "sha256": "af8184e32af71f88780fd4fe0da9b4986a8d54262f5853ae047d277147358b42"
+  },
+  {
+    "name": "characters/meshes/head/94",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/94",
+    "bytes": 7584,
+    "sha256": "fc01b7b1745cd97d6e2d1c50c87f0faa3c1763f8ae59493dad54bd32b260ab72"
+  },
+  {
+    "name": "characters/meshes/head/74",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/74",
+    "bytes": 14076,
+    "sha256": "9e0ac26e2a78a4dcfc9dc2347ae062f104e58a0bf0fda1686e49c4f094c4735b"
+  },
+  {
+    "name": "characters/meshes/body-attachments/74",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/body-attachments/74",
+    "bytes": 11566,
+    "sha256": "2629bf7b4aad3bffb669bfd02e2172175d0aefd5e0a5bbfae34ce99d16040a16"
+  },
+  {
+    "name": "characters/meshes/head/73",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/73",
+    "bytes": 6891,
+    "sha256": "5c2d2e78f403407699abd39f9f035a9282a56eefafd7d2e120dcb332bbf301c2"
+  },
+  {
+    "name": "characters/meshes/body-attachments/73",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/body-attachments/73",
+    "bytes": 9776,
+    "sha256": "875b18b519126034c7fd245e9a55c0f8669c5c671c256e06ec888f6483712970"
+  },
+  {
+    "name": "characters/meshes/head/39",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/39",
+    "bytes": 16922,
+    "sha256": "7fdd120772967143af11b71b890bdc209a156fd1c3b3690b2999fba66e4a42c8"
+  },
+  {
+    "name": "characters/meshes/head/37",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/37",
+    "bytes": 11916,
+    "sha256": "75437cc21f8f14cafb163dcda3b2ad341fc3b644f724b4e96df3cab8cd850d97"
+  },
+  {
+    "name": "characters/meshes/head/33",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/33",
+    "bytes": 11490,
+    "sha256": "3f533748ddc3bce61ee91092bbffc7dc06a1307a38c672bf158023547e6c2551"
+  },
+  {
+    "name": "characters/meshes/body-attachments/33",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/body-attachments/33",
+    "bytes": 4909,
+    "sha256": "493adf3048fd9525d5c65b46841035aaa772b962ca764a19bf52c7a8c33843db"
+  },
+  {
+    "name": "characters/meshes/head/13",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/13",
+    "bytes": 7337,
+    "sha256": "6de4f479402d5403d7ef37d84690d561e4ee1c617e051ef42821d1f2aeeca10e"
+  },
+  {
+    "name": "characters/meshes/body-attachments/13",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/body-attachments/13",
+    "bytes": 4831,
+    "sha256": "deebe49ae87dba2d01daa1cb9fd5a27a00516aaac1a58cace93a1860b4e2eba9"
+  },
+  {
+    "name": "characters/meshes/head/12",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/12",
+    "bytes": 10218,
+    "sha256": "157bea76c2ce6522cf11b3db44c8124155724af6a307b734a24bada714874ab1"
+  },
+  {
+    "name": "characters/meshes/body-attachments/12",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/body-attachments/12",
+    "bytes": 8267,
+    "sha256": "2c9b43ac2c818ce207bef2520568ebd99efcc8e66ead591e1155033702296862"
+  },
+  {
+    "name": "characters/meshes/head/84",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/84",
+    "bytes": 22154,
+    "sha256": "b6eb002427d96114a0a5fa0b6e21149d696751f382f3c333cef2f1782f72ba68"
+  },
+  {
+    "name": "characters/meshes/body-attachments/84",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/body-attachments/84",
+    "bytes": 11965,
+    "sha256": "23fa7c4ba4585bab7889ab96623ae78595d1b9ca86aa8d772c0f38109249a3dc"
+  },
+  {
+    "name": "characters/meshes/head/59",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/59",
+    "bytes": 16142,
+    "sha256": "11b79f920277ee8ed8c81abc05f905a087ae5606139c9a04eb77dde61bd34916"
+  },
+  {
+    "name": "characters/meshes/body-attachments/78",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/body-attachments/78",
+    "bytes": 5810,
+    "sha256": "be4b2171c3ac66420980e405b4b0b28bbe13b5f3d59cde152bd150c7b64cabf4"
+  },
+  {
+    "name": "characters/meshes/head/78",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/78",
+    "bytes": 17342,
+    "sha256": "240d9238066e54979aa51d3445ba30bcfd4ee0a6e1de8d999a8192658c1bbe57"
+  },
+  {
+    "name": "characters/meshes/head/76",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/76",
+    "bytes": 8962,
+    "sha256": "e9748947d314d759c34ac0d4ff2296aaec7cf5b28142269108eb28622be20bbd"
+  },
+  {
+    "name": "characters/meshes/head/53",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/53",
+    "bytes": 4036,
+    "sha256": "ecd893e6889cef31fd0b7ec087ca717252f33bb2b7a13499eee6a4031f0bf3d1"
+  },
+  {
+    "name": "characters/meshes/body-attachments/76",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/body-attachments/76",
+    "bytes": 15058,
+    "sha256": "7a30c66b74a7c8530db7c00212803f55b713cdac121192cbadfcef8ba404dbf7"
+  },
+  {
+    "name": "characters/meshes/head/77",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/77",
+    "bytes": 11958,
+    "sha256": "3dface6a76f6ed82c6cb37966c4a70da9d4dd98aff03b05a09fd27aeb193d872"
+  },
+  {
+    "name": "characters/meshes/head/46",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/46",
+    "bytes": 8337,
+    "sha256": "a53cb198e0a88edad3a912fb6cfbb7ca7cb2d4b5086043b6914378c46ae9f3b1"
+  },
+  {
+    "name": "characters/meshes/body-attachments/46",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/body-attachments/46",
+    "bytes": 9515,
+    "sha256": "ea6dc9273ef0b4971ed0259c42b13ce6423a28f6ea8625db0c8a9280478eb9e5"
+  },
+  {
+    "name": "characters/meshes/head/47",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/47",
+    "bytes": 9465,
+    "sha256": "4a503c01aa08511b8694f181f0439ac3af7384427620ca0319bfa6ed2adcf274"
+  },
+  {
+    "name": "characters/meshes/head/52",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/52",
+    "bytes": 5760,
+    "sha256": "b6aaac2c2aba2e6ef50dd378bb00fcdf0791bcd2d36f9ed167f6ca0e9edf30bc"
+  },
+  {
+    "name": "characters/meshes/head/36",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/36",
+    "bytes": 13174,
+    "sha256": "60673f814d3d79b2a225b1acd4b855985be35580a2a13e26838edab876d44b9f"
+  },
+  {
+    "name": "characters/meshes/head/82",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/82",
+    "bytes": 10494,
+    "sha256": "84708c8fb1b4f2569f7b8dc59925b9601cc3cd740b3c35107dd2c4885c696267"
+  },
+  {
+    "name": "characters/meshes/head/64",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/64",
+    "bytes": 7340,
+    "sha256": "d2035a031955f49d0d37a98117c374f0928207600b3829e4257d8dc2d3dcb0c7"
+  },
+  {
+    "name": "characters/meshes/head/24",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/24",
+    "bytes": 5416,
+    "sha256": "d772920d784ff66b2ecd53bd39d1344d447d4f93c9bc5d78b40f357dfd62a6a1"
+  },
+  {
+    "name": "characters/meshes/body-attachments/24",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/body-attachments/24",
+    "bytes": 5210,
+    "sha256": "ef34eda18697da0949719ca8a9c4471b802a15069af628065352d3d982a1064d"
+  },
+  {
+    "name": "characters/meshes/head/72",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/72",
+    "bytes": 6459,
+    "sha256": "f044919e0703bc618c9c297664439ae69d7839972ca33a2f4e30f8208e9bd3de"
+  },
+  {
+    "name": "characters/meshes/body-attachments/72",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/body-attachments/72",
+    "bytes": 32358,
+    "sha256": "a8273942c9b728d4b0d1dedc0677e2c7964ee35c92e917748e88b58926351a20"
+  },
+  {
+    "name": "characters/meshes/head/35",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/35",
+    "bytes": 16487,
+    "sha256": "9ca9883d4efbb5f2a02df2ae8f1fd631961571c1dfb278900d044475e111a1bb"
+  },
+  {
+    "name": "characters/meshes/head/91",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/91",
+    "bytes": 11885,
+    "sha256": "0c919984a9ed0a2f7359923ce682f4e253c39f475ea8787a47eba6aa5260c8a4"
+  },
+  {
+    "name": "characters/meshes/body-attachments/91",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/body-attachments/91",
+    "bytes": 6292,
+    "sha256": "51a5513147591844569620836d0b3806b27d6039f80410b115421e0f5bfe67d9"
+  },
+  {
+    "name": "characters/meshes/head/79",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/79",
+    "bytes": 4296,
+    "sha256": "4717576dabaa926a8f9caf4be707351516009bca4007c18c10c3decf82aba324"
+  },
+  {
+    "name": "characters/meshes/head/83",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/83",
+    "bytes": 15520,
+    "sha256": "494f32920509af0e371ddd9dbc13aca5abfdbfe7b6937c8c455505e86ba05973"
+  },
+  {
+    "name": "characters/meshes/body-attachments/83",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/body-attachments/83",
+    "bytes": 21581,
+    "sha256": "e8fe4b66f5fc39876aecd734204feb8720e96a96bb8ab4b0c81fe24d74c4c8cb"
+  },
+  {
+    "name": "characters/meshes/head/27",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/27",
+    "bytes": 5192,
+    "sha256": "2d4c94fed76aaac1d367d0d0b73e119d3f7eddf533cf3bd23f4f2e302996479e"
+  },
+  {
+    "name": "characters/meshes/body-attachments/27",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/body-attachments/27",
+    "bytes": 4344,
+    "sha256": "610ed5e2d9689caee78ca2ae699873cfe2437d588c5ec5442293f71c6b37033b"
+  },
+  {
+    "name": "characters/meshes/head/44",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/44",
+    "bytes": 14702,
+    "sha256": "199513e0f30f4fbabc309ffa1b08276df4b19f1c7c41e259884fce9904238551"
+  },
+  {
+    "name": "characters/meshes/head/20",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/20",
+    "bytes": 6523,
+    "sha256": "6cfce22d961fbd3a7967b09ad32f38ba81add31fd010161d05cf80e3b927a0e4"
+  },
+  {
+    "name": "characters/meshes/body-attachments/20",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/body-attachments/20",
+    "bytes": 12025,
+    "sha256": "0683adb96ad65493c986e5046debbcb6cdb3df837798007d1c37ebda774b3429"
+  },
+  {
+    "name": "characters/meshes/head/88",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/88",
+    "bytes": 8105,
+    "sha256": "6e00450b3986e3aa1a7bba4a95ae9c060c1afcb296f22c5817fdc4f3c71393b1"
+  },
+  {
+    "name": "characters/meshes/head/17",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/17",
+    "bytes": 5780,
+    "sha256": "e7c4673733293bb90df195786c1308966b7bf851cb5a7c5f209b56a213c95422"
+  },
+  {
+    "name": "characters/meshes/head/16",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/16",
+    "bytes": 5611,
+    "sha256": "770fd84bc324ec9026d1c411150a3dd35502f5afc370e599ae098d29b6b768ac"
+  },
+  {
+    "name": "characters/meshes/head/80",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/80",
+    "bytes": 10451,
+    "sha256": "8222b2e98b09ca0818ff5ded04393871e47c115417afd526d7bd4a1c3d7b8fc8"
+  },
+  {
+    "name": "characters/meshes/head/18",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/18",
+    "bytes": 5749,
+    "sha256": "cce19d68ff58759308bec8af0f13c2f6354ed273c658096f5b7ad4c526ea718b"
+  },
+  {
+    "name": "characters/meshes/head/5",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/5",
+    "bytes": 6705,
+    "sha256": "94c9d18ac20892771e81ebfc495c28c89559a7ce2373e4e71737a74b812e5637"
+  },
+  {
+    "name": "hats/mesh/8",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/8",
+    "bytes": 7668,
+    "sha256": "821be7cc51d014485f07faf568a87363891fef49d51c17063bdb0458720dec0e"
+  },
+  {
+    "name": "hats/mesh/35",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/35",
+    "bytes": 15627,
+    "sha256": "180c6bda92a709552e34d847c616aaa15773d41e93728555c884818f4f9871b9"
+  },
+  {
+    "name": "hats/mesh/3",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/3",
+    "bytes": 8695,
+    "sha256": "f93bdc996831a5a19839510eb55a6bf043b0a58a7658c5836aab2f7910ad9c7f"
+  },
+  {
+    "name": "hats/mesh/27",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/27",
+    "bytes": 5040,
+    "sha256": "19cc6e296399e5db8992e23c524d0c6bc881cf3b7b7607d87677b744f1213536"
+  },
+  {
+    "name": "characters/meshes/head/4",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/4",
+    "bytes": 7530,
+    "sha256": "ba9a886c3f078ee74930f4d01c86d16842d2c0e1348e531d2f52f4355721556e"
+  },
+  {
+    "name": "characters/meshes/head/10",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/10",
+    "bytes": 12440,
+    "sha256": "b7bc93533d32b2b72c5e4b5c6fca3c7ebd5da3e0ec7d50d6bbcc6d01d11d4ab2"
+  },
+  {
+    "name": "hats/mesh/0",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/0",
+    "bytes": 11286,
+    "sha256": "ec5c1614309aa281eee40a27f3764c896f0a4074b60e4949b8d6fd353aeb21be"
+  },
+  {
+    "name": "hats/mesh/10",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/10",
+    "bytes": 13715,
+    "sha256": "14a2db979e2835c36f00ed960a3e4c5ddc94e192a072c01c6dadf14732dc3ab6"
+  },
+  {
+    "name": "characters/meshes/head/9",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/9",
+    "bytes": 5543,
+    "sha256": "0f0570e5efce500772eae899bcbfcb00b8e71cf902777dc8df51c2b3fae81fa2"
+  },
+  {
+    "name": "hats/mesh/28",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/28",
+    "bytes": 10738,
+    "sha256": "ffe877b5a7f5bb7616f5cd48346330bc3c8f4c6eb5b39384d23328c02cde34a4"
+  },
+  {
+    "name": "hats/mesh/32",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/32",
+    "bytes": 6466,
+    "sha256": "898c4c6e391413372a6d1263f4c4b31cc5cbb53d557d758374129858f29d4f07"
+  },
+  {
+    "name": "hats/mesh/33",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/33",
+    "bytes": 6630,
+    "sha256": "05886038dbd04c49f90bdb3961bd6cc3531be6fbc8d1b878783235c2c2491e58"
+  },
+  {
+    "name": "hats/mesh/5",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/5",
+    "bytes": 16357,
+    "sha256": "2aed896ea06c192cb5d1569fe1b6c1e85c78ad1bca42e3b054a66d5534996d17"
+  },
+  {
+    "name": "hats/mesh/15",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/15",
+    "bytes": 6876,
+    "sha256": "a70a9868ffefa4a3811f395aa0e6fe1aa2cb59f40c90c5822d2f895d93977f80"
+  },
+  {
+    "name": "hats/mesh/2",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/2",
+    "bytes": 8115,
+    "sha256": "7dad75f46fb545304e30a2976adc2a20611dcc9281e28f38536935125ab512e4"
+  },
+  {
+    "name": "hats/mesh/17",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/17",
+    "bytes": 4772,
+    "sha256": "908d4ef3901a1bf5dd407b528dfa663db378dc17e65db08a321ec615ae0337ae"
+  },
+  {
+    "name": "hats/mesh/38",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/38",
+    "bytes": 8828,
+    "sha256": "8cf46862043ce52d505662724df721bf320cfafd00764b868378ded4477584bb"
+  },
+  {
+    "name": "hats/mesh/34",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/34",
+    "bytes": 14517,
+    "sha256": "8d23bd327152014e414258486a102c9e197522e848671d72693da37a5029084b"
+  },
+  {
+    "name": "hats/mesh/31",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/31",
+    "bytes": 9169,
+    "sha256": "7d511335b97e07cae03dfd644af70fb00537c691fb4396e39a3c4e5f4a86578a"
+  },
+  {
+    "name": "hats/mesh/12",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/12",
+    "bytes": 10920,
+    "sha256": "4109c9bb0cd2e77a414a76cac09592d473732c0ccd36e5c56acd79717efb405e"
+  },
+  {
+    "name": "hats/mesh/1",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/1",
+    "bytes": 7914,
+    "sha256": "f05bc203384fa85a0a93760f7e60550635b364643ec392723324ab5905a12b83"
+  },
+  {
+    "name": "hats/mesh/9",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/9",
+    "bytes": 9487,
+    "sha256": "8ae93479500303e87e104109fc6b2cd08d31ae5d81a1feb28f569f3a30722d99"
+  },
+  {
+    "name": "hats/mesh/16",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/16",
+    "bytes": 5258,
+    "sha256": "2403c036acec9f9d3f074c59e49161d62e51d950f123760a1b50050283b889a9"
+  },
+  {
+    "name": "hats/mesh/20",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/20",
+    "bytes": 10479,
+    "sha256": "34fd42faa808fdaa953ca5cf359eb9a01c457afa2bdcc515bf5edfe7f6e66e76"
+  },
+  {
+    "name": "hats/mesh/22",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/22",
+    "bytes": 15014,
+    "sha256": "5fecddafc2d50f861eb04aa79ba31b093c6f08dc4daede7978ce61b79bf0262b"
+  },
+  {
+    "name": "hats/mesh/25",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/25",
+    "bytes": 6205,
+    "sha256": "db1eda0f61d93b7777cb1664a9071673a24d5bf153a6673b84efe0856eb099a0"
+  },
+  {
+    "name": "hats/mesh/30",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/30",
+    "bytes": 15505,
+    "sha256": "7b18a5f92f596d0b73392c8030f27ff7714c5d188549ae314319190ca94ce45b"
+  },
+  {
+    "name": "hats/mesh/4",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/4",
+    "bytes": 7924,
+    "sha256": "c3724d8c7d498b3e36b6385ffea0c82d3ba0e9478d09d19557db64572863145f"
+  },
+  {
+    "name": "hats/mesh/7",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/7",
+    "bytes": 10977,
+    "sha256": "99398bd1d3254e3b68e7ce7f164dbf6c2e85d6aa0f3657f1e5a2b622d85ad965"
+  },
+  {
+    "name": "hats/mesh/26",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/26",
+    "bytes": 13233,
+    "sha256": "305aae472ae1849187c708387947222c97531abdaf3a9a9c2c446c0a163d42f5"
+  },
+  {
+    "name": "hats/mesh/19",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/19",
+    "bytes": 10359,
+    "sha256": "800af27831e0c7aded133bfd29a6492108107b729da9ae4a8db607d4506edf5b"
+  },
+  {
+    "name": "hats/mesh/18",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/18",
+    "bytes": 11292,
+    "sha256": "6111e221417205cb469b0ec4df5257e508e4875200476c6ffee12bad1103a2b2"
+  },
+  {
+    "name": "characters/meshes/head/6",
+    "source": "https://kourstrike.io/StreamingAssets/characters/meshes/head/6",
+    "bytes": 5579,
+    "sha256": "11b342e03b401b0494e9814126e3bc318cddbf6ea705f5a23c3dc13858e2e5f4"
+  },
+  {
+    "name": "hats/mesh/6",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/6",
+    "bytes": 14344,
+    "sha256": "af8895124393e5fe613804f8983de9ab3e74c52a8743594be8cdff6dff1a0757"
+  },
+  {
+    "name": "hats/mesh/21",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/21",
+    "bytes": 10672,
+    "sha256": "825ac1be63620cbdd710cf2a3b1866ccdf124bf504a5233bc73e7a9ac28ca1ae"
+  },
+  {
+    "name": "hats/mesh/13",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/13",
+    "bytes": 6639,
+    "sha256": "7bee2a3acafa0d05676357b5545cb773920113e6ad02b007ea99053085e7ae2a"
+  },
+  {
+    "name": "hats/mesh/24",
+    "source": "https://kourstrike.io/StreamingAssets/hats/mesh/24",
+    "bytes": 6409,
+    "sha256": "0fc8e20ba14389d55881b8ed3659d84ecdadaf1f64b17f5745d3d867831b1b55"
   }
 ]

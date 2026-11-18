@@ -1,0 +1,3886 @@
+{
+  "catalogItems": 148,
+  "summary": {
+    "downloaded": 483,
+    "missing": 153,
+    "retained": 12
+  },
+  "results": [
+    {
+      "kind": "image",
+      "name": "characters/textures/head/42",
+      "status": "downloaded",
+      "bytes": 222
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/42",
+      "status": "downloaded",
+      "bytes": 222
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/45",
+      "status": "downloaded",
+      "bytes": 1626
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P39",
+      "status": "downloaded",
+      "bytes": 230659
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/45",
+      "status": "downloaded",
+      "bytes": 114
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/45",
+      "status": "downloaded",
+      "bytes": 3917
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/42",
+      "status": "downloaded",
+      "bytes": 23313
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/42",
+      "status": "downloaded",
+      "bytes": 29586
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P54",
+      "status": "downloaded",
+      "bytes": 186062
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/43",
+      "status": "downloaded",
+      "bytes": 395
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/43",
+      "status": "downloaded",
+      "bytes": 3004
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P53",
+      "status": "downloaded",
+      "bytes": 127319
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/43",
+      "status": "downloaded",
+      "bytes": 114
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P76",
+      "status": "downloaded",
+      "bytes": 161288
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/45",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/58",
+      "status": "downloaded",
+      "bytes": 1545
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/45",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/43",
+      "status": "downloaded",
+      "bytes": 9001
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/43",
+      "status": "downloaded",
+      "bytes": 5339
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/58",
+      "status": "downloaded",
+      "bytes": 3576
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P63",
+      "status": "downloaded",
+      "bytes": 116782
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/58",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/49",
+      "status": "downloaded",
+      "bytes": 90
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/58",
+      "status": "downloaded",
+      "bytes": 106
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/58",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/69",
+      "status": "downloaded",
+      "bytes": 96989
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/49",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/42",
+      "status": "downloaded",
+      "bytes": 3813
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/49",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/49",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/49",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/69",
+      "status": "downloaded",
+      "bytes": 90
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/81",
+      "status": "downloaded",
+      "bytes": 133
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/81",
+      "status": "downloaded",
+      "bytes": 172535
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/69",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/81",
+      "status": "downloaded",
+      "bytes": 2514
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/69",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P36",
+      "status": "retained"
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/69",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/81",
+      "status": "downloaded",
+      "bytes": 103
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/69",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/28",
+      "status": "downloaded",
+      "bytes": 156
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/28",
+      "status": "downloaded",
+      "bytes": 4831
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/28",
+      "status": "downloaded",
+      "bytes": 156
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/81",
+      "status": "downloaded",
+      "bytes": 6305
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/29",
+      "status": "downloaded",
+      "bytes": 156
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P37",
+      "status": "downloaded",
+      "bytes": 187746
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/81",
+      "status": "downloaded",
+      "bytes": 5888
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/29",
+      "status": "downloaded",
+      "bytes": 4842
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/29",
+      "status": "downloaded",
+      "bytes": 156
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/28",
+      "status": "downloaded",
+      "bytes": 5661
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/95",
+      "status": "downloaded",
+      "bytes": 111
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/95",
+      "status": "downloaded",
+      "bytes": 166077
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/95",
+      "status": "downloaded",
+      "bytes": 3421
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/28",
+      "status": "downloaded",
+      "bytes": 4717
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/29",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/34",
+      "status": "downloaded",
+      "bytes": 158
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P42",
+      "status": "downloaded",
+      "bytes": 186881
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/29",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/34",
+      "status": "downloaded",
+      "bytes": 158
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/34",
+      "status": "retained"
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P52",
+      "status": "retained"
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/41",
+      "status": "retained"
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/41",
+      "status": "retained"
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/41",
+      "status": "retained"
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/41",
+      "status": "retained"
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/95",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/34",
+      "status": "downloaded",
+      "bytes": 4519
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/95",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/95",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/68",
+      "status": "downloaded",
+      "bytes": 91856
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/68",
+      "status": "downloaded",
+      "bytes": 90
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/34",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/41",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/71",
+      "status": "downloaded",
+      "bytes": 77004
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/68",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/68",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/68",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/71",
+      "status": "downloaded",
+      "bytes": 90
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/68",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/96",
+      "status": "downloaded",
+      "bytes": 165531
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/96",
+      "status": "downloaded",
+      "bytes": 95
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/71",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/71",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/71",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/96",
+      "status": "downloaded",
+      "bytes": 4210
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/71",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/15",
+      "status": "downloaded",
+      "bytes": 3410
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/15",
+      "status": "downloaded",
+      "bytes": 123
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P22",
+      "status": "downloaded",
+      "bytes": 152699
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/96",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/96",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/96",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/94",
+      "status": "downloaded",
+      "bytes": 114
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/94",
+      "status": "downloaded",
+      "bytes": 95394
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/94",
+      "status": "downloaded",
+      "bytes": 2329
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/15",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/15",
+      "status": "downloaded",
+      "bytes": 4526
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/15",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/94",
+      "status": "downloaded",
+      "bytes": 122
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/74",
+      "status": "downloaded",
+      "bytes": 956
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/74",
+      "status": "downloaded",
+      "bytes": 170044
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/74",
+      "status": "downloaded",
+      "bytes": 2813
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/94",
+      "status": "downloaded",
+      "bytes": 7102
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/73",
+      "status": "downloaded",
+      "bytes": 184787
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/94",
+      "status": "downloaded",
+      "bytes": 7584
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/74",
+      "status": "downloaded",
+      "bytes": 513
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/74",
+      "status": "downloaded",
+      "bytes": 14076
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/73",
+      "status": "downloaded",
+      "bytes": 5851
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/73",
+      "status": "downloaded",
+      "bytes": 518
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/73",
+      "status": "downloaded",
+      "bytes": 2865
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/74",
+      "status": "downloaded",
+      "bytes": 11566
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/92",
+      "status": "downloaded",
+      "bytes": 657
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/92",
+      "status": "downloaded",
+      "bytes": 15259
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/92",
+      "status": "downloaded",
+      "bytes": 164481
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/92",
+      "status": "downloaded",
+      "bytes": 657
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/39",
+      "status": "downloaded",
+      "bytes": 132
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P50",
+      "status": "downloaded",
+      "bytes": 138061
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/39",
+      "status": "downloaded",
+      "bytes": 3416
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/73",
+      "status": "downloaded",
+      "bytes": 6891
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/73",
+      "status": "downloaded",
+      "bytes": 9776
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/39",
+      "status": "downloaded",
+      "bytes": 911
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/92",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P49",
+      "status": "downloaded",
+      "bytes": 119817
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/38",
+      "status": "downloaded",
+      "bytes": 119
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/92",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/38",
+      "status": "downloaded",
+      "bytes": 3776
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P32",
+      "status": "downloaded",
+      "bytes": 124165
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/39",
+      "status": "downloaded",
+      "bytes": 16922
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/38",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/25",
+      "status": "downloaded",
+      "bytes": 90
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/38",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/38",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/39",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P47",
+      "status": "downloaded",
+      "bytes": 153431
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/25",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/37",
+      "status": "downloaded",
+      "bytes": 124
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/37",
+      "status": "downloaded",
+      "bytes": 3602
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/25",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/25",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/25",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P33",
+      "status": "downloaded",
+      "bytes": 83189
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/26",
+      "status": "downloaded",
+      "bytes": 90
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/37",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/37",
+      "status": "downloaded",
+      "bytes": 11916
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/37",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P41",
+      "status": "downloaded",
+      "bytes": 182736
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/26",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/33",
+      "status": "downloaded",
+      "bytes": 158
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/26",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/33",
+      "status": "downloaded",
+      "bytes": 4518
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/26",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/33",
+      "status": "downloaded",
+      "bytes": 158
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P65",
+      "status": "downloaded",
+      "bytes": 153606
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/61",
+      "status": "downloaded",
+      "bytes": 152
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/26",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/61",
+      "status": "downloaded",
+      "bytes": 2789
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/61",
+      "status": "downloaded",
+      "bytes": 117
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/13",
+      "status": "downloaded",
+      "bytes": 117
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P21",
+      "status": "downloaded",
+      "bytes": 143159
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/33",
+      "status": "downloaded",
+      "bytes": 11490
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/13",
+      "status": "downloaded",
+      "bytes": 3443
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/61",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/33",
+      "status": "downloaded",
+      "bytes": 4909
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/13",
+      "status": "downloaded",
+      "bytes": 192
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/61",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/12",
+      "status": "downloaded",
+      "bytes": 451
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P20",
+      "status": "downloaded",
+      "bytes": 173006
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/12",
+      "status": "downloaded",
+      "bytes": 3550
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/12",
+      "status": "downloaded",
+      "bytes": 131
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/19",
+      "status": "downloaded",
+      "bytes": 91
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/13",
+      "status": "downloaded",
+      "bytes": 7337
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P26",
+      "status": "downloaded",
+      "bytes": 151930
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/19",
+      "status": "downloaded",
+      "bytes": 3380
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/13",
+      "status": "downloaded",
+      "bytes": 4831
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/12",
+      "status": "downloaded",
+      "bytes": 10218
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/84",
+      "status": "downloaded",
+      "bytes": 165813
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/12",
+      "status": "downloaded",
+      "bytes": 8267
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/84",
+      "status": "downloaded",
+      "bytes": 3651
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/84",
+      "status": "downloaded",
+      "bytes": 467
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/19",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/19",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/19",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/86",
+      "status": "downloaded",
+      "bytes": 151377
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/86",
+      "status": "downloaded",
+      "bytes": 1130
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/86",
+      "status": "downloaded",
+      "bytes": 3609
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/86",
+      "status": "downloaded",
+      "bytes": 450
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/84",
+      "status": "downloaded",
+      "bytes": 1019
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/85",
+      "status": "downloaded",
+      "bytes": 956
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/85",
+      "status": "downloaded",
+      "bytes": 155167
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/85",
+      "status": "downloaded",
+      "bytes": 453
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/85",
+      "status": "downloaded",
+      "bytes": 3647
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/84",
+      "status": "downloaded",
+      "bytes": 22154
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/86",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/86",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/59",
+      "status": "downloaded",
+      "bytes": 3827
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P66",
+      "status": "downloaded",
+      "bytes": 165629
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/59",
+      "status": "downloaded",
+      "bytes": 3306
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/85",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/85",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/84",
+      "status": "downloaded",
+      "bytes": 11965
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/78",
+      "status": "downloaded",
+      "bytes": 389
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/59",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/78",
+      "status": "downloaded",
+      "bytes": 189214
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/59",
+      "status": "downloaded",
+      "bytes": 16142
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/78",
+      "status": "downloaded",
+      "bytes": 2812
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/59",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/78",
+      "status": "downloaded",
+      "bytes": 225
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/76",
+      "status": "downloaded",
+      "bytes": 519
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/76",
+      "status": "downloaded",
+      "bytes": 172397
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/76",
+      "status": "downloaded",
+      "bytes": 500
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/76",
+      "status": "downloaded",
+      "bytes": 3075
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/53",
+      "status": "downloaded",
+      "bytes": 377
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P78",
+      "status": "downloaded",
+      "bytes": 151602
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/78",
+      "status": "downloaded",
+      "bytes": 5810
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/78",
+      "status": "downloaded",
+      "bytes": 17342
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/53",
+      "status": "downloaded",
+      "bytes": 3021
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/76",
+      "status": "downloaded",
+      "bytes": 8962
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/87",
+      "status": "downloaded",
+      "bytes": 162676
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/87",
+      "status": "downloaded",
+      "bytes": 845
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/87",
+      "status": "downloaded",
+      "bytes": 2956
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/53",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/53",
+      "status": "downloaded",
+      "bytes": 4036
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/53",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/77",
+      "status": "downloaded",
+      "bytes": 162451
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/77",
+      "status": "downloaded",
+      "bytes": 324
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/87",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/77",
+      "status": "downloaded",
+      "bytes": 3929
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/87",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/87",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/54",
+      "status": "downloaded",
+      "bytes": 395
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/77",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P77",
+      "status": "downloaded",
+      "bytes": 158198
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/54",
+      "status": "downloaded",
+      "bytes": 6659
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/76",
+      "status": "downloaded",
+      "bytes": 15058
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/77",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/54",
+      "status": "downloaded",
+      "bytes": 1116
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/77",
+      "status": "downloaded",
+      "bytes": 11958
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P67",
+      "status": "downloaded",
+      "bytes": 149194
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/62",
+      "status": "downloaded",
+      "bytes": 635
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/54",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/62",
+      "status": "downloaded",
+      "bytes": 7107
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P60",
+      "status": "downloaded",
+      "bytes": 164693
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/62",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/62",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/62",
+      "status": "downloaded",
+      "bytes": 4905
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/54",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/46",
+      "status": "downloaded",
+      "bytes": 172
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/46",
+      "status": "downloaded",
+      "bytes": 114
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/47",
+      "status": "downloaded",
+      "bytes": 112
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P61",
+      "status": "downloaded",
+      "bytes": 146645
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/47",
+      "status": "downloaded",
+      "bytes": 3685
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/47",
+      "status": "downloaded",
+      "bytes": 124
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/90",
+      "status": "downloaded",
+      "bytes": 84559
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/46",
+      "status": "downloaded",
+      "bytes": 5107
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/46",
+      "status": "downloaded",
+      "bytes": 8337
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/46",
+      "status": "downloaded",
+      "bytes": 9515
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/90",
+      "status": "downloaded",
+      "bytes": 3856
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/47",
+      "status": "downloaded",
+      "bytes": 9465
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/47",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/75",
+      "status": "downloaded",
+      "bytes": 94845
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/75",
+      "status": "downloaded",
+      "bytes": 91
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/90",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/90",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/90",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/90",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P79",
+      "status": "downloaded",
+      "bytes": 151874
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/52",
+      "status": "downloaded",
+      "bytes": 407
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/52",
+      "status": "downloaded",
+      "bytes": 3604
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/75",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/75",
+      "status": "downloaded",
+      "bytes": 3759
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/75",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/75",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/36",
+      "status": "downloaded",
+      "bytes": 1370
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P46",
+      "status": "downloaded",
+      "bytes": 164232
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/36",
+      "status": "downloaded",
+      "bytes": 3693
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/52",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/36",
+      "status": "downloaded",
+      "bytes": 140
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/52",
+      "status": "downloaded",
+      "bytes": 5760
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/82",
+      "status": "downloaded",
+      "bytes": 131889
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/82",
+      "status": "downloaded",
+      "bytes": 1168
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/52",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/82",
+      "status": "downloaded",
+      "bytes": 2490
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/36",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/36",
+      "status": "downloaded",
+      "bytes": 13174
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P71",
+      "status": "downloaded",
+      "bytes": 139507
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/64",
+      "status": "downloaded",
+      "bytes": 231
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/64",
+      "status": "downloaded",
+      "bytes": 3029
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/82",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/82",
+      "status": "downloaded",
+      "bytes": 10494
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/82",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/24",
+      "status": "downloaded",
+      "bytes": 131
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/24",
+      "status": "downloaded",
+      "bytes": 4126
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P31",
+      "status": "downloaded",
+      "bytes": 182094
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/24",
+      "status": "downloaded",
+      "bytes": 132
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/64",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/64",
+      "status": "downloaded",
+      "bytes": 7340
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/64",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P43",
+      "status": "downloaded",
+      "bytes": 178840
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/35",
+      "status": "downloaded",
+      "bytes": 546
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/35",
+      "status": "downloaded",
+      "bytes": 4505
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/35",
+      "status": "downloaded",
+      "bytes": 1490
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/24",
+      "status": "downloaded",
+      "bytes": 5416
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/24",
+      "status": "downloaded",
+      "bytes": 5210
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/72",
+      "status": "downloaded",
+      "bytes": 500
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/72",
+      "status": "downloaded",
+      "bytes": 237498
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/72",
+      "status": "downloaded",
+      "bytes": 4873
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/91",
+      "status": "downloaded",
+      "bytes": 176135
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/35",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/91",
+      "status": "downloaded",
+      "bytes": 134
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/91",
+      "status": "downloaded",
+      "bytes": 2432
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/72",
+      "status": "downloaded",
+      "bytes": 6459
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/72",
+      "status": "downloaded",
+      "bytes": 245
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/72",
+      "status": "downloaded",
+      "bytes": 32358
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/91",
+      "status": "downloaded",
+      "bytes": 195
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/30",
+      "status": "downloaded",
+      "bytes": 156
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P38",
+      "status": "downloaded",
+      "bytes": 187940
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/30",
+      "status": "downloaded",
+      "bytes": 4844
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/35",
+      "status": "downloaded",
+      "bytes": 16487
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/30",
+      "status": "downloaded",
+      "bytes": 156
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/79",
+      "status": "downloaded",
+      "bytes": 151008
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/79",
+      "status": "downloaded",
+      "bytes": 141
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/91",
+      "status": "downloaded",
+      "bytes": 11885
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/91",
+      "status": "downloaded",
+      "bytes": 6292
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/79",
+      "status": "downloaded",
+      "bytes": 3065
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/30",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/83",
+      "status": "downloaded",
+      "bytes": 212638
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/30",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/83",
+      "status": "downloaded",
+      "bytes": 577
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/83",
+      "status": "downloaded",
+      "bytes": 522
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/83",
+      "status": "downloaded",
+      "bytes": 2834
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/79",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/79",
+      "status": "downloaded",
+      "bytes": 4296
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/79",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/48",
+      "status": "downloaded",
+      "bytes": 1470
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P62",
+      "status": "downloaded",
+      "bytes": 124886
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/48",
+      "status": "downloaded",
+      "bytes": 4616
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/48",
+      "status": "downloaded",
+      "bytes": 138
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/89",
+      "status": "downloaded",
+      "bytes": 690
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/83",
+      "status": "downloaded",
+      "bytes": 15520
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/89",
+      "status": "downloaded",
+      "bytes": 513839
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/83",
+      "status": "downloaded",
+      "bytes": 21581
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/89",
+      "status": "downloaded",
+      "bytes": 2847
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/48",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/48",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P64",
+      "status": "downloaded",
+      "bytes": 149675
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/89",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/89",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/89",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/50",
+      "status": "downloaded",
+      "bytes": 529552
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/50",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/50",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/60",
+      "status": "downloaded",
+      "bytes": 123
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P72",
+      "status": "downloaded",
+      "bytes": 152210
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/60",
+      "status": "downloaded",
+      "bytes": 3280
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P70",
+      "status": "downloaded",
+      "bytes": 139336
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/50",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/50",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/51",
+      "status": "downloaded",
+      "bytes": 549
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/51",
+      "status": "downloaded",
+      "bytes": 3896
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/51",
+      "status": "downloaded",
+      "bytes": 1601
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/60",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/60",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/60",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P74",
+      "status": "downloaded",
+      "bytes": 198298
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/56",
+      "status": "downloaded",
+      "bytes": 1547
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/56",
+      "status": "downloaded",
+      "bytes": 3576
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/67",
+      "status": "downloaded",
+      "bytes": 121396
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/51",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/51",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/67",
+      "status": "downloaded",
+      "bytes": 90
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/56",
+      "status": "downloaded",
+      "bytes": 106
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/56",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/56",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/27",
+      "status": "downloaded",
+      "bytes": 123
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P34",
+      "status": "downloaded",
+      "bytes": 162039
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/67",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/27",
+      "status": "downloaded",
+      "bytes": 3681
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/67",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/27",
+      "status": "downloaded",
+      "bytes": 131
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/67",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/67",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/44",
+      "status": "downloaded",
+      "bytes": 370
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/44",
+      "status": "downloaded",
+      "bytes": 5748
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/44",
+      "status": "downloaded",
+      "bytes": 1527
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P40",
+      "status": "downloaded",
+      "bytes": 201579
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P7_1",
+      "status": "downloaded",
+      "bytes": 159022
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/27",
+      "status": "downloaded",
+      "bytes": 5192
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/14",
+      "status": "downloaded",
+      "bytes": 154
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/27",
+      "status": "downloaded",
+      "bytes": 4344
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/14",
+      "status": "downloaded",
+      "bytes": 3355
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/14",
+      "status": "downloaded",
+      "bytes": 140
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/44",
+      "status": "downloaded",
+      "bytes": 14702
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P29",
+      "status": "downloaded",
+      "bytes": 159853
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/44",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/22",
+      "status": "downloaded",
+      "bytes": 3193
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/14",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/22",
+      "status": "downloaded",
+      "bytes": 414
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/14",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/22",
+      "status": "downloaded",
+      "bytes": 132
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P30",
+      "status": "downloaded",
+      "bytes": 158679
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/23",
+      "status": "downloaded",
+      "bytes": 131
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/23",
+      "status": "downloaded",
+      "bytes": 419
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/23",
+      "status": "downloaded",
+      "bytes": 3212
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/20",
+      "status": "downloaded",
+      "bytes": 132
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/22",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P27",
+      "status": "downloaded",
+      "bytes": 164879
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/20",
+      "status": "downloaded",
+      "bytes": 387
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/20",
+      "status": "downloaded",
+      "bytes": 3225
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/23",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/22",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/23",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P28",
+      "status": "downloaded",
+      "bytes": 162079
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/21",
+      "status": "downloaded",
+      "bytes": 142
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/21",
+      "status": "downloaded",
+      "bytes": 3208
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/21",
+      "status": "downloaded",
+      "bytes": 419
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/20",
+      "status": "downloaded",
+      "bytes": 6523
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/88",
+      "status": "downloaded",
+      "bytes": 123
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/88",
+      "status": "downloaded",
+      "bytes": 146889
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/20",
+      "status": "downloaded",
+      "bytes": 12025
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/88",
+      "status": "downloaded",
+      "bytes": 5099
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/21",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/21",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P75",
+      "status": "downloaded",
+      "bytes": 166621
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/57",
+      "status": "downloaded",
+      "bytes": 1538
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/57",
+      "status": "downloaded",
+      "bytes": 3623
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/88",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/88",
+      "status": "downloaded",
+      "bytes": 8105
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/88",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/65",
+      "status": "downloaded",
+      "bytes": 110618
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/65",
+      "status": "downloaded",
+      "bytes": 90
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/57",
+      "status": "downloaded",
+      "bytes": 106
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/57",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/57",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/65",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/17",
+      "status": "downloaded",
+      "bytes": 233
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P24",
+      "status": "downloaded",
+      "bytes": 159723
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/17",
+      "status": "downloaded",
+      "bytes": 192
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/17",
+      "status": "downloaded",
+      "bytes": 3375
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/65",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/65",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P48",
+      "status": "downloaded",
+      "bytes": 53317
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/65",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/32",
+      "status": "downloaded",
+      "bytes": 91
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/17",
+      "status": "downloaded",
+      "bytes": 5780
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/17",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/32",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P69",
+      "status": "downloaded",
+      "bytes": 131981
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/63",
+      "status": "downloaded",
+      "bytes": 395
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/63",
+      "status": "downloaded",
+      "bytes": 2470
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/32",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/32",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/32",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/93",
+      "status": "downloaded",
+      "bytes": 93408
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/93",
+      "status": "downloaded",
+      "bytes": 14342
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/93",
+      "status": "downloaded",
+      "bytes": 102
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/63",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P51",
+      "status": "retained"
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/40",
+      "status": "retained"
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/40",
+      "status": "retained"
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/40",
+      "status": "retained"
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/40",
+      "status": "retained"
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/63",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/93",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/16",
+      "status": "downloaded",
+      "bytes": 387
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P23",
+      "status": "downloaded",
+      "bytes": 168917
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/93",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/63",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/93",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/16",
+      "status": "downloaded",
+      "bytes": 377
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/16",
+      "status": "downloaded",
+      "bytes": 3520
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/40",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/80",
+      "status": "downloaded",
+      "bytes": 2752
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/80",
+      "status": "downloaded",
+      "bytes": 343
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/80",
+      "status": "downloaded",
+      "bytes": 190395
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/80",
+      "status": "downloaded",
+      "bytes": 103
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/66",
+      "status": "downloaded",
+      "bytes": 30790
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/16",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/16",
+      "status": "downloaded",
+      "bytes": 5611
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/66",
+      "status": "downloaded",
+      "bytes": 90
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/80",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/66",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/80",
+      "status": "downloaded",
+      "bytes": 10451
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/66",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P25",
+      "status": "downloaded",
+      "bytes": 176023
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/66",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/18",
+      "status": "downloaded",
+      "bytes": 132
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/66",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/18",
+      "status": "downloaded",
+      "bytes": 3697
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/P73",
+      "status": "downloaded",
+      "bytes": 199682
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/55",
+      "status": "downloaded",
+      "bytes": 1549
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/55",
+      "status": "downloaded",
+      "bytes": 3552
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/18",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/18",
+      "status": "downloaded",
+      "bytes": 5749
+    },
+    {
+      "kind": "image",
+      "name": "characters/icons/70",
+      "status": "downloaded",
+      "bytes": 115468
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/55",
+      "status": "downloaded",
+      "bytes": 106
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/55",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/55",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body/70",
+      "status": "downloaded",
+      "bytes": 90
+    },
+    {
+      "kind": "image",
+      "name": "emotes/icons/backflip",
+      "status": "downloaded",
+      "bytes": 32445
+    },
+    {
+      "kind": "image",
+      "name": "emotes/icons/blue",
+      "status": "downloaded",
+      "bytes": 32631
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/head/70",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/70",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/70",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/body-attachments/70",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "characters/textures/body-attachments/18",
+      "status": "missing",
+      "http": 404
+    },
+    {
+      "kind": "image",
+      "name": "emotes/icons/chickendance",
+      "status": "downloaded",
+      "bytes": 39608
+    },
+    {
+      "kind": "image",
+      "name": "emotes/icons/skibidi",
+      "status": "downloaded",
+      "bytes": 39376
+    },
+    {
+      "kind": "image",
+      "name": "emotes/icons/macarena",
+      "status": "downloaded",
+      "bytes": 33805
+    },
+    {
+      "kind": "image",
+      "name": "emotes/icons/numa",
+      "status": "downloaded",
+      "bytes": 35203
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/agentBlue",
+      "status": "downloaded",
+      "bytes": 1221
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/purpleHatAgent",
+      "status": "downloaded",
+      "bytes": 323703
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/agentBlue",
+      "status": "downloaded",
+      "bytes": 322635
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/agentPink",
+      "status": "downloaded",
+      "bytes": 969
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/37",
+      "status": "downloaded",
+      "bytes": 109736
+    },
+    {
+      "kind": "image",
+      "name": "emotes/icons/styledance",
+      "status": "downloaded",
+      "bytes": 41272
+    },
+    {
+      "kind": "image",
+      "name": "emotes/icons/ymca",
+      "status": "downloaded",
+      "bytes": 37995
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/37",
+      "status": "downloaded",
+      "bytes": 14395
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/5",
+      "status": "downloaded",
+      "bytes": 6705
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/main",
+      "status": "downloaded",
+      "bytes": 5851
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/hats_9",
+      "status": "downloaded",
+      "bytes": 66000
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/hats_3",
+      "status": "downloaded",
+      "bytes": 47613
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/blackbalaclava",
+      "status": "downloaded",
+      "bytes": 57434
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/blackbalaclava",
+      "status": "downloaded",
+      "bytes": 802
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/33",
+      "status": "downloaded",
+      "bytes": 121336
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/8",
+      "status": "downloaded",
+      "bytes": 7668
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/35",
+      "status": "downloaded",
+      "bytes": 15627
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/33",
+      "status": "downloaded",
+      "bytes": 106
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/27",
+      "status": "downloaded",
+      "bytes": 150289
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/3",
+      "status": "downloaded",
+      "bytes": 8695
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/27",
+      "status": "downloaded",
+      "bytes": 1593
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/rpgBlue",
+      "status": "downloaded",
+      "bytes": 146136
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/rpgBlue",
+      "status": "downloaded",
+      "bytes": 1080
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/27",
+      "status": "downloaded",
+      "bytes": 5040
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/4",
+      "status": "downloaded",
+      "bytes": 7530
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/soldierBlue",
+      "status": "downloaded",
+      "bytes": 461483
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/soldierBlue",
+      "status": "downloaded",
+      "bytes": 1786
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/32",
+      "status": "downloaded",
+      "bytes": 132568
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/32",
+      "status": "downloaded",
+      "bytes": 102
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/hats_0",
+      "status": "downloaded",
+      "bytes": 79794
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/10",
+      "status": "downloaded",
+      "bytes": 12440
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/rpgCamo",
+      "status": "downloaded",
+      "bytes": 3561
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/rpgCamoBlack",
+      "status": "downloaded",
+      "bytes": 201085
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/hats_10",
+      "status": "downloaded",
+      "bytes": 83257
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/28",
+      "status": "downloaded",
+      "bytes": 184906
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/0",
+      "status": "downloaded",
+      "bytes": 11286
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/28",
+      "status": "downloaded",
+      "bytes": 784
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/35",
+      "status": "downloaded",
+      "bytes": 103758
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/10",
+      "status": "downloaded",
+      "bytes": 13715
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/35",
+      "status": "downloaded",
+      "bytes": 103
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/9",
+      "status": "downloaded",
+      "bytes": 5543
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/28",
+      "status": "downloaded",
+      "bytes": 10738
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/32",
+      "status": "downloaded",
+      "bytes": 6466
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/hats_4",
+      "status": "downloaded",
+      "bytes": 75833
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/easterbalaclava",
+      "status": "downloaded",
+      "bytes": 96824
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/easterbalaclava",
+      "status": "downloaded",
+      "bytes": 739
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/hats_7",
+      "status": "downloaded",
+      "bytes": 66122
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/hats_2",
+      "status": "downloaded",
+      "bytes": 57596
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/33",
+      "status": "downloaded",
+      "bytes": 6630
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/ninja",
+      "status": "downloaded",
+      "bytes": 118
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/17",
+      "status": "downloaded",
+      "bytes": 57847
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/5",
+      "status": "downloaded",
+      "bytes": 16357
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/34",
+      "status": "downloaded",
+      "bytes": 103
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/34",
+      "status": "downloaded",
+      "bytes": 134857
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/15",
+      "status": "downloaded",
+      "bytes": 6876
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/greenbalaclava",
+      "status": "downloaded",
+      "bytes": 87730
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/greenbalaclava",
+      "status": "downloaded",
+      "bytes": 1905
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/38",
+      "status": "downloaded",
+      "bytes": 156823
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/2",
+      "status": "downloaded",
+      "bytes": 8115
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/17",
+      "status": "downloaded",
+      "bytes": 4772
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/38",
+      "status": "downloaded",
+      "bytes": 703
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/36",
+      "status": "downloaded",
+      "bytes": 106093
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/36",
+      "status": "downloaded",
+      "bytes": 103
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/31",
+      "status": "downloaded",
+      "bytes": 124009
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/31",
+      "status": "downloaded",
+      "bytes": 103
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/29",
+      "status": "downloaded",
+      "bytes": 142274
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/29",
+      "status": "downloaded",
+      "bytes": 2645
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/38",
+      "status": "downloaded",
+      "bytes": 8828
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/hats_1",
+      "status": "downloaded",
+      "bytes": 56252
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/hats_14",
+      "status": "downloaded",
+      "bytes": 75203
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/34",
+      "status": "downloaded",
+      "bytes": 14517
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/hats_11",
+      "status": "downloaded",
+      "bytes": 55757
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/31",
+      "status": "downloaded",
+      "bytes": 9169
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/16",
+      "status": "downloaded",
+      "bytes": 58577
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/20",
+      "status": "downloaded",
+      "bytes": 64594
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/12",
+      "status": "downloaded",
+      "bytes": 10920
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/20",
+      "status": "downloaded",
+      "bytes": 1168
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/1",
+      "status": "downloaded",
+      "bytes": 7914
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/25",
+      "status": "downloaded",
+      "bytes": 286
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/9",
+      "status": "downloaded",
+      "bytes": 9487
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/25",
+      "status": "downloaded",
+      "bytes": 117169
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/16",
+      "status": "downloaded",
+      "bytes": 5258
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/22",
+      "status": "downloaded",
+      "bytes": 376
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/20",
+      "status": "downloaded",
+      "bytes": 10479
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/22",
+      "status": "downloaded",
+      "bytes": 138586
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/30",
+      "status": "downloaded",
+      "bytes": 167623
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/30",
+      "status": "downloaded",
+      "bytes": 570
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/23",
+      "status": "downloaded",
+      "bytes": 72749
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/23",
+      "status": "downloaded",
+      "bytes": 326
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/hats_5",
+      "status": "downloaded",
+      "bytes": 71912
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/bluebalaclava",
+      "status": "downloaded",
+      "bytes": 83946
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/22",
+      "status": "downloaded",
+      "bytes": 15014
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/bluebalaclava",
+      "status": "downloaded",
+      "bytes": 1936
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/25",
+      "status": "downloaded",
+      "bytes": 6205
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/19",
+      "status": "downloaded",
+      "bytes": 66506
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/30",
+      "status": "downloaded",
+      "bytes": 15505
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/19",
+      "status": "downloaded",
+      "bytes": 582
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/orangebalaclava",
+      "status": "downloaded",
+      "bytes": 1973
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/hats_8",
+      "status": "downloaded",
+      "bytes": 84786
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/orangebalaclava",
+      "status": "downloaded",
+      "bytes": 92208
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/4",
+      "status": "downloaded",
+      "bytes": 7924
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/26",
+      "status": "downloaded",
+      "bytes": 167537
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/26",
+      "status": "downloaded",
+      "bytes": 213
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/piratehat",
+      "status": "downloaded",
+      "bytes": 73461
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/pinkbalaclava",
+      "status": "downloaded",
+      "bytes": 2023
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/pinkbalaclava",
+      "status": "downloaded",
+      "bytes": 89505
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/hat_17",
+      "status": "downloaded",
+      "bytes": 402
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/7",
+      "status": "downloaded",
+      "bytes": 10977
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/purplebalaclava",
+      "status": "downloaded",
+      "bytes": 86512
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/26",
+      "status": "downloaded",
+      "bytes": 13233
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/19",
+      "status": "downloaded",
+      "bytes": 10359
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/purplebalaclava",
+      "status": "downloaded",
+      "bytes": 1839
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/raiderhat",
+      "status": "downloaded",
+      "bytes": 77481
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/redbalaclava",
+      "status": "downloaded",
+      "bytes": 85333
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/hat_17_1",
+      "status": "downloaded",
+      "bytes": 414
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/redbalaclava",
+      "status": "downloaded",
+      "bytes": 1809
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/18",
+      "status": "downloaded",
+      "bytes": 11292
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/shotgunRed",
+      "status": "downloaded",
+      "bytes": 984
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/shotgunRed",
+      "status": "downloaded",
+      "bytes": 22002
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/soldierred",
+      "status": "downloaded",
+      "bytes": 456483
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/soldierred",
+      "status": "downloaded",
+      "bytes": 1916
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/21",
+      "status": "downloaded",
+      "bytes": 85667
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/21",
+      "status": "downloaded",
+      "bytes": 507
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/hats_6",
+      "status": "downloaded",
+      "bytes": 67254
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/hats_15",
+      "status": "downloaded",
+      "bytes": 53818
+    },
+    {
+      "kind": "bundle",
+      "name": "characters/meshes/head/6",
+      "status": "downloaded",
+      "bytes": 5579
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/24",
+      "status": "downloaded",
+      "bytes": 131150
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/24",
+      "status": "downloaded",
+      "bytes": 209
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/6",
+      "status": "downloaded",
+      "bytes": 14344
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/21",
+      "status": "downloaded",
+      "bytes": 10672
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/whitebalaclava",
+      "status": "downloaded",
+      "bytes": 71428
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/whitebalaclava",
+      "status": "downloaded",
+      "bytes": 1694
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/yellowbalaclava",
+      "status": "downloaded",
+      "bytes": 86742
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/yellowbalaclava",
+      "status": "downloaded",
+      "bytes": 1871
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/13",
+      "status": "downloaded",
+      "bytes": 6639
+    },
+    {
+      "kind": "image",
+      "name": "hats/icons/shotgunYellow",
+      "status": "downloaded",
+      "bytes": 22616
+    },
+    {
+      "kind": "image",
+      "name": "hats/texture/shotgunYellow",
+      "status": "downloaded",
+      "bytes": 909
+    },
+    {
+      "kind": "bundle",
+      "name": "hats/mesh/24",
+      "status": "downloaded",
+      "bytes": 6409
+    }
+  ]
+}
