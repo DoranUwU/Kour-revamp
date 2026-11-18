@@ -610,5 +610,11 @@
     "source": "https://kourstrike.io/StreamingAssets/hats/mesh/24",
     "bytes": 6409,
     "sha256": "0fc8e20ba14389d55881b8ed3659d84ecdadaf1f64b17f5745d3d867831b1b55"
+  },
+  {
+    "name": "shoppanel",
+    "source": "https://kourstrike.io/StreamingAssets/shoppanel",
+    "bytes": 1552017,
+    "sha256": "946355e70bc31762aec383a4842c01ac137bec561c124959b6ef02497c081682"
   }
 ]
