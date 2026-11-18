@@ -33,5 +33,9 @@ for(const [name,bytes]of [['source.wasm',wasm.source],['game.data',data.source]]
 for(const name of localBundles){const file='original-preview/StreamingAssets/'+name;if(fs.existsSync(file))write('StreamingAssets/'+name,fs.readFileSync(file))}
 for(const asset of [...textureAssets,...menuTextureAssets])write(asset.pathname.slice(1),fs.readFileSync(asset.file));
 write('local-config.json',JSON.stringify({profile:'kourstrike',photonEnabled:true,photonAppId:process.env.PHOTON_APP_ID||'',photonRegion:'hk',gameType:1,gameMode:8,mapName:'Kour2',mapBundle:'map7',mapAvailable:true,requiredFiles:['map7'],wasmSha256:wasm.manifest.served_sha256}));
+// Content-version every script so a changed local asset allowlist is not paired with cached code.
+let versionedHtml=fs.readFileSync(path.join(output,'index.html'),'utf8');
+for(const [name,entry]of Object.entries(manifest.files))if(name.endsWith('.js'))versionedHtml=versionedHtml.replaceAll('src=\"'+base+name+'\"','src=\"'+base+name+'?v='+entry.sha256.slice(0,12)+'\"');
+write('index.html',versionedHtml);
 write('build-manifest.json',JSON.stringify(manifest,null,2));
 console.log('Pages export ready:',Object.keys(manifest.files).length,'files; base path',base);

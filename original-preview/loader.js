@@ -64,10 +64,12 @@ function resumeAfterSettings(){
 function openNativeMenu(kind){
  const m=activeModule;let owner,open;
  if(kind==='settings'){const ctx=nativeSettingsContext();if(!ctx)throw Error('Load the lobby or a match before opening Settings.');settingsSeenOpen=false;pauseForSettings(ctx);owner=ctx.owner;open=ctx.map?menuFunction(19616,'77718',2):menuFunction(21301,'76709',2)}
+ else if(kind==='shop'){const out=m.asm.malloc(4);try{if(!menuFunction(12367,'76597',2)(out,0))throw Error('Shop is available from the lobby.');owner=m.HEAPU32[out>>>2]}finally{m.asm.free(out)}open=menuFunction(21313,'76721',2)}
  else{const out=m.asm.malloc(4);try{if(!menuFunction(12367,'76597',2)(out,0))throw Error('Customize is available from the lobby.');owner=m.HEAPU32[out>>>2]}finally{m.asm.free(out)}open=menuFunction(21331,'76737',2)}
  document.exitPointerLock?.();open(owner,0);document.body.classList.add('native-menu-open');window.nativeMenuOpenedAt=performance.now();
+ if(kind==='shop'){log('MENU','Opening local shop?');const deadline=performance.now()+15000;const check=()=>{try{const panel=m.HEAPU32[(owner+272)>>>2];if(panel&&menuFunction(11431,'83962',2)(panel,0))return;if(performance.now()<deadline){m.setTimeout(check,250);return}document.body.classList.remove('native-menu-open');showModeStatus('Shop did not open. Reload the page and try the Shop button again; include the startup log if it fails.')}catch(error){log('SHOP',error.message)}};m.setTimeout(check,250);}
 }
-for(const [id,kind]of [['open-settings','settings'],['open-customize','customize']])document.querySelector('#'+id).onclick=()=>{try{openNativeMenu(kind)}catch(error){log('MENU',error.message)}};
+for(const [id,kind]of [['open-settings','settings'],['open-customize','customize'],['open-shop','shop']])document.querySelector('#'+id).onclick=()=>{try{openNativeMenu(kind)}catch(error){log('MENU',error.message)}};
 window.openNativeMenu=openNativeMenu;
 // Handle Escape once in the host; Unity must not process the same key again.
 document.addEventListener('keydown',event=>{
@@ -197,13 +199,14 @@ document.querySelector('#start').onclick=async()=>{
  module.setInterval(updateOnlinePresentation,250);
  module.deinitializers.push(()=>document.body.classList.remove('online-match'));
  document.querySelector('#show-weapon').disabled=false;
- document.querySelector('#open-settings').disabled=false;document.querySelector('#open-customize').disabled=false;
+ document.querySelector('#open-shop').disabled=false;document.querySelector('#open-settings').disabled=false;document.querySelector('#open-customize').disabled=false;
  module.setInterval(()=>{
   if(!document.body.classList.contains('native-menu-open')||performance.now()-window.nativeMenuOpenedAt<1500)return;
   const h=module.HEAPU32,t=module.asm.__indirect_function_table,out=module.asm.malloc(4);
   try{h[out>>>2]=0;const settings=nativeSettingsContext()?.panel||0,klass=h[6901068>>>2],statics=klass?h[(klass+92)>>>2]:0,alltime=statics?h[(statics+4)>>>2]:0,customize=alltime?h[(alltime+64)>>>2]:0;
    if(settingsPauseOwner&&!settingsSeenOpen&&nativeSettingsContext()?.owner===settingsPauseOwner&&performance.now()-window.nativeMenuOpenedAt<15000)return;
-   if(![settings,customize].some(p=>p>1024&&p+128<h.byteLength&&t.get(11431)(p,0))){document.body.classList.remove('native-menu-open');resumeAfterSettings()}
+   t.get(12367)(out,0);const lobby=h[out>>>2],shop=lobby?h[(lobby+272)>>>2]:0,inspect=alltime?h[(alltime+76)>>>2]:0;
+   if(![settings,customize,shop,inspect].some(p=>p>1024&&p+128<h.byteLength&&t.get(11431)(p,0))){document.body.classList.remove('native-menu-open');resumeAfterSettings()}
   }finally{module.asm.free(out)}
  },500);
 
